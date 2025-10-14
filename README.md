@@ -20,7 +20,7 @@ This list is curated based on the following standards, in order of priority:
 
 ## Contents
 
-- [🚗 Autonomous Driving & Transportation](#-autonomous-driving--transportation)
+- [🚗 Autonomous Driving & Drone](#-autonomous-driving--drone)
 - [🤖 Embodied AI & Robotics](#-embodied-ai--robotics)
 - [🩺 Human Sensing & Healthcare](#-human-sensing--healthcare)
 - [🌐 Radar Basic Technologies & Digital Twin](#-radar-basic-technologies--digital-twin)
@@ -30,11 +30,29 @@ This list is curated based on the following standards, in order of priority:
 - [📦 Other Areas](#-other-areas)
 
 
-### 🚗 Autonomous Driving & Transportation
+### 🚗 Autonomous Driving & Drone
 
 | Title | Code | Publish / Year | Keywords |
 | :--- | :---: | :---: | :--- |
 | [RICCARDO: Radar Hit Prediction and Convolution for Camera-Radar 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2025/html/Long_RICCARDO_Radar_Hit_Prediction_and_Convolution_for_Camera-Radar_3D_Object_CVPR_2025_paper.html) | [Code](https://github.com/longyunf/riccardo) | CVPR / 2025 | 3D Object Detection, Sensor Fusion, Hit Prediction |
+| [RETR: Multi-View Radar Detection Transformer for Indoor Perception](https://neurips.cc/virtual/2024/poster/95530) | [Code](https://github.com/merlresearch/radar-detection-transformer) | NeurIPS / 2024 | Multi-View Radar, Detection, Transformer |
+| [Ultra-High-Frequency Harmony: mmWave Radar and Event Camera Orchestrate Accurate Drone Landing](https://dl.acm.org/doi/10.1145/3715014.3722048) | [Project](https://mme-loc.github.io/) | SenSys / 2025 | Drone Landing, UAV, Sensor Fusion, Event Camera |
+| [DoppDrive: Doppler-Driven Temporal Aggregation for Improved Radar Object Detection](https://arxiv.org/abs/2508.12330) | [Project](https://yuvalhg.github.io/DoppDrive/) | arXiv / 2025 | Object Detection, Temporal Aggregation, Doppler |
+| [CoVeRaP: Cooperative Vehicular Perception through mmWave FMCW Radars](https://www.arxiv.org/abs/2508.16030) | [Code](https://github.com/John1001Song/FMCW_Vehicle_Fusion) | arXiv / 2025 | Cooperative Perception, V2X, Sensor Fusion |
+| [RC-ROSNet: Fusing 3D Radar Range-Angle Heat Maps and Camera Images for Radar Object Segmentation](https://ieeexplore.ieee.org/document/11112643) | [Code](https://github.com/Zhuanglong2/RC-ROSNet) | IEEE Transactions on Circuits and Systems for Video Technology  / 2025 | Object Segmentation, Sensor Fusion, Range-Angle Map |
+| [Single-Frame MIMO Radar Velocity Vector Estimation via Multi-Bounce Scattering](https://ieeexplore.ieee.org/document/11103510) | - | IEEE Transactions on Computational Imaging / 2025 | Velocity Estimation, MIMO, Multi-Bounce |
+| [DRO: Doppler-Aware Direct Radar Odometry](https://arxiv.org/abs/2504.20339) | [Code](https://github.com/utiasASRL/dro) | RSS / 2025 | Radar Odometry, SLAM, Doppler |
+| [Model-Based Knowledge-Driven Learning Approach for Enhanced High-Resolution Automotive Radar Imaging](https://ieeexplore.ieee.org/abstract/document/10974998) | [Code](https://github.com/ruxinzh/SR-SPECNet) | IEEE Transactions on Radar Systems / 2025 | Radar Imaging, Super-Resolution, Deep Unfolding |
+| [RADLER: Radar Object Detection Leveraging Semantic 3D City Models and Self-Supervised Learning](https://openaccess.thecvf.com/content/CVPR2025W/PBVS/html/Luo_RADLER_Radar_Object_Detection_Leveraging_Semantic_3D_City_Models_and_CVPRW_2025_paper.html) | [Project](https://gpp-communication.github.io/RADLER/) | CVRP 2025 | Object Detection, 3D City Models, Self-Supervised |
+| [Doppler-SLAM: Doppler-Aided Radar-Inertial and LiDAR-Inertial SLAM](https://arxiv.org/abs/2504.11634) | [Code](https://github.com/Wayne-DWA/Doppler-SLAM) | IEEE Robotics and Automation Letters \ 2025 | SLAM, Sensor Fusion, Doppler, Odometry |
+| [Digital Beamforming Enhanced Radar Odometry](https://ieeexplore.ieee.org/document/11127292) | [Code](https://github.com/SenseRoboticsLab/DBE-Radar) | ICRA / 2025 | Radar Odometry, Digital Beamforming, SLAM |
+| [Advancing High-Resolution and Efficient Automotive Radar Imaging through Domain-Informed 1D Deep Learning](https://ieeexplore.ieee.org/document/10890731) | - | ICASSP / 2025 | Radar Imaging, High-Resolution, DOA Estimation |
+| [Artemis: Contour-Guided 3-D Sensing and Localization With mmWave Radar for Infrastructure-Assisted AVs](https://ieeexplore.ieee.org/document/10891135) | - | IEEE Internet of Things Journal / 2025 | Infrastructure-based, Localization, 3D Sensing |
+| [GaRLIO: Gravity enhanced Radar-LiDAR-Inertial Odometry](https://arxiv.org/abs/2502.07703) | [Code](https://github.com/ChiyunNoh/GaRLIO) | arXiv / 2025 | Odometry, SLAM, Sensor Fusion |
+| [RadarNeXt: Real-Time and Reliable 3D Object Detector Based On 4D mmWave Imaging Radar](https://arxiv.org/abs/2501.02314) | [Code](https://github.com/Pay246-git468/RadarNeXt) | arXiv / 2025 | 3D Object Detection, 4D Radar, Real-Time |
+| [Real-Time Multi-object Tracking and Identification Using Sparse Point-Cloud Data from Low-Cost mmWave Radar](https://link.springer.com/chapter/10.1007/978-3-031-92011-0_12) | - | Robot Intelligence Technology and Applications / 2024 | MOT, Tracking, Object Identification |
+| [TARSS-Net: Temporal-Aware Radar Semantic Segmentation Network](https://neurips.cc/virtual/2024/poster/96608) | [Code](https://github.com/zlw9161/TARSS-NeT) | NeurIPS / 2024 | Semantic Segmentation, Temporal-Aware |
+| [AdaPKC: PeakConv with Adaptive Peak Receptive Field for Radar Semantic Segmentation](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f6b22ac37beb5da61efd4882082c9ecd-Abstract-Conference.html) | [Code](https://github.com/lihua199710/AdaPKC) | NeurIPS / 2024 | Semantic Segmentation, Adaptive Receptive Field |
 
 
 ### 🤖 Embodied AI & Robotics
@@ -45,6 +63,9 @@ This list is curated based on the following standards, in order of priority:
 | [FuseGrasp: Radar-Camera Fusion for Robotic Grasping of Transparent Objects](https://ieeexplore.ieee.org/document/10909339) | - | IEEE Transactions on Mobile Computing / 2025 | Robotic Grasping, Sensor Fusion, Material recognition, Synthetic aperture radar |
 | [MITO: A Millimeter-Wave Dataset and Simulator for Non-Line-of-Sight Perception](https://arxiv.org/abs/2502.10259) | [Code](https://github.com/signalkinetics/MITO_Codebase/tree/main) | arxiv / 2025 | Dataset, Simulator, NLOS, Synthetic aperture radar |
 | [Non-Line-of-Sight 3D Object Reconstruction via mmWave Surface Normal Estimation](https://dl.acm.org/doi/10.1145/3711875.3729138) | [Code](https://github.com/signalkinetics/mmNorm) | MobiSys / 2025 | 3D Reconstruction, NLOS, Surface Normal, Synthetic aperture radar |
+| [Loosely coupled 4D-Radar-Inertial Odometry for Ground Robots](https://arxiv.org/abs/2411.17289) | [Code](https://github.com/robotics-upo/4D-Radar-Odom) | arxiv / 2025 | Robot Odometry, 4D Radar, SLAM |
+
+
 
 ### 🩺 Human Sensing & Healthcare
 
@@ -99,10 +120,13 @@ This list is curated based on the following standards, in order of priority:
 | [Advancing Single-Snapshot DOA Estimation with Siamese Neural Networks for Sparse Linear Arrays](https://ieeexplore.ieee.org/abstract/document/10890598/) | [Code](https://github.com/ruxinzh/SNNS_SLA) | ICASSP / 2025 | DOA Estimation, Siamese Networks, Sparse Arrays |
 | [One Snapshot is All You Need: A Generalized Method for mmWave Signal Generation](https://ieeexplore.ieee.org/abstract/document/10416806) | - |  IEEE INFOCOM / 2025 | Signal Generation, Data Synthesis, Simulation |
 | [Synthetic Radar Signal Generator for Human Motion Analysis](https://ieeexplore.ieee.org/abstract/document/10804837) | - | IEEE Transactions on Radar Systems / 2025 | Signal Generation, Simulation, motion-capture |
+| [Diffusion^2: Turning 3D Environments into Radio Frequency Heatmaps](https://arxiv.org/abs/2510.02274) | [Project](https://rfvision-project.github.io/) | arxiv / 2025 | RF Heatmap, Diffusion Model, Channel Modeling |
+| [Towards Foundational Models for Single-Chip Radar](https://arxiv.org/abs/2509.12482) | [Project](https://wiselabcmu.github.io/grt/) | arxiv / 2025 | Foundation Model, Self-Supervised, Representation |
+| [Simulate Any Radar: Attribute-Controllable Radar Simulation via Waveform Parameter Embedding](https://arxiv.org/abs/2506.03134) | [Code](https://github.com/zhuxing0/SA-Radar) | arxiv / 2025 | Controllable Simulation, Data Synthesis, 2D/3D object detection, radar semantic segmentation |
+| [RF4D:Neural Radar Fields for Novel View Synthesis in Outdoor Dynamic Scenes](https://arxiv.org/abs/2505.20967) | [Code](https://github.com/zhan0618/RF4D_code) | arxiv / 2025 | Neural Fields, Novel View Synthesis, 4D Radar |
+| [RadarRGBD: A Multi-Sensor Fusion Dataset for Perception with RGB-D and mmWave Radar](https://arxiv.org/abs/2505.15860) | [Dataset](https://github.com/song4399/RadarRGBD) | arxiv / 2025 | Dataset, Sensor Fusion, RGB-D |
+| [L2RDaS: Synthesizing 4D Radar Tensors for Model Generalization via Dataset Expansion](https://arxiv.org/abs/2503.03637) | [Project](https://github.com/kaist-avelab/K-Radar) | arxiv / 2025 | Data Synthesis, 4D Radar, Generalization |
 | [BFAR: improving radar odometry estimation using a bounded false alarm rate detector](https://link.springer.com/article/10.1007/s10514-024-10176-2) | - | Autonomous Robots / 2024 | Radar Odometry, SLAM, False Alarm Rate |
-| [RETR: Multi-View Radar Detection Transformer for Indoor Perception](https://neurips.cc/virtual/2024/poster/95530) | [Code](https://github.com/merlresearch/radar-detection-transformer) | NeurIPS / 2024 | Multi-View Radar, Detection, Transformer |
-
-
 
 ### 🌱 Agriculture Areas
 
@@ -115,18 +139,18 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publish / Year | Keywords |
 | :--- | :---: | :---: | :--- |
-| [CRFusion: Fine-Grained Object Identification Using RF-Image Modality Fusion](https://ieeexplore.ieee.org/document/10835118) |  | IEEE Transactions on Mobile Computing / 2025 | Sensor Fusion, Object Identification, RF-Image |
+| [CRFusion: Fine-Grained Object Identification Using RF-Image Modality Fusion](https://ieeexplore.ieee.org/document/10835118) | - | IEEE Transactions on Mobile Computing / 2025 | Sensor Fusion, Object Identification, RF-Image |
 
 ### 🔒 Forensics & Privacy Security
 
 | Title | Code | Publish / Year | Keywords |
-| :--- | :---: | :---: | :--- |
-
+| :--- | :--- | :--- | :--- |
+| - | - | - | - |
 
 ### 📦 Other Areas
 
 | Title | Code | Publish / Year | Keywords |
-| :--- | :---: | :---: | :--- |
+| :--- | :--- | :--- | :--- |
 | - | - | - | - |
 
 ## Contribution
