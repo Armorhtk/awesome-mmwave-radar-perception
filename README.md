@@ -2,13 +2,16 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome papers, datasets, and resources for millimeter-wave (mmWave) radar perception, with a focus on deep learning methods. This list pays special attention to research with publicly available code or datasets.
+A curated list of awesome papers, datasets, and resources for millimeter-wave (mmWave) radar perception, with a focus on deep learning methods.
+
+For a broader overview of radar perception beyond mmWave, including research involving modalities such as UWB or LiDAR, please refer to the more comprehensive [awesome-radar-perception](https://github.com/ZHOUYI1023/awesome-radar-perception) repository, which covers a wider spectrum of radar technologies and applications.
+
 
 Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **October 14, 2025**
+Last Updated: **October 15, 2025**
 
 ## Inclusion Criteria
 
@@ -20,14 +23,58 @@ This list is curated based on the following standards, in order of priority:
 
 ## Contents
 
+- [🌐 Radar Foundational Technologies](#-radar-foundational-technologies)
 - [🚗 Autonomous Driving & Drone](#-autonomous-driving--drone)
 - [🤖 Embodied AI & Robotics](#-embodied-ai--robotics)
 - [🩺 Human Sensing & Healthcare](#-human-sensing--healthcare)
-- [🌐 Radar Basic Technologies & Digital Twin](#-radar-basic-technologies--digital-twin)
 - [🌱 Agriculture Areas](#-agriculture-areas)
 - [🏭 Industrial Areas](#-industrial-areas)
 - [🔒 Forensics & Privacy Security](#-forensics--privacy-security)
 - [📦 Other Areas](#-other-areas)
+
+## 🌐 Radar Foundational Technologies
+
+
+### Signal Processing & Parameter Estimation
+
+| Title | Code | Publish / Year | Keywords |
+| :--- | :---: | :---: | :--- |
+| [A Data-centric Supervised Transfer Learning Framework for DOA Estimation with Array Imperfections](https://arxiv.org/abs/2504.13394) | [Code](https://github.com/zzb-nice/DOA_est_Master) | arxiv / 2025 | DOA Estimation, Transfer Learning, Data-centric |
+| [NEAR: Neural Electromagnetic Array Response](https://proceedings.mlr.press/v267/bu25c.html) | [Code](https://github.com/J1mmyYu1/NEAR) | PMLR / 2025 | Array Response, Neural Fields, Electromagnetics, DOA Estimation |
+| [Advancing Single-Snapshot DOA Estimation with Siamese Neural Networks for Sparse Linear Arrays](https://ieeexplore.ieee.org/abstract/document/10890598/) | [Code](https://github.com/ruxinzh/SNNS_SLA) | ICASSP / 2025 | DOA Estimation, Siamese Networks, Sparse Arrays |
+| [BFAR: improving radar odometry estimation using a bounded false alarm rate detector](https://link.springer.com/article/10.1007/s10514-024-10176-2) | - | Autonomous Robots / 2024 | Radar Odometry, SLAM, False Alarm Rate |
+
+
+### High-Resolution Imaging & SAR Imaging
+
+| Title | Code | Publish / Year | Keywords |
+| :--- | :---: | :---: | :--- |
+| [Unsupervised 3D SAR Imaging Network Based on Generative Adversary Learning](https://ieeexplore.ieee.org/document/10919030) | [Code](https://github.com/WMMWWM/Unsupervised-3D-SAR-Imaging-Network-Based-on-Generative-Adversary-Learning) |  IEEE Transactions on Antennas and Propagation / 2025 | 3D SAR, Imaging, Unsupervised, GAN, Synthetic aperture radar |
+| [RF4D:Neural Radar Fields for Novel View Synthesis in Outdoor Dynamic Scenes](https://arxiv.org/abs/2505.20967) | [Code](https://github.com/zhan0618/RF4D_code) | arxiv / 2025 | Neural Fields, Novel View Synthesis, 4D Radar |
+
+### Data Synthesis, Enhancement & Simulation
+
+| Title | Code | Publish / Year | Keywords |
+| :--- | :---: | :---: | :--- |
+| [Wideband RF Radiance Field Modeling Using Frequency-embedded 3D Gaussian Splatting](https://arxiv.org/abs/2505.20714) | [Code](https://github.com/sim-2-real/Wideband3DGS) | arxiv / 2025 | Radiance Field, 3D Gaussian Splatting, Wideband RF |
+| [Talk is Not Always Cheap: Promoting Wireless Sensing Models with Text Prompts](https://arxiv.org/abs/2504.14621) | [Code](https://github.com/zk-b612/WiTalk) | arxiv / 2025 | Wireless Sensing, Text Prompts, LLM |
+| [One Snapshot is All You Need: A Generalized Method for mmWave Signal Generation](https://ieeexplore.ieee.org/abstract/document/10416806) | - |  IEEE INFOCOM / 2025 | Signal Generation, Data Synthesis, Simulation |
+| [Synthetic Radar Signal Generator for Human Motion Analysis](https://ieeexplore.ieee.org/abstract/document/10804837) | - | IEEE Transactions on Radar Systems / 2025 | Signal Generation, Simulation, motion-capture |
+| [Diffusion^2: Turning 3D Environments into Radio Frequency Heatmaps](https://arxiv.org/abs/2510.02274) | [Project](https://rfvision-project.github.io/) | arxiv / 2025 | RF Heatmap, Diffusion Model, Channel Modeling |
+| [Simulate Any Radar: Attribute-Controllable Radar Simulation via Waveform Parameter Embedding](https://arxiv.org/abs/2506.03134) | [Code](https://github.com/zhuxing0/SA-Radar) | arxiv / 2025 | Controllable Simulation, Data Synthesis, 2D/3D object detection, radar semantic segmentation |
+| [L2RDaS: Synthesizing 4D Radar Tensors for Model Generalization via Dataset Expansion](https://arxiv.org/abs/2503.03637) | [Project](https://github.com/kaist-avelab/K-Radar) | arxiv / 2025 | Data Synthesis, 4D Radar, Generalization |
+
+
+### Foundational Models & Representation Learning About Radar Signals
+
+| Title | Code | Publish / Year | Keywords |
+| :--- | :---: | :---: | :--- |
+| [Unlocking Interpretability for RF Sensing: A Complex-Valued White-Box Transformer](https://arxiv.org/abs/2507.21799) | [Code](https://github.com/rfcrate/RF_CRATE) | arxiv / 2025 | Interpretability, RF Sensing, Transformer, Complex-Valued |
+| [Multi-View Radar Detection Transformer with Differentiable Positional Encoding](https://ieeexplore.ieee.org/document/10889849/) | - | ICASSP / 2025 | Multi-View Radar, Detection, Transformer |
+| [Inverse Rendering of Near-Field mmWave MIMO Radar for Material Reconstruction](https://ieeexplore.ieee.org/document/10892639/) | [Code](https://github.com/nihofm/inverse-radar-rendering) | IEEE Journal of Microwaves / 2025 | Inverse Rendering, Material Reconstruction, Near-Field |
+| [Towards Foundational Models for Single-Chip Radar](https://arxiv.org/abs/2509.12482) | [Project](https://wiselabcmu.github.io/grt/) | arxiv / 2025 | Foundation Model, Self-Supervised, Representation |
+| [RadarRGBD: A Multi-Sensor Fusion Dataset for Perception with RGB-D and mmWave Radar](https://arxiv.org/abs/2505.15860) | [Dataset](https://github.com/song4399/RadarRGBD) | arxiv / 2025 | Dataset, Sensor Fusion, RGB-D |
+
 
 
 ### 🚗 Autonomous Driving & Drone
@@ -105,28 +152,6 @@ This list is curated based on the following standards, in order of priority:
 
 
 
-### 🌐 Radar Basic Technologies & Digital Twin
-
-| Title | Code | Publish / Year | Keywords |
-| :--- | :---: | :---: | :--- |
-| [Unsupervised 3D SAR Imaging Network Based on Generative Adversary Learning](https://ieeexplore.ieee.org/document/10919030) | [Code](https://github.com/WMMWWM/Unsupervised-3D-SAR-Imaging-Network-Based-on-Generative-Adversary-Learning) |  IEEE Transactions on Antennas and Propagation / 2025 | 3D SAR, Imaging, Unsupervised, GAN, Synthetic aperture radar |
-| [Unlocking Interpretability for RF Sensing: A Complex-Valued White-Box Transformer](https://arxiv.org/abs/2507.21799) | [Code](https://github.com/rfcrate/RF_CRATE) | arxiv / 2025 | Interpretability, RF Sensing, Transformer, Complex-Valued |
-| [NEAR: Neural Electromagnetic Array Response](https://proceedings.mlr.press/v267/bu25c.html) | [Code](https://github.com/J1mmyYu1/NEAR) | PMLR / 2025 | Array Response, Neural Fields, Electromagnetics, DOA Estimation |
-| [Wideband RF Radiance Field Modeling Using Frequency-embedded 3D Gaussian Splatting](https://arxiv.org/abs/2505.20714) | [Code](https://github.com/sim-2-real/Wideband3DGS) | arxiv / 2025 | Radiance Field, 3D Gaussian Splatting, Wideband RF |
-| [Talk is Not Always Cheap: Promoting Wireless Sensing Models with Text Prompts](https://arxiv.org/abs/2504.14621) | [Code](https://github.com/zk-b612/WiTalk) | arxiv / 2025 | Wireless Sensing, Text Prompts, LLM |
-| [A Data-centric Supervised Transfer Learning Framework for DOA Estimation with Array Imperfections](https://arxiv.org/abs/2504.13394) | [Code](https://github.com/zzb-nice/DOA_est_Master) | arxiv / 2025 | DOA Estimation, Transfer Learning, Data-centric |
-| [Multi-View Radar Detection Transformer with Differentiable Positional Encoding](https://ieeexplore.ieee.org/document/10889849/) | - | ICASSP / 2025 | Multi-View Radar, Detection, Transformer |
-| [Inverse Rendering of Near-Field mmWave MIMO Radar for Material Reconstruction](https://ieeexplore.ieee.org/document/10892639/) | [Code](https://github.com/nihofm/inverse-radar-rendering) | IEEE Journal of Microwaves / 2025 | Inverse Rendering, Material Reconstruction, Near-Field |
-| [Advancing Single-Snapshot DOA Estimation with Siamese Neural Networks for Sparse Linear Arrays](https://ieeexplore.ieee.org/abstract/document/10890598/) | [Code](https://github.com/ruxinzh/SNNS_SLA) | ICASSP / 2025 | DOA Estimation, Siamese Networks, Sparse Arrays |
-| [One Snapshot is All You Need: A Generalized Method for mmWave Signal Generation](https://ieeexplore.ieee.org/abstract/document/10416806) | - |  IEEE INFOCOM / 2025 | Signal Generation, Data Synthesis, Simulation |
-| [Synthetic Radar Signal Generator for Human Motion Analysis](https://ieeexplore.ieee.org/abstract/document/10804837) | - | IEEE Transactions on Radar Systems / 2025 | Signal Generation, Simulation, motion-capture |
-| [Diffusion^2: Turning 3D Environments into Radio Frequency Heatmaps](https://arxiv.org/abs/2510.02274) | [Project](https://rfvision-project.github.io/) | arxiv / 2025 | RF Heatmap, Diffusion Model, Channel Modeling |
-| [Towards Foundational Models for Single-Chip Radar](https://arxiv.org/abs/2509.12482) | [Project](https://wiselabcmu.github.io/grt/) | arxiv / 2025 | Foundation Model, Self-Supervised, Representation |
-| [Simulate Any Radar: Attribute-Controllable Radar Simulation via Waveform Parameter Embedding](https://arxiv.org/abs/2506.03134) | [Code](https://github.com/zhuxing0/SA-Radar) | arxiv / 2025 | Controllable Simulation, Data Synthesis, 2D/3D object detection, radar semantic segmentation |
-| [RF4D:Neural Radar Fields for Novel View Synthesis in Outdoor Dynamic Scenes](https://arxiv.org/abs/2505.20967) | [Code](https://github.com/zhan0618/RF4D_code) | arxiv / 2025 | Neural Fields, Novel View Synthesis, 4D Radar |
-| [RadarRGBD: A Multi-Sensor Fusion Dataset for Perception with RGB-D and mmWave Radar](https://arxiv.org/abs/2505.15860) | [Dataset](https://github.com/song4399/RadarRGBD) | arxiv / 2025 | Dataset, Sensor Fusion, RGB-D |
-| [L2RDaS: Synthesizing 4D Radar Tensors for Model Generalization via Dataset Expansion](https://arxiv.org/abs/2503.03637) | [Project](https://github.com/kaist-avelab/K-Radar) | arxiv / 2025 | Data Synthesis, 4D Radar, Generalization |
-| [BFAR: improving radar odometry estimation using a bounded false alarm rate detector](https://link.springer.com/article/10.1007/s10514-024-10176-2) | - | Autonomous Robots / 2024 | Radar Odometry, SLAM, False Alarm Rate |
 
 ### 🌱 Agriculture Areas
 
