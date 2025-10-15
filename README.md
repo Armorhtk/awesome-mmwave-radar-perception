@@ -2,10 +2,17 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <img src="https://media.tenor.com/ZQIRn2UeT8YAAAAd/dragon-radar.gif" alt="Dragon Radar scanning for Dragon Balls" width="70%" />
+</p>
+
+<p align="center">
+  <sub>Dragon Radar scanning for breakthroughs in mmWave perception. Animation from Dragon Ball by Akira Toriyama (Bird Studio/Shueisha).</sub>
+</p>
+
 A curated list of awesome papers, datasets, and resources for millimeter-wave (mmWave) radar perception, with a focus on deep learning methods.
 
 For a broader overview of radar perception beyond mmWave, including research involving modalities such as UWB or LiDAR, please refer to the more comprehensive [awesome-radar-perception](https://github.com/ZHOUYI1023/awesome-radar-perception) repository, which covers a wider spectrum of radar technologies and applications.
-
 
 Author: Armor
 
