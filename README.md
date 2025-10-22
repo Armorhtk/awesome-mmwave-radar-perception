@@ -84,6 +84,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Millimeter Wave Inverse Pinhole Imaging](https://www.arxiv.org/abs/2510.13904) | N/A | arxiv | 2025 | Enhances the angular resolution of static, compact radars by introducing a rotating physical 'inverse pinhole,' and demonstrates that drone propellers can naturally serve this function for high-resolution imaging while hovering. |
 | [Unsupervised 3D SAR Imaging Network Based on Generative Adversary Learning](https://ieeexplore.ieee.org/document/10919030) | [Code](https://github.com/WMMWWM/Unsupervised-3D-SAR-Imaging-Network-Based-on-Generative-Adversary-Learning) | IEEE Transactions on Antennas and Propagation | 2025 | Achieves 3D SAR image reconstruction without paired training data by leveraging generative adversarial networks to learn imaging transformations in an unsupervised manner. |
 | [RF4D:Neural Radar Fields for Novel View Synthesis in Outdoor Dynamic Scenes](https://arxiv.org/abs/2505.20967) | [Code](https://github.com/zhan0618/RF4D_code) | arxiv | 2025 | Synthesizes novel radar views of dynamic outdoor scenes by representing 4D radar signals as continuous neural fields that encode spatial and temporal information. |
 | [Millimeter-Wave SAR imaging of Sparse Trajectory via Untrained Complex-valued Neural Network](https://arxiv.org/abs/2505.00536) | [Code](https://github.com/Armorhtk/mmUSAR) | IEEE Transactions on Aerospace and Electronic Systems | 2025 | Reconstructs high-quality SAR images from sparse trajectory measurements using untrained complex-valued neural networks that exploit inherent signal structure without requiring pre-training. |
@@ -335,12 +336,18 @@ This list is curated based on the following standards, in order of priority:
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
 | - | - | - | - | - |
+| [Attacking mmWave Imaging With Neural Meta-Material Rendering](https://ieeexplore.ieee.org/document/11007126) | N/A | IEEE Transactions on Information Forensics and Security | 2025 | Demonstrates vulnerabilities in mmWave imaging systems by using neural meta-materials to create adversarial patterns that deceive radar-based detection. |
+| [mmHSE: Enhanced Eavesdropping Attack on Headsets Leveraging COTS mmWave Radar](https://dl.acm.org/doi/abs/10.1145/3729475) | N/A | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies | 2025 | Enhances a radar-based eavesdropping attack on headsets by combining a high-resolution beamformer (MVDR+CZT) for precise vibration capture, a spatiotemporal fitting method for signal isolation, and a GAN for audio refinement. |
+| [SPACE: Speaker Adaptation for Acoustic Eavesdropping using mmWave Radio Signals](https://ieeexplore.ieee.org/abstract/document/11123722) | N/A | IEEE Transactions on Mobile Computing | 2025 | Tackles the challenge of speaker variability in mmWave eavesdropping by using a speaker encoder to extract and adapt to individual speaker characteristics, enabling more accurate speech reconstruction. |
+| [Acoustic Eavesdropping From Sound-Induced Vibrations With Multi-Antenna mmWave Radar](https://ieeexplore.ieee.org/abstract/document/10925836) | N/A | IEEE Transactions on Mobile Computing | 2025 | Overcomes the need for prior training data in acoustic eavesdropping by using multi-antenna signal processing to achieve micrometer-level vibration extraction for speech recovery. |
+
 
 ## 📦 Other Areas
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
 | [A Comprehensive Radar-Based Berthing-Aid Dataset (R-BAD) and Onboard System for Safe Vessel Docking](https://www.mdpi.com/2079-9292/14/20/4065#B12-electronics-14-04065) | [Dataset](https://zenodo.org/records/16936465) [Code](https://github.com/Radar-Uniwa/FMCW-Radar-Based-Berthing-System) | Electronics | 2025 | Addresses the lack of public data for autonomous ship berthing by introducing a large-scale radar and video dataset (R-BAD) and a corresponding onboard system to enable the development of all-weather docking solutions. |
+| [How to Talk to Your Classifier: Conditional Text Generation with Radar–Visual Latent Space](https://www.mdpi.com/1424-8220/25/14/4467) | N/A | Sensors | 2025 | Addresses the interpretability of radar classifiers by training a model to simultaneously classify an image and generate descriptive text from its latent space, using the text to reveal how the classifier interprets the visual data. |
 
 ## Contribution
 
