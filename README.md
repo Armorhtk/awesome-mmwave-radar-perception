@@ -322,6 +322,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Sem-RaDiff: Diffusion-Based 3D Radar Semantic Perception in Cluttered Agricultural Environments](https://arxiv.org/abs/2509.02283) | N/A | arxiv | 2025 | Tackles radar perception in cluttered agricultural scenes by using a hierarchical diffusion model that first filters sidelobe artifacts and then generates a fine-grained 3D semantic point cloud, enabling the accurate reconstruction of thin structures. |
 | [Hydra: Accurate Multi-Modal Leaf Wetness Sensing with mm-Wave and Camera Fusion](https://dl.acm.org/doi/10.1145/3636534.3690662) | [Code](https://github.com/liuyime2/MobiCom24-Hydra) | ACM MobiCom | 2024 | Achieves accurate leaf wetness sensing for precision agriculture by fusing mm-wave radar's dielectric sensing with camera's visual information. |
 
 
