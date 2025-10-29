@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **October 15, 2025**
+Last Updated: **October 29, 2025**
 
 ## Inclusion Criteria
 
@@ -142,6 +142,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DA3D: Domain-Aware Dynamic Adaptation for All-Weather Multimodal 3D Detection](https://dl.acm.org/doi/abs/10.1145/3746027.3755708) | [Code](https://github.com/Dawns14/DA3D) | ACM International Conference on Multimedia | 2025 | Addresses feature-level domain shifts in multi-sensor fusion by using LoRA as a dynamic "capacity controller" to efficiently reallocate model parameters based on weather difficulty. |
 | [Doppler-Aware LiDAR-RADAR Fusion for Weather-Robust 3D Detection](https://openaccess.thecvf.com/content/ICCV2025/papers/Chae_Doppler-Aware_LiDAR-RADAR_Fusion_for_Weather-Robust_3D_Detection_ICCV_2025_paper.pdf) | [Code](https://github.com/yujeong-star/DLRFusion) | ICCV | 2025 | Solves the problem of poor Doppler encoding in existing fusion methods by introducing a multi-path iterative module that uses Doppler to highlight dynamic regions, which in turn progressively refines both RADAR power and LiDAR features. |
 | [RICCARDO: Radar Hit Prediction and Convolution for Camera-Radar 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2025/html/Long_RICCARDO_Radar_Hit_Prediction_and_Convolution_for_Camera-Radar_3D_Object_CVPR_2025_paper.html) | [Code](https://github.com/longyunf/riccardo) | CVPR | 2025 | Enhances camera-radar fusion by predicting where radar hits should occur on objects and performing convolutions in predicted hit space for improved 3D detection. |
 | [DoppDrive: Doppler-Driven Temporal Aggregation for Improved Radar Object Detection](https://arxiv.org/abs/2508.12330) | [Project](https://yuvalhg.github.io/DoppDrive/) | arXiv | 2025 | Improves radar object detection by using Doppler velocity measurements to guide temporal aggregation of radar frames for motion-aware feature learning. |
