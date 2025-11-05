@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **October 29, 2025**
+Last Updated: **5 November 2025**
 
 ## Inclusion Criteria
 
@@ -319,6 +319,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RAPTR: Radar-based 3D Pose Estimation using Transformer](https://openreview.net/forum?id=4pUumnQxDG) | [Code](https://github.com/merlresearch/radar-pose-transformer) | NIPS | 2025 | Overcomes the high cost of 3D labels by proposing a Transformer model that uses weak supervision (2D keypoints and 3D BBoxes) and a two-stage decoder with pseudo-3D deformable attention for pose estimation. |
 | [Few-shot Human Motion Recognition through Multi-Aspect mmWave FMCW Radar Data](https://arxiv.org/abs/2501.11028) | [Code](https://github.com/MountainChenCad/channel-DN4) | arxiv | 2025 | Improves radar-inertial odometry for drone navigation in GNSS-denied environments by incorporating a barometer and using a robust m-estimator to more adaptively handle sensor outliers than binary filters. |
 | [Learning to Analyze Human Skeletal by Radar–Camera Supervision](https://ieeexplore.ieee.org/document/10930633) | [Code](https://github.com/zylofor/STC-HSANet) | WACV | 2024 | Learns radar-based skeleton estimation through camera supervision that provides ground truth skeletal annotations during training. |
 | [RadarLLM: Empowering Large Language Models to Understand Human Motion from Millimeter-wave Point Cloud Sequence](https://arxiv.org/abs/2504.09862) | [Project](https://inowlzy.github.io/RadarLLM/) | CVPR | 2024 | Empowers LLMs to interpret human motion from radar point clouds by developing specialized encoders and language-aligned representations. |
