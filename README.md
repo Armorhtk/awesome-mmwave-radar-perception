@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **5 November 2025**
+Last Updated: **6 November 2025**
 
 ## Inclusion Criteria
 
@@ -225,6 +225,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Availability-aware Sensor Fusion via Unified Canonical Space for 4D Radar, LiDAR, and Camera](https://arxiv.org/abs/2503.07029) | [Code](https://github.com/kaist-avelab/K-Radar/blob/main/docs/sensor_fusion.md) | arxiv | 2025 | Addresses the vulnerability of multi-sensor fusion systems to sensor failure by projecting all sensor data into a unified representation, enabling robust cross-modal attention that is aware of sensor availability.|
 | [Radar and Event Camera Fusion for Agile Robot Ego‑Motion Estimation](https://arxiv.org/abs/2506.18443) | [Code](https://github.com/ZzhYgwh/TwistEstimator) | arXiv | 2025 | Proposes an IMU‑free, feature‐association‑free fusion of event camera and millimetre‐wave radar Doppler to directly estimate 6‑DOF velocity of agile robots under high‑motion conditions, bypassing traditional frame matching. |
 | [Radar‑Based NLoS Pedestrian Localization for Darting‑Out Scenarios Near Parked Vehicles with Camera‑Assisted Point Cloud Interpretation](https://arxiv.org/abs/2508.04033) | [Project](https://hiyeun.github.io/NLoS/) | arXiv | 2025 | Tackles unexpected pedestrian appearance in NLoS urban parking‑vehicle blind spots by fusing monocular camera segmentation and depth estimation of parked vehicles with 2D radar point‑cloud data to accurately localize the pedestrian early. |
 | [VR-PCT: Enhanced VR Semantic Performance via Edge-Client Collaborative Multi-modal Point Cloud Transformers](https://ieeexplore.ieee.org/abstract/document/11153865) | [Code](https://github.com/luoyumei1-a/VR-PCT) | IEEE Transactions on Mobile Computing | 2025 | Reduces data overhead in multi-modal VR by using an edge-client collaborative framework where the client transmits only the "semantic region" of the visual data, not the full video, to the edge for fusion with radar. |
@@ -408,6 +409,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RASE 2026: Radar Acoustic Speech Enhancement](https://rase-challenge.github.io/RASE2026-Challenge/) | [Baseline](https://github.com/RASE-Challenge/challenge_baseline2026) | ICASSP 2026 Grand Challenge | 2025 | Enhancement of Speech Signals Acquired Through Glass Using mmWave Radar |
 | [Micro-Doppler Classification of Humans and Animals Using FMCW Radar](https://ieeexplore.ieee.org/abstract/document/11205061) | [Code](https://github.com/AmishaManga/MSc-Micro-Doppler-Classification) | IEEE Radar Conference | 2025 | Uses FMCW radar micro-Doppler spectrograms with a two-stage SVM classifier to first differentiate humans from animals and then identify specific animal species for anti-poaching. |
 | [A Comprehensive Radar-Based Berthing-Aid Dataset (R-BAD) and Onboard System for Safe Vessel Docking](https://www.mdpi.com/2079-9292/14/20/4065#B12-electronics-14-04065) | [Dataset](https://zenodo.org/records/16936465) [Code](https://github.com/Radar-Uniwa/FMCW-Radar-Based-Berthing-System) | Electronics | 2025 | Addresses the lack of public data for autonomous ship berthing by introducing a large-scale radar and video dataset (R-BAD) and a corresponding onboard system to enable the development of all-weather docking solutions. |
 | [How to Talk to Your Classifier: Conditional Text Generation with Radar–Visual Latent Space](https://www.mdpi.com/1424-8220/25/14/4467) | N/A | Sensors | 2025 | Addresses the interpretability of radar classifiers by training a model to simultaneously classify an image and generate descriptive text from its latent space, using the text to reveal how the classifier interprets the visual data. |
