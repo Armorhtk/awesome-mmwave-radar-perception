@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **7 November 2025**
+Last Updated: **9 November 2025**
 
 ## Inclusion Criteria
 
@@ -416,6 +416,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Multimodal-Wireless: A Large-Scale Dataset for Sensing and Communication](https://arxiv.org/abs/2511.03220) | [Dataset](https://le-liang.github.io/mmw) | arxiv | 2025 | Addresses the lack of datasets for joint sensing and communication research by releasing a large-scale, simulated dataset (Multimodal-Wireless) that uses a CARLA/Sionna pipeline to generate communication channel data synchronized with standard sensor modalities.|
 | [RASE 2026: Radar Acoustic Speech Enhancement](https://rase-challenge.github.io/RASE2026-Challenge/) | [Baseline](https://github.com/RASE-Challenge/challenge_baseline2026) | ICASSP 2026 Grand Challenge | 2025 | Enhancement of Speech Signals Acquired Through Glass Using mmWave Radar |
 | [Micro-Doppler Classification of Humans and Animals Using FMCW Radar](https://ieeexplore.ieee.org/abstract/document/11205061) | [Code](https://github.com/AmishaManga/MSc-Micro-Doppler-Classification) | IEEE Radar Conference | 2025 | Uses FMCW radar micro-Doppler spectrograms with a two-stage SVM classifier to first differentiate humans from animals and then identify specific animal species for anti-poaching. |
 | [A Comprehensive Radar-Based Berthing-Aid Dataset (R-BAD) and Onboard System for Safe Vessel Docking](https://www.mdpi.com/2079-9292/14/20/4065#B12-electronics-14-04065) | [Dataset](https://zenodo.org/records/16936465) [Code](https://github.com/Radar-Uniwa/FMCW-Radar-Based-Berthing-System) | Electronics | 2025 | Addresses the lack of public data for autonomous ship berthing by introducing a large-scale radar and video dataset (R-BAD) and a corresponding onboard system to enable the development of all-weather docking solutions. |
