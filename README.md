@@ -424,7 +424,7 @@ This list is curated based on the following standards, in order of priority:
 
 ### Sleep Monitoring
 
-| Title | Code | Publication | Date | Keywords |
+| Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
 | [Advancing sleep health equity through deep learning on large-scale nocturnal respiratory signals](https://www.nature.com/articles/s41467-025-64340-y) | [Code](https://github.com/zhuangzx1127/ResSleepNet) | nature communications | 2025 | Addresses inequitable access to sleep diagnostics by developing a robust deep learning framework that analyzes large-scale respiratory signals (including radar-derived ones via transfer learning) for scalable, remote sleep staging and apnea detection across diverse populations. |
 | [RestAware: Non-Invasive Sleep Monitoring Using FMCW Radar and AI-Generated Summaries](https://arxiv.org/abs/2508.00848v1) | N/A | arxiv | 2025 | Develops a non-invasive sleep monitoring system that uses FMCW radar for posture classification and uniquely integrates a large language model to automatically generate human-readable summaries from the sleep data. |
