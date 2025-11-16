@@ -1,0 +1,99 @@
+53rd Asilomar Conference on Signals, Systems, and Computers
+58th Asilomar Conference on Signals, Systems, and Computers
+AAAI Conference on Artificial Intelligence (AAAI)
+ACM International Conference on Information and Knowledge Management
+ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)
+ACM International Conference on Multimedia
+ACM MM
+ACM MobiCom
+ACM Multimedia Systems Conference
+ACM Transactions on Graphics
+ACM Transactions on Internet of Things
+arxiv
+arXiv
+Autonomous Robots
+Biomedical Signal Processing and Control
+Conference on Neural Information Processing Systems (NeurIPS)
+CVRP
+DAC
+Data in Brief
+ECVA
+EGUGA
+Electronics
+Engineering Applications of Artificial Intelligence
+European Conference on Computer Vision (ECCV)
+EUSIPCO
+ICASSP
+ICASSP 2026 Grand Challenge
+IEEE 27th International Conference on Intelligent Transportation Systems
+IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)
+IEEE Access
+IEEE Communications Surveys & Tutorials
+IEEE Geoscience and Remote Sensing Magazine
+IEEE INFOCOM
+IEEE Intelligent Vehicles Symposium (IV)
+IEEE International Conference on Computer Vision (ICCV)
+IEEE International Conference on Image Processing (ICIP)
+IEEE International Conference on Multimedia and Expo Workshops (ICMEW)
+IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI)
+IEEE International Conference on Pervasive Computing and Communications (PerCom)
+IEEE International Conference on Robotics and Automation (ICRA)
+IEEE International Radar Conference
+IEEE Internet of Things Journal
+IEEE Journal of Biomedical and Health Informatics
+IEEE Journal of Microwaves
+IEEE Journal of Selected Topics in Signal Processing
+IEEE Radar Conference
+IEEE Radar Conference (RadarConf23)
+IEEE Robotics and Automation Letters
+IEEE SENSORS
+IEEE Sensors Applications Symposium (SAS)
+IEEE Sensors Journal
+IEEE Transactions on Aerospace and Electronic Systems
+IEEE Transactions on Antennas and Propagation
+IEEE Transactions on Automation Science and Engineering
+IEEE Transactions on Biomedical Engineering
+IEEE Transactions on Circuits and Systems for Video Technology
+IEEE Transactions on Computational Imaging
+IEEE Transactions on Geoscience and Remote Sensing
+IEEE Transactions on Human-Machine Systems
+IEEE Transactions on Industrial Informatics
+IEEE Transactions on Information Forensics and Security
+IEEE Transactions on Instrumentation and Measurement
+IEEE Transactions on Intelligent Transportation Systems
+IEEE Transactions on Intelligent Vehicles
+IEEE Transactions on Microwave Theory and Techniques
+IEEE Transactions on Mobile Computing
+IEEE Transactions on Neural Networks and Learning Systems
+IEEE Transactions on Pattern Analysis and Machine Intelligence
+IEEE Transactions on Radar Systems
+IEEE Transactions on Robotics
+IEEE Transactions on Vehicular Technology
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+IET Radar, Sonar & Navigation
+IMWUT/Ubicomp
+Information Fusion
+International Conference on COMmunication Systems & NETworkS (COMSNETS)
+International Conference on Microwave, Antennas & Circuits (ICMAC)
+International Conference on Mobile Ad Hoc and Smart Systems (MASS)
+International Conference on Wireless Communications and Signal Processing (WCSP)
+IRAL
+IROS
+MM
+MobiCom
+MobiSys
+nature communications
+Nature Communications
+PMLR
+Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+Robot Intelligence Technology and Applications
+RSS
+Scientific Data
+sensors
+Sensors
+Sensors Journal
+SenSys
+SSRN
+Winter Conference on Applications of Computer Vision (WACV)
