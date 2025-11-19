@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **16 November 2025**
+Last Updated: **19 November 2025**
 
 ## Inclusion Criteria
 
@@ -530,6 +530,8 @@ Pseudo-Label and Noise Contrast](https://arxiv.org/abs/2511.08071) | [Code](http
 Contributions are always welcome! This list is actively maintained.
 
 Please read the [**contribution guidelines**](CONTRIBUTING.md) before submitting your pull request.
+
+![alt text](radar.svg)
 
 ## License
 
