@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **19 November 2025**
+Last Updated: **24 November 2025**
 
 ## Inclusion Criteria
 
@@ -89,6 +89,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Wave-Former: Through-Occlusion 3D Reconstruction via Wireless Shape Completion](https://arxiv.org/abs/2511.14152) | N/A | arXiv | 2025 | Overcomes the sparsity and noise of mmWave signals for through-occlusion reconstruction by employing a physics-aware Transformer pipeline that bridges wireless signals with vision-based shape completion via entropy-guided surface selection, enabling robust generalization from synthetic training data. |
 | [GeRaF: Neural Geometry Reconstruction from Radio Frequency Signals](https://openreview.net/pdf?id=z3PMVmzoya) | N/A | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | Addresses the unique challenges of lens-less, full-space RF signal propagation by introducing a physics-based volumetric rendering pipeline with a novel sampling and blending strategy, making neural 3D reconstruction feasible. |
 | [A Single-Frequency Autofocusing Method Based on Conditional Diffusion Model for Millimeter-Wave Near-Range Imaging](https://ieeexplore.ieee.org/document/10966873)| N/A | IEEE Transactions on Geoscience and Remote Sensing | 2025 | Solves the defocusing problem of single-frequency imaging by using an encoder to convert the 3D defocused image into a 2D condition, which then guides a diffusion model to generate a high-quality, focused result. |
 | [Millimeter Wave Inverse Pinhole Imaging](https://www.arxiv.org/abs/2510.13904) | N/A | arXiv | 2025 | Enhances the angular resolution of static, compact radars by introducing a rotating physical 'inverse pinhole,' and demonstrates that drone propellers can naturally serve this function for high-resolution imaging while hovering. |
@@ -159,6 +160,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Temporal Micro-Doppler Spectrogram-based ViT Multiclass Target Classification](https://arxiv.org/abs/2511.11951v1) | [Code](https://github.com/TND-Lab/Temporal-MDS-ViT-Classification) | arXiv | 2025 | Addresses the classification of overlapping and partially occluded targets by employing a Temporal Vision Transformer that processes stacked range-velocity-angle tensors with mobility-aware constraints to explicitly model sequential kinematic features. |
 | [SSMRadNet : A Sample-wise State-Space Framework for Efficient and Ultra-Light Radar Segmentation and Object Detection](https://arxiv.org/abs/2511.08769) | N/A | arXiv | 2025 | Proposes the first State Space Model (SSM) for raw radar data that sequentially processes samples at both the chirp and frame level, drastically reducing computational cost and model size compared to CNN/Transformer methods. |
 | [Pillar-Based Adaptive Sparse Transformer with Cost-Optimized Positive Sample Selection for 4D Radar Object Detection](https://link.springer.com/article/10.1007/s13177-025-00569-7) | N/A | International Journal of Intelligent Transportation Systems Research | 2025| Solves the limited receptive field of 3D convnets by using a sparse pillar transformer (for long-range context) and addresses poor label assignment by using a novel cross-label head to ensure balanced positive samples. |
 | [M^3Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3D Object Detection with Camera and 4D Imaging Radar](https://arxiv.org/abs/2510.27166) | N/A | arXiv | 2025 | Solves the problem of incomplete single-frame data by proposing a multi-frame fusion framework that efficiently aggregates features at both the global-object level (guided by radar) and local-grid level (guided by trajectories). |
@@ -209,6 +211,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving](https://arxiv.org/abs/2511.12117) | [Code](https://github.com/chengrui7/RadarMP) | arXiv | 2025 | Addresses the imprecision of decoupled motion perception in sparse radar data by using a unified architecture that jointly models detection and scene flow from low-level echoes, leveraging Doppler-guided self-supervision to eliminate the need for annotations. |
 | [Self-Supervised Diffusion-Based Scene Flow Estimation and Motion Segmentation with 4D Radar](https://ieeexplore.ieee.org/document/10974572) | [Code](https://github.com/nubot-nudt/RadarSFEMOS) | IRAL | 2025 | Estimates scene flow and segments moving objects from 4D radar using self-supervised diffusion models that learn motion patterns without manual annotations. |
 | [DoGFlow: Self-Supervised LiDAR Scene Flow via Cross-Modal Doppler Guidance](https://arxiv.org/abs/2505.06056) | [Project](https://ajinkyakhoche.github.io/DogFlow/) | arXiv | 2025 | Overcomes the bottleneck of manual annotation for LiDAR scene flow by using a self-supervised method that generates pseudo-labels from radar Doppler measurements, significantly improving performance and data efficiency. |
 | [milliFlow: Scene Flow Estimation on mmWave Radar Point Cloud for Human Motion Sensing](https://link.springer.com/chapter/10.1007/978-3-031-72691-0_12) | [Code](https://github.com/Toytiny/milliFlow) | European Conference on Computer Vision (ECCV) | 2024 | Uses deep learning to estimate scene flow from mmWave point clouds, creating a new intermediate motion representation that boosts performance on downstream tasks like human activity recognition and parsing. |
@@ -264,6 +267,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RISE: Single Static Radar-based Indoor Scene Understanding](https://arxiv.org/pdf/2511.14019) | TBD | arXiv | 2025 | Overcomes the low spatial resolution of single static radar by exploiting multipath reflections through a bi-angular enhancement technique and applying a hierarchical diffusion framework to achieve accurate indoor layout reconstruction and object detection.|
 | [Doppler-SLAM: Doppler-Aided Radar-Inertial and LiDAR-Inertial SLAM](https://arxiv.org/abs/2504.11634) | [Code](https://github.com/Wayne-DWA/Doppler-SLAM) | IEEE Robotics and Automation Letters | 2025 | Enhances SLAM accuracy by integrating Doppler velocity measurements into radar-inertial and LiDAR-inertial frameworks to provide additional motion constraints. |
 | [S^3E: Self-Supervised State Estimation for Radar-Inertial System](https://arxiv.org/abs/2509.25984) | N/A | arXiv | 2025 | Achieves self-supervised radar-inertial state estimation by learning motion patterns from unlabeled data to reduce dependency on ground truth annotations. |
 | [MapKD: Unlocking Prior Knowledge with Cross-Modal Distillation for Efficient Online HD Map Construction](https://arxiv.org/abs/2508.15653) | [Code](https://github.com/2004yan/MapKD2026) | arXiv | 2025 | Enables efficient online HD map construction by distilling knowledge from offline maps using cross-modal learning to reduce computational overhead. |
@@ -513,6 +517,7 @@ Pseudo-Label and Noise Contrast](https://arxiv.org/abs/2511.08071) | [Code](http
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Physics-Informed Neural Networks for Wireless Channel Estimation with Limited Pilot Signals](https://openreview.net/forum?id=r3plaU6DvW) | [Code](https://github.com/ajavid34/PINN_channel-estimation) | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | ackles the challenge of channel estimation with limited pilots by employing a Physics-Informed Neural Network (PINN) that fuses initial estimates with environmental RSS maps through a Transformer-enhanced U-Net to achieve high accuracy and interpretability.|
 | [We Can Hear You with mmWave Radar! An End-to-End Eavesdropping System](https://arxiv.org/pdf/2511.06205) | N/A | arXiv | 2025 | Achieves through-wall speech eavesdropping by using a mmWave radar to capture loudspeaker-induced vibrations and a deep neural network to reconstruct intelligible speech from the resulting noisy spectrograms. |
 | [Multimodal-Wireless: A Large-Scale Dataset for Sensing and Communication](https://arxiv.org/abs/2511.03220) | [Dataset](https://le-liang.github.io/mmw) | arXiv | 2025 | Addresses the lack of datasets for joint sensing and communication research by releasing a large-scale, simulated dataset (Multimodal-Wireless) that uses a CARLA/Sionna pipeline to generate communication channel data synchronized with standard sensor modalities.|
 | [RASE 2026: Radar Acoustic Speech Enhancement](https://rase-challenge.github.io/RASE2026-Challenge/) | [Baseline](https://github.com/RASE-Challenge/challenge_baseline2026) | ICASSP 2026 Grand Challenge | 2025 | Enhancement of Speech Signals Acquired Through Glass Using mmWave Radar |
