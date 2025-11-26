@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **24 November 2025**
+Last Updated: **26 November 2025**
 
 ## Inclusion Criteria
 
@@ -267,6 +267,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RF-Based 3D SLAM Rivaling Vision Approaches](https://dl.acm.org/doi/10.1145/3680207.3723467) | [Project](https://waves.seas.upenn.edu/projects/cartoradar/) | ACM International Conference on Mobile Systems, Applications, and Services (MobiSys) | 2025 | Achieves centimeter-level 3D SLAM superior to vision baselines by introducing a training-free uncertainty quantification method to mitigate the inference instability inherent in learning-based RF imaging. |
 | [RISE: Single Static Radar-based Indoor Scene Understanding](https://arxiv.org/pdf/2511.14019) | TBD | arXiv | 2025 | Overcomes the low spatial resolution of single static radar by exploiting multipath reflections through a bi-angular enhancement technique and applying a hierarchical diffusion framework to achieve accurate indoor layout reconstruction and object detection.|
 | [Doppler-SLAM: Doppler-Aided Radar-Inertial and LiDAR-Inertial SLAM](https://arxiv.org/abs/2504.11634) | [Code](https://github.com/Wayne-DWA/Doppler-SLAM) | IEEE Robotics and Automation Letters | 2025 | Enhances SLAM accuracy by integrating Doppler velocity measurements into radar-inertial and LiDAR-inertial frameworks to provide additional motion constraints. |
 | [S^3E: Self-Supervised State Estimation for Radar-Inertial System](https://arxiv.org/abs/2509.25984) | N/A | arXiv | 2025 | Achieves self-supervised radar-inertial state estimation by learning motion patterns from unlabeled data to reduce dependency on ground truth annotations. |
@@ -367,6 +368,7 @@ This list is curated based on the following standards, in order of priority:
 ### Gesture Recognition & Hand Tracking
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Millimeter-Wave Gesture Recognition in ISAC:Does Reducing Sensing Airtime Hamper Accuracy?](https://www.famaey.eu/papers/cnf-struye2026a.pdf) | [Code](https://github.com/JakobStruye/isac-tradeoff) | IEEE 23rd Consumer Communications & Networking Conference (CCNC) | 2025 | Quantifies the trade-off between sensing and communication airtime in mmWave ISAC, demonstrating that reducing sensing airtime to 25% results in a negligible 0.15% drop in CNN-based gesture recognition accuracy, thereby validating efficient resource sharing. |
 | [RF-Behavior: A Multimodal Radio-Frequency Dataset for Human Behavior and Emotion Analysis](https://arxiv.org/abs/2511.06020) | [Dataset](https://www.kaggle.com/datasets/anonymizers/rf-behavior-dataset) | arXiv | 2025 | Addresses the lack of a comprehensive RF dataset by releasing RF-Behavior, which uniquely spans gestures, activities, and emotions using 13 radars and RFID, all grounded by precise motion-capture. |
 | [Real-Time Human–Drone Interaction via Active Multimodal Gesture Recognition Under Limited Field of View in Indoor Environments](https://ieeexplore.ieee.org/abstract/document/11181055) | [Code](https://github.com/fangweicheng6/Gesture-HDI) | IEEE Robotics and Automation Letters  | 2025 | Overcomes sensor limitations (lighting, FoV) in drone gesture control by combining a lightweight image/point-cloud fusion network with an active perception controller that optimizes the sensor's FoV. |
 | [Simulation-Based Radar Gesture Recognition Using Domain Adversarial Training](https://ieeexplore.ieee.org/abstract/document/11205040) | [Code](https://github.com/mklein2024/RadarConf2025) | IEEE Radar Conference | 2025 | Overcomes the lack of real radar data for gesture recognition by generating synthetic data with Blender/ray-tracing and using Domain-Adversarial training to bridge the sim-to-real gap. |
@@ -429,8 +431,7 @@ This list is curated based on the following standards, in order of priority:
 ### Vital Signs & Biometric Identification
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
-| [Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented
-Pseudo-Label and Noise Contrast](https://arxiv.org/abs/2511.08071) | [Code](https://github.com/RadarHRSensing/Radar-APLANC) | arXiv | 2025 | Solves the need for costly labeled data in radar heartbeat sensing by using an unsupervised, noise-contrastive framework that generates augmented pseudo-labels from the radar matrix itself. |
+| [Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast](https://arxiv.org/abs/2511.08071) | [Code](https://github.com/RadarHRSensing/Radar-APLANC) | arXiv | 2025 | Solves the need for costly labeled data in radar heartbeat sensing by using an unsupervised, noise-contrastive framework that generates augmented pseudo-labels from the radar matrix itself. |
 | [Remote Emotion Recognition Using Continuous-Wave Bio-Radar System](https://www.mdpi.com/1424-8220/24/5/1420) | [Code](https://github.com/ctsgouveia/RadarEmotions) | sensors | 2024 | Demonstrates that machine learning on vital signs from a non-contact Bio-Radar can match the emotion recognition accuracy of certified contact-based systems, enabling monitoring without subject awareness. |
 | [CogPhys: Assessing Cognitive Load via Multimodal Remote and Contact-based Physiological Sensing](https://openreview.net/pdf?id=VJEcCMx16R) | [Code](https://github.com/AnirudhBHarish/CogPhys) | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | English: Addresses the lack of data for remote cognitive load monitoring by introducing a large, multi-modal dataset (video, thermal, RF) and demonstrating that fusing remote physiological signals can achieve classification accuracy comparable to intrusive, contact-based sensors. |
 | [LifWavNet: Lifting Wavelet-based Network for Non-contact ECG Reconstruction from Radar](https://arxiv.org/abs/2510.27692) | N/A | arXiv | 2025 | Addresses the limitations of fixed wavelet methods by using a learnable lifting wavelet network and a multi-resolution STFT loss to adaptively synthesize ECG waveforms from radar signals. |
