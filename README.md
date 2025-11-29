@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **26 November 2025**
+Last Updated: **29 November 2025**
 
 ## Inclusion Criteria
 
@@ -518,6 +518,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [BeamCKM: A Framework of Channel Knowledge Map Construction for Multi-Antenna Systems](https://arxiv.org/abs/2511.18376) | [Code](https://github.com/github-whh/BeamCKM) | arXiv | 2025 | Addresses the incompatibility between traditional pathloss maps and multi-antenna beamforming by proposing a "BeamCKM" concept and a transformer-based architecture (CKMTransUNet/M3ChanNet) that leverages multi-modal environmental data to construct high-fidelity channel knowledge maps. |
 | [Physics-Informed Neural Networks for Wireless Channel Estimation with Limited Pilot Signals](https://openreview.net/forum?id=r3plaU6DvW) | [Code](https://github.com/ajavid34/PINN_channel-estimation) | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | ackles the challenge of channel estimation with limited pilots by employing a Physics-Informed Neural Network (PINN) that fuses initial estimates with environmental RSS maps through a Transformer-enhanced U-Net to achieve high accuracy and interpretability.|
 | [We Can Hear You with mmWave Radar! An End-to-End Eavesdropping System](https://arxiv.org/pdf/2511.06205) | N/A | arXiv | 2025 | Achieves through-wall speech eavesdropping by using a mmWave radar to capture loudspeaker-induced vibrations and a deep neural network to reconstruct intelligible speech from the resulting noisy spectrograms. |
 | [Multimodal-Wireless: A Large-Scale Dataset for Sensing and Communication](https://arxiv.org/abs/2511.03220) | [Dataset](https://le-liang.github.io/mmw) | arXiv | 2025 | Addresses the lack of datasets for joint sensing and communication research by releasing a large-scale, simulated dataset (Multimodal-Wireless) that uses a CARLA/Sionna pipeline to generate communication channel data synchronized with standard sensor modalities.|
