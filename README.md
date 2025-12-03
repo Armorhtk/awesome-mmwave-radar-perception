@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **30 November 2025**
+Last Updated: **03 December 2025**
 
 ## Inclusion Criteria
 
@@ -89,6 +89,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmExpert: Integrating Large Language Models for Comprehensive mmWave Data Synthesis and Understanding](https://arxiv.org/abs/2509.16521) | N/A | arXiv | 2025 | Overcomes the high cost of data acquisition and annotation in mmWave sensing by employing Large Language Models to power a synthetic data generation flywheel, enabling the training of models capable of zero-shot generalization in real-world environments. |
 | [Wave-Former: Through-Occlusion 3D Reconstruction via Wireless Shape Completion](https://arxiv.org/abs/2511.14152) | N/A | arXiv | 2025 | Overcomes the sparsity and noise of mmWave signals for through-occlusion reconstruction by employing a physics-aware Transformer pipeline that bridges wireless signals with vision-based shape completion via entropy-guided surface selection, enabling robust generalization from synthetic training data. |
 | [GeRaF: Neural Geometry Reconstruction from Radio Frequency Signals](https://openreview.net/pdf?id=z3PMVmzoya) | N/A | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | Addresses the unique challenges of lens-less, full-space RF signal propagation by introducing a physics-based volumetric rendering pipeline with a novel sampling and blending strategy, making neural 3D reconstruction feasible. |
 | [A Single-Frequency Autofocusing Method Based on Conditional Diffusion Model for Millimeter-Wave Near-Range Imaging](https://ieeexplore.ieee.org/document/10966873)| N/A | IEEE Transactions on Geoscience and Remote Sensing | 2025 | Solves the defocusing problem of single-frequency imaging by using an encoder to convert the 3D defocused image into a 2D condition, which then guides a diffusion model to generate a high-quality, focused result. |
@@ -316,6 +317,7 @@ This list is curated based on the following standards, in order of priority:
 ### Point Cloud Processing
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [SDDiff: Boost Radar Perception via Spatial-Doppler Diffusion](https://arxiv.org/abs/2506.16936) | [Project](https://shengpeng.wang/sddiff/) | arXiv | 2025 | Addresses the bias arising from treating point cloud extraction and ego-velocity estimation independently by proposing a Spatial-Doppler Diffusion model that employs directional diffusion and iterative refinement to simultaneously optimize both tasks. |
 | [RaLD: Generating High-Resolution 3D Radar Point Clouds with Latent Diffusion](https://arxiv.org/abs/2511.07067) | N/A | arXiv | 2025 | Generates high-resolution 3D radar point clouds from low-resolution inputs using a latent diffusion model that captures complex spatial structures and noise characteristics of radar data. |
 | [CaRLi-V: Camera-RADAR-LiDAR Point-Wise 3D Velocity Estimation](https://arxiv.org/abs/2511.01383) | [Code](https://github.com/Soldann/CaRLi-V) | arXiv | 2025 | Estimates dense 3D point-wise velocity via a closed-form solution that combines radial velocity from a novel raw radar "velocity cube," tangential velocity from optical flow, and range from LiDAR. |
 | [RaCalNet: Radar Calibration Network for Sparse‑Supervised Metric Depth Estimation](https://arxiv.org/abs/2506.15560) | [Code](https://github.com/818slam/RaCalNet) | arXiv | 2025 | Proposes a network to calibrate radar with sparse LiDAR supervision to produce metric depth estimation from radar and RGB with minimal dense supervision. :contentReference|
