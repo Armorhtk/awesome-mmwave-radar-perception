@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **03 December 2025**
+Last Updated: **05 December 2025**
 
 ## Inclusion Criteria
 
@@ -287,6 +287,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RoboDriveVLM: A Novel Benchmark and Baseline towards Robust Vision-Language Models for Autonomous Driving](https://www.arxiv.org/abs/2512.01300) | N/A | arXiv | 2025 | Introduces a comprehensive benchmark (RoboDriveVLM) for evaluating vision-language models in autonomous driving, featuring diverse scenarios and tasks to promote robust multi-modal understanding. |
 | [HENet++: Hybrid Encoding and Multi-task Learning for 3D Perception and End-to-end Autonomous Driving](https://arxiv.org/abs/2511.07106) | [Code](https://github.com/Tsinghua-MARS-Lab/Occ3D) | arXiv | 2025 | Addresses the high computational cost and conflicting feature needs of multi-task 3D perception by using a hybrid encoding scheme (large encoder for recent frames, small encoder for older frames) to efficiently extract both dense and sparse features. |
 | [Layer-Wise Modality Decomposition for Interpretable Multimodal Sensor Fusion](https://arxiv.org/abs/2511.00859) | [Code](https://github.com/detxter-jvb/Layer-Wise-Modality-Decomposition) | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | Addresses the lack of interpretability in multi-sensor fusion models by proposing a post-hoc, model-agnostic method that decomposes the network layer by layer to attribute the final prediction to each individual input modality. |
 | [Availability-aware Sensor Fusion via Unified Canonical Space for 4D Radar, LiDAR, and Camera](https://arxiv.org/abs/2503.07029) | [Code](https://github.com/kaist-avelab/K-Radar/blob/main/docs/sensor_fusion.md) | arXiv | 2025 | Addresses the vulnerability of multi-sensor fusion systems to sensor failure by projecting all sensor data into a unified representation, enabling robust cross-modal attention that is aware of sensor availability.|
@@ -306,6 +307,7 @@ This list is curated based on the following standards, in order of priority:
 | [4D-ROLLS: 4D Radar Occupancy Learning via LiDAR Supervision](https://arxiv.org/abs/2505.13905) | [Code](https://github.com/CLASS-Lab/4D-ROLLS) | arXiv | 2025 | Learns 4D radar occupancy representations using LiDAR as supervisory signal to overcome radar annotation challenges and enable dense scene understanding. |
 | [MIPD: A Multi-Sensory Interactive Perception Dataset for Embodied Intelligent Driving](https://ieeexplore.ieee.org/abstract/document/11112801) | [Dataset](https://github.com/BUCT-IUSRC/Dataset__MIPD) | IEEE Transactions on Intelligent Transportation Systems | 2025 | Provides multi-sensory dataset capturing driver-vehicle interactions for research on embodied intelligence and driver monitoring systems. |
 | [MetaOcc: Spatio-Temporal Fusion of Surround-View 4D Radar and Camera for 3D Occupancy Prediction with Dual Training Strategies](https://arxiv.org/abs/2501.15384) | [Code](https://github.com/LucasYang567/MetaOcc) | arXiv | 2025 | Predicts 3D occupancy by fusing surround-view 4D radar and camera through spatio-temporal networks with dual training strategies for improved generalization. |
+| [WaterScenes: A Multi-Task 4D Radar-Camera Fusion Dataset and Benchmarks for Autonomous Driving on Water Surfaces](https://arxiv.org/abs/2307.06505) | [Code](https://github.com/WaterScenes/WaterScenes) | arXiv | 2024 | Addresses the lack of autonomous driving datasets for water surfaces by releasing WaterScenes, a large-scale 4D radar-camera fusion dataset with multi-task benchmarks. |
 | [Multi-Modal Fusion Sensing: A Comprehensive Review of Millimeter-Wave Radar and Its Integration With Other Modalities](https://ieeexplore.ieee.org/document/10525189) | N/A | IEEE Communications Surveys & Tutorials | 2024 | Comprehensively surveys mmWave radar fusion with various modalities covering fusion architectures, challenges, and applications across different domains. |
 | [A Deep Automotive Radar Detector using the RaDelft Dataset](https://arxiv.org/abs/2406.04723) | [Code](https://github.com/RaDelft/RaDelft-Dataset) | arXiv | 2024 | Uses synchronized lidar data as ground truth to train a neural network that generates shape-preserving, lidar-like point clouds from only radar data. |
 | [Radar Meets Vision: Robustifying Monocular Metric Depth Prediction for Mobile Robotics](https://arxiv.org/abs/2410.00736) | [Code](https://github.com/ethz-asl/ti_mmwave_rospkg) | arXiv | 2024 | Solves the poor generalization of monocular depth estimation in low-texture robotics environments by encoding sparse mmWave radar data into the vision model's input.|
