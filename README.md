@@ -545,6 +545,10 @@ This list is curated based on the following standards, in order of priority:
 | [Introducing an indoor object classification dataset including sparse point clouds from mmWave radar](https://www.nature.com/articles/s41597-024-03678-2) | [Code](https://github.com/ounospanas/RadIOCD) | Scientific Data | 2024 | Fills the gap in public datasets for indoor object classification by releasing RadIOCD, which contains synchronized sparse mmWave radar point clouds and RGB-D images of common household items. |
 | [SuperSight: Sub-cm NLOS Localization for mmWave Backscatter](https://dl.acm.org/doi/abs/10.1145/3643832.3661857) | [Code](https://github.com/smilelabkaist/SuperSight) | ACM International Conference on Mobile Systems, Applications, and Services (MobiSys) | 2024 | Achieves sub-cm non-line-of-sight (NLOS) localization by using a triangular retro-reflective tag array to uniquely exploit directional mmWave multipath, eliminating the need for environmental profiling. |
 
+## Tutorials
+
+[1] [PKU Millimeter Wave Radar Tutorial](https://github.com/StZhang-B/PKU-Millimeter-Wave-Radar-Tutorial) - A comprehensive tutorial covering the fundamentals, signal processing techniques, and applications of millimeter wave radar technology.
+
 ## 🤝 How to Contribute
 
 Contributions are always welcome! This list is actively maintained.
