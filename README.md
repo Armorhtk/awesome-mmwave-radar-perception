@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **06 December 2025**
+Last Updated: **12 December 2025**
 
 ## Inclusion Criteria
 
@@ -342,6 +342,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A Large-Scale Multimodal Dataset and Benchmark for Human Action Recognition, Understanding and Reasoning (CUHK-X)](https://www.arxiv.org/abs/2512.07136) | [Dataset](https://github.com/openaiotlab/CUHK-X) | arXiv | 2025 | Addresses the inability of current LLMs/LVLMs to handle non-RGB modalities and fine-grained action reasoning by introducing CUHK-X, a large-scale multimodal dataset (RGB, Depth, IMU, mmWave) with logically consistent, prompt-generated captions that benchmarks recognition, understanding, and reasoning tasks. |
 | [OrganicHAR: Towards Activity Discovery in Organic Settings for Privacy Preserving Sensors Using Efficient Video Analysis](https://dl.acm.org/doi/10.1145/3770674) | [Code](https://github.com/synergylabs/OrganicHAR) | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies | 2025 | Introduces OrganicHAR, a framework that combines privacy-preserving sensors with efficient video analysis to discover human activities in organic settings while ensuring user privacy. |
 | [OG-PCL: Efficient Sparse Point Cloud Processing for Human Activity Recognition](https://arxiv.org/abs/2511.08910) | [Code](https://github.com/BlakeYan97/OG-PCL) | arXiv | 2025 | Proposes a lightweight parallel network (OG-PCL) that introduces an "Occupancy-Gated Convolution" (OGConv) block to provide an explicit compensation mechanism for handling sparse radar point clouds. |
 | [OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels](https://neurips.cc/virtual/2025/loc/san-diego/poster/121376) | [Dataset](https://aiot-lab.github.io/OctoNet/) | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | Fosters multi-modal human activity research by releasing a massive dataset (OctoNet) that uniquely uses motion-captured 3D pose labels as the high-fidelity ground truth for all 12 diverse sensor modalities. |
@@ -528,6 +529,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [VP-AutoTest: A Virtual-Physical Fusion Autonomous Driving Testing Platform](https://www.arxiv.org/abs/2512.07507) | [Code](https://github.com/YimCui/VP-AutoTest) | arXiv | 2025 | Overcomes the limitations of traditional simulations and closed-course testing by proposing a comprehensive virtual-physical fusion platform (VP-AutoTest) that integrates diverse mixed-reality elements, supports multi-vehicle cooperation, and utilizes adversarial strategies along with credibility self-evaluation to ensure high-fidelity testing.|
 | [mmMUSE: An mmWave-based Motion-resilient Universal Speech Enhancement System](https://dl.acm.org/doi/abs/10.1145/3770672) | N/A | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies | 2025 | Addresses the challenge of motion-induced signal dispersion in mmWave speech enhancement by employing a two-stage vocal extraction method and a complex-valued fusion network to robustly integrate audio and radar data. |
 | [AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions](https://arxiv.org/abs/2510.27439) | N/A | arXiv | 2025 | Presents a comprehensive roadmap for the integration of AI in scientific research, outlining key areas of impact, challenges, and future directions to guide researchers and policymakers. |
 | [BeamCKM: A Framework of Channel Knowledge Map Construction for Multi-Antenna Systems](https://arxiv.org/abs/2511.18376) | [Code](https://github.com/github-whh/BeamCKM) | arXiv | 2025 | Addresses the incompatibility between traditional pathloss maps and multi-antenna beamforming by proposing a "BeamCKM" concept and a transformer-based architecture (CKMTransUNet/M3ChanNet) that leverages multi-modal environmental data to construct high-fidelity channel knowledge maps. |
