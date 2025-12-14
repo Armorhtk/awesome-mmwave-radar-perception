@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **12 December 2025**
+Last Updated: **14 December 2025**
 
 ## Inclusion Criteria
 
@@ -223,6 +223,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Super4DR: 4D Radar-centric Self-supervised Odometry and Gaussian-based Map Optimization](https://arxiv.org/abs/2512.09608) | [Code](https://github.com/NEU-REAL/Super4DR) | arXiv | 2025 | Overcomes the sparsity and noise of 4D radar SLAM by designing a cluster-aware self-supervised odometry network and a 3D Gaussian-based mapping strategy that recovers blurry/undetected structures, achieving near-supervised accuracy and high-quality multi-modal rendering. |
 | [S3E: Self-Supervised State Estimation for Radar-Inertial System](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_S3E_Self-Supervised_State_Estimation_for_Radar-Inertial_System_ICCV_2025_paper.html) | [Code](https://github.com/wsp666/S3E) | IEEE International Conference on Computer Vision (ICCV) | 2025 | Bypasses sparse point clouds by using richer radar spectra and fuses inertial data in a self-supervised manner, employing a novel cross-fusion technique to overcome poor angular resolution. |
 | [AF-RLIO: Adaptive Fusion of Radar-LiDAR-Inertial Information for Robust Odometry in Challenging Environments](https://ieeexplore.ieee.org/abstract/document/11128046) | [Code](https://github.com/NeSC-IV/AF-RLIO) | IEEE International Conference on Robotics and Automation (ICRA) | 2025 | Improves multi-sensor odometry by using radar to not only provide complementary data but also to actively de-noise LiDAR and determine its reliability, enabling an adaptive fusion for robust navigation in degraded conditions. |
 | [RINO: Accurate, Robust Radar-Inertial Odometry With Non-Iterative Estimation](https://ieeexplore.ieee.org/abstract/document/11134416) | [Code](https://github.com/yangsc4063/rino) | IEEE Transactions on Automation Science and Engineering  | 2025 | Achieves accurate radar-inertial odometry by introducing a non-iterative estimation framework that reduces computational complexity while maintaining robustness against radar noise and outliers. |
@@ -529,6 +530,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A Multi-Robot Platform for Robotic Triage Combining Onboard Sensing and Foundation Models](https://arxiv.org/abs/2512.08754) | N/A | arXiv | 2025 | Automates the complete, high-risk primary triage process in mass-casualty incidents by deploying a heterogeneous air-ground robotic team (UAVs/UGVs) that leverages onboard sensing and foundation models to perform victim localization, vital sign measurement, and injury assessment. |
 | [VP-AutoTest: A Virtual-Physical Fusion Autonomous Driving Testing Platform](https://www.arxiv.org/abs/2512.07507) | [Code](https://github.com/YimCui/VP-AutoTest) | arXiv | 2025 | Overcomes the limitations of traditional simulations and closed-course testing by proposing a comprehensive virtual-physical fusion platform (VP-AutoTest) that integrates diverse mixed-reality elements, supports multi-vehicle cooperation, and utilizes adversarial strategies along with credibility self-evaluation to ensure high-fidelity testing.|
 | [mmMUSE: An mmWave-based Motion-resilient Universal Speech Enhancement System](https://dl.acm.org/doi/abs/10.1145/3770672) | N/A | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies | 2025 | Addresses the challenge of motion-induced signal dispersion in mmWave speech enhancement by employing a two-stage vocal extraction method and a complex-valued fusion network to robustly integrate audio and radar data. |
 | [AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions](https://arxiv.org/abs/2510.27439) | N/A | arXiv | 2025 | Presents a comprehensive roadmap for the integration of AI in scientific research, outlining key areas of impact, challenges, and future directions to guide researchers and policymakers. |
