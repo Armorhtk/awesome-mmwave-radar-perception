@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **14 December 2025**
+Last Updated: **17 December 2025**
 
 ## Inclusion Criteria
 
@@ -89,6 +89,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| []
 | [Large Language Models Can Achieve Explainable and Training-Free One-shot HRRP ATR](https://arxiv.org/abs/2506.02465) | [Code](https://github.com/MountainChenCad/HRRPLLM) | arXiv | 2025 | Pioneers a training-free, explainable approach for one-shot radar target recognition by converting 1D HRRP signals into textual scattering center descriptions, allowing general-purpose LLMs to classify targets via in-context learning without parameter updates. |
 | [Wave-Former: Through-Occlusion 3D Reconstruction via Wireless Shape Completion](https://arxiv.org/abs/2511.14152) | N/A | arXiv | 2025 | Overcomes the sparsity and noise of mmWave signals for through-occlusion reconstruction by employing a physics-aware Transformer pipeline that bridges wireless signals with vision-based shape completion via entropy-guided surface selection, enabling robust generalization from synthetic training data. |
 | [GeRaF: Neural Geometry Reconstruction from Radio Frequency Signals](https://openreview.net/pdf?id=z3PMVmzoya) | N/A | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | Addresses the unique challenges of lens-less, full-space RF signal propagation by introducing a physics-based volumetric rendering pipeline with a novel sampling and blending strategy, making neural 3D reconstruction feasible. |
@@ -213,6 +214,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RaLiFlow: Scene Flow Estimation with 4D Radar and LiDAR Point Clouds](https://arxiv.org/abs/2512.10376) | [Code](https://github.com/FuJingyun/RaLiFlow) | arXiv | 2025 | Fills the research gap in fusing 4D radar and LiDAR for scene flow by constructing a dedicated dataset and proposing RaLiFlow, a framework that employs a Dynamic-aware Bidirectional Cross-modal Fusion (DBCF) module to effectively leverage radar's dynamic cues while mitigating noise via specialized loss functions. |
 | [RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving](https://arxiv.org/abs/2511.12117) | [Code](https://github.com/chengrui7/RadarMP) | arXiv | 2025 | Addresses the imprecision of decoupled motion perception in sparse radar data by using a unified architecture that jointly models detection and scene flow from low-level echoes, leveraging Doppler-guided self-supervision to eliminate the need for annotations. |
 | [Self-Supervised Diffusion-Based Scene Flow Estimation and Motion Segmentation with 4D Radar](https://ieeexplore.ieee.org/document/10974572) | [Code](https://github.com/nubot-nudt/RadarSFEMOS) | IRAL | 2025 | Estimates scene flow and segments moving objects from 4D radar using self-supervised diffusion models that learn motion patterns without manual annotations. |
 | [DoGFlow: Self-Supervised LiDAR Scene Flow via Cross-Modal Doppler Guidance](https://arxiv.org/abs/2505.06056) | [Project](https://ajinkyakhoche.github.io/DogFlow/) | arXiv | 2025 | Overcomes the bottleneck of manual annotation for LiDAR scene flow by using a self-supervised method that generates pseudo-labels from radar Doppler measurements, significantly improving performance and data efficiency. |
@@ -400,6 +402,7 @@ This list is curated based on the following standards, in order of priority:
 ### Occupancy, Presence & Fall Detection
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmCounter: Static People Counting in Dense Indoor Scenarios Using mmWave Radar](https://arxiv.org/abs/2512.10357v1) | N/A | arXiv | 2025 | Addresses the challenge of counting static individuals in dense indoor scenarios using mmWave radar by introducing mmCounter, a system that isolates ultra-low frequency (< 1 Hz) breathing and micro-movement signals to accurately distinguish and enumerate up to three people per square meter without prior knowledge of the crowd size. |
 | [MMWiLoc: A Multi‑Sensor Dataset and Robust Device‑Free Localization Method Using Commercial Off‑The‐Shelf Millimeter Wave Wi‑Fi Devices](https://arxiv.org/abs/2506.11540) | [Code](https://github.com/wowoyoho/MMWiLoc) | arXiv| 2025 | Introduces a synchronized multi‑sensor dataset (mmWave WiFi + 2.4 GHz WiFi + radar) and a device‑free localization method achieving centimetre‐level accuracy using commercial mmWave WiFi.|
 | [P2MFDS: A Privacy‑Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332) | [Code](https://github.com/HaitianWang/P2MFDS-A-Privacy-Preserving-Multimodal-Fall-Detection-System-for-Elderly-People-in-Bathroom-Environ) | arXiv | 2025 | Addresses fall‑detection for elderly in bathrooms by fusing multiple sensor modalities in a privacy‑preserving way to reliably detect falls in sensitive environments. |
 | [Exploration of Low-Cost but Accurate Radar-Based Human Motion Direction Determination](https://arxiv.org/abs/2507.22567) | [Code](https://github.com/JoeyBGOfficial/Low-Cost-Accurate-Radar-Based-Human-Motion-Direction-Determination) | arXiv | 2025 | Achieves accurate motion direction estimation with low-cost radar by developing efficient algorithms that maximize information extraction from limited hardware. |
