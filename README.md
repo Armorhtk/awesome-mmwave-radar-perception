@@ -64,9 +64,13 @@ This list is curated based on the following standards, in order of priority:
 ## 📚 Tutorials
 
 [1] [TI: Radar Toolbox for mmWave Sensors](https://dev.ti.com/tirex/explore/node?isTheia=false&node=A__AE6BJ0XgUrkz8nOyewX3ig__radar_toolbox__1AslXXD__LATEST)
+
 [2] [PKU Millimeter Wave Radar Tutorial](https://github.com/StZhang-B/PKU-Millimeter-Wave-Radar-Tutorial) - A hands-on (Chinese) mmWave radar tutorial built around TI IWR1843+DCA1000, covering raw ADC capture, basic FMCW/MIMO signal processing, simulation, and application demos such as human tracking/localization, gesture recognition, and vital-sign sensing.
+
 [3] [Introduction-to-MIMO-FMCW-Radar](https://github.com/josiahwsmith10/Introduction-to-MIMO-FMCW-Radar/blob/main/doc/Introduction_to_FMCW_Radar.pdf) - An introductory MIMO-FMCW radar learning package that pairs a main instructional document with MATLAB examples to illustrate core concepts.
+
 [4] [FMCW Radar Principles and Human Activity Recognition Systems: Foundations, Techniques, and Applications](https://arxiv.org/abs/2410.08483) - A 203-page arXiv book surveying FMCW radar fundamentals (range/velocity estimation, signal processing, point-cloud generation) and human-activity-recognition methods, including Python/MATLAB workflows and deep-learning models such as CNNs, LSTMs, and Transformers.
+
 [5] [Generative Machine Learning for Radar-Based Vital Sign Monitoring](https://github.com/cyrillknecht/radar_vital_signs_ml) - An ETH Zurich semester-thesis codebase that implements an end-to-end radar vital-sign monitoring pipeline, using time-series deep learning models (e.g., TCN/GRU/LSTM/RNN) to suppress artifacts and reconstruct pulse signals from radar data.
 
 
