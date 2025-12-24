@@ -576,8 +576,6 @@ Contributions are always welcome! This list is actively maintained.
 
 Please read the [**contribution guidelines**](Resource/CONTRIBUTING.md) before submitting your pull request.
 
-![alt text](Resource/radar.svg)
-
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=Armorhtk/awesome-mmwave-radar-perception&type=Date)](https://star-history.com/#Armorhtk/awesome-mmwave-radar-perception&Date)
 
