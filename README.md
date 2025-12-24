@@ -30,6 +30,7 @@ This list is curated based on the following standards, in order of priority:
 
 ## Contents
 
+- [📚 Tutorials](#-tutorials)
 - [🌐 Radar Foundational Technologies](#-radar-foundational-technologies)
   - [Signal Processing & Parameter Estimation](#signal-processing--parameter-estimation)
   - [High-Resolution Imaging & SAR Imaging](#high-resolution-imaging--sar-imaging)
@@ -60,8 +61,16 @@ This list is curated based on the following standards, in order of priority:
 - [📦 Other Areas](#-other-areas)
 - [🤝 How to Contribute](#-how-to-contribute)
 
-## 🌐 Radar Foundational Technologies
+## 📚 Tutorials
 
+[1] [TI: Radar Toolbox for mmWave Sensors](https://dev.ti.com/tirex/explore/node?isTheia=false&node=A__AE6BJ0XgUrkz8nOyewX3ig__radar_toolbox__1AslXXD__LATEST)
+[2] [PKU Millimeter Wave Radar Tutorial](https://github.com/StZhang-B/PKU-Millimeter-Wave-Radar-Tutorial) - A hands-on (Chinese) mmWave radar tutorial built around TI IWR1843+DCA1000, covering raw ADC capture, basic FMCW/MIMO signal processing, simulation, and application demos such as human tracking/localization, gesture recognition, and vital-sign sensing.
+[3] [Introduction-to-MIMO-FMCW-Radar](https://github.com/josiahwsmith10/Introduction-to-MIMO-FMCW-Radar/blob/main/doc/Introduction_to_FMCW_Radar.pdf) - An introductory MIMO-FMCW radar learning package that pairs a main instructional document with MATLAB examples to illustrate core concepts.
+[4] [FMCW Radar Principles and Human Activity Recognition Systems: Foundations, Techniques, and Applications](https://arxiv.org/abs/2410.08483) - A 203-page arXiv book surveying FMCW radar fundamentals (range/velocity estimation, signal processing, point-cloud generation) and human-activity-recognition methods, including Python/MATLAB workflows and deep-learning models such as CNNs, LSTMs, and Transformers.
+[5] [Generative Machine Learning for Radar-Based Vital Sign Monitoring](https://github.com/cyrillknecht/radar_vital_signs_ml) - An ETH Zurich semester-thesis codebase that implements an end-to-end radar vital-sign monitoring pipeline, using time-series deep learning models (e.g., TCN/GRU/LSTM/RNN) to suppress artifacts and reconstruct pulse signals from radar data.
+
+
+## 🌐 Radar Foundational Technologies
 
 ### Signal Processing & Parameter Estimation
 
@@ -156,7 +165,6 @@ This list is curated based on the following standards, in order of priority:
 
 
 ## 🚗 Autonomous Driving & Drone
-
 
 ### 3D Object Detection & Classification
 
@@ -557,17 +565,30 @@ This list is curated based on the following standards, in order of priority:
 | [Introducing an indoor object classification dataset including sparse point clouds from mmWave radar](https://www.nature.com/articles/s41597-024-03678-2) | [Code](https://github.com/ounospanas/RadIOCD) | Scientific Data | 2024 | Fills the gap in public datasets for indoor object classification by releasing RadIOCD, which contains synchronized sparse mmWave radar point clouds and RGB-D images of common household items. |
 | [SuperSight: Sub-cm NLOS Localization for mmWave Backscatter](https://dl.acm.org/doi/abs/10.1145/3643832.3661857) | [Code](https://github.com/smilelabkaist/SuperSight) | ACM International Conference on Mobile Systems, Applications, and Services (MobiSys) | 2024 | Achieves sub-cm non-line-of-sight (NLOS) localization by using a triangular retro-reflective tag array to uniquely exploit directional mmWave multipath, eliminating the need for environmental profiling. |
 
-## Tutorials
-
-[1] [PKU Millimeter Wave Radar Tutorial](https://github.com/StZhang-B/PKU-Millimeter-Wave-Radar-Tutorial) - A comprehensive tutorial covering the fundamentals, signal processing techniques, and applications of millimeter wave radar technology.
 
 ## 🤝 How to Contribute
 
 Contributions are always welcome! This list is actively maintained.
 
-Please read the [**contribution guidelines**](CONTRIBUTING.md) before submitting your pull request.
+Please read the [**contribution guidelines**](Resource/CONTRIBUTING.md) before submitting your pull request.
 
-![alt text](radar.svg)
+![alt text](Resource/radar.svg)
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=Armorhtk/awesome-mmwave-radar-perception&type=Date)](https://star-history.com/#Armorhtk/awesome-mmwave-radar-perception&Date)
+
+## Citation
+
+If you find this repository useful, please cite it:
+
+```bibtex
+@misc{awesome-mmwave-radar-perception,
+  title={Awesome mmWave Radar Perception},
+  author={Armor},
+  year={2025},
+  howpublished={\url{https://github.com/Armorhtk/awesome-mmwave-radar-perception}},
+}
+```
 
 ## License
 
