@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **27 December 2025**
+Last Updated: **30 December 2025**
 
 ## Inclusion Criteria
 
@@ -161,6 +161,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Event Camera Meets Mobile Embodied Perception: Abstraction,Algorithm, Acceleration, Application](https://dl.acm.org/doi/abs/10.1145/3786332) | N/A | ACM Computing Surveys | 2025 | Provides a comprehensive survey (2014-2025) of event-based vision for agile mobile robots, detailing key abstractions, algorithms, hardware accelerations, and applications while highlighting the challenges of noise and real-time processing on resource-constrained platforms. |
 | [OmniVLA: Physically-Grounded Multimodal VLA with Unified Multi-Sensor Perception for Robotic Manipulation](https://arxiv.org/abs/2511.01210v2) | N/A | arXiv | 2025 | Solves the challenge of fusing diverse non-visual sensors (IR, radar, audio) into RGB-pretrained VLA models by creating a "sensor-masked image," a unified representation that overlays physical sensor data onto the RGB image. |
 | [Towards Robust and Secure Embodied AI: A Survey on Vulnerabilities and Attacks](https://arxiv.org/abs/2502.13175) | N/A | arXiv | 2025 | Comprehensively surveys security vulnerabilities in embodied AI systems including sensor spoofing and adversarial attacks on perception and decision-making modules. |
 | [FuseGrasp: Radar-Camera Fusion for Robotic Grasping of Transparent Objects](https://ieeexplore.ieee.org/document/10909339) | N/A | IEEE Transactions on Mobile Computing | 2025 | Enables robust grasping of transparent objects by fusing radar material sensing with camera visual information to overcome camera limitations on reflective surfaces. |
@@ -552,6 +553,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Radar and OpenStreetMap-Aided Consistent Trajectory Estimation in Canopy-Occluded Environments](https://www.mdpi.com/2072-4292/18/1/70) | [Code](https://github.com/carbo-T/ROTE) | remote sensing | 2025 | Addresses the challenge of localization in GNSS-denied, canopy-occluded environments by presenting a radar-based coarse-to-fine trajectory estimation framework that integrates temporally enhanced features with adaptive OpenStreetMap priors, reducing Absolute Trajectory Error by up to 55.23%. |
 | [MULTIAQUA: A multimodal maritime dataset and robust training strategies for multimodal semantic segmentation](https://arxiv.org/abs/2512.17450) | [Dataset](https://lmi.fe.uni-lj.si/en/MULTIAQUA/) | arXiv | 2025 | Addresses the limitations of vision-only maritime perception in challenging conditions by introducing MULTIAQUA, a synchronized multimodal dataset (RGB, thermal, IR, LiDAR, Radar), and proposing robust training strategies that allow models to learn from daytime data while maintaining high performance in near-complete darkness. |
 | [CF-Net: A Cross-Feature Reconstruction Network for High-Accuracy 1-Bit Target Classification](https://arxiv.org/abs/2512.15105) | [Code](https://github.com/embedded-qjd/CF-Net) | arXiv | 2025 | Overcomes the significant information loss in 1-bit radar quantization by proposing CF-Net, a two-stage framework that employs a self-supervised cross-feature reconstruction strategy to recover high-fidelity features, enabling high-accuracy target classification without the need for impractical oversampling.|
 | [A Multi-Robot Platform for Robotic Triage Combining Onboard Sensing and Foundation Models](https://arxiv.org/abs/2512.08754) | N/A | arXiv | 2025 | Automates the complete, high-risk primary triage process in mass-casualty incidents by deploying a heterogeneous air-ground robotic team (UAVs/UGVs) that leverages onboard sensing and foundation models to perform victim localization, vital sign measurement, and injury assessment. |
