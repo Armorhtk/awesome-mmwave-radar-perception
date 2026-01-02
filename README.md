@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **30 December 2025**
+Last Updated: **02 January 2026**
 
 ## Inclusion Criteria
 
@@ -150,6 +150,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [IoT-LLM: A framework for enhancing large language model reasoning from real-world sensor data](https://www.cell.com/patterns/fulltext/S2666-3899(25)00277-6) | [Code](https://github.com/Morpheus-An/IoT-Agent) | Patterns | 2025 | Enhances Large Language Models' capacity for physical-world reasoning by introducing IoT-LLM, a framework that integrates preprocessed sensor data, IoT-specific retrieval-augmented generation, and chain-of-thought prompting to significantly improve performance on real-world sensory tasks. |
 | [Unlocking Interpretability for RF Sensing: A Complex-Valued White-Box Transformer](https://arxiv.org/abs/2507.21799) | [Code](https://github.com/rfcrate/RF_CRATE) | arXiv | 2025 | Develops an interpretable transformer architecture for RF sensing that processes complex-valued signals while maintaining transparency in feature learning and decision-making. |
 | [Multi-View Radar Detection Transformer with Differentiable Positional Encoding](https://ieeexplore.ieee.org/document/10889849/) | N/A | IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2025 | Enhances multi-view radar detection by introducing differentiable positional encodings that adapt to radar geometry and improve cross-view feature aggregation. |
 | [Towards Foundational Models for Single-Chip Radar](https://arxiv.org/abs/2509.12482) | [Project](https://wiselabcmu.github.io/grt/) | arXiv | 2025 | Builds foundation models for single-chip radar through self-supervised pre-training on diverse radar data to enable transfer learning across multiple sensing tasks. |
@@ -175,6 +176,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [MiHazeFree3D: 3D Bounding Box Prediction for Vehicles and Pedestrians in Fog and Low-Light Conditions](https://dl.acm.org/doi/10.1145/3786764) | N/A | ACM Transactions on Internet of Things | 2025 | Addresses the failure of camera and LiDAR systems in adverse weather by presenting MiHazeFree3D, a mmWave radar-based system that uses a deep learning architecture with feature fusion to overcome signal reflection and motion errors, enabling reliable 3D bounding box prediction for vehicles and pedestrians in fog and low-light conditions. |
 | [Temporal Micro-Doppler Spectrogram-based ViT Multiclass Target Classification](https://arxiv.org/abs/2511.11951v1) | [Code](https://github.com/TND-Lab/Temporal-MDS-ViT-Classification) | arXiv | 2025 | Addresses the classification of overlapping and partially occluded targets by employing a Temporal Vision Transformer that processes stacked range-velocity-angle tensors with mobility-aware constraints to explicitly model sequential kinematic features. |
 | [SSMRadNet : A Sample-wise State-Space Framework for Efficient and Ultra-Light Radar Segmentation and Object Detection](https://arxiv.org/abs/2511.08769) | N/A | arXiv | 2025 | Proposes the first State Space Model (SSM) for raw radar data that sequentially processes samples at both the chirp and frame level, drastically reducing computational cost and model size compared to CNN/Transformer methods. |
 | [Pillar-Based Adaptive Sparse Transformer with Cost-Optimized Positive Sample Selection for 4D Radar Object Detection](https://link.springer.com/article/10.1007/s13177-025-00569-7) | N/A | International Journal of Intelligent Transportation Systems Research | 2025| Solves the limited receptive field of 3D convnets by using a sparse pillar transformer (for long-range context) and addresses poor label assignment by using a novel cross-label head to ensure balanced positive samples. |
@@ -303,6 +305,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Indoor FireRescue Radar: 4D Indoor Millimeter Wave Dataset and Analysis for Hazardous Environment Perception](https://ieeexplore.ieee.org/abstract/document/11246924) | [Dataset](https://huggingface.co/datasets/yysd123/indoor_mmwave) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2025 | Provides the first comprehensive 4D mmWave radar dataset for indoor fire rescue scenarios, featuring diverse environmental conditions and annotated objects to facilitate research in hazardous environment perception. |
 | [RoboDriveVLM: A Novel Benchmark and Baseline towards Robust Vision-Language Models for Autonomous Driving](https://www.arxiv.org/abs/2512.01300) | N/A | arXiv | 2025 | Introduces a comprehensive benchmark (RoboDriveVLM) for evaluating vision-language models in autonomous driving, featuring diverse scenarios and tasks to promote robust multi-modal understanding. |
 | [HENet++: Hybrid Encoding and Multi-task Learning for 3D Perception and End-to-end Autonomous Driving](https://arxiv.org/abs/2511.07106) | [Code](https://github.com/Tsinghua-MARS-Lab/Occ3D) | arXiv | 2025 | Addresses the high computational cost and conflicting feature needs of multi-task 3D perception by using a hybrid encoding scheme (large encoder for recent frames, small encoder for older frames) to efficiently extract both dense and sparse features. |
 | [Layer-Wise Modality Decomposition for Interpretable Multimodal Sensor Fusion](https://arxiv.org/abs/2511.00859) | [Code](https://github.com/detxter-jvb/Layer-Wise-Modality-Decomposition) | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | Addresses the lack of interpretability in multi-sensor fusion models by proposing a post-hoc, model-agnostic method that decomposes the network layer by layer to attribute the final prediction to each individual input modality. |
