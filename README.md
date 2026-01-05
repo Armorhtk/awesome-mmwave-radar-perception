@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **02 January 2026**
+Last Updated: **05 January 2026**
 
 ## Inclusion Criteria
 
@@ -305,6 +305,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems](https://www.arxiv.org/abs/2512.24385) | [Code](https://github.com/worldbench/awesome-spatial-intelligence) | arXiv | 2025 | Addresses the challenge of creating unified spatial understanding in autonomous systems by presenting a comprehensive framework for multi-modal pre-training (camera, LiDAR, etc.), offering a taxonomy of learning strategies, and outlining a roadmap for developing general-purpose foundation models capable of robust "Spatial Intelligence." |
 | [Indoor FireRescue Radar: 4D Indoor Millimeter Wave Dataset and Analysis for Hazardous Environment Perception](https://ieeexplore.ieee.org/abstract/document/11246924) | [Dataset](https://huggingface.co/datasets/yysd123/indoor_mmwave) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2025 | Provides the first comprehensive 4D mmWave radar dataset for indoor fire rescue scenarios, featuring diverse environmental conditions and annotated objects to facilitate research in hazardous environment perception. |
 | [RoboDriveVLM: A Novel Benchmark and Baseline towards Robust Vision-Language Models for Autonomous Driving](https://www.arxiv.org/abs/2512.01300) | N/A | arXiv | 2025 | Introduces a comprehensive benchmark (RoboDriveVLM) for evaluating vision-language models in autonomous driving, featuring diverse scenarios and tasks to promote robust multi-modal understanding. |
 | [HENet++: Hybrid Encoding and Multi-task Learning for 3D Perception and End-to-end Autonomous Driving](https://arxiv.org/abs/2511.07106) | [Code](https://github.com/Tsinghua-MARS-Lab/Occ3D) | arXiv | 2025 | Addresses the high computational cost and conflicting feature needs of multi-task 3D perception by using a hybrid encoding scheme (large encoder for recent frames, small encoder for older frames) to efficiently extract both dense and sparse features. |
