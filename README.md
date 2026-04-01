@@ -66,6 +66,8 @@ This list is curated based on the following standards, in order of priority:
 
 [Browse update briefs](docs/updates/README.md)
 
+Newly added papers in each update can now be browsed in the update briefs under `docs`.
+
 ## 📚 Tutorials
 
 [1] [TI: Radar Toolbox for mmWave Sensors](https://dev.ti.com/tirex/explore/node?isTheia=false&node=A__AE6BJ0XgUrkz8nOyewX3ig__radar_toolbox__1AslXXD__LATEST)
