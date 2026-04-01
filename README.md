@@ -30,6 +30,7 @@ This list is curated based on the following standards, in order of priority:
 
 ## Contents
 
+- [📝 Update Briefs](#-update-briefs)
 - [📚 Tutorials](#-tutorials)
 - [🌐 Radar Foundational Technologies](#-radar-foundational-technologies)
   - [Signal Processing & Parameter Estimation](#signal-processing--parameter-estimation)
@@ -60,6 +61,10 @@ This list is curated based on the following standards, in order of priority:
 - [🔒 Forensics & Privacy Security](#-forensics--privacy-security)
 - [📦 Other Areas](#-other-areas)
 - [🤝 How to Contribute](#-how-to-contribute)
+
+## 📝 Update Briefs
+
+[Browse update briefs](docs/updates/README.md)
 
 ## 📚 Tutorials
 
@@ -173,6 +178,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [STONE Dataset: A Scalable Multi-Modal Surround-View 3D Traversability Dataset for Off-Road Robot Navigation](https://arxiv.org/abs/2603.09175) | [Code](https://github.com/konyul/STONE) | IEEE International Conference on Robotics and Automation (ICRA) | 2026 | Introduces STONE, a large-scale off-road robot-navigation dataset with surround-view RGB, LiDAR, and 4D radar sensing plus annotation-free geometry-aware 3D traversability labels for benchmarking voxel-level perception. |
 | [ReSPEC: A Framework for Online Multispectral Sensor Reconfiguration in Dynamic Environments](https://arxiv.org/abs/2602.10547) | N/A | arXiv | 2026 | Addresses the resource waste and rigidity of static multi-sensor fusion in robotics by proposing ReSPEC, a framework for online multispectral sensor reconfiguration.  It unifies sensing, learning, and actuation into a closed loop where a detection backbone scores the contribution of each modality (RGB, IR, mmWave, depth). A Reinforcement Learning (RL) agent then uses these scores to dynamically adjust sensor configurations—such as sampling frequency and resolution—in real time, successfully reducing GPU load by 29.3% with only a 5.3% accuracy drop on a mobile rover. |
 | [Loosely coupled 4D-Radar-Inertial Odometry for Ground Robots](https://arxiv.org/abs/2411.17289) | [Code](https://github.com/robotics-upo/4D-Radar-Odom) | arXiv | 2025 | Achieves robust ground robot odometry in challenging conditions through loosely-coupled fusion of 4D radar measurements with inertial sensor data. |
 | [Non-Line-of-Sight 3D Object Reconstruction via mmWave Surface Normal Estimation](https://dl.acm.org/doi/10.1145/3711875.3729138) | [Code](https://github.com/signalkinetics/mmNorm) | MobiSys | 2025 | Reconstructs hidden 3D objects by estimating surface normals from mmWave multipath reflections using synthetic aperture radar imaging principles. |
@@ -187,6 +193,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DRIFT: Dual-Representation Inter-Fusion Transformer for Automated Driving Perception with 4D Radar Point Clouds](https://arxiv.org/abs/2603.09695) | N/A | arXiv | 2026 | Improves radar-only automated driving perception by fusing local point features and global pillar context through a dual-path Transformer that boosts 4D radar object detection and free-road estimation on VoD and internal data. |
 | [calibfusion: Transformer-Based Differentiable Calibration for Radar-Camera Fusion Detection in Water-Surface Environments](https://arxiv.org/abs/2603.06670) | N/A | arXiv | 2026 | Improves water-surface radar-camera detection by learning differentiable extrinsic refinement and calibration-conditioned radar projection for robust fusion under misalignment and clutter. |
 | [LITE: Local Isometry-Invariant Topology Encoding for Efficient 3-D Sensing With 4-D Radar Point Clouds](https://ieeexplore.ieee.org/abstract/document/11421534) | N/A | IEEE Transactions on Instrumentation and Measurement | 2026 | Improves 3D radar object detection by encoding local isometry-invariant topology, velocity, and reflectivity cues in sparse 4D radar point clouds for accurate and efficient standalone sensing. |
 | [physfusion: A Transformer-based Dual-Stream Radar and Vision Fusion Framework for Open Water Surface Object Detection](https://arxiv.org/abs/2603.01947) | N/A | arXiv | 2026 | Addresses water-surface object detection by fusing sparse 4D radar and vision through a physics-informed dual-stream Transformer with reliability-aware radar encoding and temporal query aggregation for robust maritime perception. |
@@ -334,6 +341,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RCOC-Distill: Boosting 4D Radar-Camera Online Calibration with Knowledge Distillation from LiDAR Features](https://ieeexplore.ieee.org/abstract/document/11432979) | [Code](https://github.com/Zhuanglong2/RCOC-Distill) | IEEE Transactions on Multimedia | 2026 | Improves 4D radar-camera online calibration by distilling LiDAR-informed cross-modal features into sparse radar representations through local correlation and radar-LiDAR alignment modules for more accurate extrinsic correction. |
 | [Multi-modal Large Language Models for Perception in Autonomous Driving: Architecture, Taxonomy, and Challenges](https://ieeexplore.ieee.org/abstract/document/11411796) | N/A | IEEE Internet of Things Journal | 2026 | Surveys multimodal large language models for autonomous-driving perception by organizing tasks, datasets, architectures, alignment strategies, and scene representations for language-enhanced multi-sensor reasoning. |
 | [RainSense: An Autonomous Driving Environmental Perception Dataset with Rain Intensity Annotations](https://www.sae.org/papers/rainsense-autonomous-driving-environmental-perception-dataset-rain-intensity-annotations-2025-01-7311) | [Dataset](https://github.com/IVtest-Lab/RainSense) | Intelligent and Connected Vehicles Symposium | 2026 | Addresses the lack of detailed natural rainfall datasets by introducing RainSense, a multi-sensor autonomous driving dataset with fine-grained rain intensity annotations.  It provides synchronized camera, LiDAR, and 4D radar data across 728 cases, demonstrating that while heavy rain severely degrades camera and LiDAR perception, radar maintains exceptional stability and resilience. |
 | [MetaOcc: Spatio-Temporal Fusion of Surround-View 4D Radar and Camera for 3D Occupancy Prediction with Dual Training Strategies](https://arxiv.org/abs/2501.15384) | [Code](https://github.com/LucasYang567/MetaOcc) | arXiv | 2025 | Predicts 3D occupancy by fusing surround-view 4D radar and camera through spatio-temporal networks with dual training strategies for improved generalization. |
@@ -514,6 +522,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Millimeter-wave radar heart rate monitoring via time-frequency fusion and composite filtering with ECG alignment](https://link.springer.com/article/10.1007/s11760-026-05237-1) | [Code](https://github.com/seannnnnn1017/radar-heartbeat-detection) | Signal, Image and Video Processing | 2026 | Improves non-contact heart-rate monitoring by combining composite filtering, drift compensation, ECG alignment, FFT, and cepstrum analysis to stabilize mmWave radar estimation under noise and respiratory interference. |
+| [A dataset of 120 GHz millimeter-wave radar vital signals with synchronized reference recordings](https://www.nature.com/articles/s41597-026-07016-6) | [Dataset](https://doi.org/10.21227/wq68-sv85) [Code](https://github.com/Rc-W024/VS_DATASET) | Scientific Data | 2026 | Releases a 120 GHz FMCW radar vital-sign dataset with synchronized ECG, respiration, pulse waveform, and blood-pressure references from 24 subjects to support biomedical radar signal-processing research. |
 | [Autoregressive Models for Fast Breathing Rate Estimation With Distributed Elevated Radars](https://ieeexplore.ieee.org/abstract/document/11408919) | N/A | IEEE Transactions on Radar Systems | 2026 | Improves contactless breathing-rate estimation by combining automatic range-bin selection with fast autoregressive spectral analysis for ceiling-mounted distributed radars in clinically safer, long-distance monitoring setups. |
 | [Toward Continuous and Contactless Cardiac Monitoring: A State-Space Approach With FMCW Radar](https://ieeexplore.ieee.org/abstract/document/11322590) | [Code](https://github.com/XL-Kong/FMCW-Radar-Cardiac-Monitoring-SSM) | IEEE Transactions on Instrumentation and Measurement | 2026 | Addresses the limitations of contact-based ECG by proposing a continuous and contactless cardiac monitoring system using FMCW radar. The system models the heart as a signal generator and the radar as a state observer, utilizing reinforcement learning to optimize state-space matrices for accurate ECG reconstruction. It achieves clinical-grade accuracy (PCC ~0.9, HRV MAE 16.45 ms) on overnight sleep data, overcoming generalization challenges with minimal training. |
 | [A Heart Rate Measurement Model Based on Koopman Predictors With FMCW Radar](https://ieeexplore.ieee.org/abstract/document/11122469) | [Code](https://github.com/licongsheng/HRKNet) | IEEE Transactions on Instrumentation and Measurement | 2025 | Introduces a Koopman theory-based deep model that improves radar heart rate measurement by explicitly separating and processing the signal's time-invariant and time-variant dynamics. |
