@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **2 April 2026**
+Last Updated: **6 April 2026**
 
 ## Inclusion Criteria
 
@@ -351,6 +351,7 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar](https://arxiv.org/abs/2604.00382) | [Code](https://github.com/phillipi/pix2pix) | the 24th ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026) | 2026 | mmWave radar enables human sensing in non-visual scenarios-e.g., through clothing or certain types of walls-where traditional cameras fail due to occlusion or privacy limitations. |
 | [CLRNet: Targetless Extrinsic Calibration for Camera, Lidar and 4D Radar Using Deep Learning](https://arxiv.org/abs/2603.15767) | N/A | arXiv | 2026 | Addresses targetless extrinsic calibration by using deep learning to jointly calibrate camera, LiDAR, and 4D radar sensors without dedicated calibration targets. |
 | [LRC-WeatherNet: LiDAR, RADAR, and Camera Fusion Network for Real-time Weather-type Classification in Autonomous Driving](https://arxiv.org/abs/2603.21987) | [Code](https://github.com/nouralhudaalbashir/LRC-WeatherNet) | arXiv | 2026 | Autonomous vehicles face major perception and navigation challenges in adverse weather such as rain, fog, and snow, which degrade the performance of LiDAR, RADAR, and RGB camera sensors. |
 | [RCOC-Distill: Boosting 4D Radar-Camera Online Calibration with Knowledge Distillation from LiDAR Features](https://ieeexplore.ieee.org/abstract/document/11432979) | [Code](https://github.com/Zhuanglong2/RCOC-Distill) | IEEE Transactions on Multimedia | 2026 | Improves 4D radar-camera online calibration by distilling LiDAR-informed cross-modal features into sparse radar representations through local correlation and radar-LiDAR alignment modules for more accurate extrinsic correction. |
@@ -634,6 +635,7 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Body Area Networks](https://books.google.com/books?hl=zh-CN&lr=&id=-VXNEQAAQBAJ&oi=fnd&pg=PA324&dq=FMCW+github&ots=-xUqIC9bF4&sig=CFuNd2mxOSGzq3wArQrH-9Zn6Us) | N/A | Google Books | 2026 | This two-volume set LNICST 666-667 constitutes the refereed proceedings of the19th EAI International Conference on Body Area Networks, BODYNETS 2024, held in Varanasi, India, during December 15–16, 2024. |
 | [Physically Accurate Differentiable Inverse Rendering for Radio Frequency Digital Twin](https://arxiv.org/abs/2603.18026) | [Project](https://rfdt.witwin.ai/) | arXiv | 2026 | Addresses radio frequency digital twin construction by introducing differentiable inverse rendering for physically accurate RF scene parameter estimation. |
 | [Beam Prediction Based on Multimodal Large Language Models](https://arxiv.org/abs/2603.15093) | [Project](https://le-liang.github.io/mmw/) | IEEE International Conference on Communications (ICC) | 2026 | Addresses proactive beam prediction by using a multimodal large language model that fuses camera and LiDAR context for robust beam selection in dynamic wireless environments. |
 | [DriveEmo-FL: in-cabin radar-based emotion sensing for autonomous vehicles smart response](https://www.nature.com/articles/s41598-026-43662-x) | [Code](https://github.com/naveedimranofficial/DriveEmo) | Scientific Reports | 2026 | Addresses in-cabin emotion sensing by combining micro-Doppler and velocity-time features with federated learning for privacy-preserving radar-based affect recognition in autonomous vehicles. |
