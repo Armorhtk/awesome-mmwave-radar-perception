@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **6 April 2026**
+Last Updated: **10 April 2026**
 
 ## Inclusion Criteria
 
@@ -196,6 +196,9 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR](https://arxiv.org/abs/2604.03685) | [Code](https://github.com/eliahuhorwitz/Academic-project-page-template) | arXiv | 2026 | In this paper, we present DSERT-RoLL, a driving dataset that incorporates stereo event, RGB, and thermal cameras together with 4D radar and dual LiDAR, collected across diverse weather and illumination conditions. |
+| [RAVEN: Radar Adaptive Vision Encoders for Efficient Chirp-wise Object Detection and Segmentation](https://arxiv.org/abs/2604.04490) | [Code](https://github.com/valeoai/RADIal) | Computer Vision and Pattern Recognition Conference 2026 | 2026 | This paper presents RAVEN, a computationally efficient deep learning architecture for FMCW radar perception. |
+| [Multi-Modal Sensor Fusion using Hybrid Attention for Autonomous Driving](https://arxiv.org/abs/2604.04797) | N/A | arXiv | 2026 | Accurate 3D object detection for autonomous driving requires complementary sensors. |
 | [AW-MoE: All-Weather Mixture of Experts for Robust Multi-Modal 3D Object Detection](https://arxiv.org/abs/2603.16261) | [Code](https://github.com/windlinsherlock/AW-MoE) | arXiv | 2026 | Improves all-weather multi-modal 3D object detection by routing weather-specific features through a mixture-of-experts design for robust autonomous-driving perception. |
 | [Towards Accurate 3D Object Detection in Adverse Weather by Leveraging 4D Radar for LiDAR Geometry Enhancement](https://ojs.aaai.org/index.php/AAAI/article/view/37916) | [Code](https://github.com/TongTianxu/REL) | Proceedings of the AAAI Conference on Artificial Intelligence | 2026 | Improves adverse-weather 3D object detection by using 4D radar to enhance LiDAR geometry for more reliable autonomous-driving perception under degraded visibility. |
 | [RadarXFormer: Robust Object Detection via Cross-Dimension Fusion of 4D Radar Spectra and Images for Autonomous Driving](https://arxiv.org/abs/2603.14822) | N/A | arXiv | 2026 | Improves robust object detection by cross-dimension fusion of 4D radar spectra and camera images for autonomous driving under challenging conditions. |
@@ -279,6 +282,7 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Geometrically-Constrained Radar-Inertial Odometry via Continuous Point-Pose Uncertainty Modeling](https://arxiv.org/abs/2604.02745) | [Code](https://github.com/MichaelGrupp/evo) | arXiv | 2026 | Radar odometry is crucial for robust localization in challenging environments; however, the sparsity of reliable returns and distinctive noise characteristics impede its performance. |
 | [Tightly-Coupled Radar-Visual-Inertial Odometry](https://arxiv.org/abs/2603.23052) | [Code](https://github.com/ntnu-arl/radvio) | European Control Conference (ECC) | 2026 | Improves state estimation by tightly coupling radar, vision, and inertial sensing for robust odometry across dark, low-texture, and obscured environments. |
 | [Resilient Multi-Radar Inertial Odometry with Adaptive Bias Correction for Localization in Smoke-Filled Subterranean Environments](https://link.springer.com/article/10.1007/s10846-026-02376-y) | [Code](https://github.com/LTU-RAI/MRIO) | Journal of Intelligent & Robotic Systems | 2026 | Addresses subterranean localization by correcting IMU bias and fusing multiple mmWave radars with inertial data for resilient radar-inertial odometry and mapping in smoke-filled environments. |
 | [Radar-Inertial Odometry with Online Spatio-Temporal Calibration via Continuous-Time IMU Modeling](https://arxiv.org/abs/2603.19958) | [Code](https://github.com/StironjaVlaho/LC-RIO-ET) | arXiv | 2026 | Radar-Inertial Odometry (RIO) has emerged as a robust alternative to vision- and LiDAR-based odometry in challenging conditions such as low light, fog, featureless environments, or in adverse weather. |
@@ -416,6 +420,7 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook](https://arxiv.org/abs/2604.02711) | [Code](https://github.com/zhaxidele/Foundation-Models-Defining-A-New-Era-In-Human-Activity-Recognition) | arXiv | 2026 | Sensor-based Human Activity Recognition (HAR) underpins many ubiquitous and wearable computing applications, yet current models remain limited by scarce labels, sensor heterogeneity, and weak generalization across users, devices, and contexts. |
 | [AceNet: Attention-Guided Context Enhancement for Imbalanced Action Recognition via RF Signals](https://ieeexplore.ieee.org/abstract/document/11408084) | N/A | IEEE Transactions on Mobile Computing | 2026 | Addresses imbalanced RF-based action recognition by combining attention-guided segment selection, hierarchical Transformer context modeling, and feature-space SMOTE refinement to separate semantically similar activities. |
 | [WLMMF-Wireless Multimodal Fusion of mm-Wave Radar and Vision for Real-Time Human Action Recognition (RT-HAR) in Mobile Robotics (MR)](https://www.worldscientific.com/doi/abs/10.1142/S0219843626400062) | N/A | International Journal of Humanoid Robotics | 2026 | Addresses the need for robust Human Action Recognition in mobile robotics by proposing WLMMF, a wireless-aware multimodal fusion framework integrating mmWave radar and vision.  It uniquely embeds channel-state feedback into the fusion process for real-time adaptability, achieving 92% accuracy with sub-50ms latency |
 | [Sparse Spike Encoding of Channel Responses for Energy Efficient Human Activity Recognition](https://arxiv.org/abs/2602.06766) | [Code](https://github.com/ele-ciccia/SCAE-SNN-HAR) | Arivx | 2026 | Addresses edge-device energy constraints in Human Activity Recognition by proposing a Spiking Convolutional Autoencoder (SCAE) jointly trained with an SNN.  It directly encodes Channel Impulse Responses into sparse spike trains, eliminating Doppler preprocessing while achieving a ~96% F1 score and 81.1% sparsity for high energy efficiency. |
