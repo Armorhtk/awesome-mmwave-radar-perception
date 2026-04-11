@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **10 April 2026**
+Last Updated: **11 April 2026**
 
 ## Inclusion Criteria
 
@@ -355,6 +355,7 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Purify-then-Align: Towards Robust Human Sensing under Modality Missing with Knowledge Distillation from Noisy Multimodal Teacher](https://arxiv.org/abs/2604.05584) | [Code](https://github.com/Vongolia11/PTA) | arXiv | 2026 | Robust multimodal human sensing must overcome the critical challenge of missing modalities. |
 | [mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar](https://arxiv.org/abs/2604.00382) | [Code](https://github.com/GaParmar/img2img-turbo) | the 24th ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026) | 2026 | mmWave radar enables human sensing in non-visual scenarios-e.g., through clothing or certain types of walls-where traditional cameras fail due to occlusion or privacy limitations. |
 | [CLRNet: Targetless Extrinsic Calibration for Camera, Lidar and 4D Radar Using Deep Learning](https://arxiv.org/abs/2603.15767) | N/A | arXiv | 2026 | Addresses targetless extrinsic calibration by using deep learning to jointly calibrate camera, LiDAR, and 4D radar sensors without dedicated calibration targets. |
 | [LRC-WeatherNet: LiDAR, RADAR, and Camera Fusion Network for Real-time Weather-type Classification in Autonomous Driving](https://arxiv.org/abs/2603.21987) | [Code](https://github.com/nouralhudaalbashir/LRC-WeatherNet) | arXiv | 2026 | Autonomous vehicles face major perception and navigation challenges in adverse weather such as rain, fog, and snow, which degrade the performance of LiDAR, RADAR, and RGB camera sensors. |
@@ -541,6 +542,7 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Quasi-stationary Slice Detection-Based Robust Respiration Rate Estimation under Large-scale Random Body Movement](https://arxiv.org/abs/2604.05353) | N/A | arXiv | 2026 | Radar-based non-contact respiration rate (RR) measurement has become increasingly popular due to its convenience, non-intrusiveness, and low cost. |
 | [mmWave-Diffusion:A Novel Framework for Respiration Sensing Using Observation-Anchored Conditional Diffusion Model](https://arxiv.org/abs/2603.20700) | [Code](https://github.com/goodluckyongw/mmWave-Diffusion) | ICASSP | 2026 | Improves contactless respiration sensing by using an observation-anchored conditional diffusion model to remove micromotion interference from mmWave radar phase measurements. |
 | [mmJEPA-ECG: Cross-Posture Robust Contactless Electrocardiogram Monitoring via Millimeter Wave Radar Sensing](https://ojs.aaai.org/index.php/AAAI/article/view/41242) | [Code](https://github.com/lanyangyang/mmJEPA-ECG) | Proceedings of the AAAI Conference on Artificial Intelligence | 2026 | Addresses contactless electrocardiogram monitoring by learning cross-posture radar representations with a JEPA-based framework for robust millimeter-wave ECG sensing. |
 | [Millimeter-wave radar heart rate monitoring via time-frequency fusion and composite filtering with ECG alignment](https://link.springer.com/article/10.1007/s11760-026-05237-1) | [Code](https://github.com/seannnnnn1017/radar-heartbeat-detection) | Signal, Image and Video Processing | 2026 | Improves non-contact heart-rate monitoring by combining composite filtering, drift compensation, ECG alignment, FFT, and cepstrum analysis to stabilize mmWave radar estimation under noise and respiratory interference. |
@@ -620,6 +622,7 @@ Newly added papers in each update can now be browsed in the update briefs under 
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Multi-Sensor Datasets of Ultrasonic and mmWave Reflected Signals for Material Classification](https://www.sciencedirect.com/science/article/pii/S2352340926003136) | [Dataset](https://zenodo.org/records/19209067) | www.sciencedirect.com | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Multi-Sensor Datasets of Ultrasonic and mmWave Reflected Signals for Material Classification. |
 | [InspecSafe-V1: A Multimodal Benchmark for Safety Assessment in Industrial Inspection Scenarios](https://arxiv.org/abs/2601.21173) | [Dataset](https://huggingface.co/datasets/Tetrabot2026/InspecSafe-V1) | arXiv | 2026 | Introduces InspecSafe-V1, a comprehensive multimodal dataset (radar, RGB, thermal) for safety assessment in industrial inspection scenarios, along with benchmark models and evaluation protocols to advance research in this domain. |
 | [Omnidirectional Solid-State mmWave Radar Perception for UAV Power Line Collision Avoidance](https://www.arxiv.org/abs/2602.03229) | N/A | ICRA | 2026 | Addresses UAV power line collision risks by proposing a lightweight, omnidirectional mmWave radar system.  It integrates multiple solid-state modules for spherical coverage, enabling reliable detection of wires as thin as 1.2mm at 10m distances and successful avoidance at speeds up to 10m/s. |
 | [CRFusion: Fine-Grained Object Identification Using RF-Image Modality Fusion](https://ieeexplore.ieee.org/document/10835118) | N/A | IEEE Transactions on Mobile Computing | 2025 | Enables fine-grained object identification in industrial settings by fusing RF material signatures with visual appearance for enhanced discrimination. |
