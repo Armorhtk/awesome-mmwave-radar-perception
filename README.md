@@ -28,9 +28,30 @@ This list is curated based on the following standards, in order of priority:
 - **Research Focus:** Articles that explore the intersection of deep learning with mmWave radar perception, presenting novel or interesting ideas, are included even without open-source code.
 - **Timeliness:** The latest relevant publications from top-tier academic conferences and journals are regularly added to keep the list current.
 
+## 🗂️ Paper Explorer
+
+🎉 We finally built a real website! Filter by topic, year, artifact type, or venue — way more fun than Ctrl+F-ing through a 5000-line README.
+
+[![Paper Explorer preview](Resource/Page.png)](https://armorhtk.github.io/awesome-mmwave-radar-perception/)
+
+[**→ Open Paper Explorer**](https://armorhtk.github.io/awesome-mmwave-radar-perception/)
+
+## 📝 Update Briefs
+
+Recent additions:
+
+| Date | Added |
+| :--- | :---: |
+| [Apr 15, 2026](docs/updates/2026-04-15.md) | +2 |
+| [Apr 11, 2026](docs/updates/2026-04-11.md) | +3 |
+| [Apr 10, 2026](docs/updates/2026-04-10.md) | +5 |
+| [Apr 06, 2026](docs/updates/2026-04-06.md) | +2 |
+| [Apr 02, 2026](docs/updates/2026-04-02.md) | +17 |
+
+→ [View full update history](docs/updates/README.md)
+
 ## Contents
 
-- [📝 Update Briefs](#-update-briefs)
 - [📚 Tutorials](#-tutorials)
 - [🌐 Radar Foundational Technologies](#-radar-foundational-technologies)
   - [Signal Processing & Parameter Estimation](#signal-processing--parameter-estimation)
@@ -61,12 +82,6 @@ This list is curated based on the following standards, in order of priority:
 - [🔒 Forensics & Privacy Security](#-forensics--privacy-security)
 - [📦 Other Areas](#-other-areas)
 - [🤝 How to Contribute](#-how-to-contribute)
-
-## 📝 Update Briefs
-
-[Browse update briefs](docs/updates/README.md)
-
-Newly added papers in each update can now be browsed in the update briefs under `docs`.
 
 ## 📚 Tutorials
 
