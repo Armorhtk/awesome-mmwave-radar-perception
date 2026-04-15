@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mmWave Radar Perception — Paper Explorer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --bg-subtle: #f9fafb;
+      --border: #e5e7eb;
+      --border-subtle: #f3f4f6;
+      --text-primary: #111827;
+      --text-secondary: #6b7280;
+      --text-tertiary: #9ca3af;
+      --accent: #2563eb;
+      --accent-hover: #1d4ed8;
+      --code-bg: #f0fdf4;
+      --code-text: #15803d;
+      --dataset-bg: #fffbeb;
+      --dataset-text: #b45309;
+      --project-bg: #f5f3ff;
+      --project-text: #7c3aed;
+      --na-bg: #f3f4f6;
+      --na-text: #9ca3af;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+      font-size: 14px;
+      color: var(--text-primary);
+      background: var(--bg-subtle);
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-logo {
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .header-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+
+    .header-sep {
+      color: var(--border);
+      font-size: 18px;
+      font-weight: 200;
+    }
+
+    .header-sub {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    .header-spacer { flex: 1; }
+
+    .header-badge {
+      font-size: 12px;
+      color: var(--text-tertiary);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+
+    .header-link {
+      font-size: 13px;
+      color: var(--accent);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      transition: background 0.1s;
+    }
+    .header-link:hover { background: var(--bg-subtle); }
+
+    /* ── Layout ── */
+    .layout {
+      display: flex;
+      max-width: 1320px;
+      margin: 0 auto;
+      min-height: calc(100vh - 52px);
+    }
+
+    /* ── Sidebar ── */
+    aside {
+      width: 228px;
+      flex-shrink: 0;
+      background: var(--bg);
+      border-right: 1px solid var(--border);
+      padding: 16px 0 32px;
+      position: sticky;
+      top: 52px;
+      height: calc(100vh - 52px);
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .filter-section {
+      padding: 12px 16px 8px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .filter-section:last-of-type { border-bottom: none; }
+
+    .filter-title {
+      font-size: 10.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--text-tertiary);
+      margin-bottom: 6px;
+    }
+
+    .filter-group-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin: 8px 0 3px;
+    }
+
+    .filter-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 3px 0 3px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .filter-item.top-level { padding-left: 0; }
+    .filter-item:hover { background: var(--bg-subtle); margin: 0 -4px; padding-left: 4px; }
+    .filter-item.top-level:hover { margin: 0 -4px; padding-left: 4px; }
+
+    .filter-item input[type="checkbox"] {
+      width: 13px;
+      height: 13px;
+      cursor: pointer;
+      accent-color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .filter-item label {
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      flex: 1;
+      line-height: 1.3;
+    }
+    .filter-item:hover label { color: var(--text-primary); }
+
+    .filter-count {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      font-variant-numeric: tabular-nums;
+      flex-shrink: 0;
+    }
+
+    .filter-reset {
+      display: block;
+      width: calc(100% - 32px);
+      margin: 12px 16px 0;
+      padding: 7px 0;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.1s;
+    }
+    .filter-reset:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* ── Main ── */
+    main {
+      flex: 1;
+      padding: 20px 28px;
+      min-width: 0;
+    }
+
+    /* ── Search ── */
+    .search-wrap {
+      position: relative;
+      margin-bottom: 14px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 13px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-tertiary);
+      pointer-events: none;
+      display: flex;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 10px 38px 10px 38px;
+      font-size: 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      outline: none;
+      background: var(--bg);
+      color: var(--text-primary);
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37,99,235,0.08);
+    }
+    .search-input::placeholder { color: var(--text-tertiary); }
+
+    .search-clear {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-tertiary);
+      font-size: 18px;
+      line-height: 1;
+      display: none;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+    .search-clear:hover { color: var(--text-primary); background: var(--bg-subtle); }
+    .search-clear.visible { display: block; }
+
+    /* ── Stats bar ── */
+    .stats-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      font-size: 13px;
+      color: var(--text-secondary);
+      min-height: 28px;
+    }
+
+    .stats-count {
+      font-weight: 600;
+      color: var(--text-primary);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stats-dot {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: var(--border);
+      flex-shrink: 0;
+    }
+
+    .active-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      flex: 1;
+    }
+
+    .active-chip {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11.5px;
+      color: var(--accent);
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      padding: 2px 8px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .active-chip:hover { background: #dbeafe; }
+    .active-chip-x { font-size: 13px; line-height: 1; }
+
+    .sort-select {
+      margin-left: auto;
+      font-size: 12.5px;
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 5px 10px;
+      background: var(--bg);
+      cursor: pointer;
+      outline: none;
+      flex-shrink: 0;
+    }
+    .sort-select:focus { border-color: var(--accent); }
+
+    /* ── Paper list ── */
+    .paper-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    /* ── Paper row ── */
+    .paper-row {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: box-shadow 0.12s, border-color 0.12s;
+    }
+    .paper-row:hover { box-shadow: 0 1px 6px rgba(0,0,0,0.07); }
+    .paper-row.expanded { border-color: #c7d7fb; }
+
+    .paper-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .paper-chevron {
+      flex-shrink: 0;
+      width: 15px;
+      height: 15px;
+      color: var(--text-tertiary);
+      transition: transform 0.18s ease;
+    }
+    .paper-row.expanded .paper-chevron {
+      transform: rotate(90deg);
+      color: var(--accent);
+    }
+
+    .paper-title {
+      flex: 1;
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--text-primary);
+      line-height: 1.45;
+      min-width: 0;
+    }
+    .paper-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .paper-title a:hover { color: var(--accent); text-decoration: underline; }
+
+    .paper-meta {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      flex-shrink: 0;
+    }
+
+    .badge-venue {
+      font-size: 11px;
+      color: var(--text-secondary);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+      max-width: 150px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .badge-year {
+      font-size: 11.5px;
+      color: var(--text-tertiary);
+      font-variant-numeric: tabular-nums;
+      width: 32px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .badge-artifact {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+      transition: opacity 0.1s;
+    }
+    .badge-artifact:hover { opacity: 0.8; }
+    .badge-artifact.code     { background: var(--code-bg);    color: var(--code-text); }
+    .badge-artifact.dataset  { background: var(--dataset-bg); color: var(--dataset-text); }
+    .badge-artifact.project  { background: var(--project-bg); color: var(--project-text); }
+    .badge-artifact.baseline { background: var(--project-bg); color: var(--project-text); }
+    .badge-artifact.na       { background: var(--na-bg);      color: var(--na-text); }
+
+    /* ── Expanded body ── */
+    .paper-body {
+      display: none;
+      padding: 2px 14px 14px 39px;
+      border-top: 1px solid var(--border-subtle);
+      animation: slideDown 0.15s ease;
+    }
+    .paper-row.expanded .paper-body { display: block; }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-4px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .paper-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-top: 10px;
+      max-width: 820px;
+    }
+
+    .paper-footer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+
+    .paper-topic-chip {
+      display: inline-flex;
+      align-items: center;
+      font-size: 11px;
+      color: var(--text-tertiary);
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      padding: 2px 9px;
+      border-radius: 4px;
+    }
+
+    .paper-read-link {
+      font-size: 12.5px;
+      color: var(--accent);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .paper-read-link:hover { text-decoration: underline; }
+
+    /* ── Loading / error states ── */
+    .state-overlay {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+      color: var(--text-secondary);
+      font-size: 14px;
+      gap: 12px;
+    }
+    .state-overlay .icon { font-size: 32px; }
+    .spinner {
+      width: 28px;
+      height: 28px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── No results ── */
+    .no-results {
+      display: none;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-secondary);
+    }
+    .no-results-icon { font-size: 36px; margin-bottom: 14px; }
+    .no-results-text { font-size: 14px; line-height: 1.8; }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="header-logo">📡</span>
+  <span class="header-title">mmWave Radar Perception</span>
+  <span class="header-sep">|</span>
+  <span class="header-sub">Paper Explorer</span>
+  <div class="header-spacer"></div>
+  <span class="header-badge" id="total-badge">Loading…</span>
+  <a class="header-link" href="https://github.com/Armorhtk/awesome-mmwave-radar-perception#readme" target="_blank">
+    ↗ View README
+  </a>
+</header>
+
+<div class="layout">
+  <!-- Sidebar -->
+  <aside>
+    <div class="filter-section">
+      <div class="filter-title">Domain</div>
+      <div id="domain-filters"></div>
+    </div>
+    <div class="filter-section">
+      <div class="filter-title">Year</div>
+      <div id="year-filters"></div>
+    </div>
+    <div class="filter-section">
+      <div class="filter-title">Artifact</div>
+      <div id="artifact-filters"></div>
+    </div>
+    <div class="filter-section">
+      <div class="filter-title">Venue</div>
+      <div id="venue-filters"></div>
+    </div>
+    <button class="filter-reset" onclick="resetFilters()">↺ Reset filters</button>
+  </aside>
+
+  <!-- Main -->
+  <main>
+    <div class="search-wrap">
+      <span class="search-icon">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </span>
+      <input type="text" class="search-input" id="search-input"
+             placeholder="Search titles and summaries…" oninput="onSearch(this)">
+      <button class="search-clear" id="search-clear" onclick="clearSearch()" title="Clear search">×</button>
+    </div>
+
+    <div class="stats-bar">
+      <span>Showing <span class="stats-count" id="result-count">0</span> papers</span>
+      <span class="stats-dot"></span>
+      <div class="active-filters" id="active-filters"></div>
+      <select class="sort-select" id="sort-select" onchange="render()">
+        <option value="year-desc">Newest first</option>
+        <option value="year-asc">Oldest first</option>
+        <option value="title-asc">Title A–Z</option>
+      </select>
+    </div>
+
+    <div id="loading-state" class="state-overlay">
+      <div class="spinner"></div>
+      <span>Loading papers…</span>
+    </div>
+    <div id="error-state" class="state-overlay" style="display:none">
+      <span class="icon">⚠️</span>
+      <span id="error-msg">Failed to load papers.</span>
+    </div>
+    <div class="paper-list" id="paper-list" style="display:none"></div>
+    <div class="no-results" id="no-results">
+      <div class="no-results-icon">🔍</div>
+      <div class="no-results-text">
+        No papers match your filters.<br>
+        Try adjusting your search terms or clearing some filters.
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+// ─── Data (populated by fetch) ────────────────────────────────────────────────
+let PAPERS = [];
+let TOPIC_META = {};
+
+function buildTopicMeta(taxonomy) {
+  TOPIC_META = {};
+  for (const t of taxonomy) {
+    TOPIC_META[t.topic_id] = { label: t.label, parent: t.parent_label };
+  }
+}
+
+// ─── Venue classification ─────────────────────────────────────────────────────
+const TOP_CONF_KEYWORDS = [
+  "CVPR","NeurIPS","ICCV","ICRA","IROS","MobiCom","MobiSys","SenSys",
+  "AAAI","ECCV","ICASSP","ICLR","NSDI","SIGCOMM","IMC","NDSS","CCS",
+  "USENIX","INFOCOM","CHI","KDD","WWW","RadarConf","Asilomar","MedComNet",
+  "EGUGA","BODYNETS",
+];
+function venueType(pub) {
+  if (!pub) return "conference";
+  if (pub.toLowerCase().includes("arxiv")) return "arxiv";
+  const u = pub.toUpperCase();
+  if (TOP_CONF_KEYWORDS.some(k => u.includes(k))) return "conference";
+  if (["TRANSACTION","JOURNAL","LETTERS","NATURE","SCIENCE","PATTERN",
+       "REMOTE SENSING","SCIENTIFIC","SENSORS","ELECTRONICS","INFORMATION FUSION",
+       "ICT EXPRESS"].some(k => u.includes(k))) return "journal";
+  return "conference";
+}
+
+const VENUE_SHORT = {
+  "IEEE Transactions on Mobile Computing": "IEEE TMC",
+  "IEEE Internet of Things Journal": "IEEE IoT J",
+  "IEEE Robotics and Automation Letters": "IEEE RA-L",
+  "IEEE Transactions on Radar Systems": "IEEE TRS",
+  "IEEE Transactions on Aerospace and Electronic Systems": "IEEE TAES",
+  "IEEE Transactions on Instrumentation and Measurement": "IEEE TIM",
+  "IEEE Sensors Journal": "IEEE Sensors J",
+  "IEEE Transactions on Intelligent Transportation Systems": "IEEE TITS",
+  "IEEE Transactions on Circuits and Systems for Video Technology": "IEEE TCSVT",
+  "IEEE Transactions on Wireless Communications": "IEEE TWC",
+  "IEEE Transactions on Geoscience and Remote Sensing": "IEEE TGRS",
+  "IEEE Transactions on Antennas and Propagation": "IEEE TAP",
+  "IEEE Transactions on Vehicular Technology": "IEEE TVT",
+  "IEEE Transactions on Pattern Analysis and Machine Intelligence": "IEEE TPAMI",
+  "Nature Communications Engineering": "Nat. Comm. Eng.",
+  "Nature Communications": "Nature Comm.",
+  "Information Fusion": "Info. Fusion",
+  "Scientific Reports": "Sci. Reports",
+  "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies": "IMWUT",
+  "ACM Transactions on Sensor Networks": "ACM TOSN",
+  "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)": "CVPR",
+  "Conference on Neural Information Processing Systems (NeurIPS)": "NeurIPS",
+  "IEEE International Conference on Computer Vision (ICCV)": "ICCV",
+  "IEEE International Conference on Robotics and Automation (ICRA)": "ICRA",
+  "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)": "IROS",
+  "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)": "ICASSP",
+  "ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)": "MobiSys",
+  "Proceedings of Machine Learning Research (PMLR)": "PMLR",
+  "Proceedings of the AAAI Conference on Artificial Intelligence": "AAAI",
+  "ACM International Conference on Multimedia": "ACM MM",
+  "IEEE International Conference on Intelligent Transportation Systems (ITSC)": "ITSC",
+  "IEEE Intelligent Vehicles Symposium (IV)": "IEEE IV",
+  "ACM International Conference on Mobile Computing and Networking (MobiCom)": "MobiCom",
+  "ACM Conference on Embedded Networked Sensor Systems (SenSys)": "SenSys",
+  "Remote Sensing": "Remote Sens.",
+  "IEEE Geoscience and Remote Sensing Magazine": "IEEE GRSM",
+  "Journal of Radars": "J. Radars",
+  "Data in Brief": "Data Brief",
+  "GetMobile: Mobile Computing and Communications": "GetMobile",
+  "Autonomous Robots": "Auton. Robots",
+};
+function shortVenue(pub) { return VENUE_SHORT[pub] || pub || "—"; }
+
+// ─── State ───────────────────────────────────────────────────────────────────
+const state = { search:"", domains:new Set(), years:new Set(), artifacts:new Set(), venues:new Set() };
+
+// ─── Filter counting (uses papers.json field names) ───────────────────────────
+function countPapers(key, value) {
+  return PAPERS.filter(p => {
+    if (key === "domain")   return p.topic_id === value;
+    if (key === "year")     return p.year === value;
+    if (key === "artifact") return p.artifact_label === value;
+    if (key === "venue")    return venueType(p.publication) === value;
+    return false;
+  }).length;
+}
+
+// ─── Build sidebar filters ────────────────────────────────────────────────────
+function buildFilters() {
+  // Domain (grouped by parent)
+  const groups = {};
+  for (const [tid, meta] of Object.entries(TOPIC_META)) {
+    const p = meta.parent || "__root__";
+    if (!groups[p]) groups[p] = [];
+    groups[p].push({ tid, label: meta.label });
+  }
+  const domEl = document.getElementById("domain-filters");
+  for (const [group, items] of Object.entries(groups)) {
+    if (group !== "__root__") {
+      const g = document.createElement("div");
+      g.className = "filter-group-label";
+      g.textContent = group;
+      domEl.appendChild(g);
+    }
+    for (const { tid, label } of items) {
+      const cnt = countPapers("domain", tid);
+      if (!cnt) continue;
+      const d = document.createElement("div");
+      d.className = "filter-item" + (group === "__root__" ? " top-level" : "");
+      d.innerHTML = `<input type="checkbox" id="fd-${tid}" value="${tid}" onchange="toggle('domains','${tid}')"><label for="fd-${tid}">${label}</label><span class="filter-count">${cnt}</span>`;
+      domEl.appendChild(d);
+    }
+  }
+
+  // Year
+  const yrs = [...new Set(PAPERS.map(p => p.year))].filter(Boolean).sort((a,b) => b-a);
+  const yrEl = document.getElementById("year-filters");
+  yrs.forEach(y => {
+    const cnt = countPapers("year", y);
+    const d = document.createElement("div");
+    d.className = "filter-item top-level";
+    d.innerHTML = `<input type="checkbox" id="fy-${y}" value="${y}" onchange="toggle('years',${y},true)"><label for="fy-${y}">${y}</label><span class="filter-count">${cnt}</span>`;
+    yrEl.appendChild(d);
+  });
+
+  // Artifact
+  const arts = ["Code","Dataset","Project","Baseline","N/A"];
+  const artEl = document.getElementById("artifact-filters");
+  arts.forEach(a => {
+    const cnt = countPapers("artifact", a);
+    if (!cnt) return;
+    const d = document.createElement("div");
+    d.className = "filter-item top-level";
+    d.innerHTML = `<input type="checkbox" id="fa-${a}" value="${a}" onchange="toggle('artifacts','${a}')"><label for="fa-${a}">${a==="N/A"?"No artifact":a}</label><span class="filter-count">${cnt}</span>`;
+    artEl.appendChild(d);
+  });
+
+  // Venue
+  const venueItems = [
+    { key:"conference", label:"Conference" },
+    { key:"journal",    label:"Journal" },
+    { key:"arxiv",      label:"arXiv (preprint)" },
+  ];
+  const vEl = document.getElementById("venue-filters");
+  venueItems.forEach(({ key, label }) => {
+    const cnt = countPapers("venue", key);
+    if (!cnt) return;
+    const d = document.createElement("div");
+    d.className = "filter-item top-level";
+    d.innerHTML = `<input type="checkbox" id="fv-${key}" value="${key}" onchange="toggle('venues','${key}')"><label for="fv-${key}">${label}</label><span class="filter-count">${cnt}</span>`;
+    vEl.appendChild(d);
+  });
+}
+
+// ─── Toggle filter ────────────────────────────────────────────────────────────
+function toggle(key, val, asNum=false) {
+  const v = asNum ? Number(val) : val;
+  state[key].has(v) ? state[key].delete(v) : state[key].add(v);
+  render();
+}
+
+// ─── Get filtered + sorted papers (uses papers.json field names) ──────────────
+function getFiltered() {
+  const q = state.search.toLowerCase();
+  return PAPERS.filter(p => {
+    if (q && !p.title.toLowerCase().includes(q) && !p.summary.toLowerCase().includes(q)) return false;
+    if (state.domains.size   && !state.domains.has(p.topic_id))                  return false;
+    if (state.years.size     && !state.years.has(p.year))                        return false;
+    if (state.artifacts.size && !state.artifacts.has(p.artifact_label))          return false;
+    if (state.venues.size    && !state.venues.has(venueType(p.publication)))     return false;
+    return true;
+  });
+}
+
+// ─── Render ───────────────────────────────────────────────────────────────────
+function render() {
+  const sort = document.getElementById("sort-select").value;
+  let filtered = getFiltered();
+  if (sort === "year-desc") filtered.sort((a,b) => b.year - a.year || a.title.localeCompare(b.title));
+  else if (sort === "year-asc") filtered.sort((a,b) => a.year - b.year || a.title.localeCompare(b.title));
+  else filtered.sort((a,b) => a.title.localeCompare(b.title));
+
+  // Preserve expanded rows
+  const listEl  = document.getElementById("paper-list");
+  const expanded = new Set([...listEl.querySelectorAll(".paper-row.expanded")].map(el => el.dataset.id));
+
+  document.getElementById("result-count").textContent = filtered.length;
+  document.getElementById("no-results").style.display = filtered.length ? "none" : "block";
+
+  // Active filter chips
+  const chipEl = document.getElementById("active-filters");
+  chipEl.innerHTML = "";
+  const addChip = (label, clearFn) => {
+    const c = document.createElement("span");
+    c.className = "active-chip";
+    c.innerHTML = `${label}<span class="active-chip-x">×</span>`;
+    c.onclick = clearFn;
+    chipEl.appendChild(c);
+  };
+  if (state.search) addChip(`"${state.search}"`, clearSearch);
+  state.domains.forEach(d   => addChip(TOPIC_META[d]?.label || d,   () => { state.domains.delete(d);   document.getElementById(`fd-${d}`).checked=false;   render(); }));
+  state.years.forEach(y     => addChip(y,                           () => { state.years.delete(y);     document.getElementById(`fy-${y}`).checked=false;   render(); }));
+  state.artifacts.forEach(a => addChip(a==="N/A"?"No artifact":a,   () => { state.artifacts.delete(a); document.getElementById(`fa-${a}`).checked=false;   render(); }));
+  state.venues.forEach(v    => addChip({conference:"Conference",journal:"Journal",arxiv:"arXiv"}[v]||v, () => { state.venues.delete(v); document.getElementById(`fv-${v}`).checked=false; render(); }));
+
+  if (!filtered.length) { listEl.innerHTML = ""; return; }
+
+  listEl.innerHTML = filtered.map(p => {
+    const isExp = expanded.has(p.id);
+    const meta  = TOPIC_META[p.topic_id];
+    const topicStr = meta ? (meta.parent ? `${meta.parent} › ${meta.label}` : meta.label) : p.topic_id;
+
+    let artifactHtml;
+    if (p.artifact_label !== "N/A" && p.artifact_url) {
+      const cls = p.artifact_label.toLowerCase();
+      artifactHtml = `<a href="${p.artifact_url}" class="badge-artifact ${cls}" target="_blank" onclick="event.stopPropagation()" title="${p.artifact_label}">${p.artifact_label}<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>`;
+    } else {
+      artifactHtml = `<span class="badge-artifact na">No code</span>`;
+    }
+
+    return `<div class="paper-row${isExp?" expanded":""}" data-id="${p.id}" onclick="toggleRow(this)">
+  <div class="paper-header">
+    <svg class="paper-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    <span class="paper-title"><a href="${p.url}" target="_blank" onclick="event.stopPropagation()">${p.title}</a></span>
+    <div class="paper-meta">
+      <span class="badge-venue" title="${p.publication}">${shortVenue(p.publication)}</span>
+      <span class="badge-year">${p.year ?? "—"}</span>
+      ${artifactHtml}
+    </div>
+  </div>
+  <div class="paper-body">
+    <p class="paper-summary">${p.summary}</p>
+    <div class="paper-footer">
+      <span class="paper-topic-chip">${topicStr}</span>
+      <a class="paper-read-link" href="${p.url}" target="_blank" onclick="event.stopPropagation()">Read paper ↗</a>
+    </div>
+  </div>
+</div>`;
+  }).join("");
+}
+
+function toggleRow(el) { el.classList.toggle("expanded"); }
+
+function onSearch(input) {
+  state.search = input.value.trim();
+  document.getElementById("search-clear").classList.toggle("visible", !!state.search);
+  render();
+}
+
+function clearSearch() {
+  document.getElementById("search-input").value = "";
+  state.search = "";
+  document.getElementById("search-clear").classList.remove("visible");
+  render();
+}
+
+function resetFilters() {
+  state.search = ""; state.domains.clear(); state.years.clear(); state.artifacts.clear(); state.venues.clear();
+  document.getElementById("search-input").value = "";
+  document.getElementById("search-clear").classList.remove("visible");
+  document.querySelectorAll("input[type='checkbox']").forEach(cb => cb.checked = false);
+  render();
+}
+
+// ─── Init: fetch papers.json, then build UI ───────────────────────────────────
+async function init() {
+  try {
+    const resp = await fetch('papers.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} — could not load papers.json`);
+    const data = await resp.json();
+    PAPERS = data.papers;
+    buildTopicMeta(data.taxonomy);
+    document.getElementById('total-badge').textContent = `${data.meta.total} papers`;
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('paper-list').style.display = 'flex';
+    buildFilters();
+    render();
+  } catch (err) {
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('error-state').style.display = 'flex';
+    document.getElementById('error-msg').textContent = err.message;
+  }
+}
+
+init();
+</script>
+</body>
+</html>
