@@ -28,27 +28,65 @@ This list is curated based on the following standards, in order of priority:
 - **Research Focus:** Articles that explore the intersection of deep learning with mmWave radar perception, presenting novel or interesting ideas, are included even without open-source code.
 - **Timeliness:** The latest relevant publications from top-tier academic conferences and journals are regularly added to keep the list current.
 
-## 🗂️ Paper Explorer
+## 🗂️ Paper Explorer & Update Briefs
 
-🎉 We finally built a real website! Filter by topic, year, artifact type, or venue — way more fun than Ctrl+F-ing through a 5000-line README.
-
-[![Paper Explorer preview](Resource/Page.png)](https://armorhtk.github.io/awesome-mmwave-radar-perception/)
-
-[**→ Open Paper Explorer**](https://armorhtk.github.io/awesome-mmwave-radar-perception/)
-
-## 📝 Update Briefs
-
-Recent additions:
-
-| Date | Added |
-| :--- | :---: |
-| [Apr 15, 2026](docs/updates/2026-04-15.md) | +2 |
-| [Apr 11, 2026](docs/updates/2026-04-11.md) | +3 |
-| [Apr 10, 2026](docs/updates/2026-04-10.md) | +5 |
-| [Apr 06, 2026](docs/updates/2026-04-06.md) | +2 |
-| [Apr 02, 2026](docs/updates/2026-04-02.md) | +17 |
-
-→ [View full update history](docs/updates/README.md)
+<table>
+  <tr>
+    <td width="66%" valign="top">
+      <h3>🗂️ Paper Explorer</h3>
+      <p>🎉 We finally built a real website! Filter by topic, year, artifact type, or venue — way more fun than Ctrl+F-ing through a 5000-line README.</p>
+      <p>
+        <a href="https://armorhtk.github.io/awesome-mmwave-radar-perception/">
+          <img src="Resource/Page.png" alt="Paper Explorer preview" />
+        </a>
+      </p>
+      <p><a href="https://armorhtk.github.io/awesome-mmwave-radar-perception/"><strong>→ Open Paper Explorer</strong></a></p>
+    </td>
+    <td width="34%" valign="top">
+      <h3>Update Briefs</h3>
+      <p>Recent additions:</p>
+      <table>
+        <thead>
+          <tr>
+            <th align="left">Date</th>
+            <th align="center">Added</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="docs/updates/2026-04-15.md">Apr 15, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-04-11.md">Apr 11, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-04-10.md">Apr 10, 2026</a></td>
+            <td align="center">+5</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-04-06.md">Apr 06, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-04-02.md">Apr 02, 2026</a></td>
+            <td align="center">+17</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-04-01.md">Apr 01, 2026</a></td>
+            <td align="center">+26</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-03-31.md">Mar 31, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><a href="docs/updates/README.md"><strong>→ View full update history</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Contents
 
