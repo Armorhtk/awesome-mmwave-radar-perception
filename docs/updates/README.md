@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-04-15](2026-04-15.md) | 2 | 📦 Other Areas, Vital Signs & Biometric Identification | Added 2 papers across 2 topics. |
 | [2026-04-11](2026-04-11.md) | 3 | 🏭 Industrial Areas, Sensor Fusion Techniques, Vital Signs & Biometric Identification | Added 3 papers across 3 topics. |
 | [2026-04-10](2026-04-10.md) | 5 | 3D Object Detection & Classification, Radar Odometry & Ego-Motion Estimation, Human Activity Recognition (HAR) | Added 5 papers across 3 topics. |
 | [2026-04-06](2026-04-06.md) | 2 | 📦 Other Areas, Sensor Fusion Techniques | Added 2 papers across 2 topics. |
