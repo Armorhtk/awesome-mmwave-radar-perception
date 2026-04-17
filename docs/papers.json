@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 466,
-    "generated_at": "2026-04-15T12:08:49Z"
+    "total": 471,
+    "generated_at": "2026-04-17T06:45:18Z"
   },
   "taxonomy": [
     {
@@ -5281,6 +5281,61 @@
       "artifact_url": null,
       "topic_id": "other-areas",
       "summary": "Proposes a knowledge-driven generative communication framework that tokenizes multimodal sensing data for efficient semantic transmission."
+    },
+    {
+      "id": "arxiv:2604.10183",
+      "title": "RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling",
+      "url": "https://arxiv.org/abs/2604.10183",
+      "publication": "arXiv",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/aiot-lab/RF-LEGO",
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Co-designs modular signal-processing and deep-learning blocks for RF sensing via deep unrolling."
+    },
+    {
+      "id": "doi:10.1145/3772318.3790631",
+      "title": "FeelWave: Enabling Emotion-Aware Voice Interaction through Noise-Robust mmWave Emotion Sensing",
+      "url": "https://dl.acm.org/doi/full/10.1145/3772318.3790631",
+      "publication": "dl.acm.org",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/n2my/FeelWave",
+      "topic_id": "other-areas",
+      "summary": "Enables emotion-aware voice interaction by using mmWave sensing to infer emotion robustly under acoustic noise."
+    },
+    {
+      "id": "doi:10.1145/3772318.3790623",
+      "title": "FlowGait: Enabling Robust Long-Term Gait Recognition Across Real-World Covariates with mmWave Radar",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3772318.3790623",
+      "publication": "dl.acm.org",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/DQ-WDQ/FlowGait",
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
+      "summary": "Addresses long-term mmWave radar gait recognition across real-world covariates for robust identity recognition."
+    },
+    {
+      "id": "arxiv:2604.09411",
+      "title": "SynFlow: Scaling Up LiDAR Scene Flow Estimation with Synthetic Data",
+      "url": "https://arxiv.org/abs/2604.09411",
+      "publication": "arXiv",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Kin-Zhang/SynFlow",
+      "topic_id": "autonomous-driving-drone__scene-flow-motion-prediction",
+      "summary": "Reliable 3D dynamic perception requires models that can anticipate motion beyond predefined categories, yet progress is hindered by the scarcity of dense, high-quality motion annotations."
+    },
+    {
+      "id": "arxiv:2604.09115",
+      "title": "\"Take Me Home, Wi-Fi Drone\": A Drone-based Wireless System for Wilderness Search and Rescue",
+      "url": "https://arxiv.org/abs/2604.09115",
+      "publication": "In The 32nd Annual International Conference on Mobile Computing and Networking (MobiCom '26)",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/aiot-lab/Wi2SAR",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Wilderness Search and Rescue (WiSAR) represents a longstanding and critical societal challenge, demanding innovative and automatic technological solutions."
     }
   ]
 }

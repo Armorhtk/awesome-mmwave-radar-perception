@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-17.md">Apr 17, 2026</a></td>
+            <td align="center">+5</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-15.md">Apr 15, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-01.md">Apr 01, 2026</a></td>
             <td align="center">+26</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-03-31.md">Mar 31, 2026</a></td>
-            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
