@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **15 April 2026**
+Last Updated: **17 April 2026**
 
 ## Inclusion Criteria
 
@@ -140,6 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://arxiv.org/abs/2604.10183) | [Code](https://github.com/aiot-lab/RF-LEGO) | arXiv | 2026 | Co-designs modular signal-processing and deep-learning blocks for RF sensing via deep unrolling. |
 | [AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception](https://arxiv.org/abs/2603.17979) | [Code](https://github.com/jp4327/adaradar) | arXiv | 2026 | Radar is a critical perception modality in autonomous driving systems due to its all-weather characteristics and ability to measure range and Doppler velocity. |
 | [Attention-Based Neural-Augmented Kalman Filter for Legged Robot State Estimation](https://arxiv.org/abs/2601.18569) | [Code](https://seokju-lee.github.io/attennkf/) | IEEE Robotics and Automation Letters (RA-L) | 2026 | Addresses the state estimation errors caused by foot slip in legged robots by proposing an Attention-Based Neural-Augmented Kalman Filter (AttenNKF). This method augments an Invariant Extended Kalman Filter (InEKF) with a neural compensator that uses an attention mechanism to infer slip-induced errors and apply post-update compensation. The compensator operates in a latent space to reduce sensitivity and ensure structured corrections, significantly improving performance under slip-prone conditions. |
 | [Direction of Arrival Estimation with Virtual Antenna Array Using FMCW Radar Simulated Data](https://arxiv.org/abs/2508.07513) | [Code](https://github.com/ekurtgl/FMCW-MIMO-Radar-Simulation) | arXiv | 2025 | Addresses the underutilization of velocity information in raw radar data by introducing a plug-and-play 'Doppler Former' module designed to explicitly extract Doppler features and boost perception model performance. |
@@ -324,6 +325,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [SynFlow: Scaling Up LiDAR Scene Flow Estimation with Synthetic Data](https://arxiv.org/abs/2604.09411) | [Code](https://github.com/Kin-Zhang/SynFlow) | arXiv | 2026 | Reliable 3D dynamic perception requires models that can anticipate motion beyond predefined categories, yet progress is hindered by the scarcity of dense, high-quality motion annotations. |
 | [DoGFlow: Self-Supervised LiDAR Scene Flow via Cross-Modal Doppler Guidance](https://arxiv.org/abs/2505.06056) | [Project](https://ajinkyakhoche.github.io/DogFlow/) | arXiv | 2025 | Overcomes the bottleneck of manual annotation for LiDAR scene flow by using a self-supervised method that generates pseudo-labels from radar Doppler measurements, significantly improving performance and data efficiency. |
 | [Self-Supervised Diffusion-Based Scene Flow Estimation and Motion Segmentation with 4D Radar](https://ieeexplore.ieee.org/document/10974572) | [Code](https://github.com/nubot-nudt/RadarSFEMOS) | IRAL | 2025 | Estimates scene flow and segments moving objects from 4D radar using self-supervised diffusion models that learn motion patterns without manual annotations. |
 | [RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving](https://arxiv.org/abs/2511.12117) | [Code](https://github.com/chengrui7/RadarMP) | arXiv | 2025 | Addresses the imprecision of decoupled motion perception in sparse radar data by using a unified architecture that jointly models detection and scene flow from low-level echoes, leveraging Doppler-guided self-supervision to eliminate the need for annotations. |
@@ -408,6 +410,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| ["Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue](https://arxiv.org/abs/2604.09115) | [Code](https://github.com/aiot-lab/Wi2SAR) | In The 32nd Annual International Conference on Mobile Computing and Networking (MobiCom '26) | 2026 | Wilderness Search and Rescue (WiSAR) represents a longstanding and critical societal challenge, demanding innovative and automatic technological solutions. |
 | [Purify-then-Align: Towards Robust Human Sensing under Modality Missing with Knowledge Distillation from Noisy Multimodal Teacher](https://arxiv.org/abs/2604.05584) | [Code](https://github.com/Vongolia11/PTA) | arXiv | 2026 | Robust multimodal human sensing must overcome the critical challenge of missing modalities. |
 | [mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar](https://arxiv.org/abs/2604.00382) | [Code](https://github.com/GaParmar/img2img-turbo) | the 24th ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026) | 2026 | mmWave radar enables human sensing in non-visual scenarios-e.g., through clothing or certain types of walls-where traditional cameras fail due to occlusion or privacy limitations. |
 | [CLRNet: Targetless Extrinsic Calibration for Camera, Lidar and 4D Radar Using Deep Learning](https://arxiv.org/abs/2603.15767) | N/A | arXiv | 2026 | Addresses targetless extrinsic calibration by using deep learning to jointly calibrate camera, LiDAR, and 4D radar sensors without dedicated calibration targets. |
@@ -652,6 +655,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [FlowGait: Enabling Robust Long-Term Gait Recognition Across Real-World Covariates with mmWave Radar](https://dl.acm.org/doi/pdf/10.1145/3772318.3790623) | [Code](https://github.com/DQ-WDQ/FlowGait) | dl.acm.org | 2026 | Addresses long-term mmWave radar gait recognition across real-world covariates for robust identity recognition. |
 | [A Cross Gait Dual-Stream Network with Multi-Period Modeling for Gait Recognition Based on Millimeter-Wave Radar Signals](https://ieeexplore.ieee.org/abstract/document/11434895) | [Code](https://github.com/SunZ-Y/CGDS) | IEEE Sensors Journal | 2026 | Addresses radar-based gait recognition by using a dual-stream network with multi-period modeling to capture complementary temporal patterns from millimeter-wave radar signals for identity-aware recognition. |
 | [Activity recognition and user identification using mmWave radar with a shared-backbone graph network and task-specific heads](https://www.sciencedirect.com/science/article/pii/S240595952600024X) | [Code](https://github.com/junyongeom/mmActId) | ICT Express | 2026 | Addresses the underexplored area of joint activity recognition and user identification from wireless signals by proposing a dual-task graph model for mmWave FMCW radar point-cloud sequences.  It utilizes a shared graph neural backbone to extract spatial-temporal node embeddings from directed graphs, and employs task-specific heads to aggregate them for classification, achieving performance comparable to single-task baselines with low-latency inference. |
 | [Through-Wall Cross-Domain User Identification via Lip Movement Micro-Doppler and MIMO Radar: an Unsupervised Domain Adaptation Approach](https://ieeexplore.ieee.org/abstract/document/11153694) | [Code](https://github.com/KaiYCode/Lip-TWCDID) | IEEE Transactions on Mobile Computing | 2025 | Achieves through-wall user identification by detecting lip movement micro-Doppler with MIMO radar and using domain adaptation across environments. |
@@ -697,6 +701,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [FeelWave: Enabling Emotion-Aware Voice Interaction through Noise-Robust mmWave Emotion Sensing](https://dl.acm.org/doi/full/10.1145/3772318.3790631) | [Code](https://github.com/n2my/FeelWave) | dl.acm.org | 2026 | Enables emotion-aware voice interaction by using mmWave sensing to infer emotion robustly under acoustic noise. |
 | [From Bits to Tokens: Knowledge-Driven Generative Communication of Multimodal Data](https://xyzhang.ucsd.edu/papers/Xingyu.Chen_NSDI26_KDC.pdf) | N/A | NSDI 2026 | 2026 | Proposes a knowledge-driven generative communication framework that tokenizes multimodal sensing data for efficient semantic transmission. |
 | [Body Area Networks](https://books.google.com/books?hl=zh-CN&lr=&id=-VXNEQAAQBAJ&oi=fnd&pg=PA324&dq=FMCW+github&ots=-xUqIC9bF4&sig=CFuNd2mxOSGzq3wArQrH-9Zn6Us) | [Code](https://github.com/IoBT-VISTEC/SleepPoseNet) | Google Books | 2026 | This two-volume set LNICST 666-667 constitutes the refereed proceedings of the19th EAI International Conference on Body Area Networks, BODYNETS 2024, held in Varanasi, India, during December 15–16, 2024. |
 | [Physically Accurate Differentiable Inverse Rendering for Radio Frequency Digital Twin](https://arxiv.org/abs/2603.18026) | [Project](https://rfdt.witwin.ai/) | arXiv | 2026 | Addresses radio frequency digital twin construction by introducing differentiable inverse rendering for physically accurate RF scene parameter estimation. |
