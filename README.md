@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **17 April 2026**
+Last Updated: **19 April 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-19.md">Apr 19, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-17.md">Apr 17, 2026</a></td>
             <td align="center">+5</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-02.md">Apr 02, 2026</a></td>
             <td align="center">+17</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-01.md">Apr 01, 2026</a></td>
-            <td align="center">+26</td>
           </tr>
         </tbody>
       </table>
@@ -701,6 +701,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Advancing Network Digital Twin Framework for Generating Realistic Datasets](https://arxiv.org/abs/2604.12888) | N/A | arXiv | 2026 | The integration of accurate and reproducible wireless network simulations is a key enabler for research on open, virtualized, and intelligent communication systems. |
+| [VULCAN: Vision-Language-Model Enhanced Multi-Agent Cooperative Navigation for Indoor Fire-Disaster Response](https://arxiv.org/abs/2604.12831) | N/A | arXiv | 2026 | Indoor fire disasters pose severe challenges to autonomous search and rescue due to dense smoke, high temperatures, and dynamically evolving indoor environments. |
 | [FeelWave: Enabling Emotion-Aware Voice Interaction through Noise-Robust mmWave Emotion Sensing](https://dl.acm.org/doi/full/10.1145/3772318.3790631) | [Code](https://github.com/n2my/FeelWave) | dl.acm.org | 2026 | Enables emotion-aware voice interaction by using mmWave sensing to infer emotion robustly under acoustic noise. |
 | [From Bits to Tokens: Knowledge-Driven Generative Communication of Multimodal Data](https://xyzhang.ucsd.edu/papers/Xingyu.Chen_NSDI26_KDC.pdf) | N/A | NSDI 2026 | 2026 | Proposes a knowledge-driven generative communication framework that tokenizes multimodal sensing data for efficient semantic transmission. |
 | [Body Area Networks](https://books.google.com/books?hl=zh-CN&lr=&id=-VXNEQAAQBAJ&oi=fnd&pg=PA324&dq=FMCW+github&ots=-xUqIC9bF4&sig=CFuNd2mxOSGzq3wArQrH-9Zn6Us) | [Code](https://github.com/IoBT-VISTEC/SleepPoseNet) | Google Books | 2026 | This two-volume set LNICST 666-667 constitutes the refereed proceedings of the19th EAI International Conference on Body Area Networks, BODYNETS 2024, held in Varanasi, India, during December 15–16, 2024. |

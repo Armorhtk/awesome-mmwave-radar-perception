@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 471,
-    "generated_at": "2026-04-17T06:45:18Z"
+    "total": 473,
+    "generated_at": "2026-04-19T05:00:33Z"
   },
   "taxonomy": [
     {
@@ -5336,6 +5336,28 @@
       "artifact_url": "https://github.com/aiot-lab/Wi2SAR",
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "Wilderness Search and Rescue (WiSAR) represents a longstanding and critical societal challenge, demanding innovative and automatic technological solutions."
+    },
+    {
+      "id": "arxiv:2604.12831",
+      "title": "VULCAN: Vision-Language-Model Enhanced Multi-Agent Cooperative Navigation for Indoor Fire-Disaster Response",
+      "url": "https://arxiv.org/abs/2604.12831",
+      "publication": "arXiv",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Indoor fire disasters pose severe challenges to autonomous search and rescue due to dense smoke, high temperatures, and dynamically evolving indoor environments."
+    },
+    {
+      "id": "arxiv:2604.12888",
+      "title": "Advancing Network Digital Twin Framework for Generating Realistic Datasets",
+      "url": "https://arxiv.org/abs/2604.12888",
+      "publication": "arXiv",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "The integration of accurate and reproducible wireless network simulations is a key enabler for research on open, virtualized, and intelligent communication systems."
     }
   ]
 }
