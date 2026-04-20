@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **19 April 2026**
+Last Updated: **20 April 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-20.md">Apr 20, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-19.md">Apr 19, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-06.md">Apr 06, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-02.md">Apr 02, 2026</a></td>
-            <td align="center">+17</td>
           </tr>
         </tbody>
       </table>
@@ -337,6 +337,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry](https://arxiv.org/pdf/2604.13584) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry. |
 | [Geometrically-Constrained Radar-Inertial Odometry via Continuous Point-Pose Uncertainty Modeling](https://arxiv.org/abs/2604.02745) | N/A | arXiv | 2026 | Radar odometry is crucial for robust localization in challenging environments; however, the sparsity of reliable returns and distinctive noise characteristics impede its performance. |
 | [Tightly-Coupled Radar-Visual-Inertial Odometry](https://arxiv.org/abs/2603.23052) | [Code](https://github.com/ntnu-arl/radvio) | European Control Conference (ECC) | 2026 | Improves state estimation by tightly coupling radar, vision, and inertial sensing for robust odometry across dark, low-texture, and obscured environments. |
 | [Resilient Multi-Radar Inertial Odometry with Adaptive Bias Correction for Localization in Smoke-Filled Subterranean Environments](https://link.springer.com/article/10.1007/s10846-026-02376-y) | [Code](https://github.com/LTU-RAI/MRIO) | Journal of Intelligent & Robotic Systems | 2026 | Addresses subterranean localization by correcting IMU bias and fusing multiple mmWave radars with inertial data for resilient radar-inertial odometry and mapping in smoke-filled environments. |
@@ -410,6 +411,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits](https://arxiv.org/pdf/2604.14908) | [Code](https://github.com/Bilkent-CYBORG/Satisficing-with-Binary-Feedback-for-Combinatorial-Beam-Alignment) | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits. |
+| [Radar-Informed 3D Multi-Object Tracking under Adverse Conditions](https://arxiv.org/pdf/2604.13571) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Radar-Informed 3D Multi-Object Tracking under Adverse Conditions. |
 | ["Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue](https://arxiv.org/abs/2604.09115) | [Code](https://github.com/aiot-lab/Wi2SAR) | In The 32nd Annual International Conference on Mobile Computing and Networking (MobiCom '26) | 2026 | Wilderness Search and Rescue (WiSAR) represents a longstanding and critical societal challenge, demanding innovative and automatic technological solutions. |
 | [Purify-then-Align: Towards Robust Human Sensing under Modality Missing with Knowledge Distillation from Noisy Multimodal Teacher](https://arxiv.org/abs/2604.05584) | [Code](https://github.com/Vongolia11/PTA) | arXiv | 2026 | Robust multimodal human sensing must overcome the critical challenge of missing modalities. |
 | [mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar](https://arxiv.org/abs/2604.00382) | [Code](https://github.com/GaParmar/img2img-turbo) | the 24th ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026) | 2026 | mmWave radar enables human sensing in non-visual scenarios-e.g., through clothing or certain types of walls-where traditional cameras fail due to occlusion or privacy limitations. |

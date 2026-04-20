@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 473,
-    "generated_at": "2026-04-19T05:00:33Z"
+    "total": 476,
+    "generated_at": "2026-04-20T05:42:10Z"
   },
   "taxonomy": [
     {
@@ -5358,6 +5358,39 @@
       "artifact_url": null,
       "topic_id": "other-areas",
       "summary": "The integration of accurate and reproducible wireless network simulations is a key enabler for research on open, virtualized, and intelligent communication systems."
+    },
+    {
+      "id": "arxiv:2604.13571",
+      "title": "Radar-Informed 3D Multi-Object Tracking under Adverse Conditions",
+      "url": "https://arxiv.org/pdf/2604.13571",
+      "publication": "arxiv.org",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: Radar-Informed 3D Multi-Object Tracking under Adverse Conditions."
+    },
+    {
+      "id": "arxiv:2604.13584",
+      "title": "UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry",
+      "url": "https://arxiv.org/pdf/2604.13584",
+      "publication": "arxiv.org",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry."
+    },
+    {
+      "id": "arxiv:2604.14908",
+      "title": "Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits",
+      "url": "https://arxiv.org/pdf/2604.14908",
+      "publication": "arxiv.org",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Bilkent-CYBORG/Satisficing-with-Binary-Feedback-for-Combinatorial-Beam-Alignment",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits."
     }
   ]
 }
