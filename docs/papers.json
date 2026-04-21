@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 476,
-    "generated_at": "2026-04-20T05:42:10Z"
+    "total": 479,
+    "generated_at": "2026-04-21T04:28:43Z"
   },
   "taxonomy": [
     {
@@ -5391,6 +5391,39 @@
       "artifact_url": "https://github.com/Bilkent-CYBORG/Satisficing-with-Binary-Feedback-for-Combinatorial-Beam-Alignment",
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "Metadata could not be resolved automatically; review the source paper before importing: Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11474877",
+      "title": "FAR-RIO: A Fast and Robust Radar-Inertial Odometry with Isotropic Uncertainty Model and Dual-Observation Update Pipeline",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11474877/",
+      "publication": "IEEE Robotics and Automation Letters",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/heqi-zh/FAR-RIO.git",
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Due to the ability to provide point clouds and Doppler velocity, as well as the adaptability in harsh weather conditions, 4D Radar has emerged as a new option for Simultaneous Localization and Mapping (SLAM)."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11457721",
+      "title": "<monospace>mmGes</monospace>: Coarse-Fine-Grained Feature Fusion for Gesture Recognition Via Contact-Less Mmwave Sensing",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11457721/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Millimeter wave radar has recently emerged as a promising modality for enabling pervasive gesture recognition while protecting user privacy."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11457727",
+      "title": "Argus: 3D Radar Point Cloud Registration Using Complementary Cameras for Infrastructure-Assisted Autonomous Driving",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11457727/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "mmWave radar is an emerging sensing modality that expects to significantly improve the safety and reliability of autonomous vehicles, especially in adverse conditions."
     }
   ]
 }

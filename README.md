@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **20 April 2026**
+Last Updated: **21 April 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-21.md">Apr 21, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-20.md">Apr 20, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-10.md">Apr 10, 2026</a></td>
             <td align="center">+5</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-06.md">Apr 06, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -337,6 +337,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [FAR-RIO: A Fast and Robust Radar-Inertial Odometry with Isotropic Uncertainty Model and Dual-Observation Update Pipeline](https://ieeexplore.ieee.org/abstract/document/11474877/) | [Code](https://github.com/heqi-zh/FAR-RIO.git) | IEEE Robotics and Automation Letters | 2026 | Due to the ability to provide point clouds and Doppler velocity, as well as the adaptability in harsh weather conditions, 4D Radar has emerged as a new option for Simultaneous Localization and Mapping (SLAM). |
 | [UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry](https://arxiv.org/pdf/2604.13584) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry. |
 | [Geometrically-Constrained Radar-Inertial Odometry via Continuous Point-Pose Uncertainty Modeling](https://arxiv.org/abs/2604.02745) | N/A | arXiv | 2026 | Radar odometry is crucial for robust localization in challenging environments; however, the sparsity of reliable returns and distinctive noise characteristics impede its performance. |
 | [Tightly-Coupled Radar-Visual-Inertial Odometry](https://arxiv.org/abs/2603.23052) | [Code](https://github.com/ntnu-arl/radvio) | European Control Conference (ECC) | 2026 | Improves state estimation by tightly coupling radar, vision, and inertial sensing for robust odometry across dark, low-texture, and obscured environments. |
@@ -411,6 +412,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Argus: 3D Radar Point Cloud Registration Using Complementary Cameras for Infrastructure-Assisted Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11457727/) | N/A | IEEE Transactions on Mobile Computing | 2026 | mmWave radar is an emerging sensing modality that expects to significantly improve the safety and reliability of autonomous vehicles, especially in adverse conditions. |
 | [Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits](https://arxiv.org/pdf/2604.14908) | [Code](https://github.com/Bilkent-CYBORG/Satisficing-with-Binary-Feedback-for-Combinatorial-Beam-Alignment) | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits. |
 | [Radar-Informed 3D Multi-Object Tracking under Adverse Conditions](https://arxiv.org/pdf/2604.13571) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Radar-Informed 3D Multi-Object Tracking under Adverse Conditions. |
 | ["Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue](https://arxiv.org/abs/2604.09115) | [Code](https://github.com/aiot-lab/Wi2SAR) | In The 32nd Annual International Conference on Mobile Computing and Networking (MobiCom '26) | 2026 | Wilderness Search and Rescue (WiSAR) represents a longstanding and critical societal challenge, demanding innovative and automatic technological solutions. |
@@ -523,6 +525,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [<monospace>mmGes</monospace>: Coarse-Fine-Grained Feature Fusion for Gesture Recognition Via Contact-Less Mmwave Sensing](https://ieeexplore.ieee.org/abstract/document/11457721/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Millimeter wave radar has recently emerged as a promising modality for enabling pervasive gesture recognition while protecting user privacy. |
 | [Domain-Generalized Gesture Recognition via mmWave Radar Signal Multiview Learning](https://ieeexplore.ieee.org/abstract/document/11270504) | [Code](https://github.com/Tkwer/MVRADAR) | IEEE Transactions on Instrumentation and Measurement | 2026 | Addresses the limitations of single-view and simplistic fusion methods in mmWave gesture recognition by proposing a domain-generalized multiview learning framework. This approach integrates domain knowledge with Dempster-Shafer (DS) evidence theory for causal feature extraction and fusion, achieving superior out-of-distribution (OOD) generalization across diverse users and scenarios. |
 | [Fine-Grained Radar Hand Gesture Recognition Method Based on Variable-Channel DRSN](https://www.mdpi.com/2079-9292/15/2/437) | [Code](https://github.com/Summer-Hometown/Hand-Gesture) | Electronics | 2026 | Enables continuous, free-form aerial handwriting recognition by introducing mmScribe, a streaming end-to-end system that utilizes FMCW mmWave radar and a hybrid CTC/attention architecture to decode unsegmented hand movements into text. The system features a dynamic block training strategy for arbitrary length input and a two-stage decoding process (CTC for streaming character hypotheses, Attention for text-level rescoring), achieving excellent performance and low latency on mobile devices. |
 | [MTxLSTM: Multi-Task Learning for Gesture Recognition and Person Identification using a Miniature Radar Sensor](https://ieeexplore.ieee.org/abstract/document/11347576) | [Code](https://github.com/andrew89982018/MTxLSTM) | IEEE Transactions on Mobile Computing | 2026 | English: Addresses the computational inefficiency of separate models for radar-based HCI by introducing MTxLSTM, a multi-task learning framework that simultaneously performs gesture recognition and person identification using a miniature radar. By integrating CNNs with xLSTM (marking its first application in radar sensing) to fuse micro-Doppler and range-Doppler features, the model achieves superior accuracy (99.21% for gestures, 98.59% for identification) while maintaining moderate complexity. |
