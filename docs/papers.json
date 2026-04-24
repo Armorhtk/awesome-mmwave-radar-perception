@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 479,
-    "generated_at": "2026-04-21T04:28:43Z"
+    "total": 482,
+    "generated_at": "2026-04-24T06:13:36Z"
   },
   "taxonomy": [
     {
@@ -5424,6 +5424,39 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "mmWave radar is an emerging sensing modality that expects to significantly improve the safety and reliability of autonomous vehicles, especially in adverse conditions."
+    },
+    {
+      "id": "url:www-scitepress-org-papers-2026-144134-144134-pdf",
+      "title": "A Survey and Case Study on Radar Perception for Object Detection",
+      "url": "https://www.scitepress.org/Papers/2026/144134/144134.pdf",
+      "publication": "www.scitepress.org",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: A Survey and Case Study on Radar Perception for Object Detection."
+    },
+    {
+      "id": "arxiv:2604.15979",
+      "title": "MMGait: Towards Multi-Modal Gait Recognition",
+      "url": "https://arxiv.org/abs/2604.15979",
+      "publication": "arXiv",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/BNU-IVC/MMGait",
+      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "summary": "Gait recognition has emerged as a powerful biometric technique for identifying individuals at a distance without requiring user cooperation."
+    },
+    {
+      "id": "url:www-cs-cityu-edu-hk-zhenjili-2026-sensys-autoembed-pdf",
+      "title": "AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems",
+      "url": "https://www.cs.cityu.edu.hk/~zhenjili/2026-SenSys-AutoEmbed.pdf",
+      "publication": "www.cs.cityu.edu.hk",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://autoembed.github.io/#Demo",
+      "topic_id": "other-areas",
+      "summary": "Addresses AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems for mmWave radar perception."
     }
   ]
 }

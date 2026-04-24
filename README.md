@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **21 April 2026**
+Last Updated: **24 April 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-24.md">Apr 24, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-21.md">Apr 21, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-11.md">Apr 11, 2026</a></td>
             <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-10.md">Apr 10, 2026</a></td>
-            <td align="center">+5</td>
           </tr>
         </tbody>
       </table>
@@ -250,6 +250,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A Survey and Case Study on Radar Perception for Object Detection](https://www.scitepress.org/Papers/2026/144134/144134.pdf) | N/A | www.scitepress.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: A Survey and Case Study on Radar Perception for Object Detection. |
 | [DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR](https://arxiv.org/abs/2604.03685) | [Code](https://jeongyh98.github.io/dsert-roll/) | arXiv | 2026 | In this paper, we present DSERT-RoLL, a driving dataset that incorporates stereo event, RGB, and thermal cameras together with 4D radar and dual LiDAR, collected across diverse weather and illumination conditions. |
 | [RAVEN: Radar Adaptive Vision Encoders for Efficient Chirp-wise Object Detection and Segmentation](https://arxiv.org/abs/2604.04490) | N/A | Computer Vision and Pattern Recognition Conference 2026 | 2026 | This paper presents RAVEN, a computationally efficient deep learning architecture for FMCW radar perception. |
 | [Multi-Modal Sensor Fusion using Hybrid Attention for Autonomous Driving](https://arxiv.org/abs/2604.04797) | N/A | arXiv | 2026 | Accurate 3D object detection for autonomous driving requires complementary sensors. |
@@ -604,6 +605,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [MMGait: Towards Multi-Modal Gait Recognition](https://arxiv.org/abs/2604.15979) | [Code](https://github.com/BNU-IVC/MMGait) | arXiv | 2026 | Gait recognition has emerged as a powerful biometric technique for identifying individuals at a distance without requiring user cooperation. |
 | [Quasi-stationary Slice Detection-Based Robust Respiration Rate Estimation under Large-scale Random Body Movement](https://arxiv.org/abs/2604.05353) | N/A | arXiv | 2026 | Radar-based non-contact respiration rate (RR) measurement has become increasingly popular due to its convenience, non-intrusiveness, and low cost. |
 | [mmWave-Diffusion:A Novel Framework for Respiration Sensing Using Observation-Anchored Conditional Diffusion Model](https://arxiv.org/abs/2603.20700) | [Code](https://github.com/goodluckyongw/mmWave-Diffusion) | ICASSP | 2026 | Improves contactless respiration sensing by using an observation-anchored conditional diffusion model to remove micromotion interference from mmWave radar phase measurements. |
 | [mmJEPA-ECG: Cross-Posture Robust Contactless Electrocardiogram Monitoring via Millimeter Wave Radar Sensing](https://ojs.aaai.org/index.php/AAAI/article/view/41242) | [Code](https://github.com/lanyangyang/mmJEPA-ECG) | Proceedings of the AAAI Conference on Artificial Intelligence | 2026 | Addresses contactless electrocardiogram monitoring by learning cross-posture radar representations with a JEPA-based framework for robust millimeter-wave ECG sensing. |
@@ -707,6 +709,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems](https://www.cs.cityu.edu.hk/~zhenjili/2026-SenSys-AutoEmbed.pdf) | [Code](https://autoembed.github.io/#Demo) | www.cs.cityu.edu.hk | 2026 | Addresses AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems for mmWave radar perception. |
 | [Advancing Network Digital Twin Framework for Generating Realistic Datasets](https://arxiv.org/abs/2604.12888) | N/A | arXiv | 2026 | The integration of accurate and reproducible wireless network simulations is a key enabler for research on open, virtualized, and intelligent communication systems. |
 | [VULCAN: Vision-Language-Model Enhanced Multi-Agent Cooperative Navigation for Indoor Fire-Disaster Response](https://arxiv.org/abs/2604.12831) | N/A | arXiv | 2026 | Indoor fire disasters pose severe challenges to autonomous search and rescue due to dense smoke, high temperatures, and dynamically evolving indoor environments. |
 | [FeelWave: Enabling Emotion-Aware Voice Interaction through Noise-Robust mmWave Emotion Sensing](https://dl.acm.org/doi/full/10.1145/3772318.3790631) | [Code](https://github.com/n2my/FeelWave) | dl.acm.org | 2026 | Enables emotion-aware voice interaction by using mmWave sensing to infer emotion robustly under acoustic noise. |
