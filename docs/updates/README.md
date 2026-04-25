@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-04-25](2026-04-25.md) | 5 | 📦 Other Areas, Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Human Activity Recognition (HAR) | Added 5 papers across 4 topics. |
 | [2026-04-24](2026-04-24.md) | 3 | 📦 Other Areas, 3D Object Detection & Classification, Vital Signs & Biometric Identification | Added 3 papers across 3 topics. |
 | [2026-04-21](2026-04-21.md) | 3 | Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Gesture Recognition & Hand Tracking | Added 3 papers across 3 topics. |
 | [2026-04-20](2026-04-20.md) | 3 | Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques | Added 3 papers across 2 topics. |

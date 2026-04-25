@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **24 April 2026**
+Last Updated: **25 April 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-25.md">Apr 25, 2026</a></td>
+            <td align="center">+5</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-24.md">Apr 24, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-15.md">Apr 15, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-11.md">Apr 11, 2026</a></td>
-            <td align="center">+3</td>
           </tr>
         </tbody>
       </table>
@@ -338,6 +338,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [ClaRO: A Cluster-Based Method for Radar Odometry](https://ieeexplore.ieee.org/iel8/7083369/7339444/11488554.pdf) | N/A | ieeexplore.ieee.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: ClaRO: A Cluster-Based Method for Radar Odometry. |
 | [FAR-RIO: A Fast and Robust Radar-Inertial Odometry with Isotropic Uncertainty Model and Dual-Observation Update Pipeline](https://ieeexplore.ieee.org/abstract/document/11474877/) | [Code](https://github.com/heqi-zh/FAR-RIO.git) | IEEE Robotics and Automation Letters | 2026 | Due to the ability to provide point clouds and Doppler velocity, as well as the adaptability in harsh weather conditions, 4D Radar has emerged as a new option for Simultaneous Localization and Mapping (SLAM). |
 | [UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry](https://arxiv.org/pdf/2604.13584) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry. |
 | [Geometrically-Constrained Radar-Inertial Odometry via Continuous Point-Pose Uncertainty Modeling](https://arxiv.org/abs/2604.02745) | N/A | arXiv | 2026 | Radar odometry is crucial for robust localization in challenging environments; however, the sparsity of reliable returns and distinctive noise characteristics impede its performance. |
@@ -413,6 +414,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Knowledge Distillation for Lightweight Multimodal Sensing-Aided mmWave Beam Tracking](https://arxiv.org/abs/2604.16708) | [Code](https://github.com/WillysMa/KD-for-sensing.git) | arXiv | 2026 | Beam training and prediction in real-world millimeter-wave (mmWave) communications systems are challenging due to rapidly time-varying channels and strong interference from surrounding objects. |
+| [Millimeter-wave radar-assisted skeleton-guided video reconstruction for surveillance systems](https://link.springer.com/article/10.1007/s00371-026-04478-y) | [Code](https://github.com/cocein/R2P2V) | The Visual Computer | 2026 | The Visual Computer - Surveillance systems are pivotal in public safety, yet they often fail under adverse conditions such as darkness, occlusion, or deliberate tampering. |
 | [Argus: 3D Radar Point Cloud Registration Using Complementary Cameras for Infrastructure-Assisted Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11457727/) | N/A | IEEE Transactions on Mobile Computing | 2026 | mmWave radar is an emerging sensing modality that expects to significantly improve the safety and reliability of autonomous vehicles, especially in adverse conditions. |
 | [Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits](https://arxiv.org/pdf/2604.14908) | [Code](https://github.com/Bilkent-CYBORG/Satisficing-with-Binary-Feedback-for-Combinatorial-Beam-Alignment) | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits. |
 | [Radar-Informed 3D Multi-Object Tracking under Adverse Conditions](https://arxiv.org/pdf/2604.13571) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Radar-Informed 3D Multi-Object Tracking under Adverse Conditions. |
@@ -483,6 +486,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations](https://ieeexplore.ieee.org/abstract/document/11488648/) | [Code](https://github.com/Kanomace/mmWave-RoPEHAR) | IEEE Internet of Things Journal | 2026 | Safety monitoring of power operations in substations is crucial for accident prevention. |
 | [Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook](https://arxiv.org/abs/2604.02711) | [Code](https://github.com/zhaxidele/Foundation-Models-Defining-A-New-Era-In-Human-Activity-Recognition) | arXiv | 2026 | Sensor-based Human Activity Recognition (HAR) underpins many ubiquitous and wearable computing applications, yet current models remain limited by scarce labels, sensor heterogeneity, and weak generalization across users, devices, and contexts. |
 | [AceNet: Attention-Guided Context Enhancement for Imbalanced Action Recognition via RF Signals](https://ieeexplore.ieee.org/abstract/document/11408084) | N/A | IEEE Transactions on Mobile Computing | 2026 | Addresses imbalanced RF-based action recognition by combining attention-guided segment selection, hierarchical Transformer context modeling, and feature-space SMOTE refinement to separate semantically similar activities. |
 | [WLMMF-Wireless Multimodal Fusion of mm-Wave Radar and Vision for Real-Time Human Action Recognition (RT-HAR) in Mobile Robotics (MR)](https://www.worldscientific.com/doi/abs/10.1142/S0219843626400062) | N/A | International Journal of Humanoid Robotics | 2026 | Addresses the need for robust Human Action Recognition in mobile robotics by proposing WLMMF, a wireless-aware multimodal fusion framework integrating mmWave radar and vision.  It uniquely embeds channel-state feedback into the fusion process for real-time adaptability, achieving 92% accuracy with sub-50ms latency |
@@ -709,6 +713,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RadioMapMotion: A Dataset and Benchmark for Proactive Spatio-Temporal Radio Environment Prediction](https://ieeexplore.ieee.org/abstract/document/11488322/) | [Code](https://github.com/UNIC-Lab/RadioMapMotion) | IEEE Transactions on Cognitive Communications and Networking | 2026 | Radio maps (RMs), which provide location-dependent pathloss estimations, serve as a foundational enabler for proactive and environment-aware communications in 6G networks. |
 | [AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems](https://www.cs.cityu.edu.hk/~zhenjili/2026-SenSys-AutoEmbed.pdf) | [Code](https://autoembed.github.io/#Demo) | www.cs.cityu.edu.hk | 2026 | Addresses AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems for mmWave radar perception. |
 | [Advancing Network Digital Twin Framework for Generating Realistic Datasets](https://arxiv.org/abs/2604.12888) | N/A | arXiv | 2026 | The integration of accurate and reproducible wireless network simulations is a key enabler for research on open, virtualized, and intelligent communication systems. |
 | [VULCAN: Vision-Language-Model Enhanced Multi-Agent Cooperative Navigation for Indoor Fire-Disaster Response](https://arxiv.org/abs/2604.12831) | N/A | arXiv | 2026 | Indoor fire disasters pose severe challenges to autonomous search and rescue due to dense smoke, high temperatures, and dynamically evolving indoor environments. |
