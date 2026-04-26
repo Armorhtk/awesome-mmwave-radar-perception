@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **25 April 2026**
+Last Updated: **26 April 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-26.md">Apr 26, 2026</a></td>
+            <td align="center">+12</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-25.md">Apr 25, 2026</a></td>
             <td align="center">+5</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-17.md">Apr 17, 2026</a></td>
             <td align="center">+5</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-15.md">Apr 15, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -217,6 +217,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DiffRIM: A Diffusion-Driven Model for High Efficiency Radar Interference Mitigation](https://ieeexplore.ieee.org/abstract/document/11461687/) | [Code](https://github.com/luluisthebest/DiffRim) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Despite its all-weather superiority over optical sensors, the dense deployment of millimeter-wave radar in automotive applications causes severe vehicle-to-vehicle interference, degrading detection integrity and introducing safety risks. |
 | [MSET: Multimodal Semantic-Enhanced Real-World Beam Prediction via Temporal Modeling with Visual Foundation Models](https://ieeexplore.ieee.org/abstract/document/11418645) | [Code](https://github.com/LiuFxxx/MSET) | IEEE Internet of Things Journal | 2026 | Improves real-world beam prediction by combining visual foundation model semantics, causal temporal modeling, and GPS-conditioned cross-attention to reduce sweep reliance and improve robustness in V2I scenarios. |
 | [IQUMamba-1D: a Mamba-enhanced 1D U-Net for single-channel communication signal blind source separation](https://link.springer.com/article/10.1007/s44443-025-00440-5) | [Code](https://github.com/wzdsqaa/IQUMamba1D) | Journal of King Saud University Computer and Information Sciences | 2026 | Overcomes the limitations of deep learning in single-channel blind source separation for long communication signals by proposing IQUMamba-1D, a Mamba-enhanced 1D U-Net that features adaptive dual tokenization, complex-valued state space modeling, and adaptive skip connections to ensure phase coherence and linear complexity. |
 | [Unsupervised Federated Learning With Harmonized Foundation Models for FMCW Radar-Based Hand Gesture Recognition](https://ieeexplore.ieee.org/abstract/document/11353042) | N/A | IEEE Transactions on Radar Systems | 2026 | Addresses the challenge of hardware heterogeneity in radar gesture recognition by proposing a radar-specific adaptation framework. This approach features a Harmonization Module to align signal dimensions across devices and utilizes an unsupervised federated learning pipeline to refine a transformer-based foundation model using only unlabeled data, achieving over 94% accuracy with minimal labeled samples. |
@@ -250,6 +251,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Gaussian Spatial Interaction with Long-Range Context Fusion for Radar-Camera 3D Object Detection](https://ieeexplore.ieee.org/abstract/document/11463891/) | [Code](https://github.com/ThisisLiuminyang/GSMFusion) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Accurate 3D object detection through camera and 4D radar fusion is a cornerstone of reliable autonomous driving systems, but effectively integrating these heterogeneous modalities remains challenging. |
+| [Cylinderfusion: Self-Adaptive Cylindrical 3+1D Radar-Camera Fusion for Waterway Point Cloud Segmentation](https://ieeexplore.ieee.org/abstract/document/11461037/) | [Code](https://github.com/CSPaulia/cylinderfusion) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Point cloud segmentation is crucial for unmanned vehicle perception on water, and radar-camera fusion further improves its performance. |
 | [A Survey and Case Study on Radar Perception for Object Detection](https://www.scitepress.org/Papers/2026/144134/144134.pdf) | N/A | www.scitepress.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: A Survey and Case Study on Radar Perception for Object Detection. |
 | [DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR](https://arxiv.org/abs/2604.03685) | [Code](https://jeongyh98.github.io/dsert-roll/) | arXiv | 2026 | In this paper, we present DSERT-RoLL, a driving dataset that incorporates stereo event, RGB, and thermal cameras together with 4D radar and dual LiDAR, collected across diverse weather and illumination conditions. |
 | [RAVEN: Radar Adaptive Vision Encoders for Efficient Chirp-wise Object Detection and Segmentation](https://arxiv.org/abs/2604.04490) | N/A | Computer Vision and Pattern Recognition Conference 2026 | 2026 | This paper presents RAVEN, a computationally efficient deep learning architecture for FMCW radar perception. |
@@ -463,6 +466,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Radar Acoustic Speech Enhancement Using Bilinear Decoding](https://ieeexplore.ieee.org/abstract/document/11462364/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | In this paper, we present a residual encoder–decoder framework to enhance radar-acoustic speech signals. |
+| [RADARNet: Radar-Acoustic Denoising Alignment and Restoration Network for ICASSP 2026 RASE Challenge](https://ieeexplore.ieee.org/abstract/document/11460763/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Radar-based speech acquisition offers a compelling alternative to microphones in physically occluded scenarios, but it remains challenged by heavy noise contamination and intrinsically band-limited frequency response. |
+| [mVI: High-Resolution Roadside Vehicle Imaging by MMWAVE](https://ieeexplore.ieee.org/abstract/document/11461020/) | [Project Page](https://config.datas3ntinel.com/tag/js-web-sdk/latest/init.min.js) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Roadside vehicle imaging is a vital function in traffic monitoring. |
 | [NeuRadar: Neural Radiance Fields for Automotive Radar Point Clouds](https://openaccess.thecvf.com/content/CVPR2025W/WAD/html/Rafidashti_NeuRadar_Neural_Radiance_Fields_for_Automotive_Radar_Point_Clouds_CVPRW_2025_paper.html) | [Code](https://github.com/mrafidashti/neuradar) | IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) | 2025 | Pioneers the use of Neural Radiance Fields for radar by proposing a model that jointly generates multi-sensor data and uses a probabilistic representation to accurately capture the stochastic nature of radar point clouds. |
 | [RadarSplat: Radar Gaussian Splatting for High-Fidelity Data Synthesis and 3D Reconstruction of Autonomous Driving Scenes](https://arxiv.org/abs/2506.01379) | [Code](https://github.com/umautobots/radarsplat) | IEEE International Conference on Computer Vision (ICCV) | 2025 | Overcomes the poor performance of neural representations in noisy radar scenarios by integrating Gaussian Splatting with a novel noise model, enabling high-fidelity 3D reconstruction and realistic data synthesis. |
 | [RLCNet: A Novel Deep Feature-Matching-Based Method for Online Target-Free Radar-LiDAR Calibration](https://ieeexplore.ieee.org/abstract/document/11127342) | [Code](https://github.com/nubot-nudt/RLCNet) | IEEE International Conference on Robotics and Automation (ICRA) | 2025 | Tackles radar-LiDAR extrinsic calibration by using a deep network that first establishes sparse keypoint matches and then refines them into dense correspondences to overcome radar point cloud sparsity. |
@@ -486,6 +492,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Activity Recognition Using Inaudible Acoustic FMCW](https://ieeexplore.ieee.org/abstract/document/11464885/) | [Project Page](https://config.datas3ntinel.com/tag/js-web-sdk/latest/init.min.js) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Inaudible acoustic signals can be used to recognize human activities. |
+| [OG-PCL: Efficient Sparse Radar Point Cloud Processing for Human Activity Recognition](https://ieeexplore.ieee.org/abstract/document/11462700/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Human activity recognition (HAR) with millimeter-wave (mmWave) radar offers a privacy-preserving and robust alternative to camera-and wearable-based approaches. |
+| [SEdgeNet: Stochastic Edge Network for Human Activity Recognition Using Sparse Point Cloud](https://www.researchsquare.com/article/rs-8959065/latest.pdf) | [Code](https://github.com/Gbouna/SEdgeNet) | Research Square | 2026 | SEdgeNet introduces stochastic edge convolution for mmWave point-cloud activity recognition and reports state-of-the-art accuracy and efficiency on the MiliPoint and MMActivity datasets. |
 | [RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations](https://ieeexplore.ieee.org/abstract/document/11488648/) | [Code](https://github.com/Kanomace/mmWave-RoPEHAR) | IEEE Internet of Things Journal | 2026 | Safety monitoring of power operations in substations is crucial for accident prevention. |
 | [Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook](https://arxiv.org/abs/2604.02711) | [Code](https://github.com/zhaxidele/Foundation-Models-Defining-A-New-Era-In-Human-Activity-Recognition) | arXiv | 2026 | Sensor-based Human Activity Recognition (HAR) underpins many ubiquitous and wearable computing applications, yet current models remain limited by scarce labels, sensor heterogeneity, and weak generalization across users, devices, and contexts. |
 | [AceNet: Attention-Guided Context Enhancement for Imbalanced Action Recognition via RF Signals](https://ieeexplore.ieee.org/abstract/document/11408084) | N/A | IEEE Transactions on Mobile Computing | 2026 | Addresses imbalanced RF-based action recognition by combining attention-guided segment selection, hierarchical Transformer context modeling, and feature-space SMOTE refinement to separate semantically similar activities. |
@@ -609,6 +618,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Low-Resource in-Car Infant Detection Using IR-UWB Radar](https://ieeexplore.ieee.org/abstract/document/11462962/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Child presence detection (CPD) is motivated by the need for safety and well-being of unattended infants in vehicles. |
+| [LLM4RIM: Leveraging Large Language Model for Radar-Based in-Vehicle Monitoring](https://ieeexplore.ieee.org/abstract/document/11463158/) | [Code](https://github.com/bupt-uwb/LLM4RIM) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | The growing need for non-invasive in-vehicle monitoring in the intelligent cabin underscores the potential of radar sensing. |
 | [MMGait: Towards Multi-Modal Gait Recognition](https://arxiv.org/abs/2604.15979) | [Code](https://github.com/BNU-IVC/MMGait) | arXiv | 2026 | Gait recognition has emerged as a powerful biometric technique for identifying individuals at a distance without requiring user cooperation. |
 | [Quasi-stationary Slice Detection-Based Robust Respiration Rate Estimation under Large-scale Random Body Movement](https://arxiv.org/abs/2604.05353) | N/A | arXiv | 2026 | Radar-based non-contact respiration rate (RR) measurement has become increasingly popular due to its convenience, non-intrusiveness, and low cost. |
 | [mmWave-Diffusion:A Novel Framework for Respiration Sensing Using Observation-Anchored Conditional Diffusion Model](https://arxiv.org/abs/2603.20700) | [Code](https://github.com/goodluckyongw/mmWave-Diffusion) | ICASSP | 2026 | Improves contactless respiration sensing by using an observation-anchored conditional diffusion model to remove micromotion interference from mmWave radar phase measurements. |
@@ -713,6 +724,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [ICASSP 2026 Radar Acoustic Speech Enhancement (RASE) Challenge](https://ieeexplore.ieee.org/abstract/document/11463564/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | This paper presents the ICASSP 2026 Radar Acoustic Speech Enhancement (RASE) Grand Challenge, the first community challenge dedicated to benchmarking speech enhancement from millimeter-wave (mmWave) radar vibrometry. |
 | [RadioMapMotion: A Dataset and Benchmark for Proactive Spatio-Temporal Radio Environment Prediction](https://ieeexplore.ieee.org/abstract/document/11488322/) | [Code](https://github.com/UNIC-Lab/RadioMapMotion) | IEEE Transactions on Cognitive Communications and Networking | 2026 | Radio maps (RMs), which provide location-dependent pathloss estimations, serve as a foundational enabler for proactive and environment-aware communications in 6G networks. |
 | [AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems](https://www.cs.cityu.edu.hk/~zhenjili/2026-SenSys-AutoEmbed.pdf) | [Code](https://autoembed.github.io/#Demo) | www.cs.cityu.edu.hk | 2026 | Addresses AutoEmbed: LLM-driven Automated Software Development for Generic Embedded IoT Systems for mmWave radar perception. |
 | [Advancing Network Digital Twin Framework for Generating Realistic Datasets](https://arxiv.org/abs/2604.12888) | N/A | arXiv | 2026 | The integration of accurate and reproducible wireless network simulations is a key enabler for research on open, virtualized, and intelligent communication systems. |

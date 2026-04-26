@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 487,
-    "generated_at": "2026-04-25T05:07:29Z"
+    "total": 499,
+    "generated_at": "2026-04-26T05:48:22Z"
   },
   "taxonomy": [
     {
@@ -5512,6 +5512,138 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
       "summary": "Metadata could not be resolved automatically; review the source paper before importing: ClaRO: A Cluster-Based Method for Radar Odometry."
+    },
+    {
+      "id": "url:www-researchsquare-com-article-rs-8959065-latest-pdf",
+      "title": "SEdgeNet: Stochastic Edge Network for Human Activity Recognition Using Sparse Point Cloud",
+      "url": "https://www.researchsquare.com/article/rs-8959065/latest.pdf",
+      "publication": "Research Square",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Gbouna/SEdgeNet",
+      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
+      "summary": "SEdgeNet introduces stochastic edge convolution for mmWave point-cloud activity recognition and reports state-of-the-art accuracy and efficiency on the MiliPoint and MMActivity datasets."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11461687",
+      "title": "DiffRIM: A Diffusion-Driven Model for High Efficiency Radar Interference Mitigation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11461687/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/luluisthebest/DiffRim",
+      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "summary": "Despite its all-weather superiority over optical sensors, the dense deployment of millimeter-wave radar in automotive applications causes severe vehicle-to-vehicle interference, degrading detection integrity and introducing safety risks."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11461020",
+      "title": "mVI: High-Resolution Roadside Vehicle Imaging by MMWAVE",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11461020/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "summary": "Roadside vehicle imaging is a vital function in traffic monitoring."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11462700",
+      "title": "OG-PCL: Efficient Sparse Radar Point Cloud Processing for Human Activity Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11462700/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
+      "summary": "Human activity recognition (HAR) with millimeter-wave (mmWave) radar offers a privacy-preserving and robust alternative to camera-and wearable-based approaches."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11463564",
+      "title": "ICASSP 2026 Radar Acoustic Speech Enhancement (RASE) Challenge",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11463564/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "This paper presents the ICASSP 2026 Radar Acoustic Speech Enhancement (RASE) Grand Challenge, the first community challenge dedicated to benchmarking speech enhancement from millimeter-wave (mmWave) radar vibrometry."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11461037",
+      "title": "Cylinderfusion: Self-Adaptive Cylindrical 3+1D Radar-Camera Fusion for Waterway Point Cloud Segmentation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11461037/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/CSPaulia/cylinderfusion",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Point cloud segmentation is crucial for unmanned vehicle perception on water, and radar-camera fusion further improves its performance."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11463158",
+      "title": "LLM4RIM: Leveraging Large Language Model for Radar-Based in-Vehicle Monitoring",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11463158/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/bupt-uwb/LLM4RIM",
+      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "summary": "The growing need for non-invasive in-vehicle monitoring in the intelligent cabin underscores the potential of radar sensing."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11460763",
+      "title": "RADARNet: Radar-Acoustic Denoising Alignment and Restoration Network for ICASSP 2026 RASE Challenge",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11460763/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "summary": "Radar-based speech acquisition offers a compelling alternative to microphones in physically occluded scenarios, but it remains challenged by heavy noise contamination and intrinsically band-limited frequency response."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11464885",
+      "title": "Activity Recognition Using Inaudible Acoustic FMCW",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11464885/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
+      "summary": "Inaudible acoustic signals can be used to recognize human activities."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11462364",
+      "title": "Radar Acoustic Speech Enhancement Using Bilinear Decoding",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11462364/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "summary": "In this paper, we present a residual encoder–decoder framework to enhance radar-acoustic speech signals."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11462962",
+      "title": "Low-Resource in-Car Infant Detection Using IR-UWB Radar",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11462962/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "summary": "Child presence detection (CPD) is motivated by the need for safety and well-being of unattended infants in vehicles."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11463891",
+      "title": "Gaussian Spatial Interaction with Long-Range Context Fusion for Radar-Camera 3D Object Detection",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11463891/",
+      "publication": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "year": 2026,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/ThisisLiuminyang/GSMFusion",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Accurate 3D object detection through camera and 4D radar fusion is a cornerstone of reliable autonomous driving systems, but effectively integrating these heterogeneous modalities remains challenging."
     }
   ]
 }
