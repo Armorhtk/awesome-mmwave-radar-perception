@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 501,
-    "generated_at": "2026-04-28T04:43:47Z"
+    "total": 500,
+    "generated_at": "2026-04-28T08:08:56Z"
   },
   "taxonomy": [
     {
@@ -156,18 +156,6 @@
     }
   ],
   "papers": [
-    {
-      "id": "arxiv:2601.18569",
-      "title": "Attention-Based Neural-Augmented Kalman Filter for Legged Robot State Estimation",
-      "url": "https://arxiv.org/abs/2601.18569",
-      "publication": "IEEE Robotics and Automation Letters (RA-L)",
-      "year": 2026,
-      "import_order": 1,
-      "artifact_label": "Code",
-      "artifact_url": "https://seokju-lee.github.io/attennkf/",
-      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
-      "summary": "Addresses the state estimation errors caused by foot slip in legged robots by proposing an Attention-Based Neural-Augmented Kalman Filter (AttenNKF). This method augments an Invariant Extended Kalman Filter (InEKF) with a neural compensator that uses an attention mechanism to infer slip-induced errors and apply post-update compensation. The compensator operates in a latent space to reduce sensitivity and ensure structured corrections, significantly improving performance under slip-prone conditions."
-    },
     {
       "id": "arxiv:2510.22895",
       "title": "RMD: Robust Modal Decomposition with Constrained Bandwidth",
@@ -669,7 +657,7 @@
       "import_order": 43,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/OpenHUTB/traffic_twin",
-      "topic_id": "radar-foundational-technologies__data-synthesis-enhancement-simulation",
+      "topic_id": "other-areas",
       "summary": "Addresses the limitation of single-scene simulations in intelligent transportation by proposing UTDT, a high-fidelity Digital Twin framework. It integrates roadside LiDAR and camera data across multiple intersections to ensure spatiotemporal consistency and continuous vehicle identities, enabling accurate trajectory reconstruction for autonomous driving testing."
     },
     {
@@ -693,7 +681,7 @@
       "import_order": 45,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/lihua199710/KuRALS",
-      "topic_id": "radar-foundational-technologies__data-synthesis-enhancement-simulation",
+      "topic_id": "autonomous-driving-drone__semantic-instance-segmentation",
       "summary": "English: Addresses the lack of diverse, long-range radar surveillance datasets by introducing KuRALS, a Ku-band Range-Doppler dataset covering aerial (UAVs), land (pedestrians/cars), and maritime (boats) scenarios, and proposes a lightweight semantic segmentation baseline with a novel interference-suppression loss that significantly outperforms existing methods."
     },
     {
@@ -885,7 +873,7 @@
       "import_order": 61,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/mbaqer/V2X-mmWave-Transformers/",
-      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "topic_id": "other-areas",
       "summary": "Addresses high beam training overheads and latency in connected vehicles by proposing a Transformer-based multi-modal sensing and fusion framework.  By utilizing modality-specific encoders and cross-modal attention to proactively predict optimal line-of-sight beams, it achieves 96.72% accuracy (top-15 beams) and reduces latency by 86.81% in real-world V2I/V2V scenarios compared to standard methods."
     },
     {
@@ -897,7 +885,7 @@
       "import_order": 62,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
       "summary": "Addresses the challenge of hardware heterogeneity in radar gesture recognition by proposing a radar-specific adaptation framework. This approach features a Harmonization Module to align signal dimensions across devices and utilizes an unsupervised federated learning pipeline to refine a transformer-based foundation model using only unlabeled data, achieving over 94% accuracy with minimal labeled samples."
     },
     {
@@ -933,7 +921,7 @@
       "import_order": 65,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/wzdsqaa/IQUMamba1D",
-      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "topic_id": "other-areas",
       "summary": "Overcomes the limitations of deep learning in single-channel blind source separation for long communication signals by proposing IQUMamba-1D, a Mamba-enhanced 1D U-Net that features adaptive dual tokenization, complex-valued state space modeling, and adaptive skip connections to ensure phase coherence and linear complexity."
     },
     {
@@ -3657,7 +3645,7 @@
       "import_order": 292,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/MoYuGit/Diffusion_radar_reconstruction",
-      "topic_id": "human-sensing-healthcare__occupancy-presence-fall-detection",
+      "topic_id": "autonomous-driving-drone__semantic-instance-segmentation",
       "summary": "Addresses the challenges of reconstructing 3D occupancy maps from 4D radar tensors by proposing a diffusion-based framework.  It integrates doppler-aware dimensionality reduction, hierarchical pillar-based representation, and a conditional diffusion model, significantly improving IoU to over 30% and reducing Chamfer distance by 4× with ~50ms latency."
     },
     {
@@ -5073,7 +5061,7 @@
       "import_order": 410,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/ltk722/Transformer-based-mmWave-tracking",
-      "topic_id": "other-areas",
+      "topic_id": "autonomous-driving-drone__multi-object-tracking",
       "summary": "Presents m^3TrackFormer, a Transformer-based mmWave multi-target tracking framework for ISAC systems that switches between normal tracking and re-acquisition modes to recover lost targets quickly with low beam-sweeping overhead."
     },
     {
@@ -5265,7 +5253,7 @@
       "import_order": 426,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/LiuFxxx/MSET",
-      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "topic_id": "other-areas",
       "summary": "Improves real-world beam prediction by combining visual foundation model semantics, causal temporal modeling, and GPS-conditioned cross-attention to reduce sweep reliance and improve robustness in V2I scenarios."
     },
     {
@@ -5613,7 +5601,7 @@
       "import_order": 455,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/GaParmar/img2img-turbo",
-      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "topic_id": "forensics-privacy-security",
       "summary": "mmWave radar enables human sensing in non-visual scenarios-e.g., through clothing or certain types of walls-where traditional cameras fail due to occlusion or privacy limitations."
     },
     {
@@ -5673,7 +5661,7 @@
       "import_order": 460,
       "artifact_label": "Code",
       "artifact_url": "https://jeongyh98.github.io/dsert-roll/",
-      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "In this paper, we present DSERT-RoLL, a driving dataset that incorporates stereo event, RGB, and thermal cameras together with 4D radar and dual LiDAR, collected across diverse weather and illumination conditions."
     },
     {
@@ -5709,7 +5697,7 @@
       "import_order": 463,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/Vongolia11/PTA",
-      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
       "summary": "Robust multimodal human sensing must overcome the critical challenge of missing modalities."
     },
     {
@@ -5793,7 +5781,7 @@
       "import_order": 470,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/Kin-Zhang/SynFlow",
-      "topic_id": "autonomous-driving-drone__scene-flow-motion-prediction",
+      "topic_id": "other-areas",
       "summary": "Reliable 3D dynamic perception requires models that can anticipate motion beyond predefined categories, yet progress is hindered by the scarcity of dense, high-quality motion annotations."
     },
     {
@@ -5805,7 +5793,7 @@
       "import_order": 471,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/aiot-lab/Wi2SAR",
-      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "topic_id": "other-areas",
       "summary": "Wilderness Search and Rescue (WiSAR) represents a longstanding and critical societal challenge, demanding innovative and automatic technological solutions."
     },
     {
@@ -5841,7 +5829,7 @@
       "import_order": 474,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "topic_id": "autonomous-driving-drone__multi-object-tracking",
       "summary": "Metadata could not be resolved automatically; review the source paper before importing: Radar-Informed 3D Multi-Object Tracking under Adverse Conditions."
     },
     {
@@ -5865,7 +5853,7 @@
       "import_order": 476,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/Bilkent-CYBORG/Satisficing-with-Binary-Feedback-for-Combinatorial-Beam-Alignment",
-      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "topic_id": "other-areas",
       "summary": "Metadata could not be resolved automatically; review the source paper before importing: Multi-User mmWave Beam and Rate Adaptation via Combinatorial Satisficing Bandits."
     },
     {
@@ -5925,7 +5913,7 @@
       "import_order": 481,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/BNU-IVC/MMGait",
-      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
       "summary": "Gait recognition has emerged as a powerful biometric technique for identifying individuals at a distance without requiring user cooperation."
     },
     {
@@ -5949,7 +5937,7 @@
       "import_order": 483,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/cocein/R2P2V",
-      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
       "summary": "The Visual Computer - Surveillance systems are pivotal in public safety, yet they often fail under adverse conditions such as darkness, occlusion, or deliberate tampering."
     },
     {
@@ -5973,7 +5961,7 @@
       "import_order": 485,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/WillysMa/KD-for-sensing.git",
-      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "topic_id": "other-areas",
       "summary": "Beam training and prediction in real-world millimeter-wave (mmWave) communications systems are challenging due to rapidly time-varying channels and strong interference from surrounding objects."
     },
     {
@@ -6021,7 +6009,7 @@
       "import_order": 489,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/luluisthebest/DiffRim",
-      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "topic_id": "other-areas",
       "summary": "Despite its all-weather superiority over optical sensors, the dense deployment of millimeter-wave radar in automotive applications causes severe vehicle-to-vehicle interference, degrading detection integrity and introducing safety risks."
     },
     {
@@ -6033,7 +6021,7 @@
       "import_order": 490,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
       "summary": "Roadside vehicle imaging is a vital function in traffic monitoring."
     },
     {
@@ -6069,7 +6057,7 @@
       "import_order": 493,
       "artifact_label": "Code",
       "artifact_url": "https://github.com/CSPaulia/cylinderfusion",
-      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "topic_id": "autonomous-driving-drone__semantic-instance-segmentation",
       "summary": "Point cloud segmentation is crucial for unmanned vehicle perception on water, and radar-camera fusion further improves its performance."
     },
     {
@@ -6093,7 +6081,7 @@
       "import_order": 495,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "topic_id": "other-areas",
       "summary": "Radar-based speech acquisition offers a compelling alternative to microphones in physically occluded scenarios, but it remains challenged by heavy noise contamination and intrinsically band-limited frequency response."
     },
     {
@@ -6105,7 +6093,7 @@
       "import_order": 496,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
+      "topic_id": "other-areas",
       "summary": "Inaudible acoustic signals can be used to recognize human activities."
     },
     {
@@ -6117,7 +6105,7 @@
       "import_order": 497,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "topic_id": "other-areas",
       "summary": "In this paper, we present a residual encoder–decoder framework to enhance radar-acoustic speech signals."
     },
     {
@@ -6129,7 +6117,7 @@
       "import_order": 498,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "topic_id": "human-sensing-healthcare__occupancy-presence-fall-detection",
       "summary": "Child presence detection (CPD) is motivated by the need for safety and well-being of unattended infants in vehicles."
     },
     {
@@ -6153,7 +6141,7 @@
       "import_order": 500,
       "artifact_label": "N/A",
       "artifact_url": null,
-      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "topic_id": "other-areas",
       "summary": "Millimeter wave (mmWave) multiple-input multiple-output (MIMO) communication systems require accurate channel estimation for effective beamforming."
     },
     {
