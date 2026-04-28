@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **26 April 2026**
+Last Updated: **28 April 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-04-28.md">Apr 28, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-26.md">Apr 26, 2026</a></td>
             <td align="center">+12</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-19.md">Apr 19, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-17.md">Apr 17, 2026</a></td>
-            <td align="center">+5</td>
           </tr>
         </tbody>
       </table>
@@ -140,6 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Channel Estimation for mmWave Systems via Deep Generative Compressed Sensing](https://ieeexplore.ieee.org/abstract/document/11494187/) | N/A | IEEE Transactions on Wireless Communications | 2026 | Millimeter wave (mmWave) multiple-input multiple-output (MIMO) communication systems require accurate channel estimation for effective beamforming. |
 | [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://arxiv.org/abs/2604.10183) | [Code](https://github.com/aiot-lab/RF-LEGO) | arXiv | 2026 | Co-designs modular signal-processing and deep-learning blocks for RF sensing via deep unrolling. |
 | [AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception](https://arxiv.org/abs/2603.17979) | [Code](https://github.com/jp4327/adaradar) | arXiv | 2026 | Radar is a critical perception modality in autonomous driving systems due to its all-weather characteristics and ability to measure range and Doppler velocity. |
 | [Attention-Based Neural-Augmented Kalman Filter for Legged Robot State Estimation](https://arxiv.org/abs/2601.18569) | [Code](https://seokju-lee.github.io/attennkf/) | IEEE Robotics and Automation Letters (RA-L) | 2026 | Addresses the state estimation errors caused by foot slip in legged robots by proposing an Attention-Based Neural-Augmented Kalman Filter (AttenNKF). This method augments an Invariant Extended Kalman Filter (InEKF) with a neural compensator that uses an attention mechanism to infer slip-induced errors and apply post-update compensation. The compensator operates in a latent space to reduce sensitivity and ensure structured corrections, significantly improving performance under slip-prone conditions. |
@@ -165,6 +166,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks](https://arxiv.org/abs/2604.21774) | [Code](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging) | arXiv | 2026 | Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored. |
 | [Review of deep learning for SAR 3D imaging](https://radars.ac.cn/article/doi/10.12000/JR25163) | N/A | Journal of Radars | 2026 | Addresses the limitations of traditional 3D SAR imaging (accuracy, efficiency, robustness) by systematically reviewing Deep Learning (DL) approaches that integrate neural networks with physical radar models. The review focuses on super-resolution and enhanced imaging techniques, while also outlining available datasets, current challenges (such as elevation disambiguation and generalization), and future trends in the field. |
 | [High-resolution mmWave Imaging using Metasurface and Diffusion](https://dl.acm.org/doi/abs/10.1145/3711875.3729162) | N/A | MobiSys | 2025 | Achieves high-resolution, static mmWave imaging by using an optimized metasurface to encode the scene and a diffusion model to reconstruct the image, replacing mechanical scanning and compressive sensing. |
 | [Novel Hybrid-Learning Algorithms for Improved Millimeter-Wave Imaging Systems](https://arxiv.org/abs/2306.15341) | [Code](https://github.com/josiahwsmith10/THz-and-Sub-THz-Imaging-Toolbox) | IEEE Journal of Microwaves | 2025 | Proposes a suite of novel hybrid-learning algorithms that interleave signal processing and deep learning to achieve a superior balance of performance and generalizability across diverse mmWave imaging applications. |

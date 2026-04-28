@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 499,
-    "generated_at": "2026-04-26T06:22:58Z"
+    "total": 501,
+    "generated_at": "2026-04-28T04:43:47Z"
   },
   "taxonomy": [
     {
@@ -6143,6 +6143,30 @@
       "artifact_url": "https://github.com/ThisisLiuminyang/GSMFusion",
       "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
       "summary": "Accurate 3D object detection through camera and 4D radar fusion is a cornerstone of reliable autonomous driving systems, but effectively integrating these heterogeneous modalities remains challenging."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11494187",
+      "title": "Channel Estimation for mmWave Systems via Deep Generative Compressed Sensing",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11494187/",
+      "publication": "IEEE Transactions on Wireless Communications",
+      "year": 2026,
+      "import_order": 500,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Millimeter wave (mmWave) multiple-input multiple-output (MIMO) communication systems require accurate channel estimation for effective beamforming."
+    },
+    {
+      "id": "arxiv:2604.21774",
+      "title": "Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks",
+      "url": "https://arxiv.org/abs/2604.21774",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 501,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging",
+      "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
+      "summary": "Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored."
     }
   ]
 }

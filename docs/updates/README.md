@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-04-28](2026-04-28.md) | 2 | Signal Processing & Parameter Estimation, High-Resolution Imaging & SAR Imaging | Added 2 papers across 2 topics. |
 | [2026-04-26](2026-04-26.md) | 12 | 📦 Other Areas, Foundational Models & Representation Learning About Radar Signals, 3D Object Detection & Classification, Point Cloud Processing, Human Activity Recognition (HAR), Vital Signs & Biometric Identification | Added 12 papers across 6 topics. |
 | [2026-04-25](2026-04-25.md) | 5 | 📦 Other Areas, Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Human Activity Recognition (HAR) | Added 5 papers across 4 topics. |
 | [2026-04-24](2026-04-24.md) | 3 | 📦 Other Areas, 3D Object Detection & Classification, Vital Signs & Biometric Identification | Added 3 papers across 3 topics. |
