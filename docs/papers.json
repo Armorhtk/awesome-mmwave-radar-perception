@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 500,
-    "generated_at": "2026-04-28T08:08:56Z"
+    "total": 501,
+    "generated_at": "2026-05-01T14:37:03Z"
   },
   "taxonomy": [
     {
@@ -6155,6 +6155,18 @@
       "artifact_url": "https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging",
       "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
       "summary": "Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored."
+    },
+    {
+      "id": "url:ui-adsabs-harvard-edu-abs-2026arxiv260410183j-abstract",
+      "title": "RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling",
+      "url": "https://ui.adsabs.harvard.edu/abs/2026arXiv260410183J/abstract",
+      "publication": "ADS",
+      "year": 2026,
+      "import_order": 502,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/aiot-lab/RF-LEGO",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Wireless sensing, traditionally relying on signal processing (SP) techniques, has recently shifted toward data-driven deep learning (DL) to achieve performance breakthroughs."
     }
   ]
 }

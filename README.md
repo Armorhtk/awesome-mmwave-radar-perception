@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **28 April 2026**
+Last Updated: **1 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-01.md">May 01, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-04-28.md">Apr 28, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-20.md">Apr 20, 2026</a></td>
             <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-19.md">Apr 19, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -413,6 +413,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://ui.adsabs.harvard.edu/abs/2026arXiv260410183J/abstract) | [Code](https://github.com/aiot-lab/RF-LEGO) | ADS | 2026 | Wireless sensing, traditionally relying on signal processing (SP) techniques, has recently shifted toward data-driven deep learning (DL) to achieve performance breakthroughs. |
 | [Argus: 3D Radar Point Cloud Registration Using Complementary Cameras for Infrastructure-Assisted Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11457727/) | N/A | IEEE Transactions on Mobile Computing | 2026 | mmWave radar is an emerging sensing modality that expects to significantly improve the safety and reliability of autonomous vehicles, especially in adverse conditions. |
 | [DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR](https://arxiv.org/abs/2604.03685) | [Code](https://jeongyh98.github.io/dsert-roll/) | arXiv | 2026 | In this paper, we present DSERT-RoLL, a driving dataset that incorporates stereo event, RGB, and thermal cameras together with 4D radar and dual LiDAR, collected across diverse weather and illumination conditions. |
 | [CLRNet: Targetless Extrinsic Calibration for Camera, Lidar and 4D Radar Using Deep Learning](https://arxiv.org/abs/2603.15767) | N/A | arXiv | 2026 | Addresses targetless extrinsic calibration by using deep learning to jointly calibrate camera, LiDAR, and 4D radar sensors without dedicated calibration targets. |
