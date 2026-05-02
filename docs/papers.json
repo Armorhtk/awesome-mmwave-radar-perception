@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 501,
-    "generated_at": "2026-05-01T14:37:03Z"
+    "total": 505,
+    "generated_at": "2026-05-02T10:39:42Z"
   },
   "taxonomy": [
     {
@@ -6167,6 +6167,54 @@
       "artifact_url": "https://github.com/aiot-lab/RF-LEGO",
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "Wireless sensing, traditionally relying on signal processing (SP) techniques, has recently shifted toward data-driven deep learning (DL) to achieve performance breakthroughs."
+    },
+    {
+      "id": "arxiv:2604.22827",
+      "title": "DGHMesh: A Large-scale Dual-radar mmWave Dataset and Generalization-focused Benchmark for Human Mesh Reconstruction",
+      "url": "https://arxiv.org/abs/2604.22827",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 503,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/SPIresearch/DGHMesh",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Millimeter-wave (mmWave) radar has shown great potential for contactless, privacy-preserving, and robust human sensing, yet existing mmWave-based human mesh reconstruction (HMR) studies are still limited by the lack of benchmarks for generalization analysis under configuration shifts and fair comparison of."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11495050",
+      "title": "Real-Time Hand Pose Estimation Using FMCW Radar on Resource-Limited Edge Devices",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11495050/",
+      "publication": "IEEE Sensors Journal",
+      "year": 2026,
+      "import_order": 504,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/thetuantrinh/UWB-Radar-Hand-Pose-Estimation.git",
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Real-time hand pose estimation is essential for natural human-computer interaction (HCI), especially in situations where vision-based systems face challenges due to lighting, occlusion, or privacy issues."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11494906",
+      "title": "Deep Radar Perception Network with RTK Supervision for Slow-Moving UAV Detection",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11494906/",
+      "publication": "IEEE Transactions on Instrumentation and Measurement",
+      "year": 2026,
+      "import_order": 505,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Reliable detection of slow-moving unmanned aerial vehicles under low signal-to-noise ratio conditions remains a core challenge for next-generation intelligent sensing systems."
+    },
+    {
+      "id": "arxiv:2604.24674",
+      "title": "Pushing Radar Odometry Beyond the Pavement: Current Capabilities and Challenges",
+      "url": "https://arxiv.org/abs/2604.24674",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 506,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates."
     }
   ]
 }

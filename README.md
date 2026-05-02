@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **1 May 2026**
+Last Updated: **2 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-02.md">May 02, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-01.md">May 01, 2026</a></td>
             <td align="center">+1</td>
           </tr>
@@ -75,10 +79,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-04-21.md">Apr 21, 2026</a></td>
-            <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-20.md">Apr 20, 2026</a></td>
             <td align="center">+3</td>
           </tr>
         </tbody>
@@ -245,6 +245,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Deep Radar Perception Network with RTK Supervision for Slow-Moving UAV Detection](https://ieeexplore.ieee.org/abstract/document/11494906/) | N/A | IEEE Transactions on Instrumentation and Measurement | 2026 | Reliable detection of slow-moving unmanned aerial vehicles under low signal-to-noise ratio conditions remains a core challenge for next-generation intelligent sensing systems. |
 | [Gaussian Spatial Interaction with Long-Range Context Fusion for Radar-Camera 3D Object Detection](https://ieeexplore.ieee.org/abstract/document/11463891/) | [Code](https://github.com/ThisisLiuminyang/GSMFusion) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Accurate 3D object detection through camera and 4D radar fusion is a cornerstone of reliable autonomous driving systems, but effectively integrating these heterogeneous modalities remains challenging. |
 | [A Survey and Case Study on Radar Perception for Object Detection](https://www.scitepress.org/Papers/2026/144134/144134.pdf) | N/A | www.scitepress.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: A Survey and Case Study on Radar Perception for Object Detection. |
 | [RAVEN: Radar Adaptive Vision Encoders for Efficient Chirp-wise Object Detection and Segmentation](https://arxiv.org/abs/2604.04490) | N/A | Computer Vision and Pattern Recognition Conference 2026 | 2026 | This paper presents RAVEN, a computationally efficient deep learning architecture for FMCW radar perception. |
@@ -335,6 +336,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Pushing Radar Odometry Beyond the Pavement: Current Capabilities and Challenges](https://arxiv.org/abs/2604.24674) | N/A | arXiv | 2026 | Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates. |
 | [ClaRO: A Cluster-Based Method for Radar Odometry](https://ieeexplore.ieee.org/iel8/7083369/7339444/11488554.pdf) | N/A | ieeexplore.ieee.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: ClaRO: A Cluster-Based Method for Radar Odometry. |
 | [FAR-RIO: A Fast and Robust Radar-Inertial Odometry with Isotropic Uncertainty Model and Dual-Observation Update Pipeline](https://ieeexplore.ieee.org/abstract/document/11474877/) | [Code](https://github.com/heqi-zh/FAR-RIO.git) | IEEE Robotics and Automation Letters | 2026 | Due to the ability to provide point clouds and Doppler velocity, as well as the adaptability in harsh weather conditions, 4D Radar has emerged as a new option for Simultaneous Localization and Mapping (SLAM). |
 | [UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry](https://arxiv.org/pdf/2604.13584) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: UNRIO: Uncertainty-Aware Velocity Learning for Radar-Inertial Odometry. |
@@ -413,6 +415,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DGHMesh: A Large-scale Dual-radar mmWave Dataset and Generalization-focused Benchmark for Human Mesh Reconstruction](https://arxiv.org/abs/2604.22827) | [Code](https://github.com/SPIresearch/DGHMesh) | arXiv | 2026 | Millimeter-wave (mmWave) radar has shown great potential for contactless, privacy-preserving, and robust human sensing, yet existing mmWave-based human mesh reconstruction (HMR) studies are still limited by the lack of benchmarks for generalization analysis under configuration shifts and fair comparison of. |
 | [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://ui.adsabs.harvard.edu/abs/2026arXiv260410183J/abstract) | [Code](https://github.com/aiot-lab/RF-LEGO) | ADS | 2026 | Wireless sensing, traditionally relying on signal processing (SP) techniques, has recently shifted toward data-driven deep learning (DL) to achieve performance breakthroughs. |
 | [Argus: 3D Radar Point Cloud Registration Using Complementary Cameras for Infrastructure-Assisted Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11457727/) | N/A | IEEE Transactions on Mobile Computing | 2026 | mmWave radar is an emerging sensing modality that expects to significantly improve the safety and reliability of autonomous vehicles, especially in adverse conditions. |
 | [DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR](https://arxiv.org/abs/2604.03685) | [Code](https://jeongyh98.github.io/dsert-roll/) | arXiv | 2026 | In this paper, we present DSERT-RoLL, a driving dataset that incorporates stereo event, RGB, and thermal cameras together with 4D radar and dual LiDAR, collected across diverse weather and illumination conditions. |
@@ -581,6 +584,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Real-Time Hand Pose Estimation Using FMCW Radar on Resource-Limited Edge Devices](https://ieeexplore.ieee.org/abstract/document/11495050/) | [Code](https://github.com/thetuantrinh/UWB-Radar-Hand-Pose-Estimation.git) | IEEE Sensors Journal | 2026 | Real-time hand pose estimation is essential for natural human-computer interaction (HCI), especially in situations where vision-based systems face challenges due to lighting, occlusion, or privacy issues. |
 | [Millimeter-wave radar-assisted skeleton-guided video reconstruction for surveillance systems](https://link.springer.com/article/10.1007/s00371-026-04478-y) | [Code](https://github.com/cocein/R2P2V) | The Visual Computer | 2026 | The Visual Computer - Surveillance systems are pivotal in public safety, yet they often fail under adverse conditions such as darkness, occlusion, or deliberate tampering. |
 | [Sensing Life in Stillness: Unified Dynamic and Static Human Mesh Reconstruction with mmWave Radar](https://dl.acm.org/doi/10.1145/3790117) | [Code](https://github.com/leenchen0/mmRehab) | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies | 2026 | Addresses dynamic and static human mesh reconstruction for rehabilitation by combining micro-motion feature extraction and geometry-aware knowledge transfer with mmWave radar. |
 | [WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation](https://arxiv.org/abs/2602.18726) | [Code](https://github.com/Galaxywalk/WiCompass) | MOBICOM | 2026 | Improves out-of-distribution mmWave human pose estimation by introducing WiCompass, a coverage-aware data collection framework that builds a universal pose-space oracle from large-scale motion-capture corpora and prioritizes underrepresented motions for more efficient and robust data scaling. |
