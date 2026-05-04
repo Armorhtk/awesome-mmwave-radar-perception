@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 505,
-    "generated_at": "2026-05-02T10:39:42Z"
+    "total": 506,
+    "generated_at": "2026-05-04T06:35:47Z"
   },
   "taxonomy": [
     {
@@ -6215,6 +6215,18 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
       "summary": "Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates."
+    },
+    {
+      "id": "doi:10.1117/12.3114268.short",
+      "title": "Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14164/141641F/Trustworthy-single-source-generalization--an-uncertainty-aware-curriculum-learning/10.1117/12.3114268.short",
+      "publication": "www.spiedigitallibrary.org",
+      "year": 2026,
+      "import_order": 507,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Addresses Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing for mmWave radar perception."
     }
   ]
 }

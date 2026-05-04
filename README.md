@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **2 May 2026**
+Last Updated: **4 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-04.md">May 04, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-02.md">May 02, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -75,10 +79,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-04-24.md">Apr 24, 2026</a></td>
-            <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-21.md">Apr 21, 2026</a></td>
             <td align="center">+3</td>
           </tr>
         </tbody>
@@ -415,6 +415,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14164/141641F/Trustworthy-single-source-generalization--an-uncertainty-aware-curriculum-learning/10.1117/12.3114268.short) | N/A | www.spiedigitallibrary.org | 2026 | Addresses Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing for mmWave radar perception. |
 | [DGHMesh: A Large-scale Dual-radar mmWave Dataset and Generalization-focused Benchmark for Human Mesh Reconstruction](https://arxiv.org/abs/2604.22827) | [Code](https://github.com/SPIresearch/DGHMesh) | arXiv | 2026 | Millimeter-wave (mmWave) radar has shown great potential for contactless, privacy-preserving, and robust human sensing, yet existing mmWave-based human mesh reconstruction (HMR) studies are still limited by the lack of benchmarks for generalization analysis under configuration shifts and fair comparison of. |
 | [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://ui.adsabs.harvard.edu/abs/2026arXiv260410183J/abstract) | [Code](https://github.com/aiot-lab/RF-LEGO) | ADS | 2026 | Wireless sensing, traditionally relying on signal processing (SP) techniques, has recently shifted toward data-driven deep learning (DL) to achieve performance breakthroughs. |
 | [Argus: 3D Radar Point Cloud Registration Using Complementary Cameras for Infrastructure-Assisted Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11457727/) | N/A | IEEE Transactions on Mobile Computing | 2026 | mmWave radar is an emerging sensing modality that expects to significantly improve the safety and reliability of autonomous vehicles, especially in adverse conditions. |
