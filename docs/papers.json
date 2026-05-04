@@ -1,7 +1,7 @@
 {
   "meta": {
     "total": 506,
-    "generated_at": "2026-05-04T06:35:47Z"
+    "generated_at": "2026-05-04T06:42:47Z"
   },
   "taxonomy": [
     {
@@ -211,8 +211,8 @@
       "publication": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
       "year": 2025,
       "import_order": 6,
-      "artifact_label": "N/A",
-      "artifact_url": null,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/yansonglv-123/mmWaveSSDG",
       "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
       "summary": "Enhances automotive radar imaging resolution and computational efficiency by incorporating radar signal processing domain knowledge into 1D convolutional neural networks."
     },
