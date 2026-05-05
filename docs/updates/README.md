@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-05-05](2026-05-05.md) | 4 | 📦 Other Areas, Sensor Fusion Techniques, Gesture Recognition & Hand Tracking | Added 4 papers across 3 topics. |
 | [2026-05-04](2026-05-04.md) | 1 | Sensor Fusion Techniques | Added 1 paper across 1 topic. |
 | [2026-05-02](2026-05-02.md) | 4 | 3D Object Detection & Classification, Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Pose Estimation & Skeletal Tracking & Human Motion | Added 4 papers across 4 topics. |
 | [2026-05-01](2026-05-01.md) | 1 | Sensor Fusion Techniques | Added 1 paper across 1 topic. |

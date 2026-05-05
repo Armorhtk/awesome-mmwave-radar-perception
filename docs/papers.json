@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 506,
-    "generated_at": "2026-05-04T06:43:39Z"
+    "total": 510,
+    "generated_at": "2026-05-05T09:02:59Z"
   },
   "taxonomy": [
     {
@@ -6227,6 +6227,54 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "Addresses Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing for mmWave radar perception."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11501760",
+      "title": "Robot-Assisted Cross-modal Synthetic Augmentation of mmWave Datasets for Sign Language Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11501760/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "import_order": 508,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Sign language recognition (SLR) is crucial for bridging communication gaps, particularly for individuals who are deaf or hard-of-hearing."
+    },
+    {
+      "id": "url:www-researchgate-net-profile-aminu-mahmoud-2-publication-404313622-identity-based-radar-spectrum-analysis-for-uav-detection-classification-and-authentication-using-machine-learning-and-blockchain-links-69f31f07db00ec75d02e3f78-identity-based-radar-spectrum-analysis-for-uav-detection-classification-and-authentication-using-machine-learning-and-blockchain-pdf",
+      "title": "Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain",
+      "url": "https://www.researchgate.net/profile/Aminu-Mahmoud-2/publication/404313622_Identity-based_radar_spectrum_analysis_for_UAV_detection_classification_and_authentication_using_machine_learning_and_blockchain/links/69f31f07db00ec75d02e3f78/Identity-based-radar-spectrum-analysis-for-UAV-detection-classification-and-authentication-using-machine-learning-and-blockchain.pdf",
+      "publication": "www.researchgate.net",
+      "year": 2026,
+      "import_order": 509,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11498570",
+      "title": "MSFormer: A Multi-Sparsity Transformer for Reconstructing Missing Traces in GPR B-scans via Self-Supervised Learning",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11498570/",
+      "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "year": 2026,
+      "import_order": 510,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Reconstructs missing traces in GPR B-scans using a multi-sparsity Transformer with self-supervised learning for more reliable subsurface interpretation."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11501808",
+      "title": "Img2Spec: A Generalized Cross-modal Gesture Recognition Framework Based on Local Descriptors",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11501808/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "import_order": 511,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Improves wireless gesture recognition by translating image-derived local descriptors into spectrogram-like representations for cross-modal generalization."
     }
   ]
 }

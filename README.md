@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **4 May 2026**
+Last Updated: **5 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-05.md">May 05, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-04.md">May 04, 2026</a></td>
             <td align="center">+1</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-25.md">Apr 25, 2026</a></td>
             <td align="center">+5</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-24.md">Apr 24, 2026</a></td>
-            <td align="center">+3</td>
           </tr>
         </tbody>
       </table>
@@ -415,6 +415,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain](https://www.researchgate.net/profile/Aminu-Mahmoud-2/publication/404313622_Identity-based_radar_spectrum_analysis_for_UAV_detection_classification_and_authentication_using_machine_learning_and_blockchain/links/69f31f07db00ec75d02e3f78/Identity-based-radar-spectrum-analysis-for-UAV-detection-classification-and-authentication-using-machine-learning-and-blockchain.pdf) | N/A | www.researchgate.net | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain. |
+| [Robot-Assisted Cross-modal Synthetic Augmentation of mmWave Datasets for Sign Language Recognition](https://ieeexplore.ieee.org/abstract/document/11501760/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Sign language recognition (SLR) is crucial for bridging communication gaps, particularly for individuals who are deaf or hard-of-hearing. |
 | [Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14164/141641F/Trustworthy-single-source-generalization--an-uncertainty-aware-curriculum-learning/10.1117/12.3114268.short) | N/A | www.spiedigitallibrary.org | 2026 | Addresses Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing for mmWave radar perception. |
 | [DGHMesh: A Large-scale Dual-radar mmWave Dataset and Generalization-focused Benchmark for Human Mesh Reconstruction](https://arxiv.org/abs/2604.22827) | [Code](https://github.com/SPIresearch/DGHMesh) | arXiv | 2026 | Millimeter-wave (mmWave) radar has shown great potential for contactless, privacy-preserving, and robust human sensing, yet existing mmWave-based human mesh reconstruction (HMR) studies are still limited by the lack of benchmarks for generalization analysis under configuration shifts and fair comparison of. |
 | [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://ui.adsabs.harvard.edu/abs/2026arXiv260410183J/abstract) | [Code](https://github.com/aiot-lab/RF-LEGO) | ADS | 2026 | Wireless sensing, traditionally relying on signal processing (SP) techniques, has recently shifted toward data-driven deep learning (DL) to achieve performance breakthroughs. |
@@ -531,6 +533,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Img2Spec: A Generalized Cross-modal Gesture Recognition Framework Based on Local Descriptors](https://ieeexplore.ieee.org/abstract/document/11501808/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Improves wireless gesture recognition by translating image-derived local descriptors into spectrogram-like representations for cross-modal generalization. |
 | [<monospace>mmGes</monospace>: Coarse-Fine-Grained Feature Fusion for Gesture Recognition Via Contact-Less Mmwave Sensing](https://ieeexplore.ieee.org/abstract/document/11457721/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Millimeter wave radar has recently emerged as a promising modality for enabling pervasive gesture recognition while protecting user privacy. |
 | [Domain-Generalized Gesture Recognition via mmWave Radar Signal Multiview Learning](https://ieeexplore.ieee.org/abstract/document/11270504) | [Code](https://github.com/Tkwer/MVRADAR) | IEEE Transactions on Instrumentation and Measurement | 2026 | Addresses the limitations of single-view and simplistic fusion methods in mmWave gesture recognition by proposing a domain-generalized multiview learning framework. This approach integrates domain knowledge with Dempster-Shafer (DS) evidence theory for causal feature extraction and fusion, achieving superior out-of-distribution (OOD) generalization across diverse users and scenarios. |
 | [Fine-Grained Radar Hand Gesture Recognition Method Based on Variable-Channel DRSN](https://www.mdpi.com/2079-9292/15/2/437) | [Code](https://github.com/Summer-Hometown/Hand-Gesture) | Electronics | 2026 | Enables continuous, free-form aerial handwriting recognition by introducing mmScribe, a streaming end-to-end system that utilizes FMCW mmWave radar and a hybrid CTC/attention architecture to decode unsegmented hand movements into text. The system features a dynamic block training strategy for arbitrary length input and a two-stage decoding process (CTC for streaming character hypotheses, Attention for text-level rescoring), achieving excellent performance and low latency on mobile devices. |
@@ -719,6 +722,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [MSFormer: A Multi-Sparsity Transformer for Reconstructing Missing Traces in GPR B-scans via Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/11498570/) | N/A | IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing | 2026 | Reconstructs missing traces in GPR B-scans using a multi-sparsity Transformer with self-supervised learning for more reliable subsurface interpretation. |
 | [Channel Estimation for mmWave Systems via Deep Generative Compressed Sensing](https://ieeexplore.ieee.org/abstract/document/11494187/) | N/A | IEEE Transactions on Wireless Communications | 2026 | Millimeter wave (mmWave) multiple-input multiple-output (MIMO) communication systems require accurate channel estimation for effective beamforming. |
 | [Radar Acoustic Speech Enhancement Using Bilinear Decoding](https://ieeexplore.ieee.org/abstract/document/11462364/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | In this paper, we present a residual encoder–decoder framework to enhance radar-acoustic speech signals. |
 | [Activity Recognition Using Inaudible Acoustic FMCW](https://ieeexplore.ieee.org/abstract/document/11464885/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Inaudible acoustic signals can be used to recognize human activities. |
