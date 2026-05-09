@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **5 May 2026**
+Last Updated: **9 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-09.md">May 09, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-05.md">May 05, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-26.md">Apr 26, 2026</a></td>
             <td align="center">+12</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-25.md">Apr 25, 2026</a></td>
-            <td align="center">+5</td>
           </tr>
         </tbody>
       </table>
@@ -216,6 +216,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Adaptive 3D-RoPE: Physics-Aligned Rotary Positional Encoding for Wireless Foundation Models](https://arxiv.org/pdf/2605.00968) | N/A | arxiv.org | 2026 | Improves wireless foundation models by adapting 3D rotary positional encoding to align temporal, spatial, and frequency structure for physics-aware RF representations. |
 | [SpikingRTNH: Spiking Neural Network for 4D Radar Object Detection](https://arxiv.org/abs/2502.00074) | [Code](https://github.com/kaist-avelab/K-Radar/tree/main/models/skeletons) | arXiv | 2025 | Achieves energy-efficient 4D radar object detection using spiking neural networks that exploit temporal sparsity in radar signals for low-power processing. |
 | [Towards Foundational Models for Single-Chip Radar](https://arxiv.org/abs/2509.12482) | [Project](https://wiselabcmu.github.io/grt/) | arXiv | 2025 | Builds foundation models for single-chip radar through self-supervised pre-training on diverse radar data to enable transfer learning across multiple sensing tasks. |
 | [Multi-View Radar Detection Transformer with Differentiable Positional Encoding](https://ieeexplore.ieee.org/document/10889849/) | N/A | IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2025 | Enhances multi-view radar detection by introducing differentiable positional encodings that adapt to radar geometry and improve cross-view feature aggregation. |
@@ -415,6 +416,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Novel Channel Estimation Based on Enhanced Diffusion Posterior Sampling for mmWave MIMO Systems](https://ieeexplore.ieee.org/abstract/document/11503318/) | N/A | IEEE Wireless Communications Letters | 2026 | In this letter, a novel diffusion model (DM)-based channel estimation method is proposed to mitigate abrupt performance degradation in millimeter wave (mmWave) multiple-input multiple-output (MIMO) systems under severe pilot scarcity. |
+| [On the Characterization and Limits of 4D Radar for Aided Inertial Navigation](https://arxiv.org/pdf/2605.01773) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: On the Characterization and Limits of 4D Radar for Aided Inertial Navigation. |
 | [Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain](https://www.researchgate.net/profile/Aminu-Mahmoud-2/publication/404313622_Identity-based_radar_spectrum_analysis_for_UAV_detection_classification_and_authentication_using_machine_learning_and_blockchain/links/69f31f07db00ec75d02e3f78/Identity-based-radar-spectrum-analysis-for-UAV-detection-classification-and-authentication-using-machine-learning-and-blockchain.pdf) | N/A | www.researchgate.net | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain. |
 | [Robot-Assisted Cross-modal Synthetic Augmentation of mmWave Datasets for Sign Language Recognition](https://ieeexplore.ieee.org/abstract/document/11501760/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Sign language recognition (SLR) is crucial for bridging communication gaps, particularly for individuals who are deaf or hard-of-hearing. |
 | [Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14164/141641F/Trustworthy-single-source-generalization--an-uncertainty-aware-curriculum-learning/10.1117/12.3114268.short) | N/A | www.spiedigitallibrary.org | 2026 | Addresses Trustworthy single-source generalization: an uncertainty-aware curriculum learning framework for mmWave radar sensing for mmWave radar perception. |

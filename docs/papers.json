@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 510,
-    "generated_at": "2026-05-05T09:02:59Z"
+    "total": 513,
+    "generated_at": "2026-05-09T06:33:39Z"
   },
   "taxonomy": [
     {
@@ -6275,6 +6275,42 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
       "summary": "Improves wireless gesture recognition by translating image-derived local descriptors into spectrogram-like representations for cross-modal generalization."
+    },
+    {
+      "id": "arxiv:2605.01773",
+      "title": "On the Characterization and Limits of 4D Radar for Aided Inertial Navigation",
+      "url": "https://arxiv.org/pdf/2605.01773",
+      "publication": "arxiv.org",
+      "year": 2026,
+      "import_order": 512,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: On the Characterization and Limits of 4D Radar for Aided Inertial Navigation."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11503318",
+      "title": "Novel Channel Estimation Based on Enhanced Diffusion Posterior Sampling for mmWave MIMO Systems",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11503318/",
+      "publication": "IEEE Wireless Communications Letters",
+      "year": 2026,
+      "import_order": 513,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "In this letter, a novel diffusion model (DM)-based channel estimation method is proposed to mitigate abrupt performance degradation in millimeter wave (mmWave) multiple-input multiple-output (MIMO) systems under severe pilot scarcity."
+    },
+    {
+      "id": "arxiv:2605.00968",
+      "title": "Adaptive 3D-RoPE: Physics-Aligned Rotary Positional Encoding for Wireless Foundation Models",
+      "url": "https://arxiv.org/pdf/2605.00968",
+      "publication": "arxiv.org",
+      "year": 2026,
+      "import_order": 514,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "summary": "Improves wireless foundation models by adapting 3D rotary positional encoding to align temporal, spatial, and frequency structure for physics-aware RF representations."
     }
   ]
 }
