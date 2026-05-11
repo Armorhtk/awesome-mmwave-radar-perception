@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 513,
-    "generated_at": "2026-05-09T06:33:39Z"
+    "total": 517,
+    "generated_at": "2026-05-11T08:37:38Z"
   },
   "taxonomy": [
     {
@@ -6311,6 +6311,54 @@
       "artifact_url": null,
       "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
       "summary": "Improves wireless foundation models by adapting 3D rotary positional encoding to align temporal, spatial, and frequency structure for physics-aware RF representations."
+    },
+    {
+      "id": "arxiv:2605.04806",
+      "title": "Dr-PoGO: Direct Radar Pose-Graph Optimization",
+      "url": "https://arxiv.org/pdf/2605.04806",
+      "publication": "arxiv.org",
+      "year": 2026,
+      "import_order": 515,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: Dr-PoGO: Direct Radar Pose-Graph Optimization."
+    },
+    {
+      "id": "doi:10.1007/978-3-032-04327-6_7",
+      "title": "Fine-Grained Context Awareness with Radar-Based and Vision-Based Surfa",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-04327-6_7",
+      "publication": "SpringerLink",
+      "year": 2026,
+      "import_order": 516,
+      "artifact_label": "Dataset",
+      "artifact_url": "https://github.com/yongquan-hu/MicroCam",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Everyday, our hands touch a wide range of surfaces and our feet walk across different surfaces."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11505057",
+      "title": "R^2Net: 2D Deep Residual Learning with Height Embedding for 3D Radio Map Estimation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11505057/",
+      "publication": "IEEE Transactions on Vehicular Technology",
+      "year": 2026,
+      "import_order": 517,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/lighttime2023/3DiRM3200.git",
+      "topic_id": "other-areas",
+      "summary": "Improves 3D radio map estimation by using a 2D residual network with height embedding to predict channel knowledge across spatial locations."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11509314",
+      "title": "A Model-Driven Deep Learning-Based Channel Estimation Method for CPM",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11509314/",
+      "publication": "IEEE Communications Letters",
+      "year": 2026,
+      "import_order": 518,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Improves CPM channel estimation by combining model-driven structure with deep learning to support power-efficient communication systems."
     }
   ]
 }

@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **9 May 2026**
+Last Updated: **11 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-11.md">May 11, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-09.md">May 09, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-04-28.md">Apr 28, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-26.md">Apr 26, 2026</a></td>
-            <td align="center">+12</td>
           </tr>
         </tbody>
       </table>
@@ -416,6 +416,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Fine-Grained Context Awareness with Radar-Based and Vision-Based Surfa](https://link.springer.com/chapter/10.1007/978-3-032-04327-6_7) | [Dataset](https://github.com/yongquan-hu/MicroCam) | SpringerLink | 2026 | Everyday, our hands touch a wide range of surfaces and our feet walk across different surfaces. |
+| [Dr-PoGO: Direct Radar Pose-Graph Optimization](https://arxiv.org/pdf/2605.04806) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Dr-PoGO: Direct Radar Pose-Graph Optimization. |
 | [Novel Channel Estimation Based on Enhanced Diffusion Posterior Sampling for mmWave MIMO Systems](https://ieeexplore.ieee.org/abstract/document/11503318/) | N/A | IEEE Wireless Communications Letters | 2026 | In this letter, a novel diffusion model (DM)-based channel estimation method is proposed to mitigate abrupt performance degradation in millimeter wave (mmWave) multiple-input multiple-output (MIMO) systems under severe pilot scarcity. |
 | [On the Characterization and Limits of 4D Radar for Aided Inertial Navigation](https://arxiv.org/pdf/2605.01773) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: On the Characterization and Limits of 4D Radar for Aided Inertial Navigation. |
 | [Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain](https://www.researchgate.net/profile/Aminu-Mahmoud-2/publication/404313622_Identity-based_radar_spectrum_analysis_for_UAV_detection_classification_and_authentication_using_machine_learning_and_blockchain/links/69f31f07db00ec75d02e3f78/Identity-based-radar-spectrum-analysis-for-UAV-detection-classification-and-authentication-using-machine-learning-and-blockchain.pdf) | N/A | www.researchgate.net | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Identity-based radar spectrum analysis for UAV detection, classification, and authentication using machine learning and blockchain. |
@@ -725,6 +727,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A Model-Driven Deep Learning-Based Channel Estimation Method for CPM](https://ieeexplore.ieee.org/abstract/document/11509314/) | N/A | IEEE Communications Letters | 2026 | Improves CPM channel estimation by combining model-driven structure with deep learning to support power-efficient communication systems. |
+| [R^2Net: 2D Deep Residual Learning with Height Embedding for 3D Radio Map Estimation](https://ieeexplore.ieee.org/abstract/document/11505057/) | [Code](https://github.com/lighttime2023/3DiRM3200.git) | IEEE Transactions on Vehicular Technology | 2026 | Improves 3D radio map estimation by using a 2D residual network with height embedding to predict channel knowledge across spatial locations. |
 | [MSFormer: A Multi-Sparsity Transformer for Reconstructing Missing Traces in GPR B-scans via Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/11498570/) | N/A | IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing | 2026 | Reconstructs missing traces in GPR B-scans using a multi-sparsity Transformer with self-supervised learning for more reliable subsurface interpretation. |
 | [Channel Estimation for mmWave Systems via Deep Generative Compressed Sensing](https://ieeexplore.ieee.org/abstract/document/11494187/) | N/A | IEEE Transactions on Wireless Communications | 2026 | Millimeter wave (mmWave) multiple-input multiple-output (MIMO) communication systems require accurate channel estimation for effective beamforming. |
 | [Radar Acoustic Speech Enhancement Using Bilinear Decoding](https://ieeexplore.ieee.org/abstract/document/11462364/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | In this paper, we present a residual encoder–decoder framework to enhance radar-acoustic speech signals. |
