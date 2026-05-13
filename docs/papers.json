@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 517,
-    "generated_at": "2026-05-11T08:37:38Z"
+    "total": 520,
+    "generated_at": "2026-05-13T02:34:17Z"
   },
   "taxonomy": [
     {
@@ -6359,6 +6359,42 @@
       "artifact_url": null,
       "topic_id": "other-areas",
       "summary": "Improves CPM channel estimation by combining model-driven structure with deep learning to support power-efficient communication systems."
+    },
+    {
+      "id": "arxiv:2605.05071",
+      "title": "Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity",
+      "url": "https://arxiv.org/pdf/2605.05071",
+      "publication": "arxiv.org",
+      "year": 2026,
+      "import_order": 519,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11511344",
+      "title": "MVLSN-SegNet: Multi-feature view-based land-sea-noise segmentation network for maritime surveillance radars",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11511344/",
+      "publication": "IEEE Transactions on Radar Systems",
+      "year": 2026,
+      "import_order": 520,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Land-sea-noise segmentation is essential for maritime surveillance radars, particularly in short-pulse search mode."
+    },
+    {
+      "id": "arxiv:2605.06351",
+      "title": "SIGMA-ASL: Sensor-Integrated Multimodal Dataset for Sign Language Recognition",
+      "url": "https://arxiv.org/abs/2605.06351",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 521,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/happy2sumture-cloud/SIGMA-ASL",
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Introduces a multimodal sign language recognition dataset with sensor-integrated visual and sensing streams for robust gesture understanding."
     }
   ]
 }

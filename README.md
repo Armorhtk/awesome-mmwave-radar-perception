@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **11 May 2026**
+Last Updated: **13 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-13.md">May 13, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-11.md">May 11, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-01.md">May 01, 2026</a></td>
             <td align="center">+1</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-04-28.md">Apr 28, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -416,6 +416,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [MVLSN-SegNet: Multi-feature view-based land-sea-noise segmentation network for maritime surveillance radars](https://ieeexplore.ieee.org/abstract/document/11511344/) | N/A | IEEE Transactions on Radar Systems | 2026 | Land-sea-noise segmentation is essential for maritime surveillance radars, particularly in short-pulse search mode. |
+| [Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity](https://arxiv.org/pdf/2605.05071) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity. |
 | [Fine-Grained Context Awareness with Radar-Based and Vision-Based Surfa](https://link.springer.com/chapter/10.1007/978-3-032-04327-6_7) | [Dataset](https://github.com/yongquan-hu/MicroCam) | SpringerLink | 2026 | Everyday, our hands touch a wide range of surfaces and our feet walk across different surfaces. |
 | [Dr-PoGO: Direct Radar Pose-Graph Optimization](https://arxiv.org/pdf/2605.04806) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Dr-PoGO: Direct Radar Pose-Graph Optimization. |
 | [Novel Channel Estimation Based on Enhanced Diffusion Posterior Sampling for mmWave MIMO Systems](https://ieeexplore.ieee.org/abstract/document/11503318/) | N/A | IEEE Wireless Communications Letters | 2026 | In this letter, a novel diffusion model (DM)-based channel estimation method is proposed to mitigate abrupt performance degradation in millimeter wave (mmWave) multiple-input multiple-output (MIMO) systems under severe pilot scarcity. |
@@ -538,6 +540,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [SIGMA-ASL: Sensor-Integrated Multimodal Dataset for Sign Language Recognition](https://arxiv.org/abs/2605.06351) | [Code](https://github.com/happy2sumture-cloud/SIGMA-ASL) | arXiv | 2026 | Introduces a multimodal sign language recognition dataset with sensor-integrated visual and sensing streams for robust gesture understanding. |
 | [Img2Spec: A Generalized Cross-modal Gesture Recognition Framework Based on Local Descriptors](https://ieeexplore.ieee.org/abstract/document/11501808/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Improves wireless gesture recognition by translating image-derived local descriptors into spectrogram-like representations for cross-modal generalization. |
 | [<monospace>mmGes</monospace>: Coarse-Fine-Grained Feature Fusion for Gesture Recognition Via Contact-Less Mmwave Sensing](https://ieeexplore.ieee.org/abstract/document/11457721/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Millimeter wave radar has recently emerged as a promising modality for enabling pervasive gesture recognition while protecting user privacy. |
 | [Domain-Generalized Gesture Recognition via mmWave Radar Signal Multiview Learning](https://ieeexplore.ieee.org/abstract/document/11270504) | [Code](https://github.com/Tkwer/MVRADAR) | IEEE Transactions on Instrumentation and Measurement | 2026 | Addresses the limitations of single-view and simplistic fusion methods in mmWave gesture recognition by proposing a domain-generalized multiview learning framework. This approach integrates domain knowledge with Dempster-Shafer (DS) evidence theory for causal feature extraction and fusion, achieving superior out-of-distribution (OOD) generalization across diverse users and scenarios. |
