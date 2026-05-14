@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 520,
-    "generated_at": "2026-05-13T02:34:17Z"
+    "total": 522,
+    "generated_at": "2026-05-14T07:12:49Z"
   },
   "taxonomy": [
     {
@@ -6395,6 +6395,30 @@
       "artifact_url": "https://github.com/happy2sumture-cloud/SIGMA-ASL",
       "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
       "summary": "Introduces a multimodal sign language recognition dataset with sensor-integrated visual and sensing streams for robust gesture understanding."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11512025",
+      "title": "Parametric Spectral Attention for Real-Time mmWave Radar Pose Recognition from Raw ADC Data",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11512025/",
+      "publication": "IEEE Sensors Letters",
+      "year": 2026,
+      "import_order": 522,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Conventional mmWave perception pipelines decouple signal conditioning (e.g., fixed STFT) from feature learning."
+    },
+    {
+      "id": "doi:10.1145/3774906.3800487",
+      "title": "RippleSense: Scalable and Efficient Wideband Spectrum Sensing",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3774906.3800487",
+      "publication": "ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys'26)",
+      "year": 2026,
+      "import_order": 523,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/andreaskuster/RippleSense",
+      "topic_id": "other-areas",
+      "summary": "Introduces a sub-Nyquist wideband spectrum sensing platform that injects signatures across Nyquist zones to reconstruct dense GHz spectra in real time."
     }
   ]
 }

@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **13 May 2026**
+Last Updated: **14 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-14.md">May 14, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-13.md">May 13, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-02.md">May 02, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-01.md">May 01, 2026</a></td>
-            <td align="center">+1</td>
           </tr>
         </tbody>
       </table>
@@ -416,6 +416,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Parametric Spectral Attention for Real-Time mmWave Radar Pose Recognition from Raw ADC Data](https://ieeexplore.ieee.org/abstract/document/11512025/) | N/A | IEEE Sensors Letters | 2026 | Conventional mmWave perception pipelines decouple signal conditioning (e.g., fixed STFT) from feature learning. |
 | [MVLSN-SegNet: Multi-feature view-based land-sea-noise segmentation network for maritime surveillance radars](https://ieeexplore.ieee.org/abstract/document/11511344/) | N/A | IEEE Transactions on Radar Systems | 2026 | Land-sea-noise segmentation is essential for maritime surveillance radars, particularly in short-pulse search mode. |
 | [Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity](https://arxiv.org/pdf/2605.05071) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity. |
 | [Fine-Grained Context Awareness with Radar-Based and Vision-Based Surfa](https://link.springer.com/chapter/10.1007/978-3-032-04327-6_7) | [Dataset](https://github.com/yongquan-hu/MicroCam) | SpringerLink | 2026 | Everyday, our hands touch a wide range of surfaces and our feet walk across different surfaces. |
@@ -730,6 +731,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RippleSense: Scalable and Efficient Wideband Spectrum Sensing](https://dl.acm.org/doi/abs/10.1145/3774906.3800487) | [Code](https://github.com/andreaskuster/RippleSense) | ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys'26) | 2026 | Introduces a sub-Nyquist wideband spectrum sensing platform that injects signatures across Nyquist zones to reconstruct dense GHz spectra in real time. |
 | [A Model-Driven Deep Learning-Based Channel Estimation Method for CPM](https://ieeexplore.ieee.org/abstract/document/11509314/) | N/A | IEEE Communications Letters | 2026 | Improves CPM channel estimation by combining model-driven structure with deep learning to support power-efficient communication systems. |
 | [R^2Net: 2D Deep Residual Learning with Height Embedding for 3D Radio Map Estimation](https://ieeexplore.ieee.org/abstract/document/11505057/) | [Code](https://github.com/lighttime2023/3DiRM3200.git) | IEEE Transactions on Vehicular Technology | 2026 | Improves 3D radio map estimation by using a 2D residual network with height embedding to predict channel knowledge across spatial locations. |
 | [MSFormer: A Multi-Sparsity Transformer for Reconstructing Missing Traces in GPR B-scans via Self-Supervised Learning](https://ieeexplore.ieee.org/abstract/document/11498570/) | N/A | IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing | 2026 | Reconstructs missing traces in GPR B-scans using a multi-sparsity Transformer with self-supervised learning for more reliable subsurface interpretation. |

@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-05-14](2026-05-14.md) | 2 | 📦 Other Areas, Sensor Fusion Techniques | Added 2 papers across 2 topics. |
 | [2026-05-13](2026-05-13.md) | 3 | Sensor Fusion Techniques, Gesture Recognition & Hand Tracking | Added 3 papers across 2 topics. |
 | [2026-05-11](2026-05-11.md) | 4 | 📦 Other Areas, Sensor Fusion Techniques | Added 4 papers across 2 topics. |
 | [2026-05-09](2026-05-09.md) | 3 | Foundational Models & Representation Learning About Radar Signals, Sensor Fusion Techniques | Added 3 papers across 2 topics. |
