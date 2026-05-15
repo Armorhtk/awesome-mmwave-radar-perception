@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 522,
-    "generated_at": "2026-05-14T07:12:49Z"
+    "total": 526,
+    "generated_at": "2026-05-15T06:20:39Z"
   },
   "taxonomy": [
     {
@@ -6419,6 +6419,54 @@
       "artifact_url": "https://github.com/andreaskuster/RippleSense",
       "topic_id": "other-areas",
       "summary": "Introduces a sub-Nyquist wideband spectrum sensing platform that injects signatures across Nyquist zones to reconstruct dense GHz spectra in real time."
+    },
+    {
+      "id": "arxiv:2605.09604",
+      "title": "DAP: Doppler-aware Point Network for Heterogeneous mmWave Action Recognition",
+      "url": "https://arxiv.org/abs/2605.09604",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 524,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
+      "summary": "Introduces DAP-Net and the UniMM-HAR dataset to improve heterogeneous mmWave point-cloud action recognition across devices and frequency bands."
+    },
+    {
+      "id": "arxiv:2605.09983",
+      "title": "Frequency Matching in Spiking Neural Networks for mmWave Sensing",
+      "url": "https://arxiv.org/abs/2605.09983",
+      "publication": "ICML",
+      "year": 2026,
+      "import_order": 525,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "summary": "Improves efficient mmWave sensing by matching spiking neural network dynamics to signal frequency structure for better accuracy and lower energy use."
+    },
+    {
+      "id": "arxiv:2605.08663",
+      "title": "CAST: Channel-Aware Spatial Transfer Learning with Pseudo-Image Radar for Sign Language Recognition",
+      "url": "https://arxiv.org/abs/2605.08663",
+      "publication": "CVPR Workshop",
+      "year": 2026,
+      "import_order": 526,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Shakhoyat/CAST-at-SignEval2026",
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Addresses radar-only sign language recognition by fusing physics-aware RTM and Doppler pseudo-image streams with channel-aware spatial transfer learning."
+    },
+    {
+      "id": "arxiv:2605.07041",
+      "title": "Dr-BA: Separable Optimization for Direct Radar Bundle Adjustment & Localization",
+      "url": "https://arxiv.org/abs/2605.07041",
+      "publication": "RSS",
+      "year": 2026,
+      "import_order": 527,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/utiasASRL/dr_ba",
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Introduces direct radar bundle adjustment that jointly estimates dense maps and poses from spinning radar images for robust localization."
     }
   ]
 }

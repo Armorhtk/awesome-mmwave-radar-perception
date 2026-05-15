@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **14 May 2026**
+Last Updated: **15 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-15.md">May 15, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-14.md">May 14, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-04.md">May 04, 2026</a></td>
             <td align="center">+1</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-02.md">May 02, 2026</a></td>
-            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
@@ -216,6 +216,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://arxiv.org/abs/2605.09983) | N/A | ICML | 2026 | Improves efficient mmWave sensing by matching spiking neural network dynamics to signal frequency structure for better accuracy and lower energy use. |
 | [Adaptive 3D-RoPE: Physics-Aligned Rotary Positional Encoding for Wireless Foundation Models](https://arxiv.org/pdf/2605.00968) | N/A | arxiv.org | 2026 | Improves wireless foundation models by adapting 3D rotary positional encoding to align temporal, spatial, and frequency structure for physics-aware RF representations. |
 | [SpikingRTNH: Spiking Neural Network for 4D Radar Object Detection](https://arxiv.org/abs/2502.00074) | [Code](https://github.com/kaist-avelab/K-Radar/tree/main/models/skeletons) | arXiv | 2025 | Achieves energy-efficient 4D radar object detection using spiking neural networks that exploit temporal sparsity in radar signals for low-power processing. |
 | [Towards Foundational Models for Single-Chip Radar](https://arxiv.org/abs/2509.12482) | [Project](https://wiselabcmu.github.io/grt/) | arXiv | 2025 | Builds foundation models for single-chip radar through self-supervised pre-training on diverse radar data to enable transfer learning across multiple sensing tasks. |
@@ -337,6 +338,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Dr-BA: Separable Optimization for Direct Radar Bundle Adjustment & Localization](https://arxiv.org/abs/2605.07041) | [Code](https://github.com/utiasASRL/dr_ba) | RSS | 2026 | Introduces direct radar bundle adjustment that jointly estimates dense maps and poses from spinning radar images for robust localization. |
 | [Pushing Radar Odometry Beyond the Pavement: Current Capabilities and Challenges](https://arxiv.org/abs/2604.24674) | N/A | arXiv | 2026 | Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates. |
 | [ClaRO: A Cluster-Based Method for Radar Odometry](https://ieeexplore.ieee.org/iel8/7083369/7339444/11488554.pdf) | N/A | ieeexplore.ieee.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: ClaRO: A Cluster-Based Method for Radar Odometry. |
 | [FAR-RIO: A Fast and Robust Radar-Inertial Odometry with Isotropic Uncertainty Model and Dual-Observation Update Pipeline](https://ieeexplore.ieee.org/abstract/document/11474877/) | [Code](https://github.com/heqi-zh/FAR-RIO.git) | IEEE Robotics and Automation Letters | 2026 | Due to the ability to provide point clouds and Doppler velocity, as well as the adaptability in harsh weather conditions, 4D Radar has emerged as a new option for Simultaneous Localization and Mapping (SLAM). |
@@ -494,6 +496,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DAP: Doppler-aware Point Network for Heterogeneous mmWave Action Recognition](https://arxiv.org/abs/2605.09604) | N/A | arXiv | 2026 | Introduces DAP-Net and the UniMM-HAR dataset to improve heterogeneous mmWave point-cloud action recognition across devices and frequency bands. |
 | [OG-PCL: Efficient Sparse Radar Point Cloud Processing for Human Activity Recognition](https://ieeexplore.ieee.org/abstract/document/11462700/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Human activity recognition (HAR) with millimeter-wave (mmWave) radar offers a privacy-preserving and robust alternative to camera-and wearable-based approaches. |
 | [SEdgeNet: Stochastic Edge Network for Human Activity Recognition Using Sparse Point Cloud](https://www.researchsquare.com/article/rs-8959065/latest.pdf) | [Code](https://github.com/Gbouna/SEdgeNet) | Research Square | 2026 | SEdgeNet introduces stochastic edge convolution for mmWave point-cloud activity recognition and reports state-of-the-art accuracy and efficiency on the MiliPoint and MMActivity datasets. |
 | [RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations](https://ieeexplore.ieee.org/abstract/document/11488648/) | [Code](https://github.com/Kanomace/mmWave-RoPEHAR) | IEEE Internet of Things Journal | 2026 | Safety monitoring of power operations in substations is crucial for accident prevention. |
@@ -541,6 +544,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [CAST: Channel-Aware Spatial Transfer Learning with Pseudo-Image Radar for Sign Language Recognition](https://arxiv.org/abs/2605.08663) | [Code](https://github.com/Shakhoyat/CAST-at-SignEval2026) | CVPR Workshop | 2026 | Addresses radar-only sign language recognition by fusing physics-aware RTM and Doppler pseudo-image streams with channel-aware spatial transfer learning. |
 | [SIGMA-ASL: Sensor-Integrated Multimodal Dataset for Sign Language Recognition](https://arxiv.org/abs/2605.06351) | [Code](https://github.com/happy2sumture-cloud/SIGMA-ASL) | arXiv | 2026 | Introduces a multimodal sign language recognition dataset with sensor-integrated visual and sensing streams for robust gesture understanding. |
 | [Img2Spec: A Generalized Cross-modal Gesture Recognition Framework Based on Local Descriptors](https://ieeexplore.ieee.org/abstract/document/11501808/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Improves wireless gesture recognition by translating image-derived local descriptors into spectrogram-like representations for cross-modal generalization. |
 | [<monospace>mmGes</monospace>: Coarse-Fine-Grained Feature Fusion for Gesture Recognition Via Contact-Less Mmwave Sensing](https://ieeexplore.ieee.org/abstract/document/11457721/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Millimeter wave radar has recently emerged as a promising modality for enabling pervasive gesture recognition while protecting user privacy. |
