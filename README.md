@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **15 May 2026**
+Last Updated: **19 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-19.md">May 19, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-15.md">May 15, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-05.md">May 05, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-04.md">May 04, 2026</a></td>
-            <td align="center">+1</td>
           </tr>
         </tbody>
       </table>
@@ -140,6 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Sparse Phase Retrieval for Clustered-Sparse Signals: A Graph Cut-Based Truncated Flow Approach](https://ieeexplore.ieee.org/abstract/document/11520691/) | N/A | IEEE Transactions on Signal Processing | 2026 | Addresses clustered-sparse phase retrieval by combining gradient descent, graph-cut truncation, and reduced-matrix refinement for robust sparse signal recovery. |
 | [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://arxiv.org/abs/2604.10183) | [Code](https://github.com/aiot-lab/RF-LEGO) | arXiv | 2026 | Co-designs modular signal-processing and deep-learning blocks for RF sensing via deep unrolling. |
 | [AdaRadar: Rate Adaptive Spectral Compression for Radar-based Perception](https://arxiv.org/abs/2603.17979) | [Code](https://github.com/jp4327/adaradar) | arXiv | 2026 | Radar is a critical perception modality in autonomous driving systems due to its all-weather characteristics and ability to measure range and Doppler velocity. |
 | [Direction of Arrival Estimation with Virtual Antenna Array Using FMCW Radar Simulated Data](https://arxiv.org/abs/2508.07513) | [Code](https://github.com/ekurtgl/FMCW-MIMO-Radar-Simulation) | arXiv | 2025 | Addresses the underutilization of velocity information in raw radar data by introducing a plug-and-play 'Doppler Former' module designed to explicitly extract Doppler features and boost perception model performance. |
@@ -247,6 +248,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Exploring YOLO Architectures for Radar-Based Flying Object Classification Using Micro-Doppler Signatures](https://ieeexplore.ieee.org/abstract/document/11520330/) | N/A | IEEE Canadian Journal of Electrical and Computer Engineering | 2026 | Improves radar-based flying object classification by evaluating YOLO architectures on micro-Doppler signatures for real-time UAV recognition. |
 | [Deep Radar Perception Network with RTK Supervision for Slow-Moving UAV Detection](https://ieeexplore.ieee.org/abstract/document/11494906/) | N/A | IEEE Transactions on Instrumentation and Measurement | 2026 | Reliable detection of slow-moving unmanned aerial vehicles under low signal-to-noise ratio conditions remains a core challenge for next-generation intelligent sensing systems. |
 | [Gaussian Spatial Interaction with Long-Range Context Fusion for Radar-Camera 3D Object Detection](https://ieeexplore.ieee.org/abstract/document/11463891/) | [Code](https://github.com/ThisisLiuminyang/GSMFusion) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Accurate 3D object detection through camera and 4D radar fusion is a cornerstone of reliable autonomous driving systems, but effectively integrating these heterogeneous modalities remains challenging. |
 | [A Survey and Case Study on Radar Perception for Object Detection](https://www.scitepress.org/Papers/2026/144134/144134.pdf) | N/A | www.scitepress.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: A Survey and Case Study on Radar Perception for Object Detection. |

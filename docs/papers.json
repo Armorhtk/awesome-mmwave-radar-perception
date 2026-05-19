@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 526,
-    "generated_at": "2026-05-15T06:20:39Z"
+    "total": 528,
+    "generated_at": "2026-05-19T07:16:01Z"
   },
   "taxonomy": [
     {
@@ -6467,6 +6467,30 @@
       "artifact_url": "https://github.com/utiasASRL/dr_ba",
       "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
       "summary": "Introduces direct radar bundle adjustment that jointly estimates dense maps and poses from spinning radar images for robust localization."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11520330",
+      "title": "Exploring YOLO Architectures for Radar-Based Flying Object Classification Using Micro-Doppler Signatures",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11520330/",
+      "publication": "IEEE Canadian Journal of Electrical and Computer Engineering",
+      "year": 2026,
+      "import_order": 528,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Improves radar-based flying object classification by evaluating YOLO architectures on micro-Doppler signatures for real-time UAV recognition."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11520691",
+      "title": "Sparse Phase Retrieval for Clustered-Sparse Signals: A Graph Cut-Based Truncated Flow Approach",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11520691/",
+      "publication": "IEEE Transactions on Signal Processing",
+      "year": 2026,
+      "import_order": 529,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Addresses clustered-sparse phase retrieval by combining gradient descent, graph-cut truncation, and reduced-matrix refinement for robust sparse signal recovery."
     }
   ]
 }

@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-05-19](2026-05-19.md) | 2 | Signal Processing & Parameter Estimation, 3D Object Detection & Classification | Added 2 papers across 2 topics. |
 | [2026-05-15](2026-05-15.md) | 4 | Foundational Models & Representation Learning About Radar Signals, Radar Odometry & Ego-Motion Estimation, Human Activity Recognition (HAR), Gesture Recognition & Hand Tracking | Added 4 papers across 4 topics. |
 | [2026-05-14](2026-05-14.md) | 2 | 📦 Other Areas, Sensor Fusion Techniques | Added 2 papers across 2 topics. |
 | [2026-05-13](2026-05-13.md) | 3 | Sensor Fusion Techniques, Gesture Recognition & Hand Tracking | Added 3 papers across 2 topics. |
