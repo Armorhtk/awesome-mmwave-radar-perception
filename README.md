@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **22 May 2026**
+Last Updated: **19 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,10 +54,6 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
-            <td><a href="docs/updates/2026-05-22.md">May 22, 2026</a></td>
-            <td align="center">+2</td>
-          </tr>
-          <tr>
             <td><a href="docs/updates/2026-05-19.md">May 19, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -80,6 +76,10 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-09.md">May 09, 2026</a></td>
             <td align="center">+3</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-05-05.md">May 05, 2026</a></td>
+            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
@@ -329,7 +329,6 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
-| [Weakly Supervised Cross-Modal Learning for 4D Radar Scene Flow Estimation](https://arxiv.org/abs/2605.18507) | [Code](https://github.com/FuJingyun/IterFlow) | ICML | 2026 | Improves 4D radar scene flow estimation by combining instance-aware self-supervision with image and odometry cues for weakly supervised training. |
 | [DoGFlow: Self-Supervised LiDAR Scene Flow via Cross-Modal Doppler Guidance](https://arxiv.org/abs/2505.06056) | [Project](https://ajinkyakhoche.github.io/DogFlow/) | arXiv | 2025 | Overcomes the bottleneck of manual annotation for LiDAR scene flow by using a self-supervised method that generates pseudo-labels from radar Doppler measurements, significantly improving performance and data efficiency. |
 | [Self-Supervised Diffusion-Based Scene Flow Estimation and Motion Segmentation with 4D Radar](https://ieeexplore.ieee.org/document/10974572) | [Code](https://github.com/nubot-nudt/RadarSFEMOS) | IRAL | 2025 | Estimates scene flow and segments moving objects from 4D radar using self-supervised diffusion models that learn motion patterns without manual annotations. |
 | [RadarMP: Motion Perception for 4D mmWave Radar in Autonomous Driving](https://arxiv.org/abs/2511.12117) | [Code](https://github.com/chengrui7/RadarMP) | arXiv | 2025 | Addresses the imprecision of decoupled motion perception in sparse radar data by using a unified architecture that jointly models detection and scene flow from low-level echoes, leveraging Doppler-guided self-supervision to eliminate the need for annotations. |
@@ -421,7 +420,6 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
-| [NERVE: A Neuromorphic Vision and Radar Ensemble for Multi-Sensor Fusion Research](https://arxiv.org/abs/2605.16414) | [Code](https://github.com/nerveproject-ut/nerve) | arXiv | 2026 | Introduces a synchronized neuromorphic vision, RGB-D, and 24/77 GHz radar dataset for multi-sensor fusion research in indoor perception settings. |
 | [Parametric Spectral Attention for Real-Time mmWave Radar Pose Recognition from Raw ADC Data](https://ieeexplore.ieee.org/abstract/document/11512025/) | N/A | IEEE Sensors Letters | 2026 | Conventional mmWave perception pipelines decouple signal conditioning (e.g., fixed STFT) from feature learning. |
 | [MVLSN-SegNet: Multi-feature view-based land-sea-noise segmentation network for maritime surveillance radars](https://ieeexplore.ieee.org/abstract/document/11511344/) | N/A | IEEE Transactions on Radar Systems | 2026 | Land-sea-noise segmentation is essential for maritime surveillance radars, particularly in short-pulse search mode. |
 | [Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity](https://arxiv.org/pdf/2605.05071) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Look Once, Beam Twice: Camera-Primed Real-Time Double-Directional mmWave Beam Management for Vehicular Connectivity. |
