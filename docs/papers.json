@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 528,
-    "generated_at": "2026-05-19T07:16:01Z"
+    "total": 530,
+    "generated_at": "2026-05-22T11:58:39Z"
   },
   "taxonomy": [
     {
@@ -6491,6 +6491,30 @@
       "artifact_url": null,
       "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
       "summary": "Addresses clustered-sparse phase retrieval by combining gradient descent, graph-cut truncation, and reduced-matrix refinement for robust sparse signal recovery."
+    },
+    {
+      "id": "arxiv:2605.16414",
+      "title": "NERVE: A Neuromorphic Vision and Radar Ensemble for Multi-Sensor Fusion Research",
+      "url": "https://arxiv.org/abs/2605.16414",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 530,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/nerveproject-ut/nerve",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Introduces a synchronized neuromorphic vision, RGB-D, and 24/77 GHz radar dataset for multi-sensor fusion research in indoor perception settings."
+    },
+    {
+      "id": "arxiv:2605.18507",
+      "title": "Weakly Supervised Cross-Modal Learning for 4D Radar Scene Flow Estimation",
+      "url": "https://arxiv.org/abs/2605.18507",
+      "publication": "ICML",
+      "year": 2026,
+      "import_order": 531,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/FuJingyun/IterFlow",
+      "topic_id": "autonomous-driving-drone__scene-flow-motion-prediction",
+      "summary": "Improves 4D radar scene flow estimation by combining instance-aware self-supervision with image and odometry cues for weakly supervised training."
     }
   ]
 }
