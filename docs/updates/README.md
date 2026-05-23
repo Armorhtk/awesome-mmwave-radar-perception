@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-05-23](2026-05-23.md) | 2 | Occupancy, Presence & Fall Detection, Identity Recognition & Person Re-identification | Added 2 papers across 2 topics. |
 | [2026-05-22](2026-05-22.md) | 2 | Scene Flow & Motion Prediction, Sensor Fusion Techniques | Added 2 papers across 2 topics. |
 | [2026-05-19](2026-05-19.md) | 2 | Signal Processing & Parameter Estimation, 3D Object Detection & Classification | Added 2 papers across 2 topics. |
 | [2026-05-15](2026-05-15.md) | 4 | Foundational Models & Representation Learning About Radar Signals, Radar Odometry & Ego-Motion Estimation, Human Activity Recognition (HAR), Gesture Recognition & Hand Tracking | Added 4 papers across 4 topics. |

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 530,
-    "generated_at": "2026-05-22T12:14:59Z"
+    "total": 532,
+    "generated_at": "2026-05-23T12:59:43Z"
   },
   "taxonomy": [
     {
@@ -6515,6 +6515,30 @@
       "artifact_url": "https://github.com/FuJingyun/IterFlow",
       "topic_id": "autonomous-driving-drone__scene-flow-motion-prediction",
       "summary": "Improves 4D radar scene flow estimation by combining instance-aware self-supervision with image and odometry cues for weakly supervised training."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11526736",
+      "title": "Structured Time-Frequency Feature Driven Meta Learning for Fall Detection with mmWave Radar",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11526736/",
+      "publication": "IEEE Internet of Things Journal",
+      "year": 2026,
+      "import_order": 532,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__occupancy-presence-fall-detection",
+      "summary": "Improves mmWave radar fall detection by combining structured time-frequency features with meta learning for robust human sensing."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11526751",
+      "title": "Unsupervised Domain Adaptation Gait Recognition Based on Consistently Segmented mmWave Samples",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11526751/",
+      "publication": "IEEE Transactions on Cognitive Communications and Networking",
+      "year": 2026,
+      "import_order": 533,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
+      "summary": "Improves mmWave gait recognition by using consistently segmented samples for unsupervised domain adaptation across sensing domains."
     }
   ]
 }

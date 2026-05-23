@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **22 May 2026**
+Last Updated: **23 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-23.md">May 23, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-22.md">May 22, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-11.md">May 11, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-09.md">May 09, 2026</a></td>
-            <td align="center">+3</td>
           </tr>
         </tbody>
       </table>
@@ -583,6 +583,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Structured Time-Frequency Feature Driven Meta Learning for Fall Detection with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11526736/) | N/A | IEEE Internet of Things Journal | 2026 | Improves mmWave radar fall detection by combining structured time-frequency features with meta learning for robust human sensing. |
 | [Low-Resource in-Car Infant Detection Using IR-UWB Radar](https://ieeexplore.ieee.org/abstract/document/11462962/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Child presence detection (CPD) is motivated by the need for safety and well-being of unattended infants in vehicles. |
 | [One-Legged Stand Test: Synchronized Motion Capture, Force Plate, and Radar Dataset for Fall-Risk](https://www.nature.com/articles/s41597-026-06831-1) | [Dataset](https://doi.org/10.13026/46hn-6b25) [Code](https://github.com/dc-olst-dataset/olst-mocap-forceplate-radar) | Scientific Data | 2026 | Releases a synchronized one-legged-stand dataset with motion capture, force plates, 24 GHz FMCW radar, and event labels to support balance analysis and fall-risk assessment. |
 | [SelaFD:Seamless Adaptation of Vision Transformer Fine-tuning for Radar-based Human Activity Recognition](https://ieeexplore.ieee.org/document/10888271/) | [Code](https://github.com/wangyijunlyy/SelaFD) | IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2025 | Seamlessly adapts pre-trained vision transformers to radar-based HAR through selective fine-tuning strategies that preserve learned representations. |
@@ -691,6 +692,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Unsupervised Domain Adaptation Gait Recognition Based on Consistently Segmented mmWave Samples](https://ieeexplore.ieee.org/abstract/document/11526751/) | N/A | IEEE Transactions on Cognitive Communications and Networking | 2026 | Improves mmWave gait recognition by using consistently segmented samples for unsupervised domain adaptation across sensing domains. |
 | [MMGait: Towards Multi-Modal Gait Recognition](https://arxiv.org/abs/2604.15979) | [Code](https://github.com/BNU-IVC/MMGait) | arXiv | 2026 | Gait recognition has emerged as a powerful biometric technique for identifying individuals at a distance without requiring user cooperation. |
 | [FlowGait: Enabling Robust Long-Term Gait Recognition Across Real-World Covariates with mmWave Radar](https://dl.acm.org/doi/pdf/10.1145/3772318.3790623) | [Code](https://github.com/DQ-WDQ/FlowGait) | dl.acm.org | 2026 | Addresses long-term mmWave radar gait recognition across real-world covariates for robust identity recognition. |
 | [A Cross Gait Dual-Stream Network with Multi-Period Modeling for Gait Recognition Based on Millimeter-Wave Radar Signals](https://ieeexplore.ieee.org/abstract/document/11434895) | [Code](https://github.com/SunZ-Y/CGDS) | IEEE Sensors Journal | 2026 | Addresses radar-based gait recognition by using a dual-stream network with multi-period modeling to capture complementary temporal patterns from millimeter-wave radar signals for identity-aware recognition. |
