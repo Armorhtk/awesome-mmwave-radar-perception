@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 532,
-    "generated_at": "2026-05-23T12:59:43Z"
+    "total": 536,
+    "generated_at": "2026-05-26T13:40:16Z"
   },
   "taxonomy": [
     {
@@ -6539,6 +6539,54 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
       "summary": "Improves mmWave gait recognition by using consistently segmented samples for unsupervised domain adaptation across sensing domains."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11533880",
+      "title": "Velocity First? Rethinking 3D Object Detection with 4D Millimeter Wave Radar",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11533880/",
+      "publication": "IEEE Transactions on Multimedia",
+      "year": 2026,
+      "import_order": 534,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/luoyoucode/Velo3DFusion",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Propelled by advances in autonomous driving, accurate vehicle perception is essential for reliable decision-making."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11534327",
+      "title": "RCPRNet: Robust 4-D Radar-Camera Place Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11534327/",
+      "publication": "IEEE Transactions on Industrial Electronics",
+      "year": 2026,
+      "import_order": 535,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__simultaneous-localization-and-mapping-slam",
+      "summary": "Addresses radar-camera place recognition by learning robust cross-modal descriptors for localization under challenging viewpoint and appearance changes."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11524493",
+      "title": "Towards Device-Free Gaming with mmWave Radar",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11524493/",
+      "publication": "2026 IEEE International Conference on Pervasive Computing and Communications (PerCom)",
+      "year": 2026,
+      "import_order": 536,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Addresses device-free interactive gaming by using mmWave radar to sense player motion for immersive indoor experiences without worn devices."
+    },
+    {
+      "id": "arxiv:2605.21112",
+      "title": "RCGDet3D: Rethinking 4D Radar -Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding",
+      "url": "https://arxiv.org/abs/2605.21112",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 537,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Addresses 3D object detection by enhancing radar feature encoding for 4D radar-camera fusion in autonomous driving scenes."
     }
   ]
 }

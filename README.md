@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **23 May 2026**
+Last Updated: **26 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-26.md">May 26, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-23.md">May 23, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-13.md">May 13, 2026</a></td>
             <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-11.md">May 11, 2026</a></td>
-            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
@@ -248,6 +248,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RCGDet3D: Rethinking 4D Radar -Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding](https://arxiv.org/abs/2605.21112) | N/A | arXiv | 2026 | Addresses 3D object detection by enhancing radar feature encoding for 4D radar-camera fusion in autonomous driving scenes. |
+| [Velocity First? Rethinking 3D Object Detection with 4D Millimeter Wave Radar](https://ieeexplore.ieee.org/abstract/document/11533880/) | [Code](https://github.com/luoyoucode/Velo3DFusion) | IEEE Transactions on Multimedia | 2026 | Propelled by advances in autonomous driving, accurate vehicle perception is essential for reliable decision-making. |
 | [Exploring YOLO Architectures for Radar-Based Flying Object Classification Using Micro-Doppler Signatures](https://ieeexplore.ieee.org/abstract/document/11520330/) | N/A | IEEE Canadian Journal of Electrical and Computer Engineering | 2026 | Improves radar-based flying object classification by evaluating YOLO architectures on micro-Doppler signatures for real-time UAV recognition. |
 | [Deep Radar Perception Network with RTK Supervision for Slow-Moving UAV Detection](https://ieeexplore.ieee.org/abstract/document/11494906/) | N/A | IEEE Transactions on Instrumentation and Measurement | 2026 | Reliable detection of slow-moving unmanned aerial vehicles under low signal-to-noise ratio conditions remains a core challenge for next-generation intelligent sensing systems. |
 | [Gaussian Spatial Interaction with Long-Range Context Fusion for Radar-Camera 3D Object Detection](https://ieeexplore.ieee.org/abstract/document/11463891/) | [Code](https://github.com/ThisisLiuminyang/GSMFusion) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Accurate 3D object detection through camera and 4D radar fusion is a cornerstone of reliable autonomous driving systems, but effectively integrating these heterogeneous modalities remains challenging. |
@@ -401,6 +403,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RCPRNet: Robust 4-D Radar-Camera Place Recognition](https://ieeexplore.ieee.org/abstract/document/11534327/) | N/A | IEEE Transactions on Industrial Electronics | 2026 | Addresses radar-camera place recognition by learning robust cross-modal descriptors for localization under challenging viewpoint and appearance changes. |
 | [Robust mmWave Radar Sensing with Multi-sensor Temporal Calibration and Supervision](https://ieeexplore.ieee.org/abstract/document/11414076) | N/A | IEEE Internet of Things Journal | 2026 | Improves low-cost mmWave radar sensing by combining visual-inertial supervision, dynamic 3D reconstruction, spurious-point filtering, and temporal calibration for detection, localization, and mapping. |
 | [MapKD: Unlocking Prior Knowledge with Cross-Modal Distillation for Efficient Online HD Map Construction](https://arxiv.org/abs/2508.15653) | [Code](https://github.com/2004yan/MapKD2026) | arXiv | 2025 | Enables efficient online HD map construction by distilling knowledge from offline maps using cross-modal learning to reduce computational overhead. |
 | [S^3E: Self-Supervised State Estimation for Radar-Inertial System](https://arxiv.org/abs/2509.25984) | N/A | arXiv | 2025 | Achieves self-supervised radar-inertial state estimation by learning motion patterns from unlabeled data to reduce dependency on ground truth annotations. |
@@ -606,6 +609,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Towards Device-Free Gaming with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11524493/) | N/A | 2026 IEEE International Conference on Pervasive Computing and Communications (PerCom) | 2026 | Addresses device-free interactive gaming by using mmWave radar to sense player motion for immersive indoor experiences without worn devices. |
 | [Real-Time Hand Pose Estimation Using FMCW Radar on Resource-Limited Edge Devices](https://ieeexplore.ieee.org/abstract/document/11495050/) | [Code](https://github.com/thetuantrinh/UWB-Radar-Hand-Pose-Estimation.git) | IEEE Sensors Journal | 2026 | Real-time hand pose estimation is essential for natural human-computer interaction (HCI), especially in situations where vision-based systems face challenges due to lighting, occlusion, or privacy issues. |
 | [Millimeter-wave radar-assisted skeleton-guided video reconstruction for surveillance systems](https://link.springer.com/article/10.1007/s00371-026-04478-y) | [Code](https://github.com/cocein/R2P2V) | The Visual Computer | 2026 | The Visual Computer - Surveillance systems are pivotal in public safety, yet they often fail under adverse conditions such as darkness, occlusion, or deliberate tampering. |
 | [Sensing Life in Stillness: Unified Dynamic and Static Human Mesh Reconstruction with mmWave Radar](https://dl.acm.org/doi/10.1145/3790117) | [Code](https://github.com/leenchen0/mmRehab) | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies | 2026 | Addresses dynamic and static human mesh reconstruction for rehabilitation by combining micro-motion feature extraction and geometry-aware knowledge transfer with mmWave radar. |
