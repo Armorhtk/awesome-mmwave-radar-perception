@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **26 May 2026**
+Last Updated: **31 May 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-05-31.md">May 31, 2026</a></td>
+            <td align="center">+8</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-26.md">May 26, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-14.md">May 14, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-13.md">May 13, 2026</a></td>
-            <td align="center">+3</td>
           </tr>
         </tbody>
       </table>
@@ -165,6 +165,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Range, Not Precision: Block-Floating-Point Half-Precision FFT and SAR Imaging on Apple Silicon](https://arxiv.org/abs/2605.28451) | N/A | arXiv | 2026 | Improves FP16 radar FFT and SAR imaging by using block-floating-point scaling to prevent overflow while preserving image quality. |
 | [Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks](https://arxiv.org/abs/2604.21774) | [Code](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging) | arXiv | 2026 | Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored. |
 | [mVI: High-Resolution Roadside Vehicle Imaging by MMWAVE](https://ieeexplore.ieee.org/abstract/document/11461020/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Roadside vehicle imaging is a vital function in traffic monitoring. |
 | [Review of deep learning for SAR 3D imaging](https://radars.ac.cn/article/doi/10.12000/JR25163) | N/A | Journal of Radars | 2026 | Addresses the limitations of traditional 3D SAR imaging (accuracy, efficiency, robustness) by systematically reviewing Deep Learning (DL) approaches that integrate neural networks with physical radar models. The review focuses on super-resolution and enhanced imaging techniques, while also outlining available datasets, current challenges (such as elevation disambiguation and generalization), and future trends in the field. |
@@ -193,6 +194,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [LiDAR-to-4D Radar Synthesis for Building Large-Scale Tensor Datasets](https://openaccess.thecvf.com/content/CVPR2026F/papers/Jung_LiDAR-to-4D_Radar_Synthesis_for_Building_Large-Scale_Tensor_Datasets_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves 4D radar perception by synthesizing dense radar tensors from LiDAR data for scalable autonomous-driving dataset expansion. |
 | [Teaching AI to be a Picky Eater: Why Synthetic Data Quality Matters in Wireless Sensing](https://dl.acm.org/doi/10.1145/3793236.3793247) | N/A | GetMobile: Mobile Computing and Communications | 2026 | Explains the fundamental principle of wireless sensing, where human movements and breathing induce measurable disturbances in radio signals (e.g., Wi-Fi, mmWave). This allows devices to function as privacy-preserving sensors for smart homes and healthcare without relying on cameras. |
 | [SynthRM: A Synthetic Data Platform for Vision-Aided Mobile System Simulation](https://arxiv.org/abs/2601.19173) | [Code](https://github.com/Myzz2003/SynthRM-Platform) | arXiv | 2026 | Addresses the geometric ambiguity and ill-posed nature of vision-aided wireless sensing by introducing SynthRM, a scalable synthetic data platform. It implements a Visible-Aligned-Surface simulation strategy to ensure pixel-level consistency between visual semantics and electromagnetic response, transforming cross-view signal inference into a physically well-posed problem. |
 | [3D Scene Rendering with Multimodal Gaussian Splatting](https://www.arxiv.org/abs/2602.17124) | [Code](https://github.com/graphdeco-inria/gaussian-splatting) | arXiv | 2026 | Addresses the limitations of vision-only 3D Gaussian Splatting (GS) in adverse conditions by proposing a multimodal framework integrating RF sensing (automotive radar).  This approach utilizes sparse RF depth measurements to efficiently predict depth and generate a high-quality 3D point cloud for initializing Gaussian primitives, resulting in highly robust and efficient high-fidelity 3D scene rendering even under poor lighting or weather. |
@@ -217,6 +219,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Can Language Models Understand mmWave Data? Benchmarking Large Language Models for mmWave Radar-Based Human Understanding](https://openaccess.thecvf.com/content/CVPR2026F/papers/Shin_Can_Language_Models_Understand_mmWave_Data_Benchmarking_Large_Language_Models_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Benchmarks large language models on mmWave radar-based human understanding to evaluate multimodal reasoning over radar data. |
 | [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://arxiv.org/abs/2605.09983) | N/A | ICML | 2026 | Improves efficient mmWave sensing by matching spiking neural network dynamics to signal frequency structure for better accuracy and lower energy use. |
 | [Adaptive 3D-RoPE: Physics-Aligned Rotary Positional Encoding for Wireless Foundation Models](https://arxiv.org/pdf/2605.00968) | N/A | arxiv.org | 2026 | Improves wireless foundation models by adapting 3D rotary positional encoding to align temporal, spatial, and frequency structure for physics-aware RF representations. |
 | [SpikingRTNH: Spiking Neural Network for 4D Radar Object Detection](https://arxiv.org/abs/2502.00074) | [Code](https://github.com/kaist-avelab/K-Radar/tree/main/models/skeletons) | arXiv | 2025 | Achieves energy-efficient 4D radar object detection using spiking neural networks that exploit temporal sparsity in radar signals for low-power processing. |
@@ -551,6 +554,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Lightweight and Robust Embedded Radar-based Gesture Recognition with Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2026W/PBVS/papers/Dampfhoffer_Lightweight_and_Robust_Embedded_Radar-based_Gesture_Recognition_with_Graph_Neural_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves embedded radar-based gesture recognition by using graph neural networks for lightweight and robust inference. |
+| [MSBAD at SignEval 2026: Multi-Scale Born-Again Distillation Ensemble for Radar-Based Sign Language Recognition](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Maitra_MSBAD_at_SignEval_2026_Multi-Scale_Born-Again_Distillation_Ensemble_for_Radar-Based_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves radar-based sign language recognition by using a multi-scale born-again distillation ensemble for SignEval 2026. |
+| [AI4Good at SignEval 2026: Mix, Measure, Merge with Spectro-Temporal Augmentation and Multi-Model Fusion for Isolated Radar-Based Italian Sign Language Recognition](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Quispe_AI4Good_at_SignEval_2026_Mix_Measure_Merge_with_Spectro-Temporal_Augmentation_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves radar-based isolated sign language recognition by combining spectro-temporal augmentation with multi-model fusion for SignEval 2026. |
 | [CAST: Channel-Aware Spatial Transfer Learning with Pseudo-Image Radar for Sign Language Recognition](https://arxiv.org/abs/2605.08663) | [Code](https://github.com/Shakhoyat/CAST-at-SignEval2026) | CVPR Workshop | 2026 | Addresses radar-only sign language recognition by fusing physics-aware RTM and Doppler pseudo-image streams with channel-aware spatial transfer learning. |
 | [SIGMA-ASL: Sensor-Integrated Multimodal Dataset for Sign Language Recognition](https://arxiv.org/abs/2605.06351) | [Code](https://github.com/happy2sumture-cloud/SIGMA-ASL) | arXiv | 2026 | Introduces a multimodal sign language recognition dataset with sensor-integrated visual and sensing streams for robust gesture understanding. |
 | [Img2Spec: A Generalized Cross-modal Gesture Recognition Framework Based on Local Descriptors](https://ieeexplore.ieee.org/abstract/document/11501808/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Improves wireless gesture recognition by translating image-derived local descriptors into spectrogram-like representations for cross-modal generalization. |
@@ -609,6 +615,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Less is More: Multimodal Human Pose Estimation with Selective Fusion](https://openaccess.thecvf.com/content/CVPR2026F/papers/Xu_Less_is_More_Multimodal_Human_Pose_Estimation_with_Selective_Fusion_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves multimodal human pose estimation by selectively fusing complementary sensor cues for more efficient and robust pose recovery. |
 | [Towards Device-Free Gaming with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11524493/) | N/A | 2026 IEEE International Conference on Pervasive Computing and Communications (PerCom) | 2026 | Addresses device-free interactive gaming by using mmWave radar to sense player motion for immersive indoor experiences without worn devices. |
 | [Real-Time Hand Pose Estimation Using FMCW Radar on Resource-Limited Edge Devices](https://ieeexplore.ieee.org/abstract/document/11495050/) | [Code](https://github.com/thetuantrinh/UWB-Radar-Hand-Pose-Estimation.git) | IEEE Sensors Journal | 2026 | Real-time hand pose estimation is essential for natural human-computer interaction (HCI), especially in situations where vision-based systems face challenges due to lighting, occlusion, or privacy issues. |
 | [Millimeter-wave radar-assisted skeleton-guided video reconstruction for surveillance systems](https://link.springer.com/article/10.1007/s00371-026-04478-y) | [Code](https://github.com/cocein/R2P2V) | The Visual Computer | 2026 | The Visual Computer - Surveillance systems are pivotal in public safety, yet they often fail under adverse conditions such as darkness, occlusion, or deliberate tampering. |
@@ -745,6 +752,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmDiff: A Noise-Robust Differentiable Ray-Tracing Framework for mmWave Scene Calibration and Channel Prediction](https://openaccess.thecvf.com/content/CVPR2026F/papers/Lu_mmDiff_A_Noise-Robust_Differentiable_Ray-Tracing_Framework_for_mmWave_Scene_Calibration_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves mmWave channel prediction by using noise-robust differentiable ray tracing to calibrate scene geometry and material properties. |
 | [RippleSense: Scalable and Efficient Wideband Spectrum Sensing](https://dl.acm.org/doi/abs/10.1145/3774906.3800487) | [Code](https://github.com/andreaskuster/RippleSense) | ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys'26) | 2026 | Introduces a sub-Nyquist wideband spectrum sensing platform that injects signatures across Nyquist zones to reconstruct dense GHz spectra in real time. |
 | [A Model-Driven Deep Learning-Based Channel Estimation Method for CPM](https://ieeexplore.ieee.org/abstract/document/11509314/) | N/A | IEEE Communications Letters | 2026 | Improves CPM channel estimation by combining model-driven structure with deep learning to support power-efficient communication systems. |
 | [R^2Net: 2D Deep Residual Learning with Height Embedding for 3D Radio Map Estimation](https://ieeexplore.ieee.org/abstract/document/11505057/) | [Code](https://github.com/lighttime2023/3DiRM3200.git) | IEEE Transactions on Vehicular Technology | 2026 | Improves 3D radio map estimation by using a 2D residual network with height embedding to predict channel knowledge across spatial locations. |

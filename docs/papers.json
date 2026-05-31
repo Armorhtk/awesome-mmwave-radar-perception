@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 536,
-    "generated_at": "2026-05-26T13:40:16Z"
+    "total": 544,
+    "generated_at": "2026-05-31T10:42:24Z"
   },
   "taxonomy": [
     {
@@ -6587,6 +6587,102 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
       "summary": "Addresses 3D object detection by enhancing radar feature encoding for 4D radar-camera fusion in autonomous driving scenes."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026f-papers-jung-lidar-to-4d-radar-synthesis-for-building-large-scale-tensor-datasets-cvprf-2026-paper-pdf",
+      "title": "LiDAR-to-4D Radar Synthesis for Building Large-Scale Tensor Datasets",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Jung_LiDAR-to-4D_Radar_Synthesis_for_Building_Large-Scale_Tensor_Datasets_CVPRF_2026_paper.pdf",
+      "publication": "CVPR Findings",
+      "year": 2026,
+      "import_order": 538,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__data-synthesis-enhancement-simulation",
+      "summary": "Improves 4D radar perception by synthesizing dense radar tensors from LiDAR data for scalable autonomous-driving dataset expansion."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026w-mslr-papers-quispe-ai4good-at-signeval-2026-mix-measure-merge-with-spectro-temporal-augmentation-cvprw-2026-paper-pdf",
+      "title": "AI4Good at SignEval 2026: Mix, Measure, Merge with Spectro-Temporal Augmentation and Multi-Model Fusion for Isolated Radar-Based Italian Sign Language Recognition",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Quispe_AI4Good_at_SignEval_2026_Mix_Measure_Merge_with_Spectro-Temporal_Augmentation_CVPRW_2026_paper.pdf",
+      "publication": "CVPR Workshop",
+      "year": 2026,
+      "import_order": 539,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Improves radar-based isolated sign language recognition by combining spectro-temporal augmentation with multi-model fusion for SignEval 2026."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026w-mslr-papers-maitra-msbad-at-signeval-2026-multi-scale-born-again-distillation-ensemble-for-radar-based-cvprw-2026-paper-pdf",
+      "title": "MSBAD at SignEval 2026: Multi-Scale Born-Again Distillation Ensemble for Radar-Based Sign Language Recognition",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Maitra_MSBAD_at_SignEval_2026_Multi-Scale_Born-Again_Distillation_Ensemble_for_Radar-Based_CVPRW_2026_paper.pdf",
+      "publication": "CVPR Workshop",
+      "year": 2026,
+      "import_order": 540,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Improves radar-based sign language recognition by using a multi-scale born-again distillation ensemble for SignEval 2026."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026f-papers-shin-can-language-models-understand-mmwave-data-benchmarking-large-language-models-cvprf-2026-paper-pdf",
+      "title": "Can Language Models Understand mmWave Data? Benchmarking Large Language Models for mmWave Radar-Based Human Understanding",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Shin_Can_Language_Models_Understand_mmWave_Data_Benchmarking_Large_Language_Models_CVPRF_2026_paper.pdf",
+      "publication": "CVPR Findings",
+      "year": 2026,
+      "import_order": 541,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "summary": "Benchmarks large language models on mmWave radar-based human understanding to evaluate multimodal reasoning over radar data."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026w-pbvs-papers-dampfhoffer-lightweight-and-robust-embedded-radar-based-gesture-recognition-with-graph-neural-cvprw-2026-paper-pdf",
+      "title": "Lightweight and Robust Embedded Radar-based Gesture Recognition with Graph Neural Networks",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/PBVS/papers/Dampfhoffer_Lightweight_and_Robust_Embedded_Radar-based_Gesture_Recognition_with_Graph_Neural_CVPRW_2026_paper.pdf",
+      "publication": "CVPR Workshop",
+      "year": 2026,
+      "import_order": 542,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Improves embedded radar-based gesture recognition by using graph neural networks for lightweight and robust inference."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026f-papers-lu-mmdiff-a-noise-robust-differentiable-ray-tracing-framework-for-mmwave-scene-calibration-cvprf-2026-paper-pdf",
+      "title": "mmDiff: A Noise-Robust Differentiable Ray-Tracing Framework for mmWave Scene Calibration and Channel Prediction",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Lu_mmDiff_A_Noise-Robust_Differentiable_Ray-Tracing_Framework_for_mmWave_Scene_Calibration_CVPRF_2026_paper.pdf",
+      "publication": "CVPR Findings",
+      "year": 2026,
+      "import_order": 543,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Improves mmWave channel prediction by using noise-robust differentiable ray tracing to calibrate scene geometry and material properties."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026f-papers-xu-less-is-more-multimodal-human-pose-estimation-with-selective-fusion-cvprf-2026-paper-pdf",
+      "title": "Less is More: Multimodal Human Pose Estimation with Selective Fusion",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Xu_Less_is_More_Multimodal_Human_Pose_Estimation_with_Selective_Fusion_CVPRF_2026_paper.pdf",
+      "publication": "CVPR Findings",
+      "year": 2026,
+      "import_order": 544,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Improves multimodal human pose estimation by selectively fusing complementary sensor cues for more efficient and robust pose recovery."
+    },
+    {
+      "id": "arxiv:2605.28451",
+      "title": "Range, Not Precision: Block-Floating-Point Half-Precision FFT and SAR Imaging on Apple Silicon",
+      "url": "https://arxiv.org/abs/2605.28451",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 545,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
+      "summary": "Improves FP16 radar FFT and SAR imaging by using block-floating-point scaling to prevent overflow while preserving image quality."
     }
   ]
 }
