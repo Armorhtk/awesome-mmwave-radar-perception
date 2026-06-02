@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 544,
-    "generated_at": "2026-05-31T10:42:24Z"
+    "total": 546,
+    "generated_at": "2026-06-02T08:27:36Z"
   },
   "taxonomy": [
     {
@@ -6683,6 +6683,30 @@
       "artifact_url": null,
       "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
       "summary": "Improves FP16 radar FFT and SAR imaging by using block-floating-point scaling to prevent overflow while preserving image quality."
+    },
+    {
+      "id": "doi:10.1145/3745756.3809204",
+      "title": "AutoRF: Towards an Agentic Framework for Automated RF Hardware Design",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3745756.3809204",
+      "publication": "MobiSys",
+      "year": 2026,
+      "import_order": 546,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Automates RF hardware design by using an agentic framework to coordinate planning, simulation, and iterative optimization for wireless systems."
+    },
+    {
+      "id": "arxiv:2605.29538",
+      "title": "RadioFormer3D: Weakly Supervised 3D Radio Map Estimation in Low-Altitude Airspace via Generative Modeling",
+      "url": "https://arxiv.org/abs/2605.29538",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 547,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Improves 3D radio map estimation by combining Fourier sampling, volumetric decoding, and joint integrity losses for sparse low-altitude wireless measurements."
     }
   ]
 }

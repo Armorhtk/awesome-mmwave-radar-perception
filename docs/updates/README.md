@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-06-02](2026-06-02.md) | 2 | 📦 Other Areas | Added 2 papers across 1 topic. |
 | [2026-05-31](2026-05-31.md) | 8 | 📦 Other Areas, High-Resolution Imaging & SAR Imaging, Data Synthesis, Enhancement & Simulation, Foundational Models & Representation Learning About Radar Signals, Gesture Recognition & Hand Tracking, Pose Estimation & Skeletal Tracking & Human Motion | Added 8 papers across 6 topics. |
 | [2026-05-26](2026-05-26.md) | 4 | 3D Object Detection & Classification, Simultaneous Localization and Mapping (SLAM), Pose Estimation & Skeletal Tracking & Human Motion | Added 4 papers across 3 topics. |
 | [2026-05-23](2026-05-23.md) | 2 | Occupancy, Presence & Fall Detection, Identity Recognition & Person Re-identification | Added 2 papers across 2 topics. |

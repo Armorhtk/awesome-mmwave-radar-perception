@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **31 May 2026**
+Last Updated: **2 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-02.md">Jun 02, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-05-31.md">May 31, 2026</a></td>
             <td align="center">+8</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-15.md">May 15, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-14.md">May 14, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -752,6 +752,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RadioFormer3D: Weakly Supervised 3D Radio Map Estimation in Low-Altitude Airspace via Generative Modeling](https://arxiv.org/abs/2605.29538) | N/A | arXiv | 2026 | Improves 3D radio map estimation by combining Fourier sampling, volumetric decoding, and joint integrity losses for sparse low-altitude wireless measurements. |
+| [AutoRF: Towards an Agentic Framework for Automated RF Hardware Design](https://dl.acm.org/doi/abs/10.1145/3745756.3809204) | N/A | MobiSys | 2026 | Automates RF hardware design by using an agentic framework to coordinate planning, simulation, and iterative optimization for wireless systems. |
 | [mmDiff: A Noise-Robust Differentiable Ray-Tracing Framework for mmWave Scene Calibration and Channel Prediction](https://openaccess.thecvf.com/content/CVPR2026F/papers/Lu_mmDiff_A_Noise-Robust_Differentiable_Ray-Tracing_Framework_for_mmWave_Scene_Calibration_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves mmWave channel prediction by using noise-robust differentiable ray tracing to calibrate scene geometry and material properties. |
 | [RippleSense: Scalable and Efficient Wideband Spectrum Sensing](https://dl.acm.org/doi/abs/10.1145/3774906.3800487) | [Code](https://github.com/andreaskuster/RippleSense) | ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys'26) | 2026 | Introduces a sub-Nyquist wideband spectrum sensing platform that injects signatures across Nyquist zones to reconstruct dense GHz spectra in real time. |
 | [A Model-Driven Deep Learning-Based Channel Estimation Method for CPM](https://ieeexplore.ieee.org/abstract/document/11509314/) | N/A | IEEE Communications Letters | 2026 | Improves CPM channel estimation by combining model-driven structure with deep learning to support power-efficient communication systems. |
