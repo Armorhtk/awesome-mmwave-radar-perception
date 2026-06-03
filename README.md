@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **2 June 2026**
+Last Updated: **3 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-03.md">Jun 03, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-02.md">Jun 02, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-19.md">May 19, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-15.md">May 15, 2026</a></td>
-            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
@@ -483,6 +483,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmWaveFlow: Unified Enhancement and Generation of mmWave Human Point Clouds](https://openaccess.thecvf.com/content/CVPR2026/papers/Su_mmWaveFlow_Unified_Enhancement_and_Generation_of_mmWave_Human_Point_Clouds_CVPR_2026_paper.pdf) | [Code](https://github.com/suchang-99/mmWaveFlow) | CVPR | 2026 | Improves sparse mmWave human point cloud enhancement and generation by learning a flow-matching transport between sparse and dense point clouds for human sensing. |
 | [NeuRadar: Neural Radiance Fields for Automotive Radar Point Clouds](https://openaccess.thecvf.com/content/CVPR2025W/WAD/html/Rafidashti_NeuRadar_Neural_Radiance_Fields_for_Automotive_Radar_Point_Clouds_CVPRW_2025_paper.html) | [Code](https://github.com/mrafidashti/neuradar) | IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) | 2025 | Pioneers the use of Neural Radiance Fields for radar by proposing a model that jointly generates multi-sensor data and uses a probabilistic representation to accurately capture the stochastic nature of radar point clouds. |
 | [RadarSplat: Radar Gaussian Splatting for High-Fidelity Data Synthesis and 3D Reconstruction of Autonomous Driving Scenes](https://arxiv.org/abs/2506.01379) | [Code](https://github.com/umautobots/radarsplat) | IEEE International Conference on Computer Vision (ICCV) | 2025 | Overcomes the poor performance of neural representations in noisy radar scenarios by integrating Gaussian Splatting with a novel noise model, enabling high-fidelity 3D reconstruction and realistic data synthesis. |
 | [RLCNet: A Novel Deep Feature-Matching-Based Method for Online Target-Free Radar-LiDAR Calibration](https://ieeexplore.ieee.org/abstract/document/11127342) | [Code](https://github.com/nubot-nudt/RLCNet) | IEEE International Conference on Robotics and Automation (ICRA) | 2025 | Tackles radar-LiDAR extrinsic calibration by using a deep network that first establishes sparse keypoint matches and then refines them into dense correspondences to overcome radar point cloud sparsity. |
@@ -615,6 +616,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Towards_Balanced_Multi-Modal_Learning_in_3D_Human_Pose_Estimation_CVPR_2026_paper.pdf) | [Code](https://github.com/MICLAB-BUPT/AWC) | CVPR | 2026 | Improves multi-modal 3D human pose estimation by balancing RGB, LiDAR, mmWave, and WiFi learning with Shapley-value and Fisher-guided regularization. |
 | [Less is More: Multimodal Human Pose Estimation with Selective Fusion](https://openaccess.thecvf.com/content/CVPR2026F/papers/Xu_Less_is_More_Multimodal_Human_Pose_Estimation_with_Selective_Fusion_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves multimodal human pose estimation by selectively fusing complementary sensor cues for more efficient and robust pose recovery. |
 | [Towards Device-Free Gaming with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11524493/) | N/A | 2026 IEEE International Conference on Pervasive Computing and Communications (PerCom) | 2026 | Addresses device-free interactive gaming by using mmWave radar to sense player motion for immersive indoor experiences without worn devices. |
 | [Real-Time Hand Pose Estimation Using FMCW Radar on Resource-Limited Edge Devices](https://ieeexplore.ieee.org/abstract/document/11495050/) | [Code](https://github.com/thetuantrinh/UWB-Radar-Hand-Pose-Estimation.git) | IEEE Sensors Journal | 2026 | Real-time hand pose estimation is essential for natural human-computer interaction (HCI), especially in situations where vision-based systems face challenges due to lighting, occlusion, or privacy issues. |
@@ -752,6 +754,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Efficient DOA Estimation Based on Coprime Array Interpolation With Deep Unfolding Network](https://ieeexplore.ieee.org/abstract/document/11539012/) | N/A | IEEE Xplore | 2026 | Improves DOA estimation for coprime arrays by combining array interpolation with a deep unfolding network for efficient radar signal processing. |
 | [RadioFormer3D: Weakly Supervised 3D Radio Map Estimation in Low-Altitude Airspace via Generative Modeling](https://arxiv.org/abs/2605.29538) | N/A | arXiv | 2026 | Improves 3D radio map estimation by combining Fourier sampling, volumetric decoding, and joint integrity losses for sparse low-altitude wireless measurements. |
 | [AutoRF: Towards an Agentic Framework for Automated RF Hardware Design](https://dl.acm.org/doi/abs/10.1145/3745756.3809204) | N/A | MobiSys | 2026 | Automates RF hardware design by using an agentic framework to coordinate planning, simulation, and iterative optimization for wireless systems. |
 | [mmDiff: A Noise-Robust Differentiable Ray-Tracing Framework for mmWave Scene Calibration and Channel Prediction](https://openaccess.thecvf.com/content/CVPR2026F/papers/Lu_mmDiff_A_Noise-Robust_Differentiable_Ray-Tracing_Framework_for_mmWave_Scene_Calibration_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves mmWave channel prediction by using noise-robust differentiable ray tracing to calibrate scene geometry and material properties. |

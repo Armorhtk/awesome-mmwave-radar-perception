@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 546,
-    "generated_at": "2026-06-02T08:27:36Z"
+    "total": 549,
+    "generated_at": "2026-06-03T08:22:11Z"
   },
   "taxonomy": [
     {
@@ -6707,6 +6707,42 @@
       "artifact_url": null,
       "topic_id": "other-areas",
       "summary": "Improves 3D radio map estimation by combining Fourier sampling, volumetric decoding, and joint integrity losses for sparse low-altitude wireless measurements."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026-papers-su-mmwaveflow-unified-enhancement-and-generation-of-mmwave-human-point-clouds-cvpr-2026-paper-pdf",
+      "title": "mmWaveFlow: Unified Enhancement and Generation of mmWave Human Point Clouds",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Su_mmWaveFlow_Unified_Enhancement_and_Generation_of_mmWave_Human_Point_Clouds_CVPR_2026_paper.pdf",
+      "publication": "CVPR",
+      "year": 2026,
+      "import_order": 548,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/suchang-99/mmWaveFlow",
+      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "summary": "Improves sparse mmWave human point cloud enhancement and generation by learning a flow-matching transport between sparse and dense point clouds for human sensing."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026-papers-qi-towards-balanced-multi-modal-learning-in-3d-human-pose-estimation-cvpr-2026-paper-pdf",
+      "title": "Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Towards_Balanced_Multi-Modal_Learning_in_3D_Human_Pose_Estimation_CVPR_2026_paper.pdf",
+      "publication": "CVPR",
+      "year": 2026,
+      "import_order": 549,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/MICLAB-BUPT/AWC",
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Improves multi-modal 3D human pose estimation by balancing RGB, LiDAR, mmWave, and WiFi learning with Shapley-value and Fisher-guided regularization."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11539012",
+      "title": "Efficient DOA Estimation Based on Coprime Array Interpolation With Deep Unfolding Network",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11539012/",
+      "publication": "IEEE Xplore",
+      "year": 2026,
+      "import_order": 550,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Improves DOA estimation for coprime arrays by combining array interpolation with a deep unfolding network for efficient radar signal processing."
     }
   ]
 }
