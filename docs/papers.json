@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 549,
-    "generated_at": "2026-06-03T08:22:11Z"
+    "total": 550,
+    "generated_at": "2026-06-06T03:32:28Z"
   },
   "taxonomy": [
     {
@@ -6743,6 +6743,18 @@
       "artifact_url": null,
       "topic_id": "other-areas",
       "summary": "Improves DOA estimation for coprime arrays by combining array interpolation with a deep unfolding network for efficient radar signal processing."
+    },
+    {
+      "id": "arxiv:2606.01653",
+      "title": "mmAlert: A Simultaneous Device Localization and Target Tracking System via Cooperative Passive Sensing",
+      "url": "https://arxiv.org/abs/2606.01653",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 551,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Proposes mmAlert, a 60GHz cooperative passive sensing system that jointly localizes transmitters and reconstructs moving target trajectories from AoA and bistatic Doppler measurements."
     }
   ]
 }

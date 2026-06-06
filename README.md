@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **3 June 2026**
+Last Updated: **6 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-06.md">Jun 06, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-03.md">Jun 03, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -75,10 +79,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-05-22.md">May 22, 2026</a></td>
-            <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-19.md">May 19, 2026</a></td>
             <td align="center">+2</td>
           </tr>
         </tbody>
@@ -754,6 +754,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmAlert: A Simultaneous Device Localization and Target Tracking System via Cooperative Passive Sensing](https://arxiv.org/abs/2606.01653) | N/A | arXiv | 2026 | Proposes mmAlert, a 60GHz cooperative passive sensing system that jointly localizes transmitters and reconstructs moving target trajectories from AoA and bistatic Doppler measurements. |
 | [Efficient DOA Estimation Based on Coprime Array Interpolation With Deep Unfolding Network](https://ieeexplore.ieee.org/abstract/document/11539012/) | N/A | IEEE Xplore | 2026 | Improves DOA estimation for coprime arrays by combining array interpolation with a deep unfolding network for efficient radar signal processing. |
 | [RadioFormer3D: Weakly Supervised 3D Radio Map Estimation in Low-Altitude Airspace via Generative Modeling](https://arxiv.org/abs/2605.29538) | N/A | arXiv | 2026 | Improves 3D radio map estimation by combining Fourier sampling, volumetric decoding, and joint integrity losses for sparse low-altitude wireless measurements. |
 | [AutoRF: Towards an Agentic Framework for Automated RF Hardware Design](https://dl.acm.org/doi/abs/10.1145/3745756.3809204) | N/A | MobiSys | 2026 | Automates RF hardware design by using an agentic framework to coordinate planning, simulation, and iterative optimization for wireless systems. |

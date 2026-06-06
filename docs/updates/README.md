@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-06-06](2026-06-06.md) | 1 | 📦 Other Areas | Added 1 paper across 1 topic. |
 | [2026-06-03](2026-06-03.md) | 3 | 📦 Other Areas, Point Cloud Processing, Pose Estimation & Skeletal Tracking & Human Motion | Added 3 papers across 3 topics. |
 | [2026-06-02](2026-06-02.md) | 2 | 📦 Other Areas | Added 2 papers across 1 topic. |
 | [2026-05-31](2026-05-31.md) | 8 | 📦 Other Areas, High-Resolution Imaging & SAR Imaging, Data Synthesis, Enhancement & Simulation, Foundational Models & Representation Learning About Radar Signals, Gesture Recognition & Hand Tracking, Pose Estimation & Skeletal Tracking & Human Motion | Added 8 papers across 6 topics. |
