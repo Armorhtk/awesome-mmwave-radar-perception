@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **6 June 2026**
+Last Updated: **11 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-11.md">Jun 11, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-06.md">Jun 06, 2026</a></td>
             <td align="center">+1</td>
           </tr>
@@ -75,10 +79,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-05-23.md">May 23, 2026</a></td>
-            <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-22.md">May 22, 2026</a></td>
             <td align="center">+2</td>
           </tr>
         </tbody>
@@ -555,6 +555,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Real-Time Radar Hand Motion Recognition Using a Hybrid CNN–SVM Framework With FPGA Acceleration](https://ieeexplore.ieee.org/abstract/document/11552819/) | N/A | IEEE Transactions on Radar Systems | 2026 | Radar-based hand gesture recognition (HGR) systems often suffer from challenges related to sensor interference, environmental clutter, and limited dataset size, which complicate the training of deep learning models. |
 | [Lightweight and Robust Embedded Radar-based Gesture Recognition with Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2026W/PBVS/papers/Dampfhoffer_Lightweight_and_Robust_Embedded_Radar-based_Gesture_Recognition_with_Graph_Neural_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves embedded radar-based gesture recognition by using graph neural networks for lightweight and robust inference. |
 | [MSBAD at SignEval 2026: Multi-Scale Born-Again Distillation Ensemble for Radar-Based Sign Language Recognition](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Maitra_MSBAD_at_SignEval_2026_Multi-Scale_Born-Again_Distillation_Ensemble_for_Radar-Based_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves radar-based sign language recognition by using a multi-scale born-again distillation ensemble for SignEval 2026. |
 | [AI4Good at SignEval 2026: Mix, Measure, Merge with Spectro-Temporal Augmentation and Multi-Model Fusion for Isolated Radar-Based Italian Sign Language Recognition](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Quispe_AI4Good_at_SignEval_2026_Mix_Measure_Merge_with_Spectro-Temporal_Augmentation_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves radar-based isolated sign language recognition by combining spectro-temporal augmentation with multi-model fusion for SignEval 2026. |
