@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-06-13](2026-06-13.md) | 1 | 3D Object Detection & Classification | Added 1 paper across 1 topic. |
 | [2026-06-11](2026-06-11.md) | 1 | Gesture Recognition & Hand Tracking | Added 1 paper across 1 topic. |
 | [2026-06-06](2026-06-06.md) | 1 | 📦 Other Areas | Added 1 paper across 1 topic. |
 | [2026-06-03](2026-06-03.md) | 3 | 📦 Other Areas, Point Cloud Processing, Pose Estimation & Skeletal Tracking & Human Motion | Added 3 papers across 3 topics. |

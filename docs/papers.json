@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 551,
-    "generated_at": "2026-06-10T16:42:49Z"
+    "total": 552,
+    "generated_at": "2026-06-13T12:04:54Z"
   },
   "taxonomy": [
     {
@@ -6767,6 +6767,18 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
       "summary": "Radar-based hand gesture recognition (HGR) systems often suffer from challenges related to sensor interference, environmental clutter, and limited dataset size, which complicate the training of deep learning models."
+    },
+    {
+      "id": "arxiv:2606.09634",
+      "title": "ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity",
+      "url": "https://arxiv.org/abs/2606.09634",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 553,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "3D object detection is the backbone of perception for automated vehicles (AV) and broader intelligent transportation systems applications."
     }
   ]
 }

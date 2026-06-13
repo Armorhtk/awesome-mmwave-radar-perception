@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **11 June 2026**
+Last Updated: **13 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-13.md">Jun 13, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-11.md">Jun 11, 2026</a></td>
             <td align="center">+1</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-05-26.md">May 26, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-23.md">May 23, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -251,6 +251,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity](https://arxiv.org/abs/2606.09634) | N/A | arXiv | 2026 | 3D object detection is the backbone of perception for automated vehicles (AV) and broader intelligent transportation systems applications. |
 | [RCGDet3D: Rethinking 4D Radar -Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding](https://arxiv.org/abs/2605.21112) | N/A | arXiv | 2026 | Addresses 3D object detection by enhancing radar feature encoding for 4D radar-camera fusion in autonomous driving scenes. |
 | [Velocity First? Rethinking 3D Object Detection with 4D Millimeter Wave Radar](https://ieeexplore.ieee.org/abstract/document/11533880/) | [Code](https://github.com/luoyoucode/Velo3DFusion) | IEEE Transactions on Multimedia | 2026 | Propelled by advances in autonomous driving, accurate vehicle perception is essential for reliable decision-making. |
 | [Exploring YOLO Architectures for Radar-Based Flying Object Classification Using Micro-Doppler Signatures](https://ieeexplore.ieee.org/abstract/document/11520330/) | N/A | IEEE Canadian Journal of Electrical and Computer Engineering | 2026 | Improves radar-based flying object classification by evaluating YOLO architectures on micro-Doppler signatures for real-time UAV recognition. |
