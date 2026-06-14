@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 552,
-    "generated_at": "2026-06-13T12:04:54Z"
+    "total": 554,
+    "generated_at": "2026-06-14T08:57:47Z"
   },
   "taxonomy": [
     {
@@ -6779,6 +6779,30 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
       "summary": "3D object detection is the backbone of perception for automated vehicles (AV) and broader intelligent transportation systems applications."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11548965",
+      "title": "Real-Time Object Detection for Automotive Systems With FMCW Radar-Based Sensor Fusion",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11548965/",
+      "publication": "2026 27th International Radar Symposium (IRS)",
+      "year": 2026,
+      "import_order": 554,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "This paper presents a radar centric multi sensor perception framework for real time collision risk assessment that integrates motion cues from Frequency Modulated Continuous Wave (FMCW) automotive radar with camera based deep learning detections and Light Detection and Ranging (LiDAR)."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11549108",
+      "title": "Adaptive Bandwidth Radar for UAV Swarm Detection Using Reinforcement Learning",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11549108/",
+      "publication": "2026 27th International Radar Symposium (IRS)",
+      "year": 2026,
+      "import_order": 555,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "The problem of detecting and resolving UAV swarms using radar systems is considered in this paper."
     }
   ]
 }

@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-06-14](2026-06-14.md) | 2 | Signal Processing & Parameter Estimation, Sensor Fusion Techniques | Added 2 papers across 2 topics. |
 | [2026-06-13](2026-06-13.md) | 1 | 3D Object Detection & Classification | Added 1 paper across 1 topic. |
 | [2026-06-11](2026-06-11.md) | 1 | Gesture Recognition & Hand Tracking | Added 1 paper across 1 topic. |
 | [2026-06-06](2026-06-06.md) | 1 | 📦 Other Areas | Added 1 paper across 1 topic. |
