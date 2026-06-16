@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 554,
-    "generated_at": "2026-06-14T08:57:47Z"
+    "total": 555,
+    "generated_at": "2026-06-16T15:51:13Z"
   },
   "taxonomy": [
     {
@@ -6803,6 +6803,18 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "The problem of detecting and resolving UAV swarms using radar systems is considered in this paper."
+    },
+    {
+      "id": "arxiv:2606.13516",
+      "title": "Adaptive-Frequency Resonate-and-Fire Neurons for Spectral Estimation of Streaming Radar Signals",
+      "url": "https://arxiv.org/abs/2606.13516",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 556,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/TUE-EE-ES/adaptive_frequency_neurons_FMCW_radar",
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Frequency Modulated Continuous Wave (FMCW) radar systems traditionally rely on Fourier-based methods, such as the Fast Fourier Transform (FFT), to estimate target range and velocity."
     }
   ]
 }

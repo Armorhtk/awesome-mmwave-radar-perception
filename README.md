@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **14 June 2026**
+Last Updated: **16 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-16.md">Jun 16, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-14.md">Jun 14, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-06-02.md">Jun 02, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-05-31.md">May 31, 2026</a></td>
-            <td align="center">+8</td>
           </tr>
         </tbody>
       </table>
@@ -140,6 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Adaptive-Frequency Resonate-and-Fire Neurons for Spectral Estimation of Streaming Radar Signals](https://arxiv.org/abs/2606.13516) | [Code](https://github.com/TUE-EE-ES/adaptive_frequency_neurons_FMCW_radar) | arXiv | 2026 | Frequency Modulated Continuous Wave (FMCW) radar systems traditionally rely on Fourier-based methods, such as the Fast Fourier Transform (FFT), to estimate target range and velocity. |
 | [Real-Time Object Detection for Automotive Systems With FMCW Radar-Based Sensor Fusion](https://ieeexplore.ieee.org/abstract/document/11548965/) | N/A | 2026 27th International Radar Symposium (IRS) | 2026 | This paper presents a radar centric multi sensor perception framework for real time collision risk assessment that integrates motion cues from Frequency Modulated Continuous Wave (FMCW) automotive radar with camera based deep learning detections and Light Detection and Ranging (LiDAR). |
 | [Sparse Phase Retrieval for Clustered-Sparse Signals: A Graph Cut-Based Truncated Flow Approach](https://ieeexplore.ieee.org/abstract/document/11520691/) | N/A | IEEE Transactions on Signal Processing | 2026 | Addresses clustered-sparse phase retrieval by combining gradient descent, graph-cut truncation, and reduced-matrix refinement for robust sparse signal recovery. |
 | [RF-LEGO: Modularized Signal Processing-Deep Learning Co-Design for RF Sensing via Deep Unrolling](https://arxiv.org/abs/2604.10183) | [Code](https://github.com/aiot-lab/RF-LEGO) | arXiv | 2026 | Co-designs modular signal-processing and deep-learning blocks for RF sensing via deep unrolling. |
