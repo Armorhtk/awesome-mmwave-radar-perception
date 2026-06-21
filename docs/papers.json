@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 555,
-    "generated_at": "2026-06-16T15:51:13Z"
+    "total": 557,
+    "generated_at": "2026-06-21T10:59:51Z"
   },
   "taxonomy": [
     {
@@ -6815,6 +6815,30 @@
       "artifact_url": "https://github.com/TUE-EE-ES/adaptive_frequency_neurons_FMCW_radar",
       "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
       "summary": "Frequency Modulated Continuous Wave (FMCW) radar systems traditionally rely on Fourier-based methods, such as the Fast Fourier Transform (FFT), to estimate target range and velocity."
+    },
+    {
+      "id": "arxiv:2606.17598",
+      "title": "MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2606.17598",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 557,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Presents an adaptive multimodal vision-language-action model for robotic manipulation using heterogeneous sensing inputs."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11563612",
+      "title": "M3-CFR: A Domain-Adaptive Bi-Static mmWave MIMO CFR Dataset for Micro-Gesture Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11563612/",
+      "publication": "IEEE Sensors Letters",
+      "year": 2026,
+      "import_order": 558,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "In this letter, we introduce M3-CFR, a bi-static mmWave MIMO CFR dataset for fine-grained micro-gesture recognition under domain shifts."
     }
   ]
 }

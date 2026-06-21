@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **16 June 2026**
+Last Updated: **21 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-21.md">Jun 21, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-16.md">Jun 16, 2026</a></td>
             <td align="center">+1</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-06-03.md">Jun 03, 2026</a></td>
             <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-02.md">Jun 02, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -559,6 +559,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [M3-CFR: A Domain-Adaptive Bi-Static mmWave MIMO CFR Dataset for Micro-Gesture Recognition](https://ieeexplore.ieee.org/abstract/document/11563612/) | N/A | IEEE Sensors Letters | 2026 | In this letter, we introduce M3-CFR, a bi-static mmWave MIMO CFR dataset for fine-grained micro-gesture recognition under domain shifts. |
 | [Real-Time Radar Hand Motion Recognition Using a Hybrid CNN–SVM Framework With FPGA Acceleration](https://ieeexplore.ieee.org/abstract/document/11552819/) | N/A | IEEE Transactions on Radar Systems | 2026 | Radar-based hand gesture recognition (HGR) systems often suffer from challenges related to sensor interference, environmental clutter, and limited dataset size, which complicate the training of deep learning models. |
 | [Lightweight and Robust Embedded Radar-based Gesture Recognition with Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2026W/PBVS/papers/Dampfhoffer_Lightweight_and_Robust_Embedded_Radar-based_Gesture_Recognition_with_Graph_Neural_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves embedded radar-based gesture recognition by using graph neural networks for lightweight and robust inference. |
 | [MSBAD at SignEval 2026: Multi-Scale Born-Again Distillation Ensemble for Radar-Based Sign Language Recognition](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Maitra_MSBAD_at_SignEval_2026_Multi-Scale_Born-Again_Distillation_Ensemble_for_Radar-Based_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves radar-based sign language recognition by using a multi-scale born-again distillation ensemble for SignEval 2026. |
@@ -759,6 +760,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598) | N/A | arXiv | 2026 | Presents an adaptive multimodal vision-language-action model for robotic manipulation using heterogeneous sensing inputs. |
 | [mmAlert: A Simultaneous Device Localization and Target Tracking System via Cooperative Passive Sensing](https://arxiv.org/abs/2606.01653) | N/A | arXiv | 2026 | Proposes mmAlert, a 60GHz cooperative passive sensing system that jointly localizes transmitters and reconstructs moving target trajectories from AoA and bistatic Doppler measurements. |
 | [Efficient DOA Estimation Based on Coprime Array Interpolation With Deep Unfolding Network](https://ieeexplore.ieee.org/abstract/document/11539012/) | N/A | IEEE Xplore | 2026 | Improves DOA estimation for coprime arrays by combining array interpolation with a deep unfolding network for efficient radar signal processing. |
 | [RadioFormer3D: Weakly Supervised 3D Radio Map Estimation in Low-Altitude Airspace via Generative Modeling](https://arxiv.org/abs/2605.29538) | N/A | arXiv | 2026 | Improves 3D radio map estimation by combining Fourier sampling, volumetric decoding, and joint integrity losses for sparse low-altitude wireless measurements. |
