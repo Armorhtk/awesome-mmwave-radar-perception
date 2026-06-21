@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 557,
-    "generated_at": "2026-06-21T10:59:51Z"
+    "total": 559,
+    "generated_at": "2026-06-21T11:42:56Z"
   },
   "taxonomy": [
     {
@@ -6839,6 +6839,30 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
       "summary": "In this letter, we introduce M3-CFR, a bi-static mmWave MIMO CFR dataset for fine-grained micro-gesture recognition under domain shifts."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026-html-peng-expanding-mmwave-datasets-for-human-pose-estimation-with-unlabeled-data-cvpr-2026-paper-html",
+      "title": "Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html",
+      "publication": "CVPR 2026",
+      "year": 2026,
+      "import_order": 559,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Shimmer93/EMDUL",
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Expands mmWave human pose estimation datasets by pseudo-labeling unlabeled mmWave data and converting LiDAR point clouds into mmWave-style samples for better generalization."
+    },
+    {
+      "id": "url:openaccess-thecvf-com-content-cvpr2026-html-bai-rags-unleashing-3d-gaussian-splatting-from-4d-radar-and-monocular-cvpr-2026-paper-html",
+      "title": "RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bai_RaGS_Unleashing_3D_Gaussian_Splatting_from_4D_Radar_and_Monocular_CVPR_2026_paper.html",
+      "publication": "CVPR 2026",
+      "year": 2026,
+      "import_order": 560,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/shawnnnkb/RaGS",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Improves 3D object detection from 4D radar and monocular images by representing scenes as adaptive Gaussian fields for flexible foreground modeling."
     }
   ]
 }

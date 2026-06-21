@@ -4,7 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
-| [2026-06-21](2026-06-21.md) | 2 | 📦 Other Areas, Gesture Recognition & Hand Tracking | Added 2 papers across 2 topics. |
+| [2026-06-21](2026-06-21.md) | 4 | 📦 Other Areas, 3D Object Detection & Classification, Gesture Recognition & Hand Tracking, Pose Estimation & Skeletal Tracking & Human Motion | Added 4 papers across 4 topics. |
 | [2026-06-16](2026-06-16.md) | 1 | Signal Processing & Parameter Estimation | Added 1 paper across 1 topic. |
 | [2026-06-14](2026-06-14.md) | 2 | Signal Processing & Parameter Estimation, Sensor Fusion Techniques | Added 2 papers across 2 topics. |
 | [2026-06-13](2026-06-13.md) | 1 | 3D Object Detection & Classification | Added 1 paper across 1 topic. |

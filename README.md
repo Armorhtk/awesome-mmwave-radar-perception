@@ -55,7 +55,7 @@ This list is curated based on the following standards, in order of priority:
         <tbody>
           <tr>
             <td><a href="docs/updates/2026-06-21.md">Jun 21, 2026</a></td>
-            <td align="center">+2</td>
+            <td align="center">+4</td>
           </tr>
           <tr>
             <td><a href="docs/updates/2026-06-16.md">Jun 16, 2026</a></td>
@@ -253,6 +253,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Bai_RaGS_Unleashing_3D_Gaussian_Splatting_from_4D_Radar_and_Monocular_CVPR_2026_paper.html) | [Code](https://github.com/shawnnnkb/RaGS) | CVPR 2026 | 2026 | Improves 3D object detection from 4D radar and monocular images by representing scenes as adaptive Gaussian fields for flexible foreground modeling. |
 | [ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity](https://arxiv.org/abs/2606.09634) | N/A | arXiv | 2026 | 3D object detection is the backbone of perception for automated vehicles (AV) and broader intelligent transportation systems applications. |
 | [RCGDet3D: Rethinking 4D Radar -Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding](https://arxiv.org/abs/2605.21112) | N/A | arXiv | 2026 | Addresses 3D object detection by enhancing radar feature encoding for 4D radar-camera fusion in autonomous driving scenes. |
 | [Velocity First? Rethinking 3D Object Detection with 4D Millimeter Wave Radar](https://ieeexplore.ieee.org/abstract/document/11533880/) | [Code](https://github.com/luoyoucode/Velo3DFusion) | IEEE Transactions on Multimedia | 2026 | Propelled by advances in autonomous driving, accurate vehicle perception is essential for reliable decision-making. |
@@ -622,6 +623,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html) | [Code](https://github.com/Shimmer93/EMDUL) | CVPR 2026 | 2026 | Expands mmWave human pose estimation datasets by pseudo-labeling unlabeled mmWave data and converting LiDAR point clouds into mmWave-style samples for better generalization. |
 | [Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Towards_Balanced_Multi-Modal_Learning_in_3D_Human_Pose_Estimation_CVPR_2026_paper.pdf) | [Code](https://github.com/MICLAB-BUPT/AWC) | CVPR | 2026 | Improves multi-modal 3D human pose estimation by balancing RGB, LiDAR, mmWave, and WiFi learning with Shapley-value and Fisher-guided regularization. |
 | [Less is More: Multimodal Human Pose Estimation with Selective Fusion](https://openaccess.thecvf.com/content/CVPR2026F/papers/Xu_Less_is_More_Multimodal_Human_Pose_Estimation_with_Selective_Fusion_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves multimodal human pose estimation by selectively fusing complementary sensor cues for more efficient and robust pose recovery. |
 | [Towards Device-Free Gaming with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11524493/) | N/A | 2026 IEEE International Conference on Pervasive Computing and Communications (PerCom) | 2026 | Addresses device-free interactive gaming by using mmWave radar to sense player motion for immersive indoor experiences without worn devices. |
