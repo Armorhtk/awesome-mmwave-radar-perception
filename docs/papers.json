@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 559,
-    "generated_at": "2026-06-21T11:42:56Z"
+    "total": 561,
+    "generated_at": "2026-06-30T13:15:15Z"
   },
   "taxonomy": [
     {
@@ -6863,6 +6863,30 @@
       "artifact_url": "https://github.com/shawnnnkb/RaGS",
       "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
       "summary": "Improves 3D object detection from 4D radar and monocular images by representing scenes as adaptive Gaussian fields for flexible foreground modeling."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-document-11574675",
+      "title": "Cross-Modal Masked Autoencoders for 4D Radar: Learning from Lidar to Boost Radar Object Detection Performance",
+      "url": "https://ieeexplore.ieee.org/document/11574675/",
+      "publication": "IEEE Access",
+      "year": 2026,
+      "import_order": 561,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Improves 4D radar object detection by training cross-modal masked autoencoders that learn from LiDAR representations to strengthen radar-only perception."
+    },
+    {
+      "id": "url:www-diva-portal-org-smash-record-jsfpid-diva2-2079726",
+      "title": "The Effect of Variable Background Subtraction on Machine Learning for Radar-Based Occupancy Detection",
+      "url": "https://www.diva-portal.org/smash/record.jsf?pid=diva2:2079726",
+      "publication": "Student thesis",
+      "year": 2026,
+      "import_order": 562,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__occupancy-presence-fall-detection",
+      "summary": "Evaluates radar occupancy detection by comparing variable background subtraction settings for machine-learning indoor people counting from radar measurements."
     }
   ]
 }

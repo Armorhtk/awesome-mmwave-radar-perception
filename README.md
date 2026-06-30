@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **21 June 2026**
+Last Updated: **30 June 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-06-30.md">Jun 30, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-21.md">Jun 21, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-06-06.md">Jun 06, 2026</a></td>
             <td align="center">+1</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-03.md">Jun 03, 2026</a></td>
-            <td align="center">+3</td>
           </tr>
         </tbody>
       </table>
@@ -253,6 +253,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Cross-Modal Masked Autoencoders for 4D Radar: Learning from Lidar to Boost Radar Object Detection Performance](https://ieeexplore.ieee.org/document/11574675/) | N/A | IEEE Access | 2026 | Improves 4D radar object detection by training cross-modal masked autoencoders that learn from LiDAR representations to strengthen radar-only perception. |
 | [RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Bai_RaGS_Unleashing_3D_Gaussian_Splatting_from_4D_Radar_and_Monocular_CVPR_2026_paper.html) | [Code](https://github.com/shawnnnkb/RaGS) | CVPR 2026 | 2026 | Improves 3D object detection from 4D radar and monocular images by representing scenes as adaptive Gaussian fields for flexible foreground modeling. |
 | [ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity](https://arxiv.org/abs/2606.09634) | N/A | arXiv | 2026 | 3D object detection is the backbone of perception for automated vehicles (AV) and broader intelligent transportation systems applications. |
 | [RCGDet3D: Rethinking 4D Radar -Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding](https://arxiv.org/abs/2605.21112) | N/A | arXiv | 2026 | Addresses 3D object detection by enhancing radar feature encoding for 4D radar-camera fusion in autonomous driving scenes. |
@@ -600,6 +601,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [The Effect of Variable Background Subtraction on Machine Learning for Radar-Based Occupancy Detection](https://www.diva-portal.org/smash/record.jsf?pid=diva2:2079726) | N/A | Student thesis | 2026 | Evaluates radar occupancy detection by comparing variable background subtraction settings for machine-learning indoor people counting from radar measurements. |
 | [Structured Time-Frequency Feature Driven Meta Learning for Fall Detection with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11526736/) | N/A | IEEE Internet of Things Journal | 2026 | Improves mmWave radar fall detection by combining structured time-frequency features with meta learning for robust human sensing. |
 | [Low-Resource in-Car Infant Detection Using IR-UWB Radar](https://ieeexplore.ieee.org/abstract/document/11462962/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Child presence detection (CPD) is motivated by the need for safety and well-being of unattended infants in vehicles. |
 | [One-Legged Stand Test: Synchronized Motion Capture, Force Plate, and Radar Dataset for Fall-Risk](https://www.nature.com/articles/s41597-026-06831-1) | [Dataset](https://doi.org/10.13026/46hn-6b25) [Code](https://github.com/dc-olst-dataset/olst-mocap-forceplate-radar) | Scientific Data | 2026 | Releases a synchronized one-legged-stand dataset with motion capture, force plates, 24 GHz FMCW radar, and event labels to support balance analysis and fall-risk assessment. |
