@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **30 June 2026**
+Last Updated: **3 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-07-03.md">Jul 03, 2026</a></td>
+            <td align="center">+2</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-06-30.md">Jun 30, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -75,10 +79,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-06-11.md">Jun 11, 2026</a></td>
-            <td align="center">+1</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-06.md">Jun 06, 2026</a></td>
             <td align="center">+1</td>
           </tr>
         </tbody>
@@ -657,6 +657,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement](https://arxiv.org/abs/2606.28089) | [Code](https://github.com/WJULYW/RPM-Distill) | ECCV | 2026 | Improves video-based remote physiological measurement by distilling synchronized RF radar spectral cues during training for robust video-only inference. |
+| [ActiveVital: Geometry-Aware Embodied Vital Signs Monitoring for Home Healthcare Robots](https://arxiv.org/abs/2606.30275) | N/A | arXiv | 2026 | Improves robot-mounted mmWave vital signs monitoring by actively regulating sensing geometry and stabilizing respiration and heart-rate estimation in home settings. |
 | [LLM4RIM: Leveraging Large Language Model for Radar-Based in-Vehicle Monitoring](https://ieeexplore.ieee.org/abstract/document/11463158/) | [Code](https://github.com/bupt-uwb/LLM4RIM) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | The growing need for non-invasive in-vehicle monitoring in the intelligent cabin underscores the potential of radar sensing. |
 | [Quasi-stationary Slice Detection-Based Robust Respiration Rate Estimation under Large-scale Random Body Movement](https://arxiv.org/abs/2604.05353) | N/A | arXiv | 2026 | Radar-based non-contact respiration rate (RR) measurement has become increasingly popular due to its convenience, non-intrusiveness, and low cost. |
 | [mmWave-Diffusion:A Novel Framework for Respiration Sensing Using Observation-Anchored Conditional Diffusion Model](https://arxiv.org/abs/2603.20700) | [Code](https://github.com/goodluckyongw/mmWave-Diffusion) | ICASSP | 2026 | Improves contactless respiration sensing by using an observation-anchored conditional diffusion model to remove micromotion interference from mmWave radar phase measurements. |

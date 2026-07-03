@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 561,
-    "generated_at": "2026-06-30T13:15:15Z"
+    "total": 563,
+    "generated_at": "2026-07-03T11:20:40Z"
   },
   "taxonomy": [
     {
@@ -6887,6 +6887,30 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__occupancy-presence-fall-detection",
       "summary": "Evaluates radar occupancy detection by comparing variable background subtraction settings for machine-learning indoor people counting from radar measurements."
+    },
+    {
+      "id": "arxiv:2606.30275",
+      "title": "ActiveVital: Geometry-Aware Embodied Vital Signs Monitoring for Home Healthcare Robots",
+      "url": "https://arxiv.org/abs/2606.30275",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 563,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "summary": "Improves robot-mounted mmWave vital signs monitoring by actively regulating sensing geometry and stabilizing respiration and heart-rate estimation in home settings."
+    },
+    {
+      "id": "arxiv:2606.28089",
+      "title": "RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement",
+      "url": "https://arxiv.org/abs/2606.28089",
+      "publication": "ECCV",
+      "year": 2026,
+      "import_order": 564,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/WJULYW/RPM-Distill",
+      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "summary": "Improves video-based remote physiological measurement by distilling synchronized RF radar spectral cues during training for robust video-only inference."
     }
   ]
 }
