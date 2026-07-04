@@ -1,7 +1,7 @@
 {
   "meta": {
     "total": 567,
-    "generated_at": "2026-07-04T12:22:14Z"
+    "generated_at": "2026-07-04T12:24:41Z"
   },
   "taxonomy": [
     {
@@ -6922,7 +6922,7 @@
       "artifact_label": "N/A",
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
-      "summary": "Addresses Design and Validation of a Radar–Camera Fusion Framework for Object Detection for mmWave radar perception."
+      "summary": "Evaluates a radar-camera fusion framework for object detection, focusing on practical sensor integration and detection performance validation."
     },
     {
       "id": "arxiv:2606.31473",
@@ -6940,13 +6940,13 @@
       "id": "url:www-sciencedirect-com-science-article-pii-s0921889026002708",
       "title": "DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry",
       "url": "https://www.sciencedirect.com/science/article/pii/S0921889026002708",
-      "publication": "www.sciencedirect.com",
+      "publication": "Robotics and Autonomous Systems",
       "year": 2026,
       "import_order": 567,
       "artifact_label": "N/A",
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
-      "summary": "Metadata could not be resolved automatically; review the source paper before importing: DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry."
+      "summary": "Improves 4D mmWave radar-inertial odometry by tightly coupling Doppler measurements with inertial sensing for robust ego-motion estimation."
     },
     {
       "id": "arxiv:2606.31096",
