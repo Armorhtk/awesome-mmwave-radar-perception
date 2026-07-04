@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-07-04](2026-07-04.md) | 4 | 3D Object Detection & Classification, Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques | Added 4 papers across 3 topics. |
 | [2026-07-03](2026-07-03.md) | 2 | Vital Signs & Biometric Identification | Added 2 papers across 1 topic. |
 | [2026-06-30](2026-06-30.md) | 2 | 3D Object Detection & Classification, Occupancy, Presence & Fall Detection | Added 2 papers across 2 topics. |
 | [2026-06-21](2026-06-21.md) | 4 | 📦 Other Areas, 3D Object Detection & Classification, Gesture Recognition & Hand Tracking, Pose Estimation & Skeletal Tracking & Human Motion | Added 4 papers across 4 topics. |

@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **3 July 2026**
+Last Updated: **4 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-07-04.md">Jul 04, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-07-03.md">Jul 03, 2026</a></td>
             <td align="center">+2</td>
           </tr>
@@ -75,10 +79,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-06-13.md">Jun 13, 2026</a></td>
-            <td align="center">+1</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-11.md">Jun 11, 2026</a></td>
             <td align="center">+1</td>
           </tr>
         </tbody>
@@ -253,6 +253,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving](https://arxiv.org/abs/2606.31096) | [Code](https://github.com/geonhobang/ECCV2026_Horizon3D) | ECCV 2026 | 2026 | Improves long-range radar-camera 3D detection by combining keypoint-guided Gaussian primitives, sparse BEV fusion, and dual-path temporal modeling. |
+| [Design and Validation of a Radar–Camera Fusion Framework for Object Detection](https://thesis.dial.uclouvain.be/bitstreams/59120bec-793a-465f-9966-e939c162ef1d/download) | N/A | thesis.dial.uclouvain.be | 2026 | Addresses Design and Validation of a Radar–Camera Fusion Framework for Object Detection for mmWave radar perception. |
 | [Cross-Modal Masked Autoencoders for 4D Radar: Learning from Lidar to Boost Radar Object Detection Performance](https://ieeexplore.ieee.org/document/11574675/) | N/A | IEEE Access | 2026 | Improves 4D radar object detection by training cross-modal masked autoencoders that learn from LiDAR representations to strengthen radar-only perception. |
 | [RaGS: Unleashing 3D Gaussian Splatting from 4D Radar and Monocular Cue for 3D Object Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Bai_RaGS_Unleashing_3D_Gaussian_Splatting_from_4D_Radar_and_Monocular_CVPR_2026_paper.html) | [Code](https://github.com/shawnnnkb/RaGS) | CVPR 2026 | 2026 | Improves 3D object detection from 4D radar and monocular images by representing scenes as adaptive Gaussian fields for flexible foreground modeling. |
 | [ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity](https://arxiv.org/abs/2606.09634) | N/A | arXiv | 2026 | 3D object detection is the backbone of perception for automated vehicles (AV) and broader intelligent transportation systems applications. |
@@ -351,6 +353,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry](https://www.sciencedirect.com/science/article/pii/S0921889026002708) | N/A | www.sciencedirect.com | 2026 | Metadata could not be resolved automatically; review the source paper before importing: DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry. |
 | [Dr-BA: Separable Optimization for Direct Radar Bundle Adjustment & Localization](https://arxiv.org/abs/2605.07041) | [Code](https://github.com/utiasASRL/dr_ba) | RSS | 2026 | Introduces direct radar bundle adjustment that jointly estimates dense maps and poses from spinning radar images for robust localization. |
 | [Pushing Radar Odometry Beyond the Pavement: Current Capabilities and Challenges](https://arxiv.org/abs/2604.24674) | N/A | arXiv | 2026 | Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates. |
 | [ClaRO: A Cluster-Based Method for Radar Odometry](https://ieeexplore.ieee.org/iel8/7083369/7339444/11488554.pdf) | N/A | ieeexplore.ieee.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: ClaRO: A Cluster-Based Method for Radar Odometry. |
@@ -432,6 +435,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Von Mises Based Uncertainty Quantification for Closely Spaced Automotive Radar Targets](https://arxiv.org/abs/2606.31473) | N/A | arXiv | 2026 | This work investigates uncertainty-aware deep learning approaches for direction of arrival (DOA) estimation in automotive radar, focusing on probabilistic modeling and downstream integration. |
 | [Adaptive Bandwidth Radar for UAV Swarm Detection Using Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/11549108/) | N/A | 2026 27th International Radar Symposium (IRS) | 2026 | The problem of detecting and resolving UAV swarms using radar systems is considered in this paper. |
 | [NERVE: A Neuromorphic Vision and Radar Ensemble for Multi-Sensor Fusion Research](https://arxiv.org/abs/2605.16414) | [Code](https://github.com/nerveproject-ut/nerve) | arXiv | 2026 | Introduces a synchronized neuromorphic vision, RGB-D, and 24/77 GHz radar dataset for multi-sensor fusion research in indoor perception settings. |
 | [Parametric Spectral Attention for Real-Time mmWave Radar Pose Recognition from Raw ADC Data](https://ieeexplore.ieee.org/abstract/document/11512025/) | N/A | IEEE Sensors Letters | 2026 | Conventional mmWave perception pipelines decouple signal conditioning (e.g., fixed STFT) from feature learning. |

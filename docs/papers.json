@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 563,
-    "generated_at": "2026-07-03T11:20:40Z"
+    "total": 567,
+    "generated_at": "2026-07-04T12:22:14Z"
   },
   "taxonomy": [
     {
@@ -6911,6 +6911,54 @@
       "artifact_url": "https://github.com/WJULYW/RPM-Distill",
       "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
       "summary": "Improves video-based remote physiological measurement by distilling synchronized RF radar spectral cues during training for robust video-only inference."
+    },
+    {
+      "id": "url:thesis-dial-uclouvain-be-bitstreams-59120bec-793a-465f-9966-e939c162ef1d-download",
+      "title": "Design and Validation of a Radar–Camera Fusion Framework for Object Detection",
+      "url": "https://thesis.dial.uclouvain.be/bitstreams/59120bec-793a-465f-9966-e939c162ef1d/download",
+      "publication": "thesis.dial.uclouvain.be",
+      "year": 2026,
+      "import_order": 565,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Addresses Design and Validation of a Radar–Camera Fusion Framework for Object Detection for mmWave radar perception."
+    },
+    {
+      "id": "arxiv:2606.31473",
+      "title": "Von Mises Based Uncertainty Quantification for Closely Spaced Automotive Radar Targets",
+      "url": "https://arxiv.org/abs/2606.31473",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 566,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "This work investigates uncertainty-aware deep learning approaches for direction of arrival (DOA) estimation in automotive radar, focusing on probabilistic modeling and downstream integration."
+    },
+    {
+      "id": "url:www-sciencedirect-com-science-article-pii-s0921889026002708",
+      "title": "DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0921889026002708",
+      "publication": "www.sciencedirect.com",
+      "year": 2026,
+      "import_order": 567,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry."
+    },
+    {
+      "id": "arxiv:2606.31096",
+      "title": "Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving",
+      "url": "https://arxiv.org/abs/2606.31096",
+      "publication": "ECCV 2026",
+      "year": 2026,
+      "import_order": 568,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/geonhobang/ECCV2026_Horizon3D",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Improves long-range radar-camera 3D detection by combining keypoint-guided Gaussian primitives, sparse BEV fusion, and dual-path temporal modeling."
     }
   ]
 }
