@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 567,
-    "generated_at": "2026-07-04T12:24:41Z"
+    "total": 572,
+    "generated_at": "2026-07-07T15:13:08Z"
   },
   "taxonomy": [
     {
@@ -3158,15 +3158,15 @@
     },
     {
       "id": "arxiv:2508.03578",
-      "title": "RadProPoser: Uncertainty-Aware Human Pose Estimation and Activity Classification from Raw Radar Data",
+      "title": "RadProPoser: Probabilistic Radar Tensor Human Pose Estimation That Knows Its Limits",
       "url": "https://arxiv.org/abs/2508.03578",
-      "publication": "arXiv",
-      "year": 2025,
+      "publication": "IJCNN 2026 (WCCI, Maastricht)",
+      "year": 2026,
       "import_order": 252,
-      "artifact_label": "Code",
-      "artifact_url": "https://github.com/jonasmueler/RadProPoser",
-      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
-      "summary": "Jointly performs pose estimation and activity classification from raw radar with uncertainty quantification to improve reliability in ambiguous scenarios."
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Presents an end-to-end probabilistic framework using variational encoder-decoder with spectral attention for 3D human pose estimation from raw radar tensor data, achieving 6.425cm MPJPE with per-joint uncertainty calibration."
     },
     {
       "id": "arxiv:2509.06751",
@@ -6959,6 +6959,66 @@
       "artifact_url": "https://github.com/geonhobang/ECCV2026_Horizon3D",
       "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
       "summary": "Improves long-range radar-camera 3D detection by combining keypoint-guided Gaussian primitives, sparse BEV fusion, and dual-path temporal modeling."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11593416",
+      "title": "Complex-Valued (2+ 1) D Convolutional Neural Networks for Real-Time Hand Gesture Recognition on Edge Devices with FMCW Radar",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11593416/",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems",
+      "year": 2026,
+      "import_order": 569,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Proposes complex-valued (2+1)D CNN that directly learns spatio-temporal features from raw time-domain FMCW signals, eliminating FFT preprocessing for 4x-86x faster real-time gesture recognition on edge devices."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11594055",
+      "title": "DeepmmWave: Attention-Guided Framework for Contactless Liquid Identification and Adulteration Using mmWave Radar",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11594055/",
+      "publication": "IEEE Sensors Journal",
+      "year": 2026,
+      "import_order": 570,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Proposes an attention-guided framework for mmWave radar-based liquid identification and adulteration detection in the 60-64 GHz band, integrating frequency diversity with adaptive feature gating for robust multi-class classification."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11593150",
+      "title": "SIREN: Self-supervised 4D Implicit Representation for Enhanced Radar- and Vision-based Activity Recognition for Ship Watch-Keeping Officers",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11593150/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "import_order": 571,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
+      "summary": "Proposes self-supervised 4D implicit representation integrating mmWave radar and camera data for activity recognition of ship watch-keeping officers, with radar angular resolution enhancement via self-supervised learning."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11595268",
+      "title": "Deep Gesture Recognition under Data Loss",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11595268/",
+      "publication": "IEEE Sensors Journal",
+      "year": 2026,
+      "import_order": 572,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Proposes a deep learning-based encoder-decoder network robust to mmWave radar data loss from interference, maintaining 96.61% gesture recognition accuracy under real multi-radar interference conditions."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11593936",
+      "title": "FFTFormer: A Frequency-Aware Transformer With Multi-Task Learning for Robust Modulation Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11593936/",
+      "publication": "IEEE Journal of Microwaves",
+      "year": 2026,
+      "import_order": 573,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Proposes FFT-driven Transformer integrating frequency-domain attention with multi-task learning for robust automatic modulation recognition, significantly outperforming SOTA baselines under low SNR conditions."
     }
   ]
 }

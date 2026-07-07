@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **4 July 2026**
+Last Updated: **7 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-07-07.md">Jul 07, 2026</a></td>
+            <td align="center">+5</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-07-04.md">Jul 04, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-06-14.md">Jun 14, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-13.md">Jun 13, 2026</a></td>
-            <td align="center">+1</td>
           </tr>
         </tbody>
       </table>
@@ -517,6 +517,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [SIREN: Self-supervised 4D Implicit Representation for Enhanced Radar- and Vision-based Activity Recognition for Ship Watch-Keeping Officers](https://ieeexplore.ieee.org/abstract/document/11593150/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Proposes self-supervised 4D implicit representation integrating mmWave radar and camera data for activity recognition of ship watch-keeping officers, with radar angular resolution enhancement via self-supervised learning. |
 | [DAP: Doppler-aware Point Network for Heterogeneous mmWave Action Recognition](https://arxiv.org/abs/2605.09604) | N/A | arXiv | 2026 | Introduces DAP-Net and the UniMM-HAR dataset to improve heterogeneous mmWave point-cloud action recognition across devices and frequency bands. |
 | [OG-PCL: Efficient Sparse Radar Point Cloud Processing for Human Activity Recognition](https://ieeexplore.ieee.org/abstract/document/11462700/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Human activity recognition (HAR) with millimeter-wave (mmWave) radar offers a privacy-preserving and robust alternative to camera-and wearable-based approaches. |
 | [SEdgeNet: Stochastic Edge Network for Human Activity Recognition Using Sparse Point Cloud](https://www.researchsquare.com/article/rs-8959065/latest.pdf) | [Code](https://github.com/Gbouna/SEdgeNet) | Research Square | 2026 | SEdgeNet introduces stochastic edge convolution for mmWave point-cloud activity recognition and reports state-of-the-art accuracy and efficiency on the MiliPoint and MMActivity datasets. |
@@ -529,7 +530,6 @@ This list is curated based on the following standards, in order of priority:
 | [A Multi-Target Action Recognition Method Based on UWB MIMO Radar Space-Time-Frequency Fusion Features](https://ieeexplore.ieee.org/document/11386948) | [Code](https://github.com/Yan-tx0831/UWB-MIMO-MicroDoppler-HAR) | IEEE Transactions on Instrumentation and Measurement | 2026 | Addresses the feature aliasing problem in multi-target Human Action Recognition (HAR) by proposing a space-time-frequency fusion framework using UWB MIMO radar.  This method performs 2D imaging to physically separate multiple targets, followed by multi-height 3D imaging to extract independent micro-Doppler features for each subject. These fused features are then processed by a lightweight Spatio-Temporal Decomposed Network (STD-Net), achieving superior accuracy, real-time performance, and significantly reduced Doppler cross-talk in real-world environments. |
 | [Multi-Head Adaptive Graph Convolution Network for Sparse Point Cloud-Based Human Activity Recognition](https://arxiv.org/abs/2504.02778) | [Code](https://github.com/Gbouna/MAK-GCN) | arXiv | 2025 | Addresses the limitation of fixed graph kernels for sparse point clouds by proposing a multi-head module that generates multiple, dynamic kernels, each adapting to different aspects of the local neighborhood's geometry. |
 | [RadHARSimulator V1: Model-Based FMCW Radar Human Activity Recognition Simulator](https://arxiv.org/abs/2509.06751) | [Code](https://github.com/JoeyBGOfficial/RadHARSimulatorV1-Model-Based-FMCW-Radar-Human-Activity-Recognition-Simulator) | arXiv | 2025 | Overcomes the challenge of acquiring diverse, high-fidelity radar data for Human Activity Recognition (HAR) by developing a model-based simulator that generates realistic micro-Doppler signatures for various activities. |
-| [RadProPoser: Uncertainty-Aware Human Pose Estimation and Activity Classification from Raw Radar Data](https://arxiv.org/abs/2508.03578) | [Code](https://github.com/jonasmueler/RadProPoser) | arXiv | 2025 | Jointly performs pose estimation and activity classification from raw radar with uncertainty quantification to improve reliability in ambiguous scenarios. |
 | [DGAR: A Unified Domain Generalization Framework for RF-Based Human Activity Recognition](https://arxiv.org/abs/2503.17667) | [Code](https://github.com/Junshuo-Lau/HUST_HAR_LFM) | arXiv | 2025 | Addresses cross-domain HAR challenges through unified domain generalization framework that learns domain-invariant radar representations. |
 | [RadMamba: Efficient Human Activity Recognition through Radar-based Micro-Doppler-Oriented Mamba State-Space Model](https://arxiv.org/abs/2504.12039) | [Code](https://github.com/lab-emi/AIRHAR) | arXiv | 2025 | Achieves efficient HAR using Mamba state-space models that capture micro-Doppler temporal dependencies with linear complexity for real-time processing. |
 | [A Novel Multimodal LLM-Driven RF Sensing Method for Human Activity Recognition](https://ieeexplore.ieee.org/document/11003262) | [Code](https://github.com/ci4r/CI4R-MULTI3) | International Conference on Microwave, Antennas & Circuits (ICMAC) | 2025 | Leverages large language models to interpret multimodal RF sensing data by bridging radar signals with semantic understanding for improved activity recognition. |
@@ -565,6 +565,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Deep Gesture Recognition under Data Loss](https://ieeexplore.ieee.org/abstract/document/11595268/) | N/A | IEEE Sensors Journal | 2026 | Proposes a deep learning-based encoder-decoder network robust to mmWave radar data loss from interference, maintaining 96.61% gesture recognition accuracy under real multi-radar interference conditions. |
+| [Complex-Valued (2+ 1) D Convolutional Neural Networks for Real-Time Hand Gesture Recognition on Edge Devices with FMCW Radar](https://ieeexplore.ieee.org/abstract/document/11593416/) | [GitHub](https://github.com/thetuantrinh/Hand-Gesture-Recognition.git) | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Proposes complex-valued (2+1)D CNN that directly learns spatio-temporal features from raw time-domain FMCW signals, eliminating FFT preprocessing for 4x-86x faster real-time gesture recognition on edge devices. |
 | [M3-CFR: A Domain-Adaptive Bi-Static mmWave MIMO CFR Dataset for Micro-Gesture Recognition](https://ieeexplore.ieee.org/abstract/document/11563612/) | N/A | IEEE Sensors Letters | 2026 | In this letter, we introduce M3-CFR, a bi-static mmWave MIMO CFR dataset for fine-grained micro-gesture recognition under domain shifts. |
 | [Real-Time Radar Hand Motion Recognition Using a Hybrid CNN–SVM Framework With FPGA Acceleration](https://ieeexplore.ieee.org/abstract/document/11552819/) | N/A | IEEE Transactions on Radar Systems | 2026 | Radar-based hand gesture recognition (HGR) systems often suffer from challenges related to sensor interference, environmental clutter, and limited dataset size, which complicate the training of deep learning models. |
 | [Lightweight and Robust Embedded Radar-based Gesture Recognition with Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2026W/PBVS/papers/Dampfhoffer_Lightweight_and_Robust_Embedded_Radar-based_Gesture_Recognition_with_Graph_Neural_CVPRW_2026_paper.pdf) | N/A | CVPR Workshop | 2026 | Improves embedded radar-based gesture recognition by using graph neural networks for lightweight and robust inference. |
@@ -638,6 +640,7 @@ This list is curated based on the following standards, in order of priority:
 | [Sensing Life in Stillness: Unified Dynamic and Static Human Mesh Reconstruction with mmWave Radar](https://dl.acm.org/doi/10.1145/3790117) | [Code](https://github.com/leenchen0/mmRehab) | Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies | 2026 | Addresses dynamic and static human mesh reconstruction for rehabilitation by combining micro-motion feature extraction and geometry-aware knowledge transfer with mmWave radar. |
 | [WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation](https://arxiv.org/abs/2602.18726) | [Code](https://github.com/Galaxywalk/WiCompass) | MOBICOM | 2026 | Improves out-of-distribution mmWave human pose estimation by introducing WiCompass, a coverage-aware data collection framework that builds a universal pose-space oracle from large-scale motion-capture corpora and prioritizes underrepresented motions for more efficient and robust data scaling. |
 | [A Global-Local Network for Human Pose Estimation with Completed mmWave Radar Point Clouds](https://ieeexplore.ieee.org/abstract/document/11346896) | [Code](https://github.com/kakashi0926/HPE-based-on-mmWave-RPCs) | IEEE Sensors Journal | 2026 | Addresses the sparsity and incompleteness of mmWave radar point clouds in human pose estimation by proposing a Global-Local Network. This two-stage framework first employs a Point Cloud Completion (PCC) network with semi-synthetic supervision to densify the data, and then utilizes a dual-branch architecture to fuse global structural context from the completed clouds with local fine-grained details (velocity, intensity) from the original sparse points. |
+| [RadProPoser: Probabilistic Radar Tensor Human Pose Estimation That Knows Its Limits](https://arxiv.org/abs/2508.03578) | [GitHub](https://github.com/jonasmueler/RadProPoser) | IJCNN 2026 (WCCI, Maastricht) | 2026 | Presents an end-to-end probabilistic framework using variational encoder-decoder with spectral attention for 3D human pose estimation from raw radar tensor data, achieving 6.425cm MPJPE with per-joint uncertainty calibration. |
 | [Few-shot Human Motion Recognition through Multi-Aspect mmWave FMCW Radar Data](https://arxiv.org/abs/2501.11028) | [Code](https://github.com/MountainChenCad/channel-DN4) | arXiv | 2025 | Improves radar-inertial odometry for drone navigation in GNSS-denied environments by incorporating a barometer and using a robust m-estimator to more adaptively handle sensor outliers than binary filters. |
 | [RAPTR: Radar-based 3D Pose Estimation using Transformer](https://openreview.net/forum?id=4pUumnQxDG) | [Code](https://github.com/merlresearch/radar-pose-transformer) | Conference on Neural Information Processing Systems (NeurIPS) | 2025 | Overcomes the high cost of 3D labels by proposing a Transformer model that uses weak supervision (2D keypoints and 3D BBoxes) and a two-stage decoder with pseudo-3D deformable attention for pose estimation. |
 | [Vomee: A Multimodal Sensing Platform for Video, Audio, mmWave and Skeleton Data Capturing](https://dl.acm.org/doi/10.1145/3737904.3768536) | [Code](https://github.com/weixijia/Vomme) | MOBICOM | 2025 | Addresses the lack of open-source solutions for time-aligned multi-sensor recording by introducing Vomee, a multimodal platform that captures synchronized video, audio, mmWave, and skeleton data with hardware-level interference avoidance. |
@@ -770,6 +773,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [FFTFormer: A Frequency-Aware Transformer With Multi-Task Learning for Robust Modulation Recognition](https://ieeexplore.ieee.org/abstract/document/11593936/) | N/A | IEEE Journal of Microwaves | 2026 | Proposes FFT-driven Transformer integrating frequency-domain attention with multi-task learning for robust automatic modulation recognition, significantly outperforming SOTA baselines under low SNR conditions. |
+| [DeepmmWave: Attention-Guided Framework for Contactless Liquid Identification and Adulteration Using mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11594055/) | N/A | IEEE Sensors Journal | 2026 | Proposes an attention-guided framework for mmWave radar-based liquid identification and adulteration detection in the 60-64 GHz band, integrating frequency diversity with adaptive feature gating for robust multi-class classification. |
 | [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598) | N/A | arXiv | 2026 | Presents an adaptive multimodal vision-language-action model for robotic manipulation using heterogeneous sensing inputs. |
 | [mmAlert: A Simultaneous Device Localization and Target Tracking System via Cooperative Passive Sensing](https://arxiv.org/abs/2606.01653) | N/A | arXiv | 2026 | Proposes mmAlert, a 60GHz cooperative passive sensing system that jointly localizes transmitters and reconstructs moving target trajectories from AoA and bistatic Doppler measurements. |
 | [Efficient DOA Estimation Based on Coprime Array Interpolation With Deep Unfolding Network](https://ieeexplore.ieee.org/abstract/document/11539012/) | N/A | IEEE Xplore | 2026 | Improves DOA estimation for coprime arrays by combining array interpolation with a deep unfolding network for efficient radar signal processing. |
