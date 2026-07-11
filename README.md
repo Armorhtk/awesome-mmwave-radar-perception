@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **7 July 2026**
+Last Updated: **11 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-07-11.md">Jul 11, 2026</a></td>
+            <td align="center">+4</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-07-07.md">Jul 07, 2026</a></td>
             <td align="center">+5</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-06-16.md">Jun 16, 2026</a></td>
             <td align="center">+1</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-14.md">Jun 14, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -253,6 +253,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather](https://arxiv.org/abs/2607.04587) | [Code](https://github.com/parkie0517/RAF) | arXiv | 2026 | Robust 3D object detection in adverse weather conditions is challenging due to sensor limitations. |
+| [Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion](https://arxiv.org/abs/2607.04098) | [Code](https://github.com/Aiuan/Sparse4D-Radar) | arXiv | 2026 | In recent years, 4D imaging radar has gained wide attention in autonomous driving for its robustness against harsh weather and ability to output target velocity. |
 | [Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving](https://arxiv.org/abs/2606.31096) | [Code](https://github.com/geonhobang/ECCV2026_Horizon3D) | ECCV 2026 | 2026 | Improves long-range radar-camera 3D detection by combining keypoint-guided Gaussian primitives, sparse BEV fusion, and dual-path temporal modeling. |
 | [Design and Validation of a Radar–Camera Fusion Framework for Object Detection](https://thesis.dial.uclouvain.be/bitstreams/59120bec-793a-465f-9966-e939c162ef1d/download) | N/A | thesis.dial.uclouvain.be | 2026 | Evaluates a radar-camera fusion framework for object detection, focusing on practical sensor integration and detection performance validation. |
 | [Cross-Modal Masked Autoencoders for 4D Radar: Learning from Lidar to Boost Radar Object Detection Performance](https://ieeexplore.ieee.org/document/11574675/) | N/A | IEEE Access | 2026 | Improves 4D radar object detection by training cross-modal masked autoencoders that learn from LiDAR representations to strengthen radar-only perception. |
@@ -631,6 +633,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Privacy-Preserving Industrial Ergonomics: mmWave-Based Automated REBA Scoring and Pose Estimation](https://arxiv.org/abs/2607.02611) | N/A | the Proceedings of the 2026 International Conference on Automation and Computing (ICAC 2026) | 2026 | Work-related Musculoskeletal Disorders (WMSDs) require continuous ergonomic assessments. |
 | [Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html) | [Code](https://github.com/Shimmer93/EMDUL) | CVPR 2026 | 2026 | Expands mmWave human pose estimation datasets by pseudo-labeling unlabeled mmWave data and converting LiDAR point clouds into mmWave-style samples for better generalization. |
 | [Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Towards_Balanced_Multi-Modal_Learning_in_3D_Human_Pose_Estimation_CVPR_2026_paper.pdf) | [Code](https://github.com/MICLAB-BUPT/AWC) | CVPR | 2026 | Improves multi-modal 3D human pose estimation by balancing RGB, LiDAR, mmWave, and WiFi learning with Shapley-value and Fisher-guided regularization. |
 | [Less is More: Multimodal Human Pose Estimation with Selective Fusion](https://openaccess.thecvf.com/content/CVPR2026F/papers/Xu_Less_is_More_Multimodal_Human_Pose_Estimation_with_Selective_Fusion_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves multimodal human pose estimation by selectively fusing complementary sensor cues for more efficient and robust pose recovery. |
@@ -773,6 +776,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [In-Band Scattering and Absorption of Infrared Blocking Foam Filters for Millimeter-Wave Cameras](https://arxiv.org/abs/2607.05003) | N/A | arXiv | 2026 | Characterizes millimeter-wave optical properties of IR-blocking foam filters for mmWave cameras, presenting broadband (150 GHz-2 THz) transmittance spectroscopy critical for CMB telescope sensitivity optimization. |
 | [FFTFormer: A Frequency-Aware Transformer With Multi-Task Learning for Robust Modulation Recognition](https://ieeexplore.ieee.org/abstract/document/11593936/) | N/A | IEEE Journal of Microwaves | 2026 | Proposes FFT-driven Transformer integrating frequency-domain attention with multi-task learning for robust automatic modulation recognition, significantly outperforming SOTA baselines under low SNR conditions. |
 | [DeepmmWave: Attention-Guided Framework for Contactless Liquid Identification and Adulteration Using mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11594055/) | N/A | IEEE Sensors Journal | 2026 | Proposes an attention-guided framework for mmWave radar-based liquid identification and adulteration detection in the 60-64 GHz band, integrating frequency diversity with adaptive feature gating for robust multi-class classification. |
 | [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598) | N/A | arXiv | 2026 | Presents an adaptive multimodal vision-language-action model for robotic manipulation using heterogeneous sensing inputs. |

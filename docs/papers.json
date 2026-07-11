@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 572,
-    "generated_at": "2026-07-07T15:13:08Z"
+    "total": 576,
+    "generated_at": "2026-07-11T13:41:39Z"
   },
   "taxonomy": [
     {
@@ -7019,6 +7019,54 @@
       "artifact_url": null,
       "topic_id": "other-areas",
       "summary": "Proposes FFT-driven Transformer integrating frequency-domain attention with multi-task learning for robust automatic modulation recognition, significantly outperforming SOTA baselines under low SNR conditions."
+    },
+    {
+      "id": "arxiv:2607.05003",
+      "title": "In-Band Scattering and Absorption of Infrared Blocking Foam Filters for Millimeter-Wave Cameras",
+      "url": "https://arxiv.org/abs/2607.05003",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 574,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Characterizes millimeter-wave optical properties of IR-blocking foam filters for mmWave cameras, presenting broadband (150 GHz-2 THz) transmittance spectroscopy critical for CMB telescope sensitivity optimization."
+    },
+    {
+      "id": "arxiv:2607.04098",
+      "title": "Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion",
+      "url": "https://arxiv.org/abs/2607.04098",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 575,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Aiuan/Sparse4D-Radar",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "In recent years, 4D imaging radar has gained wide attention in autonomous driving for its robustness against harsh weather and ability to output target velocity."
+    },
+    {
+      "id": "arxiv:2607.04587",
+      "title": "RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather",
+      "url": "https://arxiv.org/abs/2607.04587",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 576,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/parkie0517/RAF",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Robust 3D object detection in adverse weather conditions is challenging due to sensor limitations."
+    },
+    {
+      "id": "arxiv:2607.02611",
+      "title": "Privacy-Preserving Industrial Ergonomics: mmWave-Based Automated REBA Scoring and Pose Estimation",
+      "url": "https://arxiv.org/abs/2607.02611",
+      "publication": "the Proceedings of the 2026 International Conference on Automation and Computing (ICAC 2026)",
+      "year": 2026,
+      "import_order": 577,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Work-related Musculoskeletal Disorders (WMSDs) require continuous ergonomic assessments."
     }
   ]
 }
