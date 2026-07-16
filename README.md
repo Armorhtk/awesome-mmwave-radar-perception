@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **11 July 2026**
+Last Updated: **16 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-07-16.md">Jul 16, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-07-11.md">Jul 11, 2026</a></td>
             <td align="center">+4</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-06-21.md">Jun 21, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-16.md">Jun 16, 2026</a></td>
-            <td align="center">+1</td>
           </tr>
         </tbody>
       </table>
@@ -416,6 +416,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RadLoc: Radar-based 3-DoF Global Localization via Fast, Robust, and Lightweight Spatial Descriptor Across Diverse Environmental Scenarios / RadLoc：基于雷达的 3 自由度全局定位——通过快速鲁棒轻量空间描述子实现跨多样环境场景的定位](https://arxiv.org/abs/2607.08115) | [Project Page](https://sparolab.github.io/research/radloc/) | arXiv | 2026 | Proposes RadLoc, a radar-based 3-DoF global localization approach using a fast, robust, and lightweight spatial descriptor across diverse environmental scenarios. |
 | [RCPRNet: Robust 4-D Radar-Camera Place Recognition](https://ieeexplore.ieee.org/abstract/document/11534327/) | N/A | IEEE Transactions on Industrial Electronics | 2026 | Addresses radar-camera place recognition by learning robust cross-modal descriptors for localization under challenging viewpoint and appearance changes. |
 | [Robust mmWave Radar Sensing with Multi-sensor Temporal Calibration and Supervision](https://ieeexplore.ieee.org/abstract/document/11414076) | N/A | IEEE Internet of Things Journal | 2026 | Improves low-cost mmWave radar sensing by combining visual-inertial supervision, dynamic 3D reconstruction, spurious-point filtering, and temporal calibration for detection, localization, and mapping. |
 | [MapKD: Unlocking Prior Knowledge with Cross-Modal Distillation for Efficient Online HD Map Construction](https://arxiv.org/abs/2508.15653) | [Code](https://github.com/2004yan/MapKD2026) | arXiv | 2025 | Enables efficient online HD map construction by distilling knowledge from offline maps using cross-modal learning to reduce computational overhead. |
@@ -437,6 +438,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://openreview.net/forum?id=kOgsGq2mfC) | N/A | openreview.net | 2026 | Addresses Frequency Matching in Spiking Neural Networks for mmWave Sensing for mmWave radar perception. |
 | [Von Mises Based Uncertainty Quantification for Closely Spaced Automotive Radar Targets](https://arxiv.org/abs/2606.31473) | N/A | arXiv | 2026 | This work investigates uncertainty-aware deep learning approaches for direction of arrival (DOA) estimation in automotive radar, focusing on probabilistic modeling and downstream integration. |
 | [Adaptive Bandwidth Radar for UAV Swarm Detection Using Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/11549108/) | N/A | 2026 27th International Radar Symposium (IRS) | 2026 | The problem of detecting and resolving UAV swarms using radar systems is considered in this paper. |
 | [NERVE: A Neuromorphic Vision and Radar Ensemble for Multi-Sensor Fusion Research](https://arxiv.org/abs/2605.16414) | [Code](https://github.com/nerveproject-ut/nerve) | arXiv | 2026 | Introduces a synchronized neuromorphic vision, RGB-D, and 24/77 GHz radar dataset for multi-sensor fusion research in indoor perception settings. |
@@ -776,6 +778,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [D-Sense: Expanding Gesture Recognition via Wi-Fi](https://ieeexplore.ieee.org/abstract/document/11592660/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Proposes a multi-task Wi-Fi CSI sensing system achieving 97.38% gesture recognition, 94.87% user identification, and robust cross-domain generalization via Absolute Distance Profile features. |
 | [In-Band Scattering and Absorption of Infrared Blocking Foam Filters for Millimeter-Wave Cameras](https://arxiv.org/abs/2607.05003) | N/A | arXiv | 2026 | Characterizes millimeter-wave optical properties of IR-blocking foam filters for mmWave cameras, presenting broadband (150 GHz-2 THz) transmittance spectroscopy critical for CMB telescope sensitivity optimization. |
 | [FFTFormer: A Frequency-Aware Transformer With Multi-Task Learning for Robust Modulation Recognition](https://ieeexplore.ieee.org/abstract/document/11593936/) | N/A | IEEE Journal of Microwaves | 2026 | Proposes FFT-driven Transformer integrating frequency-domain attention with multi-task learning for robust automatic modulation recognition, significantly outperforming SOTA baselines under low SNR conditions. |
 | [DeepmmWave: Attention-Guided Framework for Contactless Liquid Identification and Adulteration Using mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11594055/) | N/A | IEEE Sensors Journal | 2026 | Proposes an attention-guided framework for mmWave radar-based liquid identification and adulteration detection in the 60-64 GHz band, integrating frequency diversity with adaptive feature gating for robust multi-class classification. |

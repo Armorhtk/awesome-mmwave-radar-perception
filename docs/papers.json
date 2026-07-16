@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 576,
-    "generated_at": "2026-07-11T13:41:39Z"
+    "total": 579,
+    "generated_at": "2026-07-16T03:34:28Z"
   },
   "taxonomy": [
     {
@@ -7067,6 +7067,42 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
       "summary": "Work-related Musculoskeletal Disorders (WMSDs) require continuous ergonomic assessments."
+    },
+    {
+      "id": "url:openreview-net-forumid-kogsgq2mfc",
+      "title": "Frequency Matching in Spiking Neural Networks for mmWave Sensing",
+      "url": "https://openreview.net/forum?id=kOgsGq2mfC",
+      "publication": "openreview.net",
+      "year": 2026,
+      "import_order": 578,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Addresses Frequency Matching in Spiking Neural Networks for mmWave Sensing for mmWave radar perception."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11592660",
+      "title": "D-Sense: Expanding Gesture Recognition via Wi-Fi",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11592660/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "import_order": 579,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "other-areas",
+      "summary": "Proposes a multi-task Wi-Fi CSI sensing system achieving 97.38% gesture recognition, 94.87% user identification, and robust cross-domain generalization via Absolute Distance Profile features."
+    },
+    {
+      "id": "arxiv:2607.08115",
+      "title": "RadLoc: Radar-based 3-DoF Global Localization via Fast, Robust, and Lightweight Spatial Descriptor Across Diverse Environmental Scenarios / RadLoc：基于雷达的 3 自由度全局定位——通过快速鲁棒轻量空间描述子实现跨多样环境场景的定位",
+      "url": "https://arxiv.org/abs/2607.08115",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 580,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__simultaneous-localization-and-mapping-slam",
+      "summary": "Proposes RadLoc, a radar-based 3-DoF global localization approach using a fast, robust, and lightweight spatial descriptor across diverse environmental scenarios."
     }
   ]
 }
