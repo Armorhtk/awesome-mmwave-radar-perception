@@ -4,7 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
-| [2026-07-21](2026-07-21.md) | 3 | Signal Processing & Parameter Estimation, Simultaneous Localization and Mapping (SLAM), Identity Recognition & Person Re-identification | Added 3 papers across 3 topics. |
+| [2026-07-20](2026-07-20.md) | 3 | Signal Processing & Parameter Estimation, Simultaneous Localization and Mapping (SLAM), Identity Recognition & Person Re-identification | Added 3 papers across 3 topics. |
 | [2026-07-16](2026-07-16.md) | 3 | 📦 Other Areas, Simultaneous Localization and Mapping (SLAM), Sensor Fusion Techniques | Added 3 papers across 3 topics. |
 | [2026-07-11](2026-07-11.md) | 4 | 📦 Other Areas, 3D Object Detection & Classification, Pose Estimation & Skeletal Tracking & Human Motion | Added 4 papers across 3 topics. |
 | [2026-07-07](2026-07-07.md) | 5 | 📦 Other Areas, Human Activity Recognition (HAR), Gesture Recognition & Hand Tracking | Added 5 papers across 3 topics. |
