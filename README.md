@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **16 July 2026**
+Last Updated: **21 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-07-21.md">Jul 21, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-07-16.md">Jul 16, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-06-30.md">Jun 30, 2026</a></td>
             <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-21.md">Jun 21, 2026</a></td>
-            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
@@ -140,6 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Cascaded Multi-Head Attention Transformer Framework for Direction of Arrival Estimation](https://ieeexplore.ieee.org/abstract/document/11603315/) | [Code](https://github.com/Syyyt/CMA-Former-official) | IEEE Transactions on Cognitive Communications and Networking | 2026 | Proposes CMA-Former, a cascaded multi-head attention Transformer for grid-based DOA estimation that better resolves closely spaced sources and is validated on a real cascaded mmWave radar platform. |
 | [Adaptive-Frequency Resonate-and-Fire Neurons for Spectral Estimation of Streaming Radar Signals](https://arxiv.org/abs/2606.13516) | [Code](https://github.com/TUE-EE-ES/adaptive_frequency_neurons_FMCW_radar) | arXiv | 2026 | Frequency Modulated Continuous Wave (FMCW) radar systems traditionally rely on Fourier-based methods, such as the Fast Fourier Transform (FFT), to estimate target range and velocity. |
 | [Real-Time Object Detection for Automotive Systems With FMCW Radar-Based Sensor Fusion](https://ieeexplore.ieee.org/abstract/document/11548965/) | N/A | 2026 27th International Radar Symposium (IRS) | 2026 | This paper presents a radar centric multi sensor perception framework for real time collision risk assessment that integrates motion cues from Frequency Modulated Continuous Wave (FMCW) automotive radar with camera based deep learning detections and Light Detection and Ranging (LiDAR). |
 | [Sparse Phase Retrieval for Clustered-Sparse Signals: A Graph Cut-Based Truncated Flow Approach](https://ieeexplore.ieee.org/abstract/document/11520691/) | N/A | IEEE Transactions on Signal Processing | 2026 | Addresses clustered-sparse phase retrieval by combining gradient descent, graph-cut truncation, and reduced-matrix refinement for robust sparse signal recovery. |
@@ -416,6 +417,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Millimeter Wave Radar: From Synthetic Aperture to Probabilistic Mapping](https://arxiv.org/abs/2607.10161) | [Dataset](https://github.com/rpl-cmu/rpm) | arXiv | 2026 | Proposes a probabilistic mapping framework bridging synthetic-aperture radar imaging and occupancy mapping for robust autonomous robotic perception in challenging environments. |
 | [RadLoc: Radar-based 3-DoF Global Localization via Fast, Robust, and Lightweight Spatial Descriptor Across Diverse Environmental Scenarios / RadLoc：基于雷达的 3 自由度全局定位——通过快速鲁棒轻量空间描述子实现跨多样环境场景的定位](https://arxiv.org/abs/2607.08115) | [Project Page](https://sparolab.github.io/research/radloc/) | arXiv | 2026 | Proposes RadLoc, a radar-based 3-DoF global localization approach using a fast, robust, and lightweight spatial descriptor across diverse environmental scenarios. |
 | [RCPRNet: Robust 4-D Radar-Camera Place Recognition](https://ieeexplore.ieee.org/abstract/document/11534327/) | N/A | IEEE Transactions on Industrial Electronics | 2026 | Addresses radar-camera place recognition by learning robust cross-modal descriptors for localization under challenging viewpoint and appearance changes. |
 | [Robust mmWave Radar Sensing with Multi-sensor Temporal Calibration and Supervision](https://ieeexplore.ieee.org/abstract/document/11414076) | N/A | IEEE Internet of Things Journal | 2026 | Improves low-cost mmWave radar sensing by combining visual-inertial supervision, dynamic 3D reconstruction, spurious-point filtering, and temporal calibration for detection, localization, and mapping. |
@@ -729,6 +731,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmWave Radar-Based Unsupervised Person ReID via Multi-Level Mutual Signal Contrastive Learning](https://ieeexplore.ieee.org/abstract/document/11606462/) | [Code](https://github.com/onlinehuazai/mmReID) | IEEE Transactions on Mobile Computing | 2026 | Proposes a multi-level mutual signal contrastive learning framework for unsupervised person re-identification with mmWave radar, avoiding the low-light and privacy limitations of camera-based ReID. |
 | [Unsupervised Domain Adaptation Gait Recognition Based on Consistently Segmented mmWave Samples](https://ieeexplore.ieee.org/abstract/document/11526751/) | N/A | IEEE Transactions on Cognitive Communications and Networking | 2026 | Improves mmWave gait recognition by using consistently segmented samples for unsupervised domain adaptation across sensing domains. |
 | [MMGait: Towards Multi-Modal Gait Recognition](https://arxiv.org/abs/2604.15979) | [Code](https://github.com/BNU-IVC/MMGait) | arXiv | 2026 | Gait recognition has emerged as a powerful biometric technique for identifying individuals at a distance without requiring user cooperation. |
 | [FlowGait: Enabling Robust Long-Term Gait Recognition Across Real-World Covariates with mmWave Radar](https://dl.acm.org/doi/pdf/10.1145/3772318.3790623) | [Code](https://github.com/DQ-WDQ/FlowGait) | dl.acm.org | 2026 | Addresses long-term mmWave radar gait recognition across real-world covariates for robust identity recognition. |

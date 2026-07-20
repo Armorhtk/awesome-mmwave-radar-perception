@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 579,
-    "generated_at": "2026-07-16T03:34:28Z"
+    "total": 582,
+    "generated_at": "2026-07-20T16:08:04Z"
   },
   "taxonomy": [
     {
@@ -7103,6 +7103,42 @@
       "artifact_url": null,
       "topic_id": "autonomous-driving-drone__simultaneous-localization-and-mapping-slam",
       "summary": "Proposes RadLoc, a radar-based 3-DoF global localization approach using a fast, robust, and lightweight spatial descriptor across diverse environmental scenarios."
+    },
+    {
+      "id": "arxiv:2607.10161",
+      "title": "Millimeter Wave Radar: From Synthetic Aperture to Probabilistic Mapping",
+      "url": "https://arxiv.org/abs/2607.10161",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 581,
+      "artifact_label": "Dataset",
+      "artifact_url": "https://github.com/rpl-cmu/rpm",
+      "topic_id": "autonomous-driving-drone__simultaneous-localization-and-mapping-slam",
+      "summary": "Proposes a probabilistic mapping framework bridging synthetic-aperture radar imaging and occupancy mapping for robust autonomous robotic perception in challenging environments."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11603315",
+      "title": "Cascaded Multi-Head Attention Transformer Framework for Direction of Arrival Estimation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11603315/",
+      "publication": "IEEE Transactions on Cognitive Communications and Networking",
+      "year": 2026,
+      "import_order": 582,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Syyyt/CMA-Former-official",
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Proposes CMA-Former, a cascaded multi-head attention Transformer for grid-based DOA estimation that better resolves closely spaced sources and is validated on a real cascaded mmWave radar platform."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11606462",
+      "title": "mmWave Radar-Based Unsupervised Person ReID via Multi-Level Mutual Signal Contrastive Learning",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11606462/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "import_order": 583,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/onlinehuazai/mmReID",
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
+      "summary": "Proposes a multi-level mutual signal contrastive learning framework for unsupervised person re-identification with mmWave radar, avoiding the low-light and privacy limitations of camera-based ReID."
     }
   ]
 }
