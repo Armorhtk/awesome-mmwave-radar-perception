@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **21 July 2026**
+Last Updated: **23 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,7 +54,11 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
-            <td><a href="docs/updates/2026-07-21.md">Jul 21, 2026</a></td>
+            <td><a href="docs/updates/2026-07-23.md">Jul 23, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
+          <tr>
+            <td><a href="docs/updates/2026-07-20.md">Jul 20, 2026</a></td>
             <td align="center">+3</td>
           </tr>
           <tr>
@@ -75,10 +79,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-07-03.md">Jul 03, 2026</a></td>
-            <td align="center">+2</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-06-30.md">Jun 30, 2026</a></td>
             <td align="center">+2</td>
           </tr>
         </tbody>
@@ -499,6 +499,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A Sequential Image Super-Resolution Reconstruction Method for Forward-Looking Imaging Radar With Micro-Scanning Modulation](https://ieeexplore.ieee.org/abstract/document/11611562/) | [Dataset](https://github.com/lian-ooo/dataset-for-imagesequences.git) | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Proposes a sequential projecting-after-filtering Bayesian super-resolution method for forward-looking imaging radar, exploiting spatial modulation and scene sparsity to surpass the Rayleigh resolution limit. |
 | [mmWaveFlow: Unified Enhancement and Generation of mmWave Human Point Clouds](https://openaccess.thecvf.com/content/CVPR2026/papers/Su_mmWaveFlow_Unified_Enhancement_and_Generation_of_mmWave_Human_Point_Clouds_CVPR_2026_paper.pdf) | [Code](https://github.com/suchang-99/mmWaveFlow) | CVPR | 2026 | Improves sparse mmWave human point cloud enhancement and generation by learning a flow-matching transport between sparse and dense point clouds for human sensing. |
 | [NeuRadar: Neural Radiance Fields for Automotive Radar Point Clouds](https://openaccess.thecvf.com/content/CVPR2025W/WAD/html/Rafidashti_NeuRadar_Neural_Radiance_Fields_for_Automotive_Radar_Point_Clouds_CVPRW_2025_paper.html) | [Code](https://github.com/mrafidashti/neuradar) | IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) | 2025 | Pioneers the use of Neural Radiance Fields for radar by proposing a model that jointly generates multi-sensor data and uses a probabilistic representation to accurately capture the stochastic nature of radar point clouds. |
 | [RadarSplat: Radar Gaussian Splatting for High-Fidelity Data Synthesis and 3D Reconstruction of Autonomous Driving Scenes](https://arxiv.org/abs/2506.01379) | [Code](https://github.com/umautobots/radarsplat) | IEEE International Conference on Computer Vision (ICCV) | 2025 | Overcomes the poor performance of neural representations in noisy radar scenarios by integrating Gaussian Splatting with a novel noise model, enabling high-fidelity 3D reconstruction and realistic data synthesis. |

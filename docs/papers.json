@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 582,
-    "generated_at": "2026-07-20T16:08:04Z"
+    "total": 583,
+    "generated_at": "2026-07-23T08:31:39Z"
   },
   "taxonomy": [
     {
@@ -7139,6 +7139,18 @@
       "artifact_url": "https://github.com/onlinehuazai/mmReID",
       "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
       "summary": "Proposes a multi-level mutual signal contrastive learning framework for unsupervised person re-identification with mmWave radar, avoiding the low-light and privacy limitations of camera-based ReID."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11611562",
+      "title": "A Sequential Image Super-Resolution Reconstruction Method for Forward-Looking Imaging Radar With Micro-Scanning Modulation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11611562/",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems",
+      "year": 2026,
+      "import_order": 584,
+      "artifact_label": "Dataset",
+      "artifact_url": "https://github.com/lian-ooo/dataset-for-imagesequences.git",
+      "topic_id": "autonomous-driving-drone__point-cloud-processing",
+      "summary": "Proposes a sequential projecting-after-filtering Bayesian super-resolution method for forward-looking imaging radar, exploiting spatial modulation and scene sparsity to surpass the Rayleigh resolution limit."
     }
   ]
 }
