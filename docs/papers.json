@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 583,
-    "generated_at": "2026-07-23T08:31:39Z"
+    "total": 589,
+    "generated_at": "2026-07-29T10:37:33Z"
   },
   "taxonomy": [
     {
@@ -5823,14 +5823,14 @@
     {
       "id": "arxiv:2604.13571",
       "title": "Radar-Informed 3D Multi-Object Tracking under Adverse Conditions",
-      "url": "https://arxiv.org/pdf/2604.13571",
-      "publication": "arxiv.org",
+      "url": "https://arxiv.org/abs/2604.13571",
+      "publication": "ICRA 2026 Workshop on Generalizable Autonomy in the Age of Foundation Models",
       "year": 2026,
       "import_order": 474,
-      "artifact_label": "N/A",
-      "artifact_url": null,
+      "artifact_label": "Project",
+      "artifact_url": "https://github.com/bingxue-xu/radarmot",
       "topic_id": "autonomous-driving-drone__multi-object-tracking",
-      "summary": "Metadata could not be resolved automatically; review the source paper before importing: Radar-Informed 3D Multi-Object Tracking under Adverse Conditions."
+      "summary": "RadarMOT uses radar point clouds as explicit tracking observations to refine 3D object states and recover detector misses under adverse weather and at long range."
     },
     {
       "id": "arxiv:2604.13584",
@@ -7099,8 +7099,8 @@
       "publication": "arXiv",
       "year": 2026,
       "import_order": 580,
-      "artifact_label": "N/A",
-      "artifact_url": null,
+      "artifact_label": "Project",
+      "artifact_url": "https://sparolab.github.io/research/radloc/",
       "topic_id": "autonomous-driving-drone__simultaneous-localization-and-mapping-slam",
       "summary": "Proposes RadLoc, a radar-based 3-DoF global localization approach using a fast, robust, and lightweight spatial descriptor across diverse environmental scenarios."
     },
@@ -7151,6 +7151,78 @@
       "artifact_url": "https://github.com/lian-ooo/dataset-for-imagesequences.git",
       "topic_id": "autonomous-driving-drone__point-cloud-processing",
       "summary": "Proposes a sequential projecting-after-filtering Bayesian super-resolution method for forward-looking imaging radar, exploiting spatial modulation and scene sparsity to surpass the Rayleigh resolution limit."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-document-11618696",
+      "title": "Radar Tracking Transformer for Privacy-Preserving Human 3D Box and Skeleton Tracking on mmWave Point Clouds",
+      "url": "https://ieeexplore.ieee.org/document/11618696",
+      "publication": "IEEE Transactions on Consumer Electronics",
+      "year": 2026,
+      "import_order": 585,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Detects and tracks human 3D boxes and normalized skeletons from sparse mmWave point clouds with propagated transformer track queries."
+    },
+    {
+      "id": "arxiv:2607.18875",
+      "title": "Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation",
+      "url": "https://arxiv.org/abs/2607.18875",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 586,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Galaxywalk/Wave2Body",
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Wave2Body translates self-supervised mmWave point-cloud tokens into compositional body tokens for efficient 3D pose estimation with stronger cross-domain generalization."
+    },
+    {
+      "id": "arxiv:2607.17351",
+      "title": "DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception",
+      "url": "https://arxiv.org/abs/2607.17351",
+      "publication": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "year": 2026,
+      "import_order": 587,
+      "artifact_label": "Project",
+      "artifact_url": "https://egoldensh.github.io/DeepeRadar",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "DeeperRadar jointly learns sparse MIMO radar acquisition and multimodal 3D detection from raw radar ADC data, camera images, and LiDAR point clouds."
+    },
+    {
+      "id": "arxiv:2607.15806",
+      "title": "HybridSim: A Physics-Learning Hybrid Digital Twin for mmWave Human Sensing",
+      "url": "https://arxiv.org/abs/2607.15806",
+      "publication": "European Conference on Computer Vision (ECCV)",
+      "year": 2026,
+      "import_order": 588,
+      "artifact_label": "Project",
+      "artifact_url": "https://github.com/Weitao-Xiong/HybridSim",
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "HybridSim combines inverse rendering and 3D Gaussian splatting to synthesize site-specific mmWave signals from dynamic human meshes for human-sensing data augmentation."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-document-11614895",
+      "title": "mmFallBbox: An Effective and Efficient Fall Detection Framework with a Comprehensive Benchmark",
+      "url": "https://ieeexplore.ieee.org/document/11614895",
+      "publication": "IEEE Transactions on Radar Systems",
+      "year": 2026,
+      "import_order": 589,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/xuanmeikawaii/benchmarking-approaches-of-mmFallBbox-",
+      "topic_id": "human-sensing-healthcare__occupancy-presence-fall-detection",
+      "summary": "mmFallBbox detects normal and slow-onset falls by tracking the temporal dynamics of 3D human bounding boxes from FMCW mmWave radar measurements."
+    },
+    {
+      "id": "arxiv:2607.17813",
+      "title": "A2RL Vmax: The A2RL Autonomous Racing Dataset for Long-Range, High-Speed Perception and Multi-Vehicle Interaction",
+      "url": "https://arxiv.org/abs/2607.17813",
+      "publication": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "year": 2026,
+      "import_order": 590,
+      "artifact_label": "Dataset",
+      "artifact_url": "https://tum-avs.github.io/A2RL_Dataset_website/",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "A2RL Vmax provides an open high-speed autonomous-racing perception dataset with synchronized LiDAR and radar point clouds, expert 3D annotations, and detection and tracking benchmarks."
     }
   ]
 }

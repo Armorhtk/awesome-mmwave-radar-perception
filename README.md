@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **23 July 2026**
+Last Updated: **28 July 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-07-28.md">Jul 28, 2026</a></td>
+            <td align="center">+6</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-07-23.md">Jul 23, 2026</a></td>
             <td align="center">+1</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-07-04.md">Jul 04, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-07-03.md">Jul 03, 2026</a></td>
-            <td align="center">+2</td>
           </tr>
         </tbody>
       </table>
@@ -254,6 +254,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A2RL Vmax: The A2RL Autonomous Racing Dataset for Long-Range, High-Speed Perception and Multi-Vehicle Interaction](https://arxiv.org/abs/2607.17813) | [Dataset](https://tum-avs.github.io/A2RL_Dataset_website/) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2026 | A2RL Vmax provides an open high-speed autonomous-racing perception dataset with synchronized LiDAR and radar point clouds, expert 3D annotations, and detection and tracking benchmarks. |
 | [RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather](https://arxiv.org/abs/2607.04587) | [Code](https://github.com/parkie0517/RAF) | arXiv | 2026 | Robust 3D object detection in adverse weather conditions is challenging due to sensor limitations. |
 | [Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion](https://arxiv.org/abs/2607.04098) | [Code](https://github.com/Aiuan/Sparse4D-Radar) | arXiv | 2026 | In recent years, 4D imaging radar has gained wide attention in autonomous driving for its robustness against harsh weather and ability to output target velocity. |
 | [Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving](https://arxiv.org/abs/2606.31096) | [Code](https://github.com/geonhobang/ECCV2026_Horizon3D) | ECCV 2026 | 2026 | Improves long-range radar-camera 3D detection by combining keypoint-guided Gaussian primitives, sparse BEV fusion, and dual-path temporal modeling. |
@@ -407,7 +408,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
-| [Radar-Informed 3D Multi-Object Tracking under Adverse Conditions](https://arxiv.org/pdf/2604.13571) | N/A | arxiv.org | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Radar-Informed 3D Multi-Object Tracking under Adverse Conditions. |
+| [Radar-Informed 3D Multi-Object Tracking under Adverse Conditions](https://arxiv.org/abs/2604.13571) | [Project Page](https://github.com/bingxue-xu/radarmot) | ICRA 2026 Workshop on Generalizable Autonomy in the Age of Foundation Models | 2026 | RadarMOT uses radar point clouds as explicit tracking observations to refine 3D object states and recover detector misses under adverse weather and at long range. |
 | [m^3TrackFormer: Transformer-based mmWave Multi-Target Tracking with Lost Target Re-Acquisition Capability](https://arxiv.org/abs/2602.18254) | [Code](https://github.com/ltk722/Transformer-based-mmWave-tracking) | arXiv | 2026 | Presents m^3TrackFormer, a Transformer-based mmWave multi-target tracking framework for ISAC systems that switches between normal tracking and re-acquisition modes to recover lost targets quickly with low beam-sweeping overhead. |
 | [USVTrack: USV-Based 4D Radar-Camera Tracking Dataset for Autonomous Driving in Inland Waterways](https://arxiv.org/abs/2506.18737) | [Dataset](https://github.com/USVTrack/USVTrack) | arXiv | 2025 | Provides the first 4D radar-camera tracking dataset for inland waterway autonomous navigation featuring unique challenges of water surface reflections. |
 | [Asynchronous Data Fusion With Randomly Delayed Measurements for Lane-Level Vehicle Tracking in Tunnel Environment](https://ieeexplore.ieee.org/abstract/document/10938792) | [Code](https://github.com/futianxuan/data) | IEEE Transactions on Intelligent Transportation Systems | 2025 | Tackles unreliable lane-level vehicle tracking in tunnels by using a Bayesian weight mixture filter to fuse asynchronous, randomly delayed measurements from MMW radar and magnetic sensors. |
@@ -440,6 +441,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception](https://arxiv.org/abs/2607.17351) | [Project Page](https://egoldensh.github.io/DeepeRadar) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2026 | DeeperRadar jointly learns sparse MIMO radar acquisition and multimodal 3D detection from raw radar ADC data, camera images, and LiDAR point clouds. |
 | [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://openreview.net/forum?id=kOgsGq2mfC) | N/A | openreview.net | 2026 | Addresses Frequency Matching in Spiking Neural Networks for mmWave Sensing for mmWave radar perception. |
 | [Von Mises Based Uncertainty Quantification for Closely Spaced Automotive Radar Targets](https://arxiv.org/abs/2606.31473) | N/A | arXiv | 2026 | This work investigates uncertainty-aware deep learning approaches for direction of arrival (DOA) estimation in automotive radar, focusing on probabilistic modeling and downstream integration. |
 | [Adaptive Bandwidth Radar for UAV Swarm Detection Using Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/11549108/) | N/A | 2026 27th International Radar Symposium (IRS) | 2026 | The problem of detecting and resolving UAV swarms using radar systems is considered in this paper. |
@@ -614,6 +616,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmFallBbox: An Effective and Efficient Fall Detection Framework with a Comprehensive Benchmark](https://ieeexplore.ieee.org/document/11614895) | [Code](https://github.com/xuanmeikawaii/benchmarking-approaches-of-mmFallBbox-) | IEEE Transactions on Radar Systems | 2026 | mmFallBbox detects normal and slow-onset falls by tracking the temporal dynamics of 3D human bounding boxes from FMCW mmWave radar measurements. |
 | [The Effect of Variable Background Subtraction on Machine Learning for Radar-Based Occupancy Detection](https://www.diva-portal.org/smash/record.jsf?pid=diva2:2079726) | N/A | Student thesis | 2026 | Evaluates radar occupancy detection by comparing variable background subtraction settings for machine-learning indoor people counting from radar measurements. |
 | [Structured Time-Frequency Feature Driven Meta Learning for Fall Detection with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11526736/) | N/A | IEEE Internet of Things Journal | 2026 | Improves mmWave radar fall detection by combining structured time-frequency features with meta learning for robust human sensing. |
 | [Low-Resource in-Car Infant Detection Using IR-UWB Radar](https://ieeexplore.ieee.org/abstract/document/11462962/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Child presence detection (CPD) is motivated by the need for safety and well-being of unattended infants in vehicles. |
@@ -638,6 +641,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [HybridSim: A Physics-Learning Hybrid Digital Twin for mmWave Human Sensing](https://arxiv.org/abs/2607.15806) | [Project Page](https://github.com/Weitao-Xiong/HybridSim) | European Conference on Computer Vision (ECCV) | 2026 | HybridSim combines inverse rendering and 3D Gaussian splatting to synthesize site-specific mmWave signals from dynamic human meshes for human-sensing data augmentation. |
+| [Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation](https://arxiv.org/abs/2607.18875) | [Code](https://github.com/Galaxywalk/Wave2Body) | arXiv | 2026 | Wave2Body translates self-supervised mmWave point-cloud tokens into compositional body tokens for efficient 3D pose estimation with stronger cross-domain generalization. |
+| [Radar Tracking Transformer for Privacy-Preserving Human 3D Box and Skeleton Tracking on mmWave Point Clouds](https://ieeexplore.ieee.org/document/11618696) | N/A | IEEE Transactions on Consumer Electronics | 2026 | Detects and tracks human 3D boxes and normalized skeletons from sparse mmWave point clouds with propagated transformer track queries. |
 | [Privacy-Preserving Industrial Ergonomics: mmWave-Based Automated REBA Scoring and Pose Estimation](https://arxiv.org/abs/2607.02611) | N/A | the Proceedings of the 2026 International Conference on Automation and Computing (ICAC 2026) | 2026 | Work-related Musculoskeletal Disorders (WMSDs) require continuous ergonomic assessments. |
 | [Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html) | [Code](https://github.com/Shimmer93/EMDUL) | CVPR 2026 | 2026 | Expands mmWave human pose estimation datasets by pseudo-labeling unlabeled mmWave data and converting LiDAR point clouds into mmWave-style samples for better generalization. |
 | [Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Towards_Balanced_Multi-Modal_Learning_in_3D_Human_Pose_Estimation_CVPR_2026_paper.pdf) | [Code](https://github.com/MICLAB-BUPT/AWC) | CVPR | 2026 | Improves multi-modal 3D human pose estimation by balancing RGB, LiDAR, mmWave, and WiFi learning with Shapley-value and Fisher-guided regularization. |
