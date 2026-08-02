@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **28 July 2026**
+Last Updated: **2 August 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-08-02.md">Aug 02, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-07-28.md">Jul 28, 2026</a></td>
             <td align="center">+6</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-07-07.md">Jul 07, 2026</a></td>
             <td align="center">+5</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-07-04.md">Jul 04, 2026</a></td>
-            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
@@ -357,6 +357,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.70264) | N/A | onlinelibrary.wiley.com | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network. |
 | [DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry](https://www.sciencedirect.com/science/article/pii/S0921889026002708) | N/A | Robotics and Autonomous Systems | 2026 | Improves 4D mmWave radar-inertial odometry by tightly coupling Doppler measurements with inertial sensing for robust ego-motion estimation. |
 | [Dr-BA: Separable Optimization for Direct Radar Bundle Adjustment & Localization](https://arxiv.org/abs/2605.07041) | [Code](https://github.com/utiasASRL/dr_ba) | RSS | 2026 | Introduces direct radar bundle adjustment that jointly estimates dense maps and poses from spinning radar images for robust localization. |
 | [Pushing Radar Odometry Beyond the Pavement: Current Capabilities and Challenges](https://arxiv.org/abs/2604.24674) | N/A | arXiv | 2026 | Radar offers unique advantages for localization in unstructured environments, including robustness to weather, lighting, and airborne particulates. |
@@ -441,6 +442,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Millimeter-Wave Automotive Radar Standards, Deployments, Datasets, and Security: A Review](https://ieeexplore.ieee.org/abstract/document/11623380/) | N/A | IEEE Sensors Journal | 2026 | Millimetre-wave automotive radar is becoming a key sensing technology for modern cars, because it can see in poor weather, measure speed directly and distinguish objects at close distances. |
 | [DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception](https://arxiv.org/abs/2607.17351) | [Project Page](https://egoldensh.github.io/DeepeRadar) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2026 | DeeperRadar jointly learns sparse MIMO radar acquisition and multimodal 3D detection from raw radar ADC data, camera images, and LiDAR point clouds. |
 | [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://openreview.net/forum?id=kOgsGq2mfC) | N/A | openreview.net | 2026 | Addresses Frequency Matching in Spiking Neural Networks for mmWave Sensing for mmWave radar perception. |
 | [Von Mises Based Uncertainty Quantification for Closely Spaced Automotive Radar Targets](https://arxiv.org/abs/2606.31473) | N/A | arXiv | 2026 | This work investigates uncertainty-aware deep learning approaches for direction of arrival (DOA) estimation in automotive radar, focusing on probabilistic modeling and downstream integration. |
@@ -641,6 +643,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [mmSimPrior: Learning Simulation Priors for Data-Efficient Real-World Generalizable Radar-Based Human Motion Reconstruction](https://arxiv.org/abs/2607.22973) | [Project Page](https://ch3ngguo.github.io/mmsimprior/) | arXiv | 2026 | Millimeter-wave (mmWave) radar offers privacy-preserving and lighting-robust sensing for human motion reconstruction, but learning models that generalize across real deployments require diverse paired radar-motion data that are costly to collect. |
 | [HybridSim: A Physics-Learning Hybrid Digital Twin for mmWave Human Sensing](https://arxiv.org/abs/2607.15806) | [Project Page](https://github.com/Weitao-Xiong/HybridSim) | European Conference on Computer Vision (ECCV) | 2026 | HybridSim combines inverse rendering and 3D Gaussian splatting to synthesize site-specific mmWave signals from dynamic human meshes for human-sensing data augmentation. |
 | [Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation](https://arxiv.org/abs/2607.18875) | [Code](https://github.com/Galaxywalk/Wave2Body) | arXiv | 2026 | Wave2Body translates self-supervised mmWave point-cloud tokens into compositional body tokens for efficient 3D pose estimation with stronger cross-domain generalization. |
 | [Radar Tracking Transformer for Privacy-Preserving Human 3D Box and Skeleton Tracking on mmWave Point Clouds](https://ieeexplore.ieee.org/document/11618696) | N/A | IEEE Transactions on Consumer Electronics | 2026 | Detects and tracks human 3D boxes and normalized skeletons from sparse mmWave point clouds with propagated transformer track queries. |

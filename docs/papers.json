@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 589,
-    "generated_at": "2026-07-29T10:37:33Z"
+    "total": 592,
+    "generated_at": "2026-08-02T13:22:01Z"
   },
   "taxonomy": [
     {
@@ -7223,6 +7223,42 @@
       "artifact_url": "https://tum-avs.github.io/A2RL_Dataset_website/",
       "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
       "summary": "A2RL Vmax provides an open high-speed autonomous-racing perception dataset with synchronized LiDAR and radar point clouds, expert 3D annotations, and detection and tracking benchmarks."
+    },
+    {
+      "id": "doi:10.1002/rob.70264",
+      "title": "Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.70264",
+      "publication": "onlinelibrary.wiley.com",
+      "year": 2026,
+      "import_order": 591,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Metadata could not be resolved automatically; review the source paper before importing: Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network."
+    },
+    {
+      "id": "arxiv:2607.22973",
+      "title": "mmSimPrior: Learning Simulation Priors for Data-Efficient Real-World Generalizable Radar-Based Human Motion Reconstruction",
+      "url": "https://arxiv.org/abs/2607.22973",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 592,
+      "artifact_label": "Project",
+      "artifact_url": "https://ch3ngguo.github.io/mmsimprior/",
+      "topic_id": "human-sensing-healthcare__pose-estimation-skeletal-tracking-human-motion",
+      "summary": "Millimeter-wave (mmWave) radar offers privacy-preserving and lighting-robust sensing for human motion reconstruction, but learning models that generalize across real deployments require diverse paired radar-motion data that are costly to collect."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11623380",
+      "title": "Millimeter-Wave Automotive Radar Standards, Deployments, Datasets, and Security: A Review",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11623380/",
+      "publication": "IEEE Sensors Journal",
+      "year": 2026,
+      "import_order": 593,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Millimetre-wave automotive radar is becoming a key sensing technology for modern cars, because it can see in poor weather, measure speed directly and distinguish objects at close distances."
     }
   ]
 }
