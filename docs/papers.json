@@ -1,7 +1,7 @@
 {
   "meta": {
     "total": 592,
-    "generated_at": "2026-08-02T13:22:01Z"
+    "generated_at": "2026-08-02T13:34:27Z"
   },
   "taxonomy": [
     {
@@ -7231,8 +7231,8 @@
       "publication": "onlinelibrary.wiley.com",
       "year": 2026,
       "import_order": 591,
-      "artifact_label": "N/A",
-      "artifact_url": null,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/MoYuGit/Deep_Radar_Odometry",
       "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
       "summary": "Metadata could not be resolved automatically; review the source paper before importing: Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network."
     },
@@ -7255,8 +7255,8 @@
       "publication": "IEEE Sensors Journal",
       "year": 2026,
       "import_order": 593,
-      "artifact_label": "N/A",
-      "artifact_url": null,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/lrlrlrlr/FMCWRadarDeploymentSurvey",
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "Millimetre-wave automotive radar is becoming a key sensing technology for modern cars, because it can see in poor weather, measure speed directly and distinguish objects at close distances."
     }
