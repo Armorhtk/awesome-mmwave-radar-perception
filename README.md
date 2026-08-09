@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **9 August 2026**
+Last Updated: **10 August 2026**
 
 ## Inclusion Criteria
 
@@ -140,7 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
-| [Dense Soft Weighting for Radar Ego-Velocity Estimation](https://arxiv.org/abs/2607.26980) | N/A | arXiv | 2026 | Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable. |
+| [Dense Soft Weighting for Radar Ego-Velocity Estimation](https://arxiv.org/abs/2607.26980) | 无 | arXiv | 2026 | Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable. |
 | [Cascaded Multi-Head Attention Transformer Framework for Direction of Arrival Estimation](https://ieeexplore.ieee.org/abstract/document/11603315/) | [Code](https://github.com/Syyyt/CMA-Former-official) | IEEE Transactions on Cognitive Communications and Networking | 2026 | Proposes CMA-Former, a cascaded multi-head attention Transformer for grid-based DOA estimation that better resolves closely spaced sources and is validated on a real cascaded mmWave radar platform. |
 | [Adaptive-Frequency Resonate-and-Fire Neurons for Spectral Estimation of Streaming Radar Signals](https://arxiv.org/abs/2606.13516) | [Code](https://github.com/TUE-EE-ES/adaptive_frequency_neurons_FMCW_radar) | arXiv | 2026 | Frequency Modulated Continuous Wave (FMCW) radar systems traditionally rely on Fourier-based methods, such as the Fast Fourier Transform (FFT), to estimate target range and velocity. |
 | [Real-Time Object Detection for Automotive Systems With FMCW Radar-Based Sensor Fusion](https://ieeexplore.ieee.org/abstract/document/11548965/) | N/A | 2026 27th International Radar Symposium (IRS) | 2026 | This paper presents a radar centric multi sensor perception framework for real time collision risk assessment that integrates motion cues from Frequency Modulated Continuous Wave (FMCW) automotive radar with camera based deep learning detections and Light Detection and Ranging (LiDAR). |
@@ -446,7 +446,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
-| [Vehicle Classification Using FMCW Cloud Point Radar Sensors](https://ieeexplore.ieee.org/abstract/document/11626425/) | N/A | 2026 15th International Conference on Modern Circuits and Systems Technologies (MOCAST) | 2026 | Target classification using radar sensors offers a reliable method under challenging environmental conditions, including poor visibility and absence of light. |
+| [Vehicle Classification Using FMCW Cloud Point Radar Sensors](https://ieeexplore.ieee.org/abstract/document/11626425/) | 无 | 2026 15th International Conference on Modern Circuits and Systems Technologies (MOCAST) | 2026 | Target classification using radar sensors offers a reliable method under challenging environmental conditions, including poor visibility and absence of light. |
 | [Structural Knowledge Distillation for Aligning 4D Radar with Vision–Language Models](https://ieeexplore.ieee.org/abstract/document/11623924/) | [Code](https://github.com/kaist-avelab/K-Radar) | 2026 IEEE Intelligent Vehicles Symposium (IV) | 2026 | Vision language models (VLMs) are demonstrating impressive generalizable capabilities in autonomous driving. |
 | [Millimeter-Wave Automotive Radar Standards, Deployments, Datasets, and Security: A Review](https://ieeexplore.ieee.org/abstract/document/11623380/) | [Code](https://github.com/lrlrlrlr/FMCWRadarDeploymentSurvey) | IEEE Sensors Journal | 2026 | Millimetre-wave automotive radar is becoming a key sensing technology for modern cars, because it can see in poor weather, measure speed directly and distinguish objects at close distances. |
 | [DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception](https://arxiv.org/abs/2607.17351) | [Project Page](https://egoldensh.github.io/DeepeRadar) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2026 | DeeperRadar jointly learns sparse MIMO radar acquisition and multimodal 3D detection from raw radar ADC data, camera images, and LiDAR point clouds. |
@@ -688,7 +688,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
-| [A deep learning-based non-contact phonocardiogram measurement method using mmWave radar](https://www.sciencedirect.com/science/article/pii/S1746809426017441) | N/A | Biomedical Signal Processing and Control | 2026 | Reconstructs phonocardiogram waveforms from mmWave radar chest displacement with a deep network, enabling fully non-contact heart-sound measurement. |
+| [A deep learning-based non-contact phonocardiogram measurement method using mmWave radar](https://www.sciencedirect.com/science/article/pii/S1746809426017441) | 无 | Biomedical Signal Processing and Control | 2026 | Reconstructs phonocardiogram waveforms from mmWave radar chest displacement with a deep network, enabling fully non-contact heart-sound measurement. |
 | [RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement](https://arxiv.org/abs/2606.28089) | [Code](https://github.com/WJULYW/RPM-Distill) | ECCV | 2026 | Improves video-based remote physiological measurement by distilling synchronized RF radar spectral cues during training for robust video-only inference. |
 | [ActiveVital: Geometry-Aware Embodied Vital Signs Monitoring for Home Healthcare Robots](https://arxiv.org/abs/2606.30275) | N/A | arXiv | 2026 | Improves robot-mounted mmWave vital signs monitoring by actively regulating sensing geometry and stabilizing respiration and heart-rate estimation in home settings. |
 | [LLM4RIM: Leveraging Large Language Model for Radar-Based in-Vehicle Monitoring](https://ieeexplore.ieee.org/abstract/document/11463158/) | [Code](https://github.com/bupt-uwb/LLM4RIM) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | The growing need for non-invasive in-vehicle monitoring in the intelligent cabin underscores the potential of radar sensing. |
