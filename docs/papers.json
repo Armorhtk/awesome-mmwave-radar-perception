@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 592,
-    "generated_at": "2026-08-02T13:34:27Z"
+    "total": 601,
+    "generated_at": "2026-08-09T15:05:18Z"
   },
   "taxonomy": [
     {
@@ -7259,6 +7259,114 @@
       "artifact_url": "https://github.com/lrlrlrlr/FMCWRadarDeploymentSurvey",
       "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
       "summary": "Millimetre-wave automotive radar is becoming a key sensing technology for modern cars, because it can see in poor weather, measure speed directly and distinguish objects at close distances."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11623924",
+      "title": "Structural Knowledge Distillation for Aligning 4D Radar with Vision–Language Models",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11623924/",
+      "publication": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+      "year": 2026,
+      "import_order": 594,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/kaist-avelab/K-Radar",
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Vision language models (VLMs) are demonstrating impressive generalizable capabilities in autonomous driving."
+    },
+    {
+      "id": "arxiv:2607.28045",
+      "title": "RaDiVe: Robust 4D Radar Odometry with Distance-Bounded NDT and Velocity-Discrepancy Point Uncertainty",
+      "url": "https://arxiv.org/abs/2607.28045",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 595,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/to-be-open-sourced",
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Recent advances in 4D radar enable robust perception in adverse weather; however, the inherent sparsity, noise, and limited positional precision of radar point clouds pose significant challenges for registration-based odometry."
+    },
+    {
+      "id": "arxiv:2607.26980",
+      "title": "Dense Soft Weighting for Radar Ego-Velocity Estimation",
+      "url": "https://arxiv.org/abs/2607.26980",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 596,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11627477",
+      "title": "Simultaneous Multi-target Tracking and Gesture Recognition via Distributed Radar-Sensing Systems",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11627477/",
+      "publication": "2026 IEEE International Conference on Smart Computing (SmartComp)",
+      "year": 2026,
+      "import_order": 597,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/wenliangwanru/MultiTarget-Tracking-GestureRecognition",
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Fuses spatially distributed range-constrained mmWave radars into a global point cloud for joint multi-target tracking and gesture recognition, reaching 20-35 cm tracking error and 95.85% gesture accuracy."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11624058",
+      "title": "CFAR++: Region-Aware Noise Thresholding for Safe Radar Detections",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11624058/",
+      "publication": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+      "year": 2026,
+      "import_order": 598,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/JAP3TH/cfar_plusplus",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Signal processing methods, such as Constant False Alarm Rate for radar object detection, have been enhanced but have rarely been considered in the context of an automated function."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11626425",
+      "title": "Vehicle Classification Using FMCW Cloud Point Radar Sensors",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11626425/",
+      "publication": "2026 15th International Conference on Modern Circuits and Systems Technologies (MOCAST)",
+      "year": 2026,
+      "import_order": 599,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Target classification using radar sensors offers a reliable method under challenging environmental conditions, including poor visibility and absence of light."
+    },
+    {
+      "id": "arxiv:2607.27643",
+      "title": "Radar-Aided Near-Field Beam Prediction via Beam Map Learning for XL-MIMO V2I Communications",
+      "url": "https://arxiv.org/abs/2607.27643",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 600,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/fly-winder/Radar2BeamMap-NF",
+      "topic_id": "other-areas",
+      "summary": "Reduces near-field beam training overhead in XL-MIMO V2I systems by learning a radar-Bartlett-spectrum-to-beam-map mapping with a lightweight encoder-decoder CNN and Gaussian soft supervision."
+    },
+    {
+      "id": "url:www-sciencedirect-com-science-article-pii-s1746809426017441",
+      "title": "A deep learning-based non-contact phonocardiogram measurement method using mmWave radar",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1746809426017441",
+      "publication": "Biomedical Signal Processing and Control",
+      "year": 2026,
+      "import_order": 601,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "summary": "Reconstructs phonocardiogram waveforms from mmWave radar chest displacement with a deep network, enabling fully non-contact heart-sound measurement."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11641612",
+      "title": "SDCM: Simulated Densifying and Compensatory Modeling Fusion for Radar-Vision 3-D Object Detection",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11641612/",
+      "publication": "IEEE Internet of Things Journal",
+      "year": 2026,
+      "import_order": 602,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/1BackStreet9/SDCM",
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "4-D radar-vision 3-D object detection is a vital IoT-enabled sensing approach for intelligent transportation systems."
     }
   ]
 }

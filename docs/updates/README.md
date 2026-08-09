@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-08-09](2026-08-09.md) | 9 | 📦 Other Areas, Signal Processing & Parameter Estimation, 3D Object Detection & Classification, Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Gesture Recognition & Hand Tracking, Vital Signs & Biometric Identification | Added 9 papers across 7 topics. |
 | [2026-08-02](2026-08-02.md) | 3 | Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Pose Estimation & Skeletal Tracking & Human Motion | Added 3 papers across 3 topics. |
 | [2026-07-28](2026-07-28.md) | 6 | 3D Object Detection & Classification, Sensor Fusion Techniques, Occupancy, Presence & Fall Detection, Pose Estimation & Skeletal Tracking & Human Motion | Added 6 papers across 4 topics. |
 | [2026-07-23](2026-07-23.md) | 1 | Point Cloud Processing | Added 1 paper across 1 topic. |

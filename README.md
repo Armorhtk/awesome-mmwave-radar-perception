@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **2 August 2026**
+Last Updated: **9 August 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-08-09.md">Aug 09, 2026</a></td>
+            <td align="center">+9</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-08-02.md">Aug 02, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-07-11.md">Jul 11, 2026</a></td>
             <td align="center">+4</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-07-07.md">Jul 07, 2026</a></td>
-            <td align="center">+5</td>
           </tr>
         </tbody>
       </table>
@@ -140,6 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Dense Soft Weighting for Radar Ego-Velocity Estimation](https://arxiv.org/abs/2607.26980) | N/A | arXiv | 2026 | Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable. |
 | [Cascaded Multi-Head Attention Transformer Framework for Direction of Arrival Estimation](https://ieeexplore.ieee.org/abstract/document/11603315/) | [Code](https://github.com/Syyyt/CMA-Former-official) | IEEE Transactions on Cognitive Communications and Networking | 2026 | Proposes CMA-Former, a cascaded multi-head attention Transformer for grid-based DOA estimation that better resolves closely spaced sources and is validated on a real cascaded mmWave radar platform. |
 | [Adaptive-Frequency Resonate-and-Fire Neurons for Spectral Estimation of Streaming Radar Signals](https://arxiv.org/abs/2606.13516) | [Code](https://github.com/TUE-EE-ES/adaptive_frequency_neurons_FMCW_radar) | arXiv | 2026 | Frequency Modulated Continuous Wave (FMCW) radar systems traditionally rely on Fourier-based methods, such as the Fast Fourier Transform (FFT), to estimate target range and velocity. |
 | [Real-Time Object Detection for Automotive Systems With FMCW Radar-Based Sensor Fusion](https://ieeexplore.ieee.org/abstract/document/11548965/) | N/A | 2026 27th International Radar Symposium (IRS) | 2026 | This paper presents a radar centric multi sensor perception framework for real time collision risk assessment that integrates motion cues from Frequency Modulated Continuous Wave (FMCW) automotive radar with camera based deep learning detections and Light Detection and Ranging (LiDAR). |
@@ -254,6 +255,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [SDCM: Simulated Densifying and Compensatory Modeling Fusion for Radar-Vision 3-D Object Detection](https://ieeexplore.ieee.org/abstract/document/11641612/) | [Code](https://github.com/1BackStreet9/SDCM) | IEEE Internet of Things Journal | 2026 | 4-D radar-vision 3-D object detection is a vital IoT-enabled sensing approach for intelligent transportation systems. |
+| [CFAR++: Region-Aware Noise Thresholding for Safe Radar Detections](https://ieeexplore.ieee.org/abstract/document/11624058/) | [Code](https://github.com/JAP3TH/cfar_plusplus) | 2026 IEEE Intelligent Vehicles Symposium (IV) | 2026 | Signal processing methods, such as Constant False Alarm Rate for radar object detection, have been enhanced but have rarely been considered in the context of an automated function. |
 | [A2RL Vmax: The A2RL Autonomous Racing Dataset for Long-Range, High-Speed Perception and Multi-Vehicle Interaction](https://arxiv.org/abs/2607.17813) | [Dataset](https://tum-avs.github.io/A2RL_Dataset_website/) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2026 | A2RL Vmax provides an open high-speed autonomous-racing perception dataset with synchronized LiDAR and radar point clouds, expert 3D annotations, and detection and tracking benchmarks. |
 | [RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather](https://arxiv.org/abs/2607.04587) | [Code](https://github.com/parkie0517/RAF) | arXiv | 2026 | Robust 3D object detection in adverse weather conditions is challenging due to sensor limitations. |
 | [Sparse4D-Radar: An Efficient and Robust Framework for Surround-View 3D Object Detection via 4D Radar-Camera Fusion](https://arxiv.org/abs/2607.04098) | [Code](https://github.com/Aiuan/Sparse4D-Radar) | arXiv | 2026 | In recent years, 4D imaging radar has gained wide attention in autonomous driving for its robustness against harsh weather and ability to output target velocity. |
@@ -357,6 +360,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [RaDiVe: Robust 4D Radar Odometry with Distance-Bounded NDT and Velocity-Discrepancy Point Uncertainty](https://arxiv.org/abs/2607.28045) | [Code](https://github.com/to-be-open-sourced) | arXiv | 2026 | Recent advances in 4D radar enable robust perception in adverse weather; however, the inherent sparsity, noise, and limited positional precision of radar point clouds pose significant challenges for registration-based odometry. |
 | [Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.70264) | [Code](https://github.com/MoYuGit/Deep_Radar_Odometry) | onlinelibrary.wiley.com | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network. |
 | [DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry](https://www.sciencedirect.com/science/article/pii/S0921889026002708) | N/A | Robotics and Autonomous Systems | 2026 | Improves 4D mmWave radar-inertial odometry by tightly coupling Doppler measurements with inertial sensing for robust ego-motion estimation. |
 | [Dr-BA: Separable Optimization for Direct Radar Bundle Adjustment & Localization](https://arxiv.org/abs/2605.07041) | [Code](https://github.com/utiasASRL/dr_ba) | RSS | 2026 | Introduces direct radar bundle adjustment that jointly estimates dense maps and poses from spinning radar images for robust localization. |
@@ -442,6 +446,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Vehicle Classification Using FMCW Cloud Point Radar Sensors](https://ieeexplore.ieee.org/abstract/document/11626425/) | N/A | 2026 15th International Conference on Modern Circuits and Systems Technologies (MOCAST) | 2026 | Target classification using radar sensors offers a reliable method under challenging environmental conditions, including poor visibility and absence of light. |
+| [Structural Knowledge Distillation for Aligning 4D Radar with Vision–Language Models](https://ieeexplore.ieee.org/abstract/document/11623924/) | [Code](https://github.com/kaist-avelab/K-Radar) | 2026 IEEE Intelligent Vehicles Symposium (IV) | 2026 | Vision language models (VLMs) are demonstrating impressive generalizable capabilities in autonomous driving. |
 | [Millimeter-Wave Automotive Radar Standards, Deployments, Datasets, and Security: A Review](https://ieeexplore.ieee.org/abstract/document/11623380/) | [Code](https://github.com/lrlrlrlr/FMCWRadarDeploymentSurvey) | IEEE Sensors Journal | 2026 | Millimetre-wave automotive radar is becoming a key sensing technology for modern cars, because it can see in poor weather, measure speed directly and distinguish objects at close distances. |
 | [DeeperRadar: End-to-End MIMO Radar Design and Multi-Modal Fusion for Autonomous Vehicle Perception](https://arxiv.org/abs/2607.17351) | [Project Page](https://egoldensh.github.io/DeepeRadar) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2026 | DeeperRadar jointly learns sparse MIMO radar acquisition and multimodal 3D detection from raw radar ADC data, camera images, and LiDAR point clouds. |
 | [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://openreview.net/forum?id=kOgsGq2mfC) | N/A | openreview.net | 2026 | Addresses Frequency Matching in Spiking Neural Networks for mmWave Sensing for mmWave radar perception. |
@@ -576,6 +582,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Simultaneous Multi-target Tracking and Gesture Recognition via Distributed Radar-Sensing Systems](https://ieeexplore.ieee.org/abstract/document/11627477/) | [Code](https://github.com/wenliangwanru/MultiTarget-Tracking-GestureRecognition) | 2026 IEEE International Conference on Smart Computing (SmartComp) | 2026 | Fuses spatially distributed range-constrained mmWave radars into a global point cloud for joint multi-target tracking and gesture recognition, reaching 20-35 cm tracking error and 95.85% gesture accuracy. |
 | [Deep Gesture Recognition under Data Loss](https://ieeexplore.ieee.org/abstract/document/11595268/) | N/A | IEEE Sensors Journal | 2026 | Proposes a deep learning-based encoder-decoder network robust to mmWave radar data loss from interference, maintaining 96.61% gesture recognition accuracy under real multi-radar interference conditions. |
 | [Complex-Valued (2+ 1) D Convolutional Neural Networks for Real-Time Hand Gesture Recognition on Edge Devices with FMCW Radar](https://ieeexplore.ieee.org/abstract/document/11593416/) | [GitHub](https://github.com/thetuantrinh/Hand-Gesture-Recognition.git) | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Proposes complex-valued (2+1)D CNN that directly learns spatio-temporal features from raw time-domain FMCW signals, eliminating FFT preprocessing for 4x-86x faster real-time gesture recognition on edge devices. |
 | [M3-CFR: A Domain-Adaptive Bi-Static mmWave MIMO CFR Dataset for Micro-Gesture Recognition](https://ieeexplore.ieee.org/abstract/document/11563612/) | N/A | IEEE Sensors Letters | 2026 | In this letter, we introduce M3-CFR, a bi-static mmWave MIMO CFR dataset for fine-grained micro-gesture recognition under domain shifts. |
@@ -681,6 +688,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A deep learning-based non-contact phonocardiogram measurement method using mmWave radar](https://www.sciencedirect.com/science/article/pii/S1746809426017441) | N/A | Biomedical Signal Processing and Control | 2026 | Reconstructs phonocardiogram waveforms from mmWave radar chest displacement with a deep network, enabling fully non-contact heart-sound measurement. |
 | [RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement](https://arxiv.org/abs/2606.28089) | [Code](https://github.com/WJULYW/RPM-Distill) | ECCV | 2026 | Improves video-based remote physiological measurement by distilling synchronized RF radar spectral cues during training for robust video-only inference. |
 | [ActiveVital: Geometry-Aware Embodied Vital Signs Monitoring for Home Healthcare Robots](https://arxiv.org/abs/2606.30275) | N/A | arXiv | 2026 | Improves robot-mounted mmWave vital signs monitoring by actively regulating sensing geometry and stabilizing respiration and heart-rate estimation in home settings. |
 | [LLM4RIM: Leveraging Large Language Model for Radar-Based in-Vehicle Monitoring](https://ieeexplore.ieee.org/abstract/document/11463158/) | [Code](https://github.com/bupt-uwb/LLM4RIM) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | The growing need for non-invasive in-vehicle monitoring in the intelligent cabin underscores the potential of radar sensing. |
@@ -791,6 +799,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Radar-Aided Near-Field Beam Prediction via Beam Map Learning for XL-MIMO V2I Communications](https://arxiv.org/abs/2607.27643) | [Code](https://github.com/fly-winder/Radar2BeamMap-NF) | arXiv | 2026 | Reduces near-field beam training overhead in XL-MIMO V2I systems by learning a radar-Bartlett-spectrum-to-beam-map mapping with a lightweight encoder-decoder CNN and Gaussian soft supervision. |
 | [D-Sense: Expanding Gesture Recognition via Wi-Fi](https://ieeexplore.ieee.org/abstract/document/11592660/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Proposes a multi-task Wi-Fi CSI sensing system achieving 97.38% gesture recognition, 94.87% user identification, and robust cross-domain generalization via Absolute Distance Profile features. |
 | [In-Band Scattering and Absorption of Infrared Blocking Foam Filters for Millimeter-Wave Cameras](https://arxiv.org/abs/2607.05003) | N/A | arXiv | 2026 | Characterizes millimeter-wave optical properties of IR-blocking foam filters for mmWave cameras, presenting broadband (150 GHz-2 THz) transmittance spectroscopy critical for CMB telescope sensitivity optimization. |
 | [FFTFormer: A Frequency-Aware Transformer With Multi-Task Learning for Robust Modulation Recognition](https://ieeexplore.ieee.org/abstract/document/11593936/) | N/A | IEEE Journal of Microwaves | 2026 | Proposes FFT-driven Transformer integrating frequency-domain attention with multi-task learning for robust automatic modulation recognition, significantly outperforming SOTA baselines under low SNR conditions. |
