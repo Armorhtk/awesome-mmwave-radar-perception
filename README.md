@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **10 August 2026**
+Last Updated: **29 August 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-08-29.md">Aug 29, 2026</a></td>
+            <td align="center">+10</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-08-09.md">Aug 09, 2026</a></td>
             <td align="center">+9</td>
           </tr>
@@ -76,10 +80,6 @@ This list is curated based on the following standards, in order of priority:
           <tr>
             <td><a href="docs/updates/2026-07-16.md">Jul 16, 2026</a></td>
             <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-07-11.md">Jul 11, 2026</a></td>
-            <td align="center">+4</td>
           </tr>
         </tbody>
       </table>
@@ -140,6 +140,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [CMxUNet: An Efficient Framework for Wideband Interference Mitigation in Automotive FMCW Radar Systems](https://ieeexplore.ieee.org/abstract/document/11661623/) | [Code](https://github.com/wxyability/inter-radar-interference-mitigation-videos) | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Mitigates wideband mutual interference in automotive FMCW radar by an efficient CMxUNet framework for robust ADAS perception. |
 | [Dense Soft Weighting for Radar Ego-Velocity Estimation](https://arxiv.org/abs/2607.26980) | 无 | arXiv | 2026 | Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable. |
 | [Cascaded Multi-Head Attention Transformer Framework for Direction of Arrival Estimation](https://ieeexplore.ieee.org/abstract/document/11603315/) | [Code](https://github.com/Syyyt/CMA-Former-official) | IEEE Transactions on Cognitive Communications and Networking | 2026 | Proposes CMA-Former, a cascaded multi-head attention Transformer for grid-based DOA estimation that better resolves closely spaced sources and is validated on a real cascaded mmWave radar platform. |
 | [Adaptive-Frequency Resonate-and-Fire Neurons for Spectral Estimation of Streaming Radar Signals](https://arxiv.org/abs/2606.13516) | [Code](https://github.com/TUE-EE-ES/adaptive_frequency_neurons_FMCW_radar) | arXiv | 2026 | Frequency Modulated Continuous Wave (FMCW) radar systems traditionally rely on Fourier-based methods, such as the Fast Fourier Transform (FFT), to estimate target range and velocity. |
@@ -169,6 +170,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Recent Advances in Millimeter-Wave 4-D Imaging Radars: A Leap Toward Massive MIMO in Sensing](https://ieeexplore.ieee.org/abstract/document/11654526/) | [Code](https://github.com/Dorvash/PIEEE_4D_Imaging_mMIMO_Radar) | Proceedings of the IEEE | 2026 | Surveys recent advances in millimeter-wave 4-D imaging radar by examining massive MIMO architectures for high-resolution image-like radar sensing. |
+| [Toeplitz-structured deep unfolding network for TomoSAR 3-D reconstruction](https://www.sciencedirect.com/science/article/pii/S0924271626003862) | [Code](https://github.com/ormosia6/TomoSAR-Toe-LISTA) | ISPRS Journal of Photogrammetry and Remote Sensing | 2026 | Improves TomoSAR 3-D reconstruction by unfolding a Toeplitz-structured LISTA network for efficient sparse SAR tomographic inversion. |
+| [Mobile MIMO Radar Imaging via Synergistic Deep Learning and Wave Physics Modeling](https://ieeexplore.ieee.org/abstract/document/11644480/) | [Code](https://github.com/mimoradarimging/Mobile-MIMO-Radar-Imaging) | IEEE Internet of Things Journal | 2026 | Improves mmWave MIMO radar imaging on mobile IoT platforms by combining wave-physics modeling with deep learning for high-fidelity environment reconstruction. |
 | [Range, Not Precision: Block-Floating-Point Half-Precision FFT and SAR Imaging on Apple Silicon](https://arxiv.org/abs/2605.28451) | N/A | arXiv | 2026 | Improves FP16 radar FFT and SAR imaging by using block-floating-point scaling to prevent overflow while preserving image quality. |
 | [Adversarial Robustness of Near-Field Millimeter-Wave Imaging under Waveform-Domain Attacks](https://arxiv.org/abs/2604.21774) | [Code](https://github.com/ldorje1/Differential-Imaging-Attacks-on-Near-Field-SAR-Imaging) | arXiv | 2026 | Near-field millimeter-wave (mmWave) imaging is widely deployed in safety-critical applications such as airport passenger screening, yet its own security remains largely unexplored. |
 | [mVI: High-Resolution Roadside Vehicle Imaging by MMWAVE](https://ieeexplore.ieee.org/abstract/document/11461020/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Roadside vehicle imaging is a vital function in traffic monitoring. |
@@ -198,6 +202,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [High-Fidelity Near-Field mmWave MIMO Radar Simulation via Polarized Path Tracing](https://ieeexplore.ieee.org/abstract/document/11659821/) | [Code](https://github.com/nihofm/polarized-radar-pathtracing) | IEEE Journal of Microwaves | 2026 | Improves near-field mmWave MIMO radar simulation by adding polarized electromagnetic path tracing for high-fidelity synthetic radar data. |
 | [LiDAR-to-4D Radar Synthesis for Building Large-Scale Tensor Datasets](https://openaccess.thecvf.com/content/CVPR2026F/papers/Jung_LiDAR-to-4D_Radar_Synthesis_for_Building_Large-Scale_Tensor_Datasets_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves 4D radar perception by synthesizing dense radar tensors from LiDAR data for scalable autonomous-driving dataset expansion. |
 | [Teaching AI to be a Picky Eater: Why Synthetic Data Quality Matters in Wireless Sensing](https://dl.acm.org/doi/10.1145/3793236.3793247) | N/A | GetMobile: Mobile Computing and Communications | 2026 | Explains the fundamental principle of wireless sensing, where human movements and breathing induce measurable disturbances in radio signals (e.g., Wi-Fi, mmWave). This allows devices to function as privacy-preserving sensors for smart homes and healthcare without relying on cameras. |
 | [SynthRM: A Synthetic Data Platform for Vision-Aided Mobile System Simulation](https://arxiv.org/abs/2601.19173) | [Code](https://github.com/Myzz2003/SynthRM-Platform) | arXiv | 2026 | Addresses the geometric ambiguity and ill-posed nature of vision-aided wireless sensing by introducing SynthRM, a scalable synthetic data platform. It implements a Visible-Aligned-Surface simulation strategy to ensure pixel-level consistency between visual semantics and electromagnetic response, transforming cross-view signal inference into a physically well-posed problem. |
@@ -255,6 +260,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [SSRaDNet: An Empirical Study of Radar Object Detection Evaluation and Deployment Trade-Offs](https://www.preprints.org/frontend/manuscript/8ded1810c3a5967d11eab3d464479e47/download_pub) | [Code](https://github.com/IqbalBan/SSRadNet) | Preprints.org | 2026 | Studies radar object detection evaluation and deployment trade-offs by benchmarking FMCW radar detectors for reproducible automotive perception. |
 | [SDCM: Simulated Densifying and Compensatory Modeling Fusion for Radar-Vision 3-D Object Detection](https://ieeexplore.ieee.org/abstract/document/11641612/) | [Code](https://github.com/1BackStreet9/SDCM) | IEEE Internet of Things Journal | 2026 | 4-D radar-vision 3-D object detection is a vital IoT-enabled sensing approach for intelligent transportation systems. |
 | [CFAR++: Region-Aware Noise Thresholding for Safe Radar Detections](https://ieeexplore.ieee.org/abstract/document/11624058/) | [Code](https://github.com/JAP3TH/cfar_plusplus) | 2026 IEEE Intelligent Vehicles Symposium (IV) | 2026 | Signal processing methods, such as Constant False Alarm Rate for radar object detection, have been enhanced but have rarely been considered in the context of an automated function. |
 | [A2RL Vmax: The A2RL Autonomous Racing Dataset for Long-Range, High-Speed Perception and Multi-Vehicle Interaction](https://arxiv.org/abs/2607.17813) | [Dataset](https://tum-avs.github.io/A2RL_Dataset_website/) | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2026 | A2RL Vmax provides an open high-speed autonomous-racing perception dataset with synchronized LiDAR and radar point clouds, expert 3D annotations, and detection and tracking benchmarks. |
@@ -534,6 +540,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A transformer-based framework for device-free human activity recognition using Wi-Fi CSI](https://link.springer.com/article/10.1007/s12243-026-01207-3) | [Code](https://github.com/mestrelan/MDA-CSI) | Annals of Telecommunications | 2026 | Addresses device-free human activity recognition by applying a transformer framework to Wi-Fi CSI for ambient assisted living. |
+| [DIHARNet: A Temporal-Doppler-Spatial domain Fusion Method for Direction Insensitive Human Activity Recognition based on MMWave Radar](https://ieeexplore.ieee.org/abstract/document/11643504/) | [Code](https://github.com/RuihengZhang/MDHA) | IEEE Transactions on Mobile Computing | 2026 | Addresses direction-insensitive mmWave radar human activity recognition by fusing temporal, Doppler and spatial cues in DIHARNet for robust cross-orientation HAR. |
 | [SIREN: Self-supervised 4D Implicit Representation for Enhanced Radar- and Vision-based Activity Recognition for Ship Watch-Keeping Officers](https://ieeexplore.ieee.org/abstract/document/11593150/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Proposes self-supervised 4D implicit representation integrating mmWave radar and camera data for activity recognition of ship watch-keeping officers, with radar angular resolution enhancement via self-supervised learning. |
 | [DAP: Doppler-aware Point Network for Heterogeneous mmWave Action Recognition](https://arxiv.org/abs/2605.09604) | N/A | arXiv | 2026 | Introduces DAP-Net and the UniMM-HAR dataset to improve heterogeneous mmWave point-cloud action recognition across devices and frequency bands. |
 | [OG-PCL: Efficient Sparse Radar Point Cloud Processing for Human Activity Recognition](https://ieeexplore.ieee.org/abstract/document/11462700/) | N/A | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Human activity recognition (HAR) with millimeter-wave (mmWave) radar offers a privacy-preserving and robust alternative to camera-and wearable-based approaches. |
@@ -657,7 +665,7 @@ This list is curated based on the following standards, in order of priority:
 | [Privacy-Preserving Industrial Ergonomics: mmWave-Based Automated REBA Scoring and Pose Estimation](https://arxiv.org/abs/2607.02611) | N/A | the Proceedings of the 2026 International Conference on Automation and Computing (ICAC 2026) | 2026 | Work-related Musculoskeletal Disorders (WMSDs) require continuous ergonomic assessments. |
 | [Expanding mmWave Datasets for Human Pose Estimation with Unlabeled Data and LiDAR Datasets](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_Expanding_mmWave_Datasets_for_Human_Pose_Estimation_with_Unlabeled_Data_CVPR_2026_paper.html) | [Code](https://github.com/Shimmer93/EMDUL) | CVPR 2026 | 2026 | Expands mmWave human pose estimation datasets by pseudo-labeling unlabeled mmWave data and converting LiDAR point clouds into mmWave-style samples for better generalization. |
 | [Towards Balanced Multi-Modal Learning in 3D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Towards_Balanced_Multi-Modal_Learning_in_3D_Human_Pose_Estimation_CVPR_2026_paper.pdf) | [Code](https://github.com/MICLAB-BUPT/AWC) | CVPR | 2026 | Improves multi-modal 3D human pose estimation by balancing RGB, LiDAR, mmWave, and WiFi learning with Shapley-value and Fisher-guided regularization. |
-| [Less is More: Multimodal Human Pose Estimation with Selective Fusion](https://openaccess.thecvf.com/content/CVPR2026F/papers/Xu_Less_is_More_Multimodal_Human_Pose_Estimation_with_Selective_Fusion_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves multimodal human pose estimation by selectively fusing complementary sensor cues for more efficient and robust pose recovery. |
+| [Less is More: Multimodal Human Pose Estimation with Selective Fusion](https://openaccess.thecvf.com/content/CVPR2026F/papers/Xu_Less_is_More_Multimodal_Human_Pose_Estimation_with_Selective_Fusion_CVPRF_2026_paper.pdf) | [Code](https://github.com/xyt-fe/FlexPose_Modality_selection) | CVPR Findings | 2026 | Improves multimodal human pose estimation by selectively fusing complementary sensor cues for more efficient and robust pose recovery. |
 | [Towards Device-Free Gaming with mmWave Radar](https://ieeexplore.ieee.org/abstract/document/11524493/) | N/A | 2026 IEEE International Conference on Pervasive Computing and Communications (PerCom) | 2026 | Addresses device-free interactive gaming by using mmWave radar to sense player motion for immersive indoor experiences without worn devices. |
 | [Real-Time Hand Pose Estimation Using FMCW Radar on Resource-Limited Edge Devices](https://ieeexplore.ieee.org/abstract/document/11495050/) | [Code](https://github.com/thetuantrinh/UWB-Radar-Hand-Pose-Estimation.git) | IEEE Sensors Journal | 2026 | Real-time hand pose estimation is essential for natural human-computer interaction (HCI), especially in situations where vision-based systems face challenges due to lighting, occlusion, or privacy issues. |
 | [Millimeter-wave radar-assisted skeleton-guided video reconstruction for surveillance systems](https://link.springer.com/article/10.1007/s00371-026-04478-y) | [Code](https://github.com/cocein/R2P2V) | The Visual Computer | 2026 | The Visual Computer - Surveillance systems are pivotal in public safety, yet they often fail under adverse conditions such as darkness, occlusion, or deliberate tampering. |
@@ -740,6 +748,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A scenario-based continual learning framework for driver fatigue detection using 3D spatial–Doppler fusion](https://ieeexplore.ieee.org/abstract/document/11663180/) | [Code](https://github.com/BarryTang22/radar-cl-epb) | IEEE Internet of Things Journal | 2026 | Addresses driver fatigue detection by continual learning with 3D spatial and micro-Doppler fusion for mmWave radar in-cabin monitoring. |
 | [PhysDrive: A Multimodal Remote Physiological Measurement Dataset for In-vehicle Driver Monitoring](https://arxiv.org/abs/2507.19172) | [Dataset](https://github.com/WJULYW/PhysDrive-Dataset) | arXiv | 2025 | Provides multimodal dataset for driver monitoring with synchronized physiological measurements enabling research on fatigue and distraction detection. |
 | [CarVision: Vehicle Ranging and Tracking Using mmWave Radar for Enhanced Driver Safety](https://www.computer.org/csdl/proceedings-article/percom/2025/355100a215/27fizQ2avXG) | [Code](https://github.com/srajib826/CarVision) | IEEE International Conference on Pervasive Computing and Communications (PerCom) | 2025 | Enhances driver safety by using mmWave radar for precise vehicle ranging and tracking to provide collision warnings and maintain safe distances. |
 | [A Driver Activity Dataset with Multiple RGB-D Cameras and mmWave Radars](https://dl.acm.org/doi/abs/10.1145/3625468.3652181) | [Code](https://www.kaggle.com/datasets/guanhualee/driver-activity-dataset) | ACM Multimedia Systems Conference | 2024 | Addresses the lack of fine-grained, non-fatigue driver activity data by releasing a comprehensive multi-modal (radar, RGB-D) and multi-angle (face, body, hands) dataset to enable privacy-conscious research. |
@@ -777,6 +786,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Multimodal Benchmark for Safety Assessment in Industrial Inspection Scenarios](https://www.nature.com/articles/s41597-026-07796-x) | [Code](https://huggingface.co/datasets/Tetrabot2026/InspecSafe-V1) | Scientific Data | 2026 | Provides a multimodal benchmark with synchronized LiDAR, mmWave radar and acoustic data for safety assessment in industrial inspection scenarios. |
 | [Multi-Sensor Datasets of Ultrasonic and mmWave Reflected Signals for Material Classification](https://www.sciencedirect.com/science/article/pii/S2352340926003136) | [Dataset](https://zenodo.org/records/19209067) | www.sciencedirect.com | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Multi-Sensor Datasets of Ultrasonic and mmWave Reflected Signals for Material Classification. |
 | [InspecSafe-V1: A Multimodal Benchmark for Safety Assessment in Industrial Inspection Scenarios](https://arxiv.org/abs/2601.21173) | [Dataset](https://huggingface.co/datasets/Tetrabot2026/InspecSafe-V1) | arXiv | 2026 | Introduces InspecSafe-V1, a comprehensive multimodal dataset (radar, RGB, thermal) for safety assessment in industrial inspection scenarios, along with benchmark models and evaluation protocols to advance research in this domain. |
 | [Omnidirectional Solid-State mmWave Radar Perception for UAV Power Line Collision Avoidance](https://www.arxiv.org/abs/2602.03229) | N/A | ICRA | 2026 | Addresses UAV power line collision risks by proposing a lightweight, omnidirectional mmWave radar system.  It integrates multiple solid-state modules for spherical coverage, enabling reliable detection of wires as thin as 1.2mm at 10m distances and successful avoidance at speeds up to 10m/s. |
