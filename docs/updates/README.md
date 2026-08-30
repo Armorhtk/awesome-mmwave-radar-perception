@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-08-30](2026-08-30.md) | 3 | High-Resolution Imaging & SAR Imaging, Data Synthesis, Enhancement & Simulation, Gesture Recognition & Hand Tracking | Added 3 papers across 3 topics. |
 | [2026-08-29](2026-08-29.md) | 10 | 🏭 Industrial Areas, Signal Processing & Parameter Estimation, High-Resolution Imaging & SAR Imaging, Data Synthesis, Enhancement & Simulation, 3D Object Detection & Classification, Human Activity Recognition (HAR), Fatigue driving detection | Added 10 papers across 7 topics. |
 | [2026-08-09](2026-08-09.md) | 9 | 📦 Other Areas, Signal Processing & Parameter Estimation, 3D Object Detection & Classification, Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Gesture Recognition & Hand Tracking, Vital Signs & Biometric Identification | Added 9 papers across 7 topics. |
 | [2026-08-02](2026-08-02.md) | 3 | Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Pose Estimation & Skeletal Tracking & Human Motion | Added 3 papers across 3 topics. |
