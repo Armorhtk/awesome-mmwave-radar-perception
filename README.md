@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **29 August 2026**
+Last Updated: **30 August 2026**
 
 ## Inclusion Criteria
 
@@ -53,6 +53,10 @@ This list is curated based on the following standards, in order of priority:
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td><a href="docs/updates/2026-08-30.md">Aug 30, 2026</a></td>
+            <td align="center">+3</td>
+          </tr>
           <tr>
             <td><a href="docs/updates/2026-08-29.md">Aug 29, 2026</a></td>
             <td align="center">+10</td>
@@ -170,6 +174,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [SAR-IEID-Net: Integrated SAR Enhanced Imaging and Vehicle Detection of Automotive Millimeter-Wave Radar](https://ieeexplore.ieee.org/abstract/document/11667346/) | N/A | IEEE Internet of Things Journal | 2026 | Integrates automotive mmWave SAR enhanced imaging and vehicle detection in one network for high-resolution radar perception. |
 | [Recent Advances in Millimeter-Wave 4-D Imaging Radars: A Leap Toward Massive MIMO in Sensing](https://ieeexplore.ieee.org/abstract/document/11654526/) | [Code](https://github.com/Dorvash/PIEEE_4D_Imaging_mMIMO_Radar) | Proceedings of the IEEE | 2026 | Surveys recent advances in millimeter-wave 4-D imaging radar by examining massive MIMO architectures for high-resolution image-like radar sensing. |
 | [Toeplitz-structured deep unfolding network for TomoSAR 3-D reconstruction](https://www.sciencedirect.com/science/article/pii/S0924271626003862) | [Code](https://github.com/ormosia6/TomoSAR-Toe-LISTA) | ISPRS Journal of Photogrammetry and Remote Sensing | 2026 | Improves TomoSAR 3-D reconstruction by unfolding a Toeplitz-structured LISTA network for efficient sparse SAR tomographic inversion. |
 | [Mobile MIMO Radar Imaging via Synergistic Deep Learning and Wave Physics Modeling](https://ieeexplore.ieee.org/abstract/document/11644480/) | [Code](https://github.com/mimoradarimging/Mobile-MIMO-Radar-Imaging) | IEEE Internet of Things Journal | 2026 | Improves mmWave MIMO radar imaging on mobile IoT platforms by combining wave-physics modeling with deep learning for high-fidelity environment reconstruction. |
@@ -202,6 +207,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Diff4RadBEV: Conditional Diffusion for 4D Radar BEV Enhancement](https://ieeexplore.ieee.org/abstract/document/11662380/) | N/A | IEEE Robotics and Automation Letters | 2026 | Densifies sparse and noisy 4D mmWave radar BEV maps with a conditional diffusion model to support downstream perception. |
 | [High-Fidelity Near-Field mmWave MIMO Radar Simulation via Polarized Path Tracing](https://ieeexplore.ieee.org/abstract/document/11659821/) | [Code](https://github.com/nihofm/polarized-radar-pathtracing) | IEEE Journal of Microwaves | 2026 | Improves near-field mmWave MIMO radar simulation by adding polarized electromagnetic path tracing for high-fidelity synthetic radar data. |
 | [LiDAR-to-4D Radar Synthesis for Building Large-Scale Tensor Datasets](https://openaccess.thecvf.com/content/CVPR2026F/papers/Jung_LiDAR-to-4D_Radar_Synthesis_for_Building_Large-Scale_Tensor_Datasets_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves 4D radar perception by synthesizing dense radar tensors from LiDAR data for scalable autonomous-driving dataset expansion. |
 | [Teaching AI to be a Picky Eater: Why Synthetic Data Quality Matters in Wireless Sensing](https://dl.acm.org/doi/10.1145/3793236.3793247) | N/A | GetMobile: Mobile Computing and Communications | 2026 | Explains the fundamental principle of wireless sensing, where human movements and breathing induce measurable disturbances in radio signals (e.g., Wi-Fi, mmWave). This allows devices to function as privacy-preserving sensors for smart homes and healthcare without relying on cameras. |
@@ -590,6 +596,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Venus++: Reliable Large-Scale Mmwave Radar Data Generation Via Few 2D Videos for Lying Pose Gesture Recognition](https://ieeexplore.ieee.org/abstract/document/11659121/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Generates reliable large-scale lying-pose mmWave radar gesture data from few 2D videos to improve gesture recognition while lying down. |
 | [Simultaneous Multi-target Tracking and Gesture Recognition via Distributed Radar-Sensing Systems](https://ieeexplore.ieee.org/abstract/document/11627477/) | [Code](https://github.com/wenliangwanru/MultiTarget-Tracking-GestureRecognition) | 2026 IEEE International Conference on Smart Computing (SmartComp) | 2026 | Fuses spatially distributed range-constrained mmWave radars into a global point cloud for joint multi-target tracking and gesture recognition, reaching 20-35 cm tracking error and 95.85% gesture accuracy. |
 | [Deep Gesture Recognition under Data Loss](https://ieeexplore.ieee.org/abstract/document/11595268/) | N/A | IEEE Sensors Journal | 2026 | Proposes a deep learning-based encoder-decoder network robust to mmWave radar data loss from interference, maintaining 96.61% gesture recognition accuracy under real multi-radar interference conditions. |
 | [Complex-Valued (2+ 1) D Convolutional Neural Networks for Real-Time Hand Gesture Recognition on Edge Devices with FMCW Radar](https://ieeexplore.ieee.org/abstract/document/11593416/) | [GitHub](https://github.com/thetuantrinh/Hand-Gesture-Recognition.git) | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Proposes complex-valued (2+1)D CNN that directly learns spatio-temporal features from raw time-domain FMCW signals, eliminating FFT preprocessing for 4x-86x faster real-time gesture recognition on edge devices. |

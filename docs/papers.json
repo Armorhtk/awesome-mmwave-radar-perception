@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 611,
-    "generated_at": "2026-08-29T10:49:49Z"
+    "total": 614,
+    "generated_at": "2026-08-30T07:13:32Z"
   },
   "taxonomy": [
     {
@@ -7487,6 +7487,42 @@
       "artifact_url": "https://github.com/Dorvash/PIEEE_4D_Imaging_mMIMO_Radar",
       "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
       "summary": "Surveys recent advances in millimeter-wave 4-D imaging radar by examining massive MIMO architectures for high-resolution image-like radar sensing."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11662380",
+      "title": "Diff4RadBEV: Conditional Diffusion for 4D Radar BEV Enhancement",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11662380/",
+      "publication": "IEEE Robotics and Automation Letters",
+      "year": 2026,
+      "import_order": 613,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__data-synthesis-enhancement-simulation",
+      "summary": "Densifies sparse and noisy 4D mmWave radar BEV maps with a conditional diffusion model to support downstream perception."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11667346",
+      "title": "SAR-IEID-Net: Integrated SAR Enhanced Imaging and Vehicle Detection of Automotive Millimeter-Wave Radar",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11667346/",
+      "publication": "IEEE Internet of Things Journal",
+      "year": 2026,
+      "import_order": 614,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
+      "summary": "Integrates automotive mmWave SAR enhanced imaging and vehicle detection in one network for high-resolution radar perception."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11659121",
+      "title": "Venus++: Reliable Large-Scale Mmwave Radar Data Generation Via Few 2D Videos for Lying Pose Gesture Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11659121/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "import_order": 615,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Generates reliable large-scale lying-pose mmWave radar gesture data from few 2D videos to improve gesture recognition while lying down."
     }
   ]
 }
