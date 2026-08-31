@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **30 August 2026**
+Last Updated: **31 August 2026**
 
 ## Inclusion Criteria
 
@@ -54,6 +54,10 @@ This list is curated based on the following standards, in order of priority:
         </thead>
         <tbody>
           <tr>
+            <td><a href="docs/updates/2026-08-31.md">Aug 31, 2026</a></td>
+            <td align="center">+6</td>
+          </tr>
+          <tr>
             <td><a href="docs/updates/2026-08-30.md">Aug 30, 2026</a></td>
             <td align="center">+3</td>
           </tr>
@@ -79,10 +83,6 @@ This list is curated based on the following standards, in order of priority:
           </tr>
           <tr>
             <td><a href="docs/updates/2026-07-20.md">Jul 20, 2026</a></td>
-            <td align="center">+3</td>
-          </tr>
-          <tr>
-            <td><a href="docs/updates/2026-07-16.md">Jul 16, 2026</a></td>
             <td align="center">+3</td>
           </tr>
         </tbody>
@@ -144,6 +144,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [MC-CoDA: Mask-guided Cascade attention learning for robust single-snapshot DOA estimation under sensor failures](https://www.sciencedirect.com/science/article/pii/S0263224126026357) | N/A | Measurement | 2026 | Estimates single-snapshot DOA under random sensor failures with mask-guided cascade attention that propagates array health through the pipeline, targeting automotive FMCW radar. |
 | [CMxUNet: An Efficient Framework for Wideband Interference Mitigation in Automotive FMCW Radar Systems](https://ieeexplore.ieee.org/abstract/document/11661623/) | [Code](https://github.com/wxyability/inter-radar-interference-mitigation-videos) | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Mitigates wideband mutual interference in automotive FMCW radar by an efficient CMxUNet framework for robust ADAS perception. |
 | [Dense Soft Weighting for Radar Ego-Velocity Estimation](https://arxiv.org/abs/2607.26980) | 无 | arXiv | 2026 | Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable. |
 | [Cascaded Multi-Head Attention Transformer Framework for Direction of Arrival Estimation](https://ieeexplore.ieee.org/abstract/document/11603315/) | [Code](https://github.com/Syyyt/CMA-Former-official) | IEEE Transactions on Cognitive Communications and Networking | 2026 | Proposes CMA-Former, a cascaded multi-head attention Transformer for grid-based DOA estimation that better resolves closely spaced sources and is validated on a real cascaded mmWave radar platform. |
@@ -546,6 +547,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Decoupled Amplitude-Phase Modeling to Mitigate Selectivity Collapse under AWGN for mmWave Micro-Doppler Classification](https://ieeexplore.ieee.org/abstract/document/11664321/) | N/A | IEEE Signal Processing Letters | 2026 | Mitigates neural selectivity collapse under AWGN by decoupling amplitude and phase modeling for more robust mmWave micro-Doppler classification. |
 | [A transformer-based framework for device-free human activity recognition using Wi-Fi CSI](https://link.springer.com/article/10.1007/s12243-026-01207-3) | [Code](https://github.com/mestrelan/MDA-CSI) | Annals of Telecommunications | 2026 | Addresses device-free human activity recognition by applying a transformer framework to Wi-Fi CSI for ambient assisted living. |
 | [DIHARNet: A Temporal-Doppler-Spatial domain Fusion Method for Direction Insensitive Human Activity Recognition based on MMWave Radar](https://ieeexplore.ieee.org/abstract/document/11643504/) | [Code](https://github.com/RuihengZhang/MDHA) | IEEE Transactions on Mobile Computing | 2026 | Addresses direction-insensitive mmWave radar human activity recognition by fusing temporal, Doppler and spatial cues in DIHARNet for robust cross-orientation HAR. |
 | [SIREN: Self-supervised 4D Implicit Representation for Enhanced Radar- and Vision-based Activity Recognition for Ship Watch-Keeping Officers](https://ieeexplore.ieee.org/abstract/document/11593150/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Proposes self-supervised 4D implicit representation integrating mmWave radar and camera data for activity recognition of ship watch-keeping officers, with radar angular resolution enhancement via self-supervised learning. |
@@ -596,6 +598,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Advancing Location and Orientation-Independent Sensing for Gesture Recognition Using mmWave](https://ieeexplore.ieee.org/abstract/document/11664599/) | [Code](https://github.com/jl-jinglong/mmGR-LO) | IEEE Transactions on Mobile Computing | 2026 | Generates location- and orientation-independent mmWave gesture features via physics-based Doppler-time map warping and controlled diffusion, then recognizes them with a lightweight M-Net (mmGR-LO). |
 | [Venus++: Reliable Large-Scale Mmwave Radar Data Generation Via Few 2D Videos for Lying Pose Gesture Recognition](https://ieeexplore.ieee.org/abstract/document/11659121/) | N/A | IEEE Transactions on Mobile Computing | 2026 | Generates reliable large-scale lying-pose mmWave radar gesture data from few 2D videos to improve gesture recognition while lying down. |
 | [Simultaneous Multi-target Tracking and Gesture Recognition via Distributed Radar-Sensing Systems](https://ieeexplore.ieee.org/abstract/document/11627477/) | [Code](https://github.com/wenliangwanru/MultiTarget-Tracking-GestureRecognition) | 2026 IEEE International Conference on Smart Computing (SmartComp) | 2026 | Fuses spatially distributed range-constrained mmWave radars into a global point cloud for joint multi-target tracking and gesture recognition, reaching 20-35 cm tracking error and 95.85% gesture accuracy. |
 | [Deep Gesture Recognition under Data Loss](https://ieeexplore.ieee.org/abstract/document/11595268/) | N/A | IEEE Sensors Journal | 2026 | Proposes a deep learning-based encoder-decoder network robust to mmWave radar data loss from interference, maintaining 96.61% gesture recognition accuracy under real multi-radar interference conditions. |
@@ -703,6 +706,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Millimeter-Wave Radar Non-Contact Heart Rate Monitoring: A Cross-Platform Study under Steady and Unsteady Conditions](https://ieeexplore.ieee.org/abstract/document/11664437/) | [Code](https://github.com/YShane11/mmwave-heart-rate-monitoring) | IEEE Access | 2026 | Compares non-contact mmWave heart-rate monitoring on IWR6843AOPEVM and AWR2944EVM under steady and post-exercise unsteady conditions against synchronized ECG. |
 | [A deep learning-based non-contact phonocardiogram measurement method using mmWave radar](https://www.sciencedirect.com/science/article/pii/S1746809426017441) | 无 | Biomedical Signal Processing and Control | 2026 | Reconstructs phonocardiogram waveforms from mmWave radar chest displacement with a deep network, enabling fully non-contact heart-sound measurement. |
 | [RPM-Distill: Physiology-guided Adaptive Cross-modal Distillation for Robust Remote Physiological Measurement](https://arxiv.org/abs/2606.28089) | [Code](https://github.com/WJULYW/RPM-Distill) | ECCV | 2026 | Improves video-based remote physiological measurement by distilling synchronized RF radar spectral cues during training for robust video-only inference. |
 | [ActiveVital: Geometry-Aware Embodied Vital Signs Monitoring for Home Healthcare Robots](https://arxiv.org/abs/2606.30275) | N/A | arXiv | 2026 | Improves robot-mounted mmWave vital signs monitoring by actively regulating sensing geometry and stabilizing respiration and heart-rate estimation in home settings. |
@@ -746,6 +750,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [A New Contrastive Deep Learning Framework for Sleep Apnea Detection from Radar Signal](https://ieeexplore.ieee.org/abstract/document/11666864/) | N/A | IEEE Internet of Things Journal | 2026 | Detects sleep apnea from mmWave radar signals with a contrastive deep learning framework, reducing reliance on fully labeled overnight recordings. |
 | [RestAware: Non-Invasive Sleep Monitoring Using FMCW Radar and AI-Generated Summaries](https://arxiv.org/abs/2508.00848v1) | N/A | arXiv | 2025 | Develops a non-invasive sleep monitoring system that uses FMCW radar for posture classification and uniquely integrates a large language model to automatically generate human-readable summaries from the sleep data. |
 | [Advancing sleep health equity through deep learning on large-scale nocturnal respiratory signals](https://www.nature.com/articles/s41467-025-64340-y) | [Code](https://github.com/zhuangzx1127/ResSleepNet) | nature communications | 2025 | Addresses inequitable access to sleep diagnostics by developing a robust deep learning framework that analyzes large-scale respiratory signals (including radar-derived ones via transfer learning) for scalable, remote sleep staging and apnea detection across diverse populations. |
 | [A Robust and Accurate FMCW MIMO Radar Vital Sign Monitoring Framework With 4-D Cardiac Beamformer and Heart-Rate Trace Carving Technique](https://ieeexplore.ieee.org/document/10516282) | N/A | IEEE Transactions on Microwave Theory and Techniques | 2024 | Improves radar-based heart rate monitoring in low-SNR environments by using a 4-D beamformer to focus on the heart in both space and time-frequency, and a trace carving technique to reconstruct faint signals from noise. |
@@ -765,6 +770,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [CoTGait: A Co-training-based Semi-supervised Framework for mmWave Radar Gait Recognition](https://ieeexplore.ieee.org/abstract/document/11659569/) | N/A | IEEE Internet of Things Journal | 2026 | Improves mmWave radar gait recognition with a co-training semi-supervised framework that leverages unlabeled samples for identity-aware recognition. |
 | [mmWave Radar-Based Unsupervised Person ReID via Multi-Level Mutual Signal Contrastive Learning](https://ieeexplore.ieee.org/abstract/document/11606462/) | [Code](https://github.com/onlinehuazai/mmReID) | IEEE Transactions on Mobile Computing | 2026 | Proposes a multi-level mutual signal contrastive learning framework for unsupervised person re-identification with mmWave radar, avoiding the low-light and privacy limitations of camera-based ReID. |
 | [Unsupervised Domain Adaptation Gait Recognition Based on Consistently Segmented mmWave Samples](https://ieeexplore.ieee.org/abstract/document/11526751/) | N/A | IEEE Transactions on Cognitive Communications and Networking | 2026 | Improves mmWave gait recognition by using consistently segmented samples for unsupervised domain adaptation across sensing domains. |
 | [MMGait: Towards Multi-Modal Gait Recognition](https://arxiv.org/abs/2604.15979) | [Code](https://github.com/BNU-IVC/MMGait) | arXiv | 2026 | Gait recognition has emerged as a powerful biometric technique for identifying individuals at a distance without requiring user cooperation. |

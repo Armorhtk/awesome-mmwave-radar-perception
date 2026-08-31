@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 614,
-    "generated_at": "2026-08-30T07:13:32Z"
+    "total": 620,
+    "generated_at": "2026-08-31T03:22:45Z"
   },
   "taxonomy": [
     {
@@ -7523,6 +7523,78 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
       "summary": "Generates reliable large-scale lying-pose mmWave radar gesture data from few 2D videos to improve gesture recognition while lying down."
+    },
+    {
+      "id": "url:www-sciencedirect-com-science-article-pii-s0263224126026357",
+      "title": "MC-CoDA: Mask-guided Cascade attention learning for robust single-snapshot DOA estimation under sensor failures",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0263224126026357",
+      "publication": "Measurement",
+      "year": 2026,
+      "import_order": 616,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Estimates single-snapshot DOA under random sensor failures with mask-guided cascade attention that propagates array health through the pipeline, targeting automotive FMCW radar."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11664321",
+      "title": "Decoupled Amplitude-Phase Modeling to Mitigate Selectivity Collapse under AWGN for mmWave Micro-Doppler Classification",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11664321/",
+      "publication": "IEEE Signal Processing Letters",
+      "year": 2026,
+      "import_order": 617,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__human-activity-recognition-har",
+      "summary": "Mitigates neural selectivity collapse under AWGN by decoupling amplitude and phase modeling for more robust mmWave micro-Doppler classification."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11664599",
+      "title": "Advancing Location and Orientation-Independent Sensing for Gesture Recognition Using mmWave",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11664599/",
+      "publication": "IEEE Transactions on Mobile Computing",
+      "year": 2026,
+      "import_order": 618,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/jl-jinglong/mmGR-LO",
+      "topic_id": "human-sensing-healthcare__gesture-recognition-hand-tracking",
+      "summary": "Generates location- and orientation-independent mmWave gesture features via physics-based Doppler-time map warping and controlled diffusion, then recognizes them with a lightweight M-Net (mmGR-LO)."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11664437",
+      "title": "Millimeter-Wave Radar Non-Contact Heart Rate Monitoring: A Cross-Platform Study under Steady and Unsteady Conditions",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11664437/",
+      "publication": "IEEE Access",
+      "year": 2026,
+      "import_order": 619,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/YShane11/mmwave-heart-rate-monitoring",
+      "topic_id": "human-sensing-healthcare__vital-signs-biometric-identification",
+      "summary": "Compares non-contact mmWave heart-rate monitoring on IWR6843AOPEVM and AWR2944EVM under steady and post-exercise unsteady conditions against synchronized ECG."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11666864",
+      "title": "A New Contrastive Deep Learning Framework for Sleep Apnea Detection from Radar Signal",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11666864/",
+      "publication": "IEEE Internet of Things Journal",
+      "year": 2026,
+      "import_order": 620,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__sleep-monitoring",
+      "summary": "Detects sleep apnea from mmWave radar signals with a contrastive deep learning framework, reducing reliance on fully labeled overnight recordings."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11659569",
+      "title": "CoTGait: A Co-training-based Semi-supervised Framework for mmWave Radar Gait Recognition",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11659569/",
+      "publication": "IEEE Internet of Things Journal",
+      "year": 2026,
+      "import_order": 621,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
+      "summary": "Improves mmWave radar gait recognition with a co-training semi-supervised framework that leverages unlabeled samples for identity-aware recognition."
     }
   ]
 }
