@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 620,
-    "generated_at": "2026-08-31T03:22:45Z"
+    "total": 621,
+    "generated_at": "2026-09-05T15:32:34Z"
   },
   "taxonomy": [
     {
@@ -7595,6 +7595,18 @@
       "artifact_url": null,
       "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
       "summary": "Improves mmWave radar gait recognition with a co-training semi-supervised framework that leverages unlabeled samples for identity-aware recognition."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11669955",
+      "title": "DART-VBE: Joint Velocity-Bias Estimation and Implicit Doppler Tomography for Radar 3-D Reconstruction",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11669955/",
+      "publication": "IEEE Robotics and Automation Letters",
+      "year": 2026,
+      "import_order": 622,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Somebo1/DART-VBE-main",
+      "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
+      "summary": "Improves radar 3-D reconstruction by jointly estimating velocity bias with implicit Doppler tomography on AWR1843 mmWave."
     }
   ]
 }
