@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **31 August 2026**
+Last Updated: **5 September 2026**
 
 ## Inclusion Criteria
 
@@ -53,6 +53,10 @@ This list is curated based on the following standards, in order of priority:
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td><a href="docs/updates/2026-09-05.md">Sep 05, 2026</a></td>
+            <td align="center">+1</td>
+          </tr>
           <tr>
             <td><a href="docs/updates/2026-08-31.md">Aug 31, 2026</a></td>
             <td align="center">+6</td>
@@ -175,6 +179,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [DART-VBE: Joint Velocity-Bias Estimation and Implicit Doppler Tomography for Radar 3-D Reconstruction](https://ieeexplore.ieee.org/abstract/document/11669955/) | [Code](https://github.com/Somebo1/DART-VBE-main) | IEEE Robotics and Automation Letters | 2026 | Improves radar 3-D reconstruction by jointly estimating velocity bias with implicit Doppler tomography on AWR1843 mmWave. |
 | [SAR-IEID-Net: Integrated SAR Enhanced Imaging and Vehicle Detection of Automotive Millimeter-Wave Radar](https://ieeexplore.ieee.org/abstract/document/11667346/) | N/A | IEEE Internet of Things Journal | 2026 | Integrates automotive mmWave SAR enhanced imaging and vehicle detection in one network for high-resolution radar perception. |
 | [Recent Advances in Millimeter-Wave 4-D Imaging Radars: A Leap Toward Massive MIMO in Sensing](https://ieeexplore.ieee.org/abstract/document/11654526/) | [Code](https://github.com/Dorvash/PIEEE_4D_Imaging_mMIMO_Radar) | Proceedings of the IEEE | 2026 | Surveys recent advances in millimeter-wave 4-D imaging radar by examining massive MIMO architectures for high-resolution image-like radar sensing. |
 | [Toeplitz-structured deep unfolding network for TomoSAR 3-D reconstruction](https://www.sciencedirect.com/science/article/pii/S0924271626003862) | [Code](https://github.com/ormosia6/TomoSAR-Toe-LISTA) | ISPRS Journal of Photogrammetry and Remote Sensing | 2026 | Improves TomoSAR 3-D reconstruction by unfolding a Toeplitz-structured LISTA network for efficient sparse SAR tomographic inversion. |
