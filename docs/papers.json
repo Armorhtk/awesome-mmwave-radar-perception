@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 621,
-    "generated_at": "2026-09-05T15:32:34Z"
+    "total": 637,
+    "generated_at": "2026-09-23T16:45:43Z"
   },
   "taxonomy": [
     {
@@ -7607,6 +7607,198 @@
       "artifact_url": "https://github.com/Somebo1/DART-VBE-main",
       "topic_id": "radar-foundational-technologies__high-resolution-imaging-sar-imaging",
       "summary": "Improves radar 3-D reconstruction by jointly estimating velocity bias with implicit Doppler tomography on AWR1843 mmWave."
+    },
+    {
+      "id": "arxiv:2609.03561",
+      "title": "TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting",
+      "url": "https://arxiv.org/abs/2609.03561",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 623,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/ChiyunNoh/TRaIL-Odom",
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Tightly couples continuous-time radar–IMU–LiDAR odometry with adaptive Doppler weighting for robust ego-motion estimation."
+    },
+    {
+      "id": "arxiv:2609.08818",
+      "title": "Beyond Gait: Person Identification from Millimeter-Wave Point Clouds Across Activities of Daily Living",
+      "url": "https://arxiv.org/abs/2609.08818",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 624,
+      "artifact_label": "Dataset",
+      "artifact_url": "https://github.com/OwenHan10/mm-ADL",
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
+      "summary": "Identifies people from mmWave point clouds across activities of daily living; releases the mm-ADL dataset and scripts."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11684981",
+      "title": "Radar-Coordinate-Modulated State-Space Modeling for mmWave Radar Perception",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11684981/",
+      "publication": "IEEE",
+      "year": 2026,
+      "import_order": 625,
+      "artifact_label": "Code",
+      "artifact_url": "https://github.com/Hl-Chen9/PMMamba",
+      "topic_id": "radar-foundational-technologies__foundational-models-representation-learning-about-radar-signals",
+      "summary": "Radar-coordinate-modulated state-space (Mamba) modeling for mmWave perception, with open RADDet fine-tune and evaluation code (PMMamba)."
+    },
+    {
+      "id": "arxiv:2609.11894",
+      "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
+      "url": "https://arxiv.org/abs/2609.11894",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 626,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__data-synthesis-enhancement-simulation",
+      "summary": "Complex-valued 3D point splatting for physically faithful mmWave radar novel view synthesis."
+    },
+    {
+      "id": "arxiv:2609.10756",
+      "title": "GRADE: Single-Frame Generative Radar Depth Estimation Under Visual Degradation",
+      "url": "https://arxiv.org/abs/2609.10756",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 627,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Grounds a generative prior in single-frame 4D radar spectra to estimate metric depth under visual degradation."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11675980",
+      "title": "KCTF-Net: Kinematic Compensation Temporal Fusion for 4D Radar 3D Object Detection",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11675980/",
+      "publication": "IEEE Robotics and Automation Letters",
+      "year": 2026,
+      "import_order": 628,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Kinematic compensation with temporal fusion improves 4D radar 3D object detection."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11672878",
+      "title": "RawRadarFusion: A Raw mmWave Radar Data-Fused Multimodal Object Detection Framework for Autonomous Driving",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11672878/",
+      "publication": "IEEE Transactions on Radar Systems",
+      "year": 2026,
+      "import_order": 629,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "Fuses raw mmWave radar data in a multimodal object detection framework for autonomous driving."
+    },
+    {
+      "id": "arxiv:2609.02560",
+      "title": "Stereo 4D Radar for 3D Object Detection: Integrating Geometric Alignment and Absolute Velocity Estimation",
+      "url": "https://arxiv.org/abs/2609.02560",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 630,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__3d-object-detection-classification",
+      "summary": "Stereo 4D radar 3D detection with geometric alignment and absolute velocity estimation."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11683949",
+      "title": "Physics-Grounded Monocular Video-to-Radar Synthesis for Cross-Modal Data Augmentation",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11683949/",
+      "publication": "IEEE Sensors Letters",
+      "year": 2026,
+      "import_order": 631,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__data-synthesis-enhancement-simulation",
+      "summary": "Physics-grounded monocular video-to-radar synthesis for cross-modal data augmentation."
+    },
+    {
+      "id": "arxiv:2609.08346",
+      "title": "Segment Any Motion with Radar: Robust Multimodal Moving-Object Segmentation and Tracking",
+      "url": "https://arxiv.org/abs/2609.08346",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 632,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__semantic-instance-segmentation",
+      "summary": "Multimodal moving-object segmentation and tracking that leverages radar for robustness."
+    },
+    {
+      "id": "url:ieeexplore-ieee-org-abstract-document-11683363",
+      "title": "PGA-TCN: Physics-Guided Attention and Temporal Convolutional Network-Based Millimeter-Wave Radar Ghost Removal",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11683363/",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems",
+      "year": 2026,
+      "import_order": 633,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__signal-processing-parameter-estimation",
+      "summary": "Physics-guided attention and TCN remove ghost targets from mmWave radar detections."
+    },
+    {
+      "id": "url:www-eurasip-org-proceedings-eusipco-eusipco2026-pdfs-0001187-pdf",
+      "title": "Temporal-Consistent Radar Range–Azimuth Maps Generation with Video Diffusion Transformer",
+      "url": "https://www.eurasip.org/Proceedings/Eusipco/Eusipco2026/pdfs/0001187.pdf",
+      "publication": "EUSIPCO",
+      "year": 2026,
+      "import_order": 634,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "radar-foundational-technologies__data-synthesis-enhancement-simulation",
+      "summary": "Generates temporally consistent radar range–azimuth maps with a video diffusion transformer."
+    },
+    {
+      "id": "arxiv:2609.05325",
+      "title": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "url": "https://arxiv.org/abs/2609.05325",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 635,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__radar-odometry-ego-motion-estimation",
+      "summary": "Enhances LiDAR–inertial–visual–wheel odometry with failure-immune mmWave radar for degraded environments."
+    },
+    {
+      "id": "arxiv:2609.14619",
+      "title": "ESAFusion: LiDAR–4-D Radar Fusion via Local Geometric Complementation and Multiscale Adaptive Interaction for 3-D Object Detection",
+      "url": "https://arxiv.org/abs/2609.14619",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 636,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "autonomous-driving-drone__sensor-fusion-techniques",
+      "summary": "LiDAR–4D radar fusion with local geometric complementation and multiscale adaptive interaction for 3D detection."
+    },
+    {
+      "id": "doi:10.1007/s10762-026-01174-9",
+      "title": "WDMS-Net: A Wavelet Downsampling and Multi-Scale Convolution Network for Step-Wise mmWave Gait Recognition",
+      "url": "https://link.springer.com/article/10.1007/s10762-026-01174-9",
+      "publication": "Journal of Infrared, Millimeter, and Terahertz Waves",
+      "year": 2026,
+      "import_order": 637,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
+      "summary": "Wavelet downsampling and multi-scale convolution network for step-wise mmWave gait recognition."
+    },
+    {
+      "id": "arxiv:2609.11601",
+      "title": "MMGait: Benchmarking and Unifying Gait Recognition across Heterogeneous Modalities",
+      "url": "https://arxiv.org/abs/2609.11601",
+      "publication": "arXiv",
+      "year": 2026,
+      "import_order": 638,
+      "artifact_label": "N/A",
+      "artifact_url": null,
+      "topic_id": "human-sensing-healthcare__identity-recognition-person-re-identification",
+      "summary": "Large-scale multi-sensor gait benchmark aligning visible, IR, depth, LiDAR, and radar (distinct from the earlier MMGait arXiv:2604.15979 entry)."
     }
   ]
 }
