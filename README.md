@@ -18,7 +18,7 @@ Author: Armor
 
 Contact: htkstudy@163.com
 
-Last Updated: **5 September 2026**
+Last Updated: **24 September 2026**
 
 ## Inclusion Criteria
 
@@ -53,6 +53,10 @@ This list is curated based on the following standards, in order of priority:
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td><a href="docs/updates/2026-09-24.md">Sep 24, 2026</a></td>
+            <td align="center">+16</td>
+          </tr>
           <tr>
             <td><a href="docs/updates/2026-09-05.md">Sep 05, 2026</a></td>
             <td align="center">+1</td>
@@ -148,6 +152,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [PGA-TCN: Physics-Guided Attention and Temporal Convolutional Network-Based Millimeter-Wave Radar Ghost Removal](https://ieeexplore.ieee.org/abstract/document/11683363/) | N/A | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Physics-guided attention and TCN remove ghost targets from mmWave radar detections. |
 | [MC-CoDA: Mask-guided Cascade attention learning for robust single-snapshot DOA estimation under sensor failures](https://www.sciencedirect.com/science/article/pii/S0263224126026357) | N/A | Measurement | 2026 | Estimates single-snapshot DOA under random sensor failures with mask-guided cascade attention that propagates array health through the pipeline, targeting automotive FMCW radar. |
 | [CMxUNet: An Efficient Framework for Wideband Interference Mitigation in Automotive FMCW Radar Systems](https://ieeexplore.ieee.org/abstract/document/11661623/) | [Code](https://github.com/wxyability/inter-radar-interference-mitigation-videos) | IEEE Transactions on Aerospace and Electronic Systems | 2026 | Mitigates wideband mutual interference in automotive FMCW radar by an efficient CMxUNet framework for robust ADAS perception. |
 | [Dense Soft Weighting for Radar Ego-Velocity Estimation](https://arxiv.org/abs/2607.26980) | 无 | arXiv | 2026 | Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable. |
@@ -213,6 +218,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [3D Point Splatting for mmWave Radar Novel View Synthesis](https://arxiv.org/abs/2609.11894) | N/A | arXiv | 2026 | Complex-valued 3D point splatting for physically faithful mmWave radar novel view synthesis. |
+| [Physics-Grounded Monocular Video-to-Radar Synthesis for Cross-Modal Data Augmentation](https://ieeexplore.ieee.org/abstract/document/11683949/) | N/A | IEEE Sensors Letters | 2026 | Physics-grounded monocular video-to-radar synthesis for cross-modal data augmentation. |
+| [Temporal-Consistent Radar Range–Azimuth Maps Generation with Video Diffusion Transformer](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2026/pdfs/0001187.pdf) | N/A | EUSIPCO | 2026 | Generates temporally consistent radar range–azimuth maps with a video diffusion transformer. |
 | [Diff4RadBEV: Conditional Diffusion for 4D Radar BEV Enhancement](https://ieeexplore.ieee.org/abstract/document/11662380/) | N/A | IEEE Robotics and Automation Letters | 2026 | Densifies sparse and noisy 4D mmWave radar BEV maps with a conditional diffusion model to support downstream perception. |
 | [High-Fidelity Near-Field mmWave MIMO Radar Simulation via Polarized Path Tracing](https://ieeexplore.ieee.org/abstract/document/11659821/) | [Code](https://github.com/nihofm/polarized-radar-pathtracing) | IEEE Journal of Microwaves | 2026 | Improves near-field mmWave MIMO radar simulation by adding polarized electromagnetic path tracing for high-fidelity synthetic radar data. |
 | [LiDAR-to-4D Radar Synthesis for Building Large-Scale Tensor Datasets](https://openaccess.thecvf.com/content/CVPR2026F/papers/Jung_LiDAR-to-4D_Radar_Synthesis_for_Building_Large-Scale_Tensor_Datasets_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Improves 4D radar perception by synthesizing dense radar tensors from LiDAR data for scalable autonomous-driving dataset expansion. |
@@ -240,6 +248,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Radar-Coordinate-Modulated State-Space Modeling for mmWave Radar Perception](https://ieeexplore.ieee.org/abstract/document/11684981/) | [Code](https://github.com/Hl-Chen9/PMMamba) | IEEE | 2026 | Radar-coordinate-modulated state-space (Mamba) modeling for mmWave perception, with open RADDet fine-tune and evaluation code (PMMamba). |
 | [Can Language Models Understand mmWave Data? Benchmarking Large Language Models for mmWave Radar-Based Human Understanding](https://openaccess.thecvf.com/content/CVPR2026F/papers/Shin_Can_Language_Models_Understand_mmWave_Data_Benchmarking_Large_Language_Models_CVPRF_2026_paper.pdf) | N/A | CVPR Findings | 2026 | Benchmarks large language models on mmWave radar-based human understanding to evaluate multimodal reasoning over radar data. |
 | [Frequency Matching in Spiking Neural Networks for mmWave Sensing](https://arxiv.org/abs/2605.09983) | N/A | ICML | 2026 | Improves efficient mmWave sensing by matching spiking neural network dynamics to signal frequency structure for better accuracy and lower energy use. |
 | [Adaptive 3D-RoPE: Physics-Aligned Rotary Positional Encoding for Wireless Foundation Models](https://arxiv.org/pdf/2605.00968) | N/A | arxiv.org | 2026 | Improves wireless foundation models by adapting 3D rotary positional encoding to align temporal, spatial, and frequency structure for physics-aware RF representations. |
@@ -272,6 +281,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [GRADE: Single-Frame Generative Radar Depth Estimation Under Visual Degradation](https://arxiv.org/abs/2609.10756) | N/A | arXiv | 2026 | Grounds a generative prior in single-frame 4D radar spectra to estimate metric depth under visual degradation. |
+| [Stereo 4D Radar for 3D Object Detection: Integrating Geometric Alignment and Absolute Velocity Estimation](https://arxiv.org/abs/2609.02560) | N/A | arXiv | 2026 | Stereo 4D radar 3D detection with geometric alignment and absolute velocity estimation. |
+| [KCTF-Net: Kinematic Compensation Temporal Fusion for 4D Radar 3D Object Detection](https://ieeexplore.ieee.org/abstract/document/11675980/) | N/A | IEEE Robotics and Automation Letters | 2026 | Kinematic compensation with temporal fusion improves 4D radar 3D object detection. |
 | [SSRaDNet: An Empirical Study of Radar Object Detection Evaluation and Deployment Trade-Offs](https://www.preprints.org/frontend/manuscript/8ded1810c3a5967d11eab3d464479e47/download_pub) | [Code](https://github.com/IqbalBan/SSRadNet) | Preprints.org | 2026 | Studies radar object detection evaluation and deployment trade-offs by benchmarking FMCW radar detectors for reproducible automotive perception. |
 | [SDCM: Simulated Densifying and Compensatory Modeling Fusion for Radar-Vision 3-D Object Detection](https://ieeexplore.ieee.org/abstract/document/11641612/) | [Code](https://github.com/1BackStreet9/SDCM) | IEEE Internet of Things Journal | 2026 | 4-D radar-vision 3-D object detection is a vital IoT-enabled sensing approach for intelligent transportation systems. |
 | [CFAR++: Region-Aware Noise Thresholding for Safe Radar Detections](https://ieeexplore.ieee.org/abstract/document/11624058/) | [Code](https://github.com/JAP3TH/cfar_plusplus) | 2026 IEEE Intelligent Vehicles Symposium (IV) | 2026 | Signal processing methods, such as Constant False Alarm Rate for radar object detection, have been enhanced but have rarely been considered in the context of an automated function. |
@@ -341,6 +353,7 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [Segment Any Motion with Radar: Robust Multimodal Moving-Object Segmentation and Tracking](https://arxiv.org/abs/2609.08346) | N/A | arXiv | 2026 | Multimodal moving-object segmentation and tracking that leverages radar for robustness. |
 | [Cylinderfusion: Self-Adaptive Cylindrical 3+1D Radar-Camera Fusion for Waterway Point Cloud Segmentation](https://ieeexplore.ieee.org/abstract/document/11461037/) | [Code](https://github.com/CSPaulia/cylinderfusion) | ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) | 2026 | Point cloud segmentation is crucial for unmanned vehicle perception on water, and radar-camera fusion further improves its performance. |
 | [MKFusion: Multi-modal knowledge distillation for 4D radar point cloud segmentation in autonomous driving](https://www.sciencedirect.com/science/article/abs/pii/S0950705126003564) | [Code](https://github.com/guineapig5151/mkfusion) | Knowledge-Based Systems | 2026 | Improves 4D radar point cloud segmentation by combining radar-camera fusion and knowledge distillation to learn sparse multi-modal representations for autonomous driving. |
 | [Diffusion-Based Reconstruction of 3D Occupancy Maps from 4D Radar Tensors](https://ieeexplore.ieee.org/abstract/document/11372762) | [Code](https://github.com/MoYuGit/Diffusion_radar_reconstruction) | IEEE Internet of Things Journal | 2026 | Addresses the challenges of reconstructing 3D occupancy maps from 4D radar tensors by proposing a diffusion-based framework.  It integrates doppler-aware dimensionality reduction, hierarchical pillar-based representation, and a conditional diffusion model, significantly improving IoU to over 30% and reducing Chamfer distance by 4× with ~50ms latency. |
@@ -378,6 +391,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement](https://arxiv.org/abs/2609.05325) | N/A | arXiv | 2026 | Enhances LiDAR–inertial–visual–wheel odometry with failure-immune mmWave radar for degraded environments. |
+| [TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting](https://arxiv.org/abs/2609.03561) | [Code](https://github.com/ChiyunNoh/TRaIL-Odom) | arXiv | 2026 | Tightly couples continuous-time radar–IMU–LiDAR odometry with adaptive Doppler weighting for robust ego-motion estimation. |
 | [RaDiVe: Robust 4D Radar Odometry with Distance-Bounded NDT and Velocity-Discrepancy Point Uncertainty](https://arxiv.org/abs/2607.28045) | [Code](https://github.com/to-be-open-sourced) | arXiv | 2026 | Recent advances in 4D radar enable robust perception in adverse weather; however, the inherent sparsity, noise, and limited positional precision of radar point clouds pose significant challenges for registration-based odometry. |
 | [Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.70264) | [Code](https://github.com/MoYuGit/Deep_Radar_Odometry) | onlinelibrary.wiley.com | 2026 | Metadata could not be resolved automatically; review the source paper before importing: Robust 4D Radar Odometry With Heatmap Feature Encoding and Spatiotemporal Attention Network. |
 | [DopRIO: Doppler strengthened tightly-coupled 4D millimeter-wave radar–inertial odometry](https://www.sciencedirect.com/science/article/pii/S0921889026002708) | N/A | Robotics and Autonomous Systems | 2026 | Improves 4D mmWave radar-inertial odometry by tightly coupling Doppler measurements with inertial sensing for robust ego-motion estimation. |
@@ -464,6 +479,8 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [ESAFusion: LiDAR–4-D Radar Fusion via Local Geometric Complementation and Multiscale Adaptive Interaction for 3-D Object Detection](https://arxiv.org/abs/2609.14619) | N/A | arXiv | 2026 | LiDAR–4D radar fusion with local geometric complementation and multiscale adaptive interaction for 3D detection. |
+| [RawRadarFusion: A Raw mmWave Radar Data-Fused Multimodal Object Detection Framework for Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11672878/) | N/A | IEEE Transactions on Radar Systems | 2026 | Fuses raw mmWave radar data in a multimodal object detection framework for autonomous driving. |
 | [Vehicle Classification Using FMCW Cloud Point Radar Sensors](https://ieeexplore.ieee.org/abstract/document/11626425/) | 无 | 2026 15th International Conference on Modern Circuits and Systems Technologies (MOCAST) | 2026 | Target classification using radar sensors offers a reliable method under challenging environmental conditions, including poor visibility and absence of light. |
 | [Structural Knowledge Distillation for Aligning 4D Radar with Vision–Language Models](https://ieeexplore.ieee.org/abstract/document/11623924/) | [Code](https://github.com/kaist-avelab/K-Radar) | 2026 IEEE Intelligent Vehicles Symposium (IV) | 2026 | Vision language models (VLMs) are demonstrating impressive generalizable capabilities in autonomous driving. |
 | [Millimeter-Wave Automotive Radar Standards, Deployments, Datasets, and Security: A Review](https://ieeexplore.ieee.org/abstract/document/11623380/) | [Code](https://github.com/lrlrlrlr/FMCWRadarDeploymentSurvey) | IEEE Sensors Journal | 2026 | Millimetre-wave automotive radar is becoming a key sensing technology for modern cars, because it can see in poor weather, measure speed directly and distinguish objects at close distances. |
@@ -775,6 +792,9 @@ This list is curated based on the following standards, in order of priority:
 
 | Title | Code | Publication | Date | Summary |
 | :--- | :---: | :---: | :---: | :--- |
+| [MMGait: Benchmarking and Unifying Gait Recognition across Heterogeneous Modalities](https://arxiv.org/abs/2609.11601) | N/A | arXiv | 2026 | Large-scale multi-sensor gait benchmark aligning visible, IR, depth, LiDAR, and radar (distinct from the earlier MMGait arXiv:2604.15979 entry). |
+| [Beyond Gait: Person Identification from Millimeter-Wave Point Clouds Across Activities of Daily Living](https://arxiv.org/abs/2609.08818) | [Dataset](https://github.com/OwenHan10/mm-ADL) | arXiv | 2026 | Identifies people from mmWave point clouds across activities of daily living; releases the mm-ADL dataset and scripts. |
+| [WDMS-Net: A Wavelet Downsampling and Multi-Scale Convolution Network for Step-Wise mmWave Gait Recognition](https://link.springer.com/article/10.1007/s10762-026-01174-9) | N/A | Journal of Infrared, Millimeter, and Terahertz Waves | 2026 | Wavelet downsampling and multi-scale convolution network for step-wise mmWave gait recognition. |
 | [CoTGait: A Co-training-based Semi-supervised Framework for mmWave Radar Gait Recognition](https://ieeexplore.ieee.org/abstract/document/11659569/) | N/A | IEEE Internet of Things Journal | 2026 | Improves mmWave radar gait recognition with a co-training semi-supervised framework that leverages unlabeled samples for identity-aware recognition. |
 | [mmWave Radar-Based Unsupervised Person ReID via Multi-Level Mutual Signal Contrastive Learning](https://ieeexplore.ieee.org/abstract/document/11606462/) | [Code](https://github.com/onlinehuazai/mmReID) | IEEE Transactions on Mobile Computing | 2026 | Proposes a multi-level mutual signal contrastive learning framework for unsupervised person re-identification with mmWave radar, avoiding the low-light and privacy limitations of camera-based ReID. |
 | [Unsupervised Domain Adaptation Gait Recognition Based on Consistently Segmented mmWave Samples](https://ieeexplore.ieee.org/abstract/document/11526751/) | N/A | IEEE Transactions on Cognitive Communications and Networking | 2026 | Improves mmWave gait recognition by using consistently segmented samples for unsupervised domain adaptation across sensing domains. |

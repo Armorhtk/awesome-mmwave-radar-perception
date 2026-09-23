@@ -4,6 +4,7 @@ Browse recent README update briefs generated during publication.
 
 | Date | Added Papers | Topics | Brief |
 | :--- | :---: | :--- | :--- |
+| [2026-09-24](2026-09-24.md) | 16 | Signal Processing & Parameter Estimation, Data Synthesis, Enhancement & Simulation, Foundational Models & Representation Learning About Radar Signals, 3D Object Detection & Classification, Semantic & Instance Segmentation, Radar Odometry & Ego-Motion Estimation, Sensor Fusion Techniques, Identity Recognition & Person Re-identification | Added 16 papers across 8 topics. |
 | [2026-09-05](2026-09-05.md) | 1 | High-Resolution Imaging & SAR Imaging | Added 1 paper across 1 topic. |
 | [2026-08-31](2026-08-31.md) | 6 | Signal Processing & Parameter Estimation, Human Activity Recognition (HAR), Gesture Recognition & Hand Tracking, Vital Signs & Biometric Identification, Sleep Monitoring, Identity Recognition & Person Re-identification | Added 6 papers across 6 topics. |
 | [2026-08-30](2026-08-30.md) | 3 | High-Resolution Imaging & SAR Imaging, Data Synthesis, Enhancement & Simulation, Gesture Recognition & Hand Tracking | Added 3 papers across 3 topics. |
