@@ -718,6 +718,27 @@
         padding-left: 38px;
       }
     }
+
+    :root { --ranking-bg: #eaf4fc; --ranking-ink: #226eae; --ranking-line: #9ac8e8; }
+    .paper-title { overflow-wrap: anywhere; }
+    .paper-rankings { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+    .ranking-tag { display: inline-flex; align-items: center; padding: 2px 9px; border-radius: 999px; background: var(--ranking-bg); color: var(--ranking-ink); font-family: Arial, "Microsoft YaHei", sans-serif; font-size: 12px; font-weight: 600; line-height: 1.6; white-space: nowrap; }
+    .ranking-tag.is-empty { background: var(--surface-soft); color: var(--muted); font-weight: 400; }
+    .ranking-details { margin: 14px 0; padding-top: 12px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    .ranking-detail { margin: 6px 0; overflow-wrap: anywhere; }
+    .ranking-detail strong { color: var(--ink); font-weight: 500; }
+    .ranking-source { margin-left: 8px; color: var(--accent-strong); }
+    .ranking-note { color: var(--faint); font-size: 12px; margin-top: 8px; }
+    .ranking-filter-group { display: grid; grid-template-columns: 48px minmax(0, 1fr); align-items: center; gap: 8px; margin-top: 9px; }
+    .ranking-filter-label { color: var(--muted); font-size: 12px; }
+    .ranking-options { display: flex; flex-wrap: wrap; gap: 5px; }
+    .ranking-option { min-height: 30px; min-width: 36px; padding: 3px 8px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); font-family: Arial, "Microsoft YaHei", sans-serif; font-size: 12px; cursor: pointer; }
+    .ranking-option:hover { border-color: var(--ranking-line); color: var(--ranking-ink); }
+    .ranking-option[aria-pressed="true"] { background: var(--ranking-bg); border-color: var(--ranking-line); color: var(--ranking-ink); font-weight: 600; }
+    .ranking-option:focus-visible { outline: 2px solid var(--ranking-ink); outline-offset: 2px; }
+    @media (max-width: 760px) {
+      .site-header { position: static; }
+    }
   </style>
 </head>
 <body>
@@ -775,6 +796,10 @@
       <aside class="sidebar" aria-label="Filters">
         <div class="sidebar-inner">
           <div class="filter-section">
+            <div class="filter-title">Ranking</div>
+            <div id="ranking-filters"></div>
+          </div>
+          <div class="filter-section">
             <div class="filter-title">Domain</div>
             <div id="domain-filters"></div>
           </div>
@@ -823,6 +848,7 @@
             <span><span class="result-count" id="result-count">0</span> papers</span>
             <div class="active-filters" id="active-filters"></div>
           </div>
+          <div class="ranking-note" id="ranking-editions"></div>
         </div>
 
         <div id="loading-state" class="state">
@@ -850,78 +876,73 @@
       years: new Set(),
       artifacts: new Set(),
       venues: new Set(),
+      rankings: new Map(),
     };
 
-    const TOP_CONF_KEYWORDS = [
-      "CVPR", "NEURIPS", "ICCV", "ICRA", "IROS", "MOBICOM", "MOBISYS", "SENSYS",
-      "AAAI", "ECCV", "ICASSP", "ICLR", "NSDI", "SIGCOMM", "IMC", "NDSS", "CCS",
-      "USENIX", "INFOCOM", "CHI", "KDD", "WWW", "RADARCONF", "ASILOMAR", "MEDCOMNET",
-      "EGUGA", "BODYNETS", "ITSC", "IV"
-    ];
+    const RANK_LABELS = { ccf: "CCF", cas: "中科院", jcr: "JCR", xr: "新锐" };
+    const RANK_VALUES = { ccf: ["A", "B", "C"], cas: ["1", "2", "3", "4"], jcr: ["Q1", "Q2", "Q3", "Q4"], xr: ["1", "2", "3", "4"] };
+    let RANK_EDITIONS = {};
 
-    const VENUE_SHORT = {
-      "IEEE Transactions on Mobile Computing": "IEEE TMC",
-      "IEEE Internet of Things Journal": "IEEE IoT J",
-      "IEEE Robotics and Automation Letters": "IEEE RA-L",
-      "IEEE Transactions on Radar Systems": "IEEE TRS",
-      "IEEE Transactions on Aerospace and Electronic Systems": "IEEE TAES",
-      "IEEE Transactions on Instrumentation and Measurement": "IEEE TIM",
-      "IEEE Sensors Journal": "IEEE Sensors J",
-      "IEEE Transactions on Intelligent Transportation Systems": "IEEE TITS",
-      "IEEE Transactions on Circuits and Systems for Video Technology": "IEEE TCSVT",
-      "IEEE Transactions on Wireless Communications": "IEEE TWC",
-      "IEEE Transactions on Geoscience and Remote Sensing": "IEEE TGRS",
-      "IEEE Transactions on Antennas and Propagation": "IEEE TAP",
-      "IEEE Transactions on Vehicular Technology": "IEEE TVT",
-      "IEEE Transactions on Pattern Analysis and Machine Intelligence": "IEEE TPAMI",
-      "Nature Communications Engineering": "Nat. Comm. Eng.",
-      "Nature Communications": "Nature Comm.",
-      "Information Fusion": "Info. Fusion",
-      "Scientific Reports": "Sci. Reports",
-      "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies": "IMWUT",
-      "ACM Transactions on Sensor Networks": "ACM TOSN",
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)": "CVPR",
-      "Conference on Neural Information Processing Systems (NeurIPS)": "NeurIPS",
-      "IEEE International Conference on Computer Vision (ICCV)": "ICCV",
-      "IEEE International Conference on Robotics and Automation (ICRA)": "ICRA",
-      "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)": "IROS",
-      "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)": "ICASSP",
-      "ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)": "MobiSys",
-      "Proceedings of Machine Learning Research (PMLR)": "PMLR",
-      "Proceedings of the AAAI Conference on Artificial Intelligence": "AAAI",
-      "ACM International Conference on Multimedia": "ACM MM",
-      "IEEE International Conference on Intelligent Transportation Systems (ITSC)": "ITSC",
-      "IEEE Intelligent Vehicles Symposium (IV)": "IEEE IV",
-      "ACM International Conference on Mobile Computing and Networking (MobiCom)": "MobiCom",
-      "ACM Conference on Embedded Networked Sensor Systems (SenSys)": "SenSys",
-      "Remote Sensing": "Remote Sens.",
-      "IEEE Geoscience and Remote Sensing Magazine": "IEEE GRSM",
-      "Journal of Radars": "J. Radars",
-      "Data in Brief": "Data Brief",
-      "GetMobile: Mobile Computing and Communications": "GetMobile",
-      "Autonomous Robots": "Auton. Robots"
-    };
+    function rankText(scheme, value) {
+      return ["cas", "xr"].includes(scheme) ? value + "区" : value;
+    }
 
-    const CONF_SHORT = {
-      CVPR: "CVPR",
-      NEURIPS: "NeurIPS",
-      ICCV: "ICCV",
-      ICRA: "ICRA",
-      IROS: "IROS",
-      MOBICOM: "MobiCom",
-      MOBISYS: "MobiSys",
-      SENSYS: "SenSys",
-      AAAI: "AAAI",
-      ECCV: "ECCV",
-      ICASSP: "ICASSP",
-      ICLR: "ICLR",
-      NSDI: "NSDI",
-      SIGCOMM: "SIGCOMM",
-      INFOCOM: "INFOCOM",
-      RADARCONF: "RadarConf",
-      ASILOMAR: "Asilomar",
-      ITSC: "ITSC"
-    };
+    function rankingSummary(paper) {
+      const parts = Object.keys(RANK_LABELS).filter((scheme) => paper.rankings?.[scheme])
+        .map((scheme) => `<span class="ranking-tag">${escapeHtml(RANK_LABELS[scheme] + " " + rankText(scheme, paper.rankings[scheme].value))}</span>`);
+      return parts.length ? parts.join("") : '<span class="ranking-tag is-empty">无标签</span>';
+    }
+
+    function rankingDetails(paper) {
+      return `<div class="ranking-details">${Object.keys(RANK_LABELS).map((scheme) => {
+        const rank = paper.rankings?.[scheme];
+        const edition = rank?.edition || RANK_EDITIONS[scheme] || "";
+        const label = `${RANK_LABELS[scheme]} ${edition}${scheme === "cas" ? " · 大类" : ""}`;
+        if (!rank) return `<div class="ranking-detail"><strong>${escapeHtml(label)}</strong> · 无标签</div>`;
+        const categories = (rank.categories || []).map((item) => `${item.category}: ${rankText(scheme, item.rank)}`).join("; ");
+        const subjects = (rank.subject_categories || []).map((item) => `${item.category}: ${item.rank}`).join("; ");
+        return `<div class="ranking-detail"><strong>${escapeHtml(label)}</strong> · ${escapeHtml(rankText(scheme, rank.value))}
+          ${categories ? `<div>${escapeHtml(categories)}</div>` : ""}
+          ${subjects ? `<div>${escapeHtml(subjects)}</div>` : ""}
+          <a class="ranking-source" href="${escapeHtml(rank.source_url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">ShowJCR source</a></div>`;
+      }).join("")}</div>`;
+    }
+
+    function buildRankingFilters() {
+      document.getElementById("ranking-filters").innerHTML = Object.entries(RANK_VALUES).map(([scheme, values]) => `
+        <div class="ranking-filter-group" role="group" aria-label="${RANK_LABELS[scheme]}">
+          <span class="ranking-filter-label">${RANK_LABELS[scheme]}</span>
+          <div class="ranking-options"><button type="button" class="ranking-option" data-ranking-all="${scheme}" aria-label="${RANK_LABELS[scheme]} select all" aria-pressed="false" onclick="toggleRankingGroup('${scheme}')">All</button>${values.map((value) => `<button type="button" class="ranking-option" data-ranking-scheme="${scheme}" data-ranking-value="${value}" aria-label="${RANK_LABELS[scheme]} ${rankText(scheme, value)}" aria-pressed="false" onclick="toggleRanking('${scheme}', '${value}')">${rankText(scheme, value)}</button>`).join("")}</div>
+        </div>`).join("");
+    }
+
+    function allRankingGradesSelected(scheme) {
+      return RANK_VALUES[scheme].every((value) => state.rankings.get(scheme)?.has(value));
+    }
+
+    function toggleRankingGroup(scheme) {
+      if (allRankingGradesSelected(scheme)) state.rankings.delete(scheme);
+      else state.rankings.set(scheme, new Set(RANK_VALUES[scheme]));
+      render();
+    }
+
+    function toggleRanking(scheme, value) {
+      const selected = state.rankings.get(scheme) || new Set();
+      if (selected.has(value)) selected.delete(value);
+      else selected.add(value);
+      if (selected.size) state.rankings.set(scheme, selected);
+      else state.rankings.delete(scheme);
+      render();
+    }
+
+    function matchesRankings(paper, selections) {
+      for (const [scheme, grades] of selections) {
+        if (!grades.size) continue;
+        const rank = paper.rankings?.[scheme];
+        if (!rank || !(rank.categories || []).some((item) => grades.has(item.rank))) return false;
+      }
+      return true;
+    }
 
     function escapeHtml(value) {
       return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -947,26 +968,8 @@
       }
     }
 
-    function venueType(pub) {
-      if (!pub) return "conference";
-      const lower = pub.toLowerCase();
-      if (lower.includes("arxiv")) return "arxiv";
-      const upper = pub.toUpperCase();
-      if (TOP_CONF_KEYWORDS.some((key) => upper.includes(key))) return "conference";
-      if (["TRANSACTION", "JOURNAL", "LETTERS", "NATURE", "SCIENCE", "PATTERN",
-           "REMOTE SENSING", "SCIENTIFIC", "SENSORS", "ELECTRONICS", "INFORMATION FUSION",
-           "ICT EXPRESS"].some((key) => upper.includes(key))) return "journal";
-      return "conference";
-    }
-
-    function shortVenue(pub) {
-      if (!pub) return "-";
-      if (VENUE_SHORT[pub]) return VENUE_SHORT[pub];
-      const upper = pub.toUpperCase();
-      for (const [key, label] of Object.entries(CONF_SHORT)) {
-        if (new RegExp(`\\b${key}\\b`).test(upper)) return label;
-      }
-      return pub;
+    function venueType(paper) {
+      return paper.venue_type === "preprint" ? "arxiv" : (paper.venue_type || "unknown");
     }
 
     function paperYear(paper) {
@@ -990,7 +993,7 @@
         if (key === "domain") return paper.topic_id === value;
         if (key === "year") return paper.year === value;
         if (key === "artifact") return paper.artifact_label === value;
-        if (key === "venue") return venueType(paper.publication) === value;
+        if (key === "venue") return venueType(paper) === value;
         return false;
       }).length;
     }
@@ -1099,10 +1102,11 @@
         const title = String(paper.title || "").toLowerCase();
         const summary = String(paper.summary || "").toLowerCase();
         if (query && !title.includes(query) && !summary.includes(query)) return false;
+        if (!matchesRankings(paper, state.rankings)) return false;
         if (state.domains.size && !state.domains.has(paper.topic_id)) return false;
         if (state.years.size && !state.years.has(paper.year)) return false;
         if (state.artifacts.size && !state.artifacts.has(paper.artifact_label)) return false;
-        if (state.venues.size && !state.venues.has(venueType(paper.publication))) return false;
+        if (state.venues.size && !state.venues.has(venueType(paper))) return false;
         return true;
       });
     }
@@ -1141,6 +1145,12 @@
         chipEl.appendChild(chip);
       };
 
+      Object.entries(RANK_VALUES).forEach(([scheme, values]) => {
+        if (allRankingGradesSelected(scheme)) addChip(`${RANK_LABELS[scheme]} All`, () => toggleRankingGroup(scheme));
+        else values.forEach((value) => {
+          if (state.rankings.get(scheme)?.has(value)) addChip(`${RANK_LABELS[scheme]} ${rankText(scheme, value)}`, () => toggleRanking(scheme, value));
+        });
+      });
       if (state.search) addChip(`"${state.search}"`, clearSearch);
       state.domains.forEach((topicId) => addChip(TOPIC_META[topicId]?.label || topicId, () => {
         state.domains.delete(topicId);
@@ -1172,6 +1182,15 @@
       document.getElementById("result-count").textContent = filtered.length;
       document.getElementById("no-results").style.display = filtered.length ? "none" : "flex";
       renderActiveFilters();
+      document.querySelectorAll(".ranking-option[data-ranking-scheme]").forEach((button) => {
+        button.setAttribute("aria-pressed", String(Boolean(state.rankings.get(button.dataset.rankingScheme)?.has(button.dataset.rankingValue))));
+      });
+      document.querySelectorAll("[data-ranking-all]").forEach((button) => {
+        const scheme = button.dataset.rankingAll;
+        const allSelected = allRankingGradesSelected(scheme);
+        button.setAttribute("aria-pressed", String(allSelected));
+        button.setAttribute("aria-label", `${RANK_LABELS[scheme]} ${allSelected ? "clear all" : "select all"}`);
+      });
 
       if (!filtered.length) {
         listEl.innerHTML = "";
@@ -1182,13 +1201,14 @@
         const meta = TOPIC_META[paper.topic_id];
         const topic = meta ? (meta.parent ? `${meta.parent} / ${meta.label}` : meta.label) : paper.topic_id;
         const isExpanded = expanded.has(paper.id);
-        const venue = shortVenue(paper.publication);
+        const venue = paper.venue_short_name || paper.publication;
         return `<article class="paper-row${isExpanded ? " expanded" : ""}" data-id="${escapeHtml(paper.id)}" onclick="toggleRow(this)">
           <div class="paper-header">
             <div class="paper-index">${String(index + 1).padStart(2, "0")}</div>
             <div class="paper-main">
               <h2 class="paper-title"><a href="${escapeHtml(paper.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(paper.title)}</a></h2>
               <div class="paper-topic-line">${escapeHtml(topic)}</div>
+              <div class="paper-rankings">${rankingSummary(paper)}</div>
             </div>
             <div class="paper-meta">
               <span class="badge" title="${escapeHtml(paper.publication)}">${escapeHtml(venue)}</span>
@@ -1198,6 +1218,7 @@
           </div>
           <div class="paper-body">
             <p class="paper-summary">${escapeHtml(paper.summary)}</p>
+            ${rankingDetails(paper)}
             <div class="paper-footer">
               <a class="paper-link" href="${escapeHtml(paper.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Read paper</a>
               <span class="paper-link" aria-hidden="true">${escapeHtml(topic)}</span>
@@ -1230,6 +1251,7 @@
       state.years.clear();
       state.artifacts.clear();
       state.venues.clear();
+      state.rankings.clear();
       document.getElementById("search-input").value = "";
       document.getElementById("search-clear").classList.remove("visible");
       document.querySelectorAll("input[type='checkbox']").forEach((checkbox) => {
@@ -1252,6 +1274,9 @@
         if (!response.ok) throw new Error(`HTTP ${response.status}: could not load papers.json`);
         const data = await response.json();
         PAPERS = data.papers;
+        buildRankingFilters();
+        RANK_EDITIONS = data.meta.ranking_editions || {};
+        document.getElementById("ranking-editions").textContent = Object.entries(RANK_EDITIONS).map(([scheme, year]) => `${RANK_LABELS[scheme]} ${year}`).join(" · ");
         buildTopicMeta(data.taxonomy);
         updateMetrics(data);
         buildFilters();
