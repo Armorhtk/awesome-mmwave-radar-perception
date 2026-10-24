@@ -34,7 +34,7 @@ This list is curated based on the following standards, in order of priority:
   <tr>
     <td width="66%" valign="top">
       <h3>🗂️ Paper Explorer</h3>
-      <p>Filter by topic, year, artifact type, venue, or ranking. Combine ranking grades with multi-select filters. <a href="docs/ranking-data/README.md">Ranking sources &amp; license</a>.</p>
+      <p>Filter papers by topic, year, venue, ranking, or available artifacts. <a href="docs/ranking-data/README.md">Ranking sources &amp; license</a>.</p>
       <p>
         <a href="https://armorhtk.github.io/awesome-mmwave-radar-perception/">
           <img src="Resource/Page.png" alt="Paper Explorer preview" />
