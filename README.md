@@ -133,6 +133,10 @@ This list is curated based on the following standards, in order of priority:
 
 [5] [Generative Machine Learning for Radar-Based Vital Sign Monitoring](https://github.com/cyrillknecht/radar_vital_signs_ml) - An ETH Zurich semester-thesis codebase that implements an end-to-end radar vital-sign monitoring pipeline, using time-series deep learning models (e.g., TCN/GRU/LSTM/RNN) to suppress artifacts and reconstruct pulse signals from radar data.
 
+[6] [Radar Principles (Kymopsis)](https://kymopsis.com/series/radar-principles/) - A free FMCW mmWave radar course covering I/Q signals, range and Doppler processing, angle estimation, and 4D imaging, with chapter-by-chapter Python examples.
+
+[7] [radar-basics-sim](https://github.com/Kymopsis/radar-basics-sim) - The MIT-licensed Python simulator accompanying Radar Principles, with runnable examples for range–Doppler maps, TDM-MIMO virtual arrays, CFAR detection, and Capon and MUSIC angle estimation.
+
 
 ## 🌐 Radar Foundational Technologies
 
