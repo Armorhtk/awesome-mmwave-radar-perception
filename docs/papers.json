@@ -1133,9 +1133,9 @@
       "rankings": {}
     },
     {
-      "id": "arxiv:2505.00536",
+      "id": "url:ieeexplore-ieee-org-abstract-document-11189855-authors",
       "title": "Millimeter-Wave SAR imaging of Sparse Trajectory via Untrained Complex-valued Neural Network",
-      "url": "https://arxiv.org/abs/2505.00536",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11189855/authors",
       "publication": "IEEE Transactions on Aerospace and Electronic Systems",
       "year": 2025,
       "import_order": 27,
